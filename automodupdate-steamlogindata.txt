@@ -1,0 +1,3 @@
+## Enter Username in second line, and password (max. 64 characters) in third line without spaces. Do not delete this text!
+steamusername
+steampassword
