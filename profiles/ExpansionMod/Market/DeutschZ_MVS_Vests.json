@@ -1,0 +1,1420 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ MVS Vests",
+    "Icon":  "Vest",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  75,
+    "Items":  [
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Belt_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Belt_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Belt_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Belt_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Belt_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Belt_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Belt_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Belt_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Holster_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Holster_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Holster_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Holster_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Holster_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Holster_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Holster_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Holster_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Sheath_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Sheath_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Sheath_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Sheath_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Sheath_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Sheath_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Sheath_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Sheath_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_Digital",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_GRCamo",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_Pink",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_RT",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_UrbHex",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Admin_Pouch_UrbWhite",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_Digital",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_GRCamo",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_Pink",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_RT",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_UrbHex",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Magazine_Pouch_UrbWhite",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_Digital",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_GRCamo",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_Pink",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_RT",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_UrbHex",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Medical_Pouch_UrbWhite",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_Digital",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_GRCamo",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_Pink",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_RT",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_UrbHex",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Taco_Pouch_UrbWhite",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_Digital",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_GRCamo",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_Pink",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_RT",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_UrbHex",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Utility_Pouch_UrbWhite",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  80,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

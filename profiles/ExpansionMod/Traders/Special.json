@@ -1,0 +1,48 @@
+{
+    "m_Version":  13,
+    "DisplayName":  "Black Market Special Items",
+    "MinRequiredReputation":  0,
+    "MaxRequiredReputation":  2147483647,
+    "RequiredFaction":  "",
+    "RequiredCompletedQuestID":  -1,
+    "TraderIcon":  "Skull",
+    "Currencies":  [
+                       "NoxZ_Euro1",
+                       "NoxZ_Euro2",
+                       "NoxZ_Euro5",
+                       "NoxZ_Euro10",
+                       "NoxZ_Euro20",
+                       "NoxZ_Euro50",
+                       "NoxZ_Euro100",
+                       "NoxZ_Euro200",
+                       "NoxZ_Euro500"
+                   ],
+    "DisplayCurrencyValue":  1,
+    "DisplayCurrencyName":  "Euro",
+    "UseCategoryOrder":  0,
+    "Categories":  [
+                       "Explosives_And_Grenades",
+                       "DZ_NewVehicles_Blackmarket",
+                       "DZ_Blackmarket_Aircraft",
+                       "DeutschZ_Event_Weapons",
+                       "DeutschZ_Helicopters",
+                       "Sniper_Rifles",
+                       "Launchers",
+                       "DeutschZ_Drones",
+                       "DeutschZ_Drone_Parts",
+                       "DeutschZ_MVS_Armor"
+                   ],
+    "Items":  {
+                  "expansionammorpg":  1,
+                  "nvgoggles":  1,
+                  "nvgheadstrap":  1,
+                  "ammo_expansion_m203_sticky_smoke_teargas":  1,
+                  "battery9v":  1,
+                  "expansionlaw":  1,
+                  "expansionammolaw":  1,
+                  "ammo_expansion_m203_sticky_smoke_white":  1,
+                  "expansionrpg7":  1,
+                  "ammo_expansion_m203_smoke_teargas":  1,
+                  "rangefinder":  1
+              }
+}

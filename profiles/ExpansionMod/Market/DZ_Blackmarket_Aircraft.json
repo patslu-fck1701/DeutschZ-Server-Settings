@@ -1,0 +1,45 @@
+{
+    "m_Version": 12,
+    "DisplayName": "Blackmarket - Aircraft",
+    "Icon": "Helicopter",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 25.0,
+    "Items": [
+        {
+            "ClassName": "RFFSHeli_Apache",
+            "MaxPriceThreshold": 12000000,
+            "MinPriceThreshold": 8400000,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "expansionhydraulichoses",
+                "expansionigniterplug",
+                "expansionhelicopterbattery",
+                "HeadlightH7"
+            ],
+            "Variants": [
+                "RFFSHeli_Apache_Desert",
+                "RFFSHeli_Apache_Winter"
+            ]
+        },
+        {
+            "ClassName": "RFFSHeli_UH1H_Combat",
+            "MaxPriceThreshold": 6500000,
+            "MinPriceThreshold": 4550000,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 3,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "expansionhydraulichoses",
+                "expansionigniterplug",
+                "expansionhelicopterbattery",
+                "HeadlightH7"
+            ],
+            "Variants": []
+        }
+    ]
+}

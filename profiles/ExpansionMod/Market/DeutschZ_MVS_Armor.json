@@ -1,0 +1,1840 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ MVS Armor",
+    "Icon":  "Shield",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  75,
+    "Items":  [
+                  {
+                      "ClassName":  "Armor_Rack",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_6B47_Helmet_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_6B47_Helmet_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_6B47_Helmet_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Altyn_Black",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Altyn_OD",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Altyn_Tan",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Altyn_Visor_Black",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Altyn_Visor_Lifted_Black",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Altyn_Visor_Lifted_OD",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Altyn_Visor_Lifted_Tan",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Altyn_Visor_OD",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Altyn_Visor_Tan",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_Black",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_ERDL",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_Multicam",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_Multicam_Black",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_Multicam_Tropic",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_OD",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_Snow",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_Tan",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ChestRig_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ChestRig_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ChestRig_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ChestRig_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ChestRig_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ChestRig_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ChestRig_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ChestRig_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_Black",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_ERDL",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_Multicam",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_Multicam_Black",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_Multicam_Tropic",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_OD",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_Snow",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_Tan",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_Black",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_ERDL",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_Multicam",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_Multicam_Black",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_Multicam_Tropic",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_OD",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_Snow",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_Tan",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_Tan_Worn",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_ERDL",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_Multicam",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_Multicam_Black",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_Multicam_Tropic",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_OD",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_Snow",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_Tan",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_Digital",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_UrbHex",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_ArmoredHelmet_UrbWhite",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Digital",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_GRCamo",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_Digital",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_GRCamo",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_Pink",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_RT",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_UrbHex",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Heavy_UrbWhite",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_Pink",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_RT",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_UrbHex",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Combat_Vest_UrbWhite",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_Digital",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_GRCamo",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_Pink",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_RT",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_UrbHex",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Heavy_Pouch_UrbWhite",
+                      "MaxPriceThreshold":  80000,
+                      "MinPriceThreshold":  56000,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_Digital",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_UrbHex",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_01_UrbWhite",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_Digital",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_UrbHex",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Helmet_02_UrbWhite",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_Digital",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_UrbHex",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_OpsCore_UrbWhite",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_Digital",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_GRCamo",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_Pink",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_RedTiger",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_UrbHex",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_WarriorHelmet_UrbWhite",
+                      "MaxPriceThreshold":  45000,
+                      "MinPriceThreshold":  31499,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  50,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

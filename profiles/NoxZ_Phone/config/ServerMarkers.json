@@ -1,0 +1,62 @@
+{
+    "ConfigVersion":  3,
+    "Enabled":  0,
+    "Show3DTitle":  0,
+    "Markers":  [
+                    {
+                        "ID":  "atm_green_mountain_01",
+                        "Name":  "ATM Green Mountain 1",
+                        "IconName":  "bank",
+                        "X":  3708.102051,
+                        "Y":  402.980347,
+                        "Z":  5959.185547,
+                        "Enabled":  0,
+                        "Show3D":  0,
+                        "ShowOnMap":  0
+                    },
+                    {
+                        "ID":  "atm_green_mountain_02",
+                        "Name":  "ATM Green Mountain 2",
+                        "IconName":  "bank",
+                        "X":  3705.59668,
+                        "Y":  403.312683,
+                        "Z":  6003.556152,
+                        "Enabled":  0,
+                        "Show3D":  0,
+                        "ShowOnMap":  0
+                    },
+                    {
+                        "ID":  "atm_kamenka_blackmarket_01",
+                        "Name":  "ATM Blackmarket",
+                        "IconName":  "bank",
+                        "X":  1133.584473,
+                        "Y":  5.857156,
+                        "Z":  2418.12915,
+                        "Enabled":  0,
+                        "Show3D":  0,
+                        "ShowOnMap":  0
+                    },
+                    {
+                        "ID":  "blackmarket_schwarzhandel",
+                        "Name":  "SchwarzHandel",
+                        "IconName":  "skull-crossed-bones",
+                        "X":  1132.231323,
+                        "Y":  55.788724,
+                        "Z":  2411.456787,
+                        "Enabled":  0,
+                        "Show3D":  0,
+                        "ShowOnMap":  0
+                    },
+                    {
+                        "ID":  "gm_aircraft_handelsposten",
+                        "Name":  "Aircraft",
+                        "IconName":  "helicopter",
+                        "X":  4973.293457,
+                        "Y":  34.524994,
+                        "Z":  2437.874268,
+                        "Enabled":  0,
+                        "Show3D":  0,
+                        "ShowOnMap":  0
+                    }
+                ]
+}

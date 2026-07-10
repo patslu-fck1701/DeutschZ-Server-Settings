@@ -1,0 +1,224 @@
+{
+    "m_Version":  2,
+    "Enabled":  1,
+    "UTC":  0,
+    "UseMissionTime":  0,
+    "Notifications":  [
+                          {
+                              "Hour":  0,
+                              "Minute":  45,
+                              "Second":  0,
+                              "Title":  "Restart 15 Min",
+                              "Text":  "Server Restart um 01:00. Bitte Fahrzeuge sichern und offene Aktionen beenden.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  0,
+                              "Minute":  55,
+                              "Second":  0,
+                              "Title":  "Restart 5 Min",
+                              "Text":  "Server Restart in 5 Minuten um 01:00. Bitte ausloggen oder sichern.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  0,
+                              "Minute":  59,
+                              "Second":  0,
+                              "Title":  "Restart 1 Min",
+                              "Text":  "Server Restart in 1 Minute um 01:00. Bitte nicht mehr bauen, fahren oder handeln.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  1,
+                              "Minute":  10,
+                              "Second":  0,
+                              "Title":  "Willkommen",
+                              "Text":  "Willkommen auf DeutschZ. Discord: https://discord.gg/FHzZ7BykFk | Website: https://project23947.websitepublisher.ai",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  3,
+                              "Minute":  30,
+                              "Second":  0,
+                              "Title":  "DeutschZ Phone",
+                              "Text":  "Nutze dein Phone fuer Bank, ATM, Marketplace, Server-Shop, Garage, Kits, Karte und Party.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  5,
+                              "Minute":  30,
+                              "Second":  0,
+                              "Title":  "Market",
+                              "Text":  "Normalmarkt bleibt praktisch. High-End Waffen, Eventloot und starke Dronen liegen im Black Market.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  6,
+                              "Minute":  45,
+                              "Second":  0,
+                              "Title":  "Restart 15 Min",
+                              "Text":  "Server Restart um 07:00. Bitte Fahrzeuge sichern und offene Aktionen beenden.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  6,
+                              "Minute":  55,
+                              "Second":  0,
+                              "Title":  "Restart 5 Min",
+                              "Text":  "Server Restart in 5 Minuten um 07:00. Bitte ausloggen oder sichern.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  6,
+                              "Minute":  59,
+                              "Second":  0,
+                              "Title":  "Restart 1 Min",
+                              "Text":  "Server Restart in 1 Minute um 07:00. Bitte nicht mehr bauen, fahren oder handeln.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  8,
+                              "Minute":  30,
+                              "Second":  0,
+                              "Title":  "Basebuilding",
+                              "Text":  "BBP und RaG BaseItems sind aktiv. Keine Trader blockieren und keine Eventzonen zubauen.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  10,
+                              "Minute":  30,
+                              "Second":  0,
+                              "Title":  "Support",
+                              "Text":  "Bug, Preisfehler oder fehlendes Item? Melde es im Discord mit Screenshot und Uhrzeit: https://discord.gg/FHzZ7BykFk",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  12,
+                              "Minute":  45,
+                              "Second":  0,
+                              "Title":  "Restart 15 Min",
+                              "Text":  "Server Restart um 13:00. Bitte Fahrzeuge sichern und offene Aktionen beenden.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  12,
+                              "Minute":  55,
+                              "Second":  0,
+                              "Title":  "Restart 5 Min",
+                              "Text":  "Server Restart in 5 Minuten um 13:00. Bitte ausloggen oder sichern.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  12,
+                              "Minute":  59,
+                              "Second":  0,
+                              "Title":  "Restart 1 Min",
+                              "Text":  "Server Restart in 1 Minute um 13:00. Bitte nicht mehr bauen, fahren oder handeln.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  13,
+                              "Minute":  10,
+                              "Second":  0,
+                              "Title":  "Events",
+                              "Text":  "KOTH startet erst nach Terminal-Hack. Achtet auf Marker, Terminal und Wellenmeldungen.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  15,
+                              "Minute":  30,
+                              "Second":  0,
+                              "Title":  "Server-Shop",
+                              "Text":  "Der Phone Server-Shop ist bewusst limitiert. OP Ware gehoert in Eventloot oder Black Market.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  17,
+                              "Minute":  30,
+                              "Second":  0,
+                              "Title":  "Dronen",
+                              "Text":  "Starke Dronen sind Spezialware. Kein Missbrauch in Safezones oder gegen Trader.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  18,
+                              "Minute":  45,
+                              "Second":  0,
+                              "Title":  "Restart 15 Min",
+                              "Text":  "Server Restart um 19:00. Bitte Fahrzeuge sichern und offene Aktionen beenden.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  18,
+                              "Minute":  55,
+                              "Second":  0,
+                              "Title":  "Restart 5 Min",
+                              "Text":  "Server Restart in 5 Minuten um 19:00. Bitte ausloggen oder sichern.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  18,
+                              "Minute":  59,
+                              "Second":  0,
+                              "Title":  "Restart 1 Min",
+                              "Text":  "Server Restart in 1 Minute um 19:00. Bitte nicht mehr bauen, fahren oder handeln.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  19,
+                              "Minute":  30,
+                              "Second":  0,
+                              "Title":  "KOTH",
+                              "Text":  "KOTH Rewards und Patrol Tank Loot sind Eventloot. Normalmarkt ersetzt diese Belohnungen nicht.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  21,
+                              "Minute":  30,
+                              "Second":  0,
+                              "Title":  "Community",
+                              "Text":  "Discord, Regeln, Support und Changelogs: https://discord.gg/FHzZ7BykFk",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  22,
+                              "Minute":  30,
+                              "Second":  0,
+                              "Title":  "Website",
+                              "Text":  "DeutschZ Website: https://project23947.websitepublisher.ai",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          },
+                          {
+                              "Hour":  23,
+                              "Minute":  30,
+                              "Second":  0,
+                              "Title":  "Restart Plan",
+                              "Text":  "Feste Restarts: 01:00, 07:00, 13:00 und 19:00 Uhr Serverzeit.",
+                              "Icon":  "Info",
+                              "Color":  ""
+                          }
+                      ]
+}

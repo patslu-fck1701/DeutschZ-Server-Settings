@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spawnabletypes>
+  <type name="A2_OA_MTVR_Wdl">
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="GlowPlug" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Driver_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Codriver_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Trunk_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Hood_Wdl" chance="1.00" />
+		</attachments>
+    </type>
+  <type name="A2_OA_MTVR_Des">
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="GlowPlug" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Driver_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Codriver_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Trunk_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Hood_Des" chance="1.00" />
+		</attachments>
+    </type>
+  <type name="A2_OA_MTVR_Open_Wdl">
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="GlowPlug" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Driver_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Codriver_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Trunk_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Hood_Wdl" chance="1.00" />
+		</attachments>
+    </type>
+  <type name="A2_OA_MTVR_Open_Des">
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="GlowPlug" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Driver_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Codriver_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Trunk_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Hood_Des" chance="1.00" />
+		</attachments>
+    </type>
+  <type name="A2_OA_MTVR_Repair_Wdl">
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="GlowPlug" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Driver_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Codriver_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Trunk_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Hood_Wdl" chance="1.00" />
+		</attachments>
+    </type>
+  <type name="A2_OA_MTVR_Repair_Des">
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="GlowPlug" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Driver_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Codriver_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Trunk_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Hood_Des" chance="1.00" />
+		</attachments>
+    </type>
+  <type name="A2_OA_MTVR_Fuel_Wdl">
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="GlowPlug" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Driver_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Codriver_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Special" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Hood_Wdl" chance="1.00" />
+		</attachments>
+    </type>
+  <type name="A2_OA_MTVR_Fuel_Des">
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="GlowPlug" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Driver_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Codriver_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Special" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Hood_Des" chance="1.00" />
+		</attachments>
+    </type>
+  <type name="A2_OA_MTVR_Reammo_Wdl">
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="GlowPlug" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Driver_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Codriver_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Trunk_Wdl" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Hood_Wdl" chance="1.00" />
+		</attachments>
+    </type>
+  <type name="A2_OA_MTVR_Reammo_Des">
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+            <item name="GlowPlug" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Driver_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Codriver_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Trunk_Des" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2_OA_MTVR_Doors_Hood_Des" chance="1.00" />
+		</attachments>
+    </type>
+</spawnabletypes>

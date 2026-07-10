@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<weather reset="1" enable="1">
+
+  <!-- UEBERWIEGEND SONNIG, ABER MIT GELEGENTLICHEN WOLKENPHASEN FUER KURZE SCHAUER -->
+  <overcast>
+    <current actual="0.08" time="120" duration="300" />
+    <limits min="0.00" max="0.65" />
+    <timelimits min="2400" max="5400" />
+    <changelimits min="0.00" max="0.18" />
+  </overcast>
+
+  <!-- WENIG NEBEL: FAST IMMER KLAR, NUR LEICHTE NEBELSCHLEIER MOEGLICH -->
+  <fog>
+    <current actual="0.01" time="120" duration="300" />
+    <limits min="0.00" max="0.04" />
+    <timelimits min="2400" max="5400" />
+    <changelimits min="0.00" max="0.015" />
+  </fog>
+
+  <!-- KURZE, LEICHTE BIS MITTLERE REGENSCHAUER -->
+  <rain>
+    <current actual="0.00" time="120" duration="240" />
+    <limits min="0.00" max="0.22" />
+    <timelimits min="300" max="900" />
+    <changelimits min="0.00" max="0.16" />
+    <thresholds min="0.50" max="0.75" end="600" />
+  </rain>
+
+  <!-- LEICHTER BIS MAESSIGER WIND, KEIN STURMGEFUEHL -->
+  <windMagnitude>
+    <current actual="0.8" time="120" duration="300" />
+    <limits min="0.0" max="3.2" />
+    <timelimits min="1200" max="3600" />
+    <changelimits min="0.0" max="0.8" />
+  </windMagnitude>
+
+  <windDirection>
+    <current actual="0.0" time="120" duration="300" />
+    <limits min="-3.14" max="3.14" />
+    <timelimits min="900" max="2400" />
+    <changelimits min="-0.3" max="0.3" />
+  </windDirection>
+
+  <!-- STURM PRAKTISCH DEAKTIVIERT -->
+  <storm density="1.0" threshold="0.95" timeout="120" />
+
+</weather>

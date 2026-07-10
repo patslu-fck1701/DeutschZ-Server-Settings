@@ -1,0 +1,535 @@
+{
+    "ConfigVersion":  3,
+    "RequirePhoneItem":  1,
+    "EnableBankSystem":  1,
+    "ShowBankLoginMessage":  1,
+    "EnablePartySystem":  1,
+    "EnableSelectSpawn":  1,
+    "EnablePhoneMapSystem":  1,
+    "EnableSimpleMapSystem":  0,
+    "EnableVehicleHack":  1,
+    "EnableCameraHack":  1,
+    "EnableNoxZEarMode":  1,
+    "DisableServerMarker3D":  1,
+    "DisableVehicleMarker3D":  0,
+    "DisablePersonalMarker3D":  0,
+    "DisablePartyMarker3D":  0,
+    "DisableAllPhoneMarker3D":  1,
+    "VehicleHackCarPrice":  25000,
+    "VehicleHackHelicopterPrice":  150000,
+    "VehicleHackBoatPrice":  25000,
+    "CameraHackPrice":  25000,
+    "BankDepositTaxPercent":  5,
+    "BankWithdrawTaxPercent":  5,
+    "PhoneItemClassname":  "NoxZ_Phone_Device_IPhone17",
+    "PhoneTitle":  "DeutschZ Phone",
+    "CarrierName":  "DeutschZ",
+    "Wallpaper":  "wallpaper_01",
+    "AdminSteamIDs":  [
+
+                      ],
+    "Apps":  [
+                 {
+                     "ID":  "bank",
+                     "DisplayName":  "Bank",
+                     "IconName":  "bank",
+                     "Enabled":  1,
+                     "Order":  1,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "map",
+                     "DisplayName":  "Karte",
+                     "IconName":  "map",
+                     "Enabled":  1,
+                     "Order":  2,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "party",
+                     "DisplayName":  "Gruppe",
+                     "IconName":  "party",
+                     "Enabled":  1,
+                     "Order":  3,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "territories",
+                     "DisplayName":  "Gebiete",
+                     "IconName":  "territory",
+                     "Enabled":  1,
+                     "Order":  4,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "garage",
+                     "DisplayName":  "Garage",
+                     "IconName":  "garage",
+                     "Enabled":  1,
+                     "Order":  5,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "market",
+                     "DisplayName":  "Marktplatz",
+                     "IconName":  "market",
+                     "Enabled":  1,
+                     "Order":  6,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "server_shop",
+                     "DisplayName":  "Server-Shop",
+                     "IconName":  "shop",
+                     "Enabled":  1,
+                     "Order":  7,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "kits",
+                     "DisplayName":  "Kits",
+                     "IconName":  "kits",
+                     "Enabled":  1,
+                     "Order":  8,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "vehicle",
+                     "DisplayName":  "Fahrzeug-Hack",
+                     "IconName":  "vehicle",
+                     "Enabled":  1,
+                     "Order":  9,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "sec_camera",
+                     "DisplayName":  "Kamera-Hack",
+                     "IconName":  "seccamera",
+                     "Enabled":  1,
+                     "Order":  10,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "drone_control",
+                     "DisplayName":  "Drohne",
+                     "IconName":  "dronapp",
+                     "Enabled":  1,
+                     "Order":  11,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "contacts",
+                     "DisplayName":  "Kontakte",
+                     "IconName":  "contacts",
+                     "Enabled":  1,
+                     "Order":  12,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "imessage",
+                     "DisplayName":  "Nachrichten",
+                     "IconName":  "messages",
+                     "Enabled":  1,
+                     "Order":  13,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "calls",
+                     "DisplayName":  "Anrufe",
+                     "IconName":  "calls",
+                     "Enabled":  1,
+                     "Order":  14,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "social",
+                     "DisplayName":  "Social",
+                     "IconName":  "social",
+                     "Enabled":  1,
+                     "Order":  15,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "exchange",
+                     "DisplayName":  "Wechselstube",
+                     "IconName":  "exchange",
+                     "Enabled":  1,
+                     "Order":  16,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "music",
+                     "DisplayName":  "Musik",
+                     "IconName":  "music",
+                     "Enabled":  1,
+                     "Order":  17,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "camera",
+                     "DisplayName":  "Kamera",
+                     "IconName":  "camera",
+                     "Enabled":  1,
+                     "Order":  18,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "wallpapers",
+                     "DisplayName":  "Hintergruende",
+                     "IconName":  "wallpapers",
+                     "Enabled":  1,
+                     "Order":  19,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "notes",
+                     "DisplayName":  "Notizen",
+                     "IconName":  "notes",
+                     "Enabled":  1,
+                     "Order":  20,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "weather",
+                     "DisplayName":  "Wetter",
+                     "IconName":  "weather",
+                     "Enabled":  1,
+                     "Order":  21,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "calculator",
+                     "DisplayName":  "Rechner",
+                     "IconName":  "calculator",
+                     "Enabled":  1,
+                     "Order":  22,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "casino",
+                     "DisplayName":  "Casino",
+                     "IconName":  "casino",
+                     "Enabled":  1,
+                     "Order":  90,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "airstrike",
+                     "DisplayName":  "Luftschlag",
+                     "IconName":  "airstrike",
+                     "Enabled":  1,
+                     "Order":  91,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "bounty",
+                     "DisplayName":  "Kopfgeld",
+                     "IconName":  "bounty",
+                     "Enabled":  1,
+                     "Order":  92,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "simple_map",
+                     "DisplayName":  "Simple Map",
+                     "IconName":  "map",
+                     "Enabled":  0,
+                     "Order":  93,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 },
+                 {
+                     "ID":  "settings",
+                     "DisplayName":  "Einstellungen",
+                     "IconName":  "settings",
+                     "Enabled":  1,
+                     "Order":  99,
+                     "EnableWhiteList":  0,
+                     "SteamIDWhitelisted":  [
+
+                                            ]
+                 }
+             ],
+    "Wallpapers":  [
+                       {
+                           "ID":  "wallpaper_01",
+                           "DisplayName":  "Wallpaper 1",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_01.paa",
+                           "Enabled":  1,
+                           "Order":  1
+                       },
+                       {
+                           "ID":  "wallpaper_02",
+                           "DisplayName":  "Wallpaper 2",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_02.paa",
+                           "Enabled":  1,
+                           "Order":  2
+                       },
+                       {
+                           "ID":  "wallpaper_03",
+                           "DisplayName":  "Wallpaper 3",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_03.paa",
+                           "Enabled":  1,
+                           "Order":  3
+                       },
+                       {
+                           "ID":  "wallpaper_04",
+                           "DisplayName":  "Wallpaper 4",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_04.paa",
+                           "Enabled":  1,
+                           "Order":  4
+                       },
+                       {
+                           "ID":  "wallpaper_05",
+                           "DisplayName":  "Wallpaper 5",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_05.paa",
+                           "Enabled":  1,
+                           "Order":  5
+                       },
+                       {
+                           "ID":  "wallpaper_06",
+                           "DisplayName":  "Wallpaper 6",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_06.paa",
+                           "Enabled":  1,
+                           "Order":  6
+                       },
+                       {
+                           "ID":  "wallpaper_07",
+                           "DisplayName":  "Wallpaper 7",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_07.paa",
+                           "Enabled":  1,
+                           "Order":  7
+                       },
+                       {
+                           "ID":  "wallpaper_08",
+                           "DisplayName":  "Wallpaper 8",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_08.paa",
+                           "Enabled":  1,
+                           "Order":  8
+                       },
+                       {
+                           "ID":  "wallpaper_09",
+                           "DisplayName":  "Wallpaper 9",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_09.paa",
+                           "Enabled":  1,
+                           "Order":  9
+                       },
+                       {
+                           "ID":  "wallpaper_10",
+                           "DisplayName":  "Wallpaper 10",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_10.paa",
+                           "Enabled":  1,
+                           "Order":  10
+                       },
+                       {
+                           "ID":  "wallpaper_11",
+                           "DisplayName":  "Wallpaper 11",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_11.paa",
+                           "Enabled":  1,
+                           "Order":  11
+                       },
+                       {
+                           "ID":  "wallpaper_12",
+                           "DisplayName":  "Wallpaper 12",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_12.paa",
+                           "Enabled":  1,
+                           "Order":  12
+                       },
+                       {
+                           "ID":  "wallpaper_13",
+                           "DisplayName":  "Wallpaper 13",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_13.paa",
+                           "Enabled":  1,
+                           "Order":  13
+                       },
+                       {
+                           "ID":  "wallpaper_14",
+                           "DisplayName":  "Wallpaper 14",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_14.paa",
+                           "Enabled":  1,
+                           "Order":  14
+                       },
+                       {
+                           "ID":  "wallpaper_15",
+                           "DisplayName":  "Wallpaper 15",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_15.paa",
+                           "Enabled":  1,
+                           "Order":  15
+                       },
+                       {
+                           "ID":  "wallpaper_16",
+                           "DisplayName":  "Wallpaper 16",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_16.paa",
+                           "Enabled":  1,
+                           "Order":  16
+                       },
+                       {
+                           "ID":  "wallpaper_17",
+                           "DisplayName":  "Wallpaper 17",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_17.paa",
+                           "Enabled":  1,
+                           "Order":  17
+                       },
+                       {
+                           "ID":  "wallpaper_18",
+                           "DisplayName":  "Wallpaper 18",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_18.paa",
+                           "Enabled":  1,
+                           "Order":  18
+                       },
+                       {
+                           "ID":  "wallpaper_19",
+                           "DisplayName":  "Wallpaper 19",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_19.paa",
+                           "Enabled":  1,
+                           "Order":  19
+                       },
+                       {
+                           "ID":  "wallpaper_20",
+                           "DisplayName":  "Wallpaper 20",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_20.paa",
+                           "Enabled":  1,
+                           "Order":  20
+                       },
+                       {
+                           "ID":  "wallpaper_21",
+                           "DisplayName":  "Wallpaper 21",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_21.paa",
+                           "Enabled":  1,
+                           "Order":  21
+                       },
+                       {
+                           "ID":  "wallpaper_22",
+                           "DisplayName":  "Wallpaper 22",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_22.paa",
+                           "Enabled":  1,
+                           "Order":  22
+                       },
+                       {
+                           "ID":  "wallpaper_23",
+                           "DisplayName":  "Wallpaper 23",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_23.paa",
+                           "Enabled":  1,
+                           "Order":  23
+                       },
+                       {
+                           "ID":  "wallpaper_24",
+                           "DisplayName":  "Wallpaper 24",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_24.paa",
+                           "Enabled":  1,
+                           "Order":  24
+                       },
+                       {
+                           "ID":  "wallpaper_25",
+                           "DisplayName":  "Wallpaper 25",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_25.paa",
+                           "Enabled":  1,
+                           "Order":  25
+                       },
+                       {
+                           "ID":  "wallpaper_26",
+                           "DisplayName":  "Wallpaper 26",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_26.paa",
+                           "Enabled":  1,
+                           "Order":  26
+                       },
+                       {
+                           "ID":  "wallpaper_27",
+                           "DisplayName":  "Wallpaper 27",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_27.paa",
+                           "Enabled":  1,
+                           "Order":  27
+                       },
+                       {
+                           "ID":  "wallpaper_28",
+                           "DisplayName":  "Wallpaper 28",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_28.paa",
+                           "Enabled":  1,
+                           "Order":  28
+                       },
+                       {
+                           "ID":  "wallpaper_29",
+                           "DisplayName":  "Wallpaper 29",
+                           "TexturePath":  "NoxZ_Phone\\gui\\textures\\wallpapers\\wallpaper_29.paa",
+                           "Enabled":  1,
+                           "Order":  29
+                       }
+                   ]
+}

@@ -19,6 +19,7 @@ private/
 *.key
 *.biprivatekey
 steam_credentials*
+automodupdate-steamlogindata.txt
 credentials*
 *token*
 *password*
@@ -115,6 +116,9 @@ temp/
 tmp/
 cache/
 *.bak
+*.bak*
+*.backup*
+*.codex_*backup*
 *.old
 *.orig
 *.tmp
@@ -175,3 +179,95 @@ venv/
 !templates/**/*.example.*
 !settings/**/*.example
 !settings/**/*.example.*
+
+# --- DeutschZ kuratierte Server-Settings ---
+# Mission und Konfig-Profile duerfen versioniert werden; Runtime, Logs,
+# Spieler-/Accountdaten, Keys und gepackte Mods bleiben durch die Regeln oben
+# und die Ausschluesse unten draussen.
+!mpmissions/
+mpmissions/*
+!mpmissions/dayzOffline.chernarusplus/
+!mpmissions/dayzOffline.chernarusplus/**
+mpmissions/**/storage_*/
+mpmissions/**/*.bak
+mpmissions/**/*_backup*/
+mpmissions/**/_codex_backup*/
+
+!profiles/
+profiles/*
+!profiles/BaseBuildingPlus/
+!profiles/BaseBuildingPlus/**
+!profiles/BS_BTR_Patrol/
+!profiles/BS_BTR_Patrol/**
+!profiles/CodeLock/
+!profiles/CodeLock/**
+!profiles/DeutschZ/
+!profiles/DeutschZ/**
+!profiles/ExpansionMod/
+!profiles/ExpansionMod/AI/
+!profiles/ExpansionMod/AI/**
+!profiles/ExpansionMod/Loadouts/
+!profiles/ExpansionMod/Loadouts/**
+!profiles/ExpansionMod/Market/
+!profiles/ExpansionMod/Market/**
+!profiles/ExpansionMod/Quests/
+!profiles/ExpansionMod/Quests/NPCs/
+!profiles/ExpansionMod/Quests/NPCs/**
+!profiles/ExpansionMod/Quests/Objectives/
+!profiles/ExpansionMod/Quests/Objectives/**
+!profiles/ExpansionMod/Quests/Quests/
+!profiles/ExpansionMod/Quests/Quests/**
+!profiles/ExpansionMod/Settings/
+!profiles/ExpansionMod/Settings/**
+!profiles/ExpansionMod/Traders/
+!profiles/ExpansionMod/Traders/**
+!profiles/HB_FlipVehicle/
+!profiles/HB_FlipVehicle/**
+!profiles/NoxZ Fuel System/
+!profiles/NoxZ Fuel System/**
+!profiles/NoxZ_Phone/
+!profiles/NoxZ_Phone/config/
+!profiles/NoxZ_Phone/config/**
+!profiles/NoxZ_Phone/garage/
+!profiles/NoxZ_Phone/garage/Garage.json
+!profiles/NoxZ_Phone/kits/
+!profiles/NoxZ_Phone/kits/KitsConfig.json
+!profiles/NoxZ_Phone/marketplace/
+!profiles/NoxZ_Phone/marketplace/config/
+!profiles/NoxZ_Phone/marketplace/config/**
+!profiles/NoxZ_Phone/staticspeaker/
+!profiles/NoxZ_Phone/staticspeaker/**
+!profiles/NVGConfig/
+!profiles/NVGConfig/**
+!profiles/RaG_Core/
+!profiles/RaG_Core/**
+!profiles/RFFSHeli/
+!profiles/RFFSHeli/**
+!profiles/SprayZ/
+!profiles/SprayZ/**
+
+profiles/**/data/
+profiles/**/logs/
+profiles/**/Logs/
+profiles/**/_codex_backup*/
+profiles/ExpansionMod/ATM/
+profiles/ExpansionMod/Groups/
+profiles/ExpansionMod/Hardline/
+profiles/ExpansionMod/Quests/GroupData/
+profiles/ExpansionMod/Quests/PlayerData/
+profiles/ExpansionMod/Quests/PersistentServerData.json
+profiles/NoxZ_Phone/data/
+profiles/NoxZ_Phone/garage/GarageData.json
+profiles/NoxZ_Phone/kits/KitsData.json
+profiles/NoxZ_Phone/marketplace/data/
+
+# Letzte Sicherheitsbremse nach den Unignore-Regeln.
+*.bak*
+*.backup*
+*.codex_*backup*
+*_backup*
+_codex_backup*/
+mpmissions/**/areaflags.map
+profiles/NoxZ Fuel System/FuelBusinessPlayers.json
+profiles/NoxZ Fuel System/FuelBusinesses.json
+profiles/FoXyMods/

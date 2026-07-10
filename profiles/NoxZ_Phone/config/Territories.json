@@ -1,0 +1,29 @@
+{
+    "Enabled":  1,
+    "TerritoryRadius":  150,
+    "InviteRangeMeters":  180.0,
+    "MaxMembers":  8,
+    "MaxTerritoriesPerPlayer":  1,
+    "SpawnSelectorEnabled":  1,
+    "IncludeVanillaSpawnOptions":  1,
+    "RespawnCooldownSeconds":  21600,
+    "RespawnRadiusMeters":  15,
+    "TerritoryRespawnEnabled":  1,
+    "EnableRespawnCooldown":  1,
+    "EnableRespawnPenalty":  1,
+    "RespawnPenaltyWindowMinutes":  10,
+    "RespawnPenaltyThreshold":  3,
+    "RespawnPenaltyMinutes":  5,
+    "AllowAnyoneDismantleFlag":  0,
+    "PreventBuildInForeignTerritory":  1,
+    "PreventDismantleInForeignTerritory":  1,
+    "TerritoryNeededForBuilding":  0,
+    "PlaceOutsideTerritoryWhitelist":  [
+
+                                       ],
+    "AllowOnlyOneTerritoryPerLeader":  1,
+    "PreventTerritoryOverlap":  1,
+    "SpawnLocations":  [
+
+                       ]
+}

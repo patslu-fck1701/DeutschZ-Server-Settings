@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<economycore>
+  <classes>
+    <rootclass name="DefaultWeapon" />
+    <rootclass name="DefaultMagazine" />
+    <rootclass name="Inventory_Base" />
+    <rootclass name="HouseNoDestruct" reportMemoryLOD="no" />
+    <rootclass name="SurvivorBase" act="character" reportMemoryLOD="no" />
+    <rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no" />
+    <rootclass name="CarScript" act="car" reportMemoryLOD="no" />
+    <rootclass name="BoatScript" act="car" reportMemoryLOD="no" />
+  </classes>
+  <defaults>
+    <default name="dyn_radius" value="30" />
+    <default name="dyn_smin" value="0" />
+    <default name="dyn_smax" value="0" />
+    <default name="dyn_dmin" value="1" />
+    <default name="dyn_dmax" value="5" />
+    <default name="log_ce_loop" value="false" />
+    <default name="log_ce_dynamicevent" value="false" />
+    <default name="log_ce_vehicle" value="false" />
+    <default name="log_ce_lootspawn" value="false" />
+    <default name="log_ce_lootcleanup" value="false" />
+    <default name="log_ce_lootrespawn" value="false" />
+    <default name="log_ce_statistics" value="false" />
+    <default name="log_ce_zombie" value="false" />
+    <default name="log_storageinfo" value="false" />
+    <default name="log_hivewarning" value="true" />
+    <default name="log_missionfilewarning" value="true" />
+    <default name="save_events_startup" value="true" />
+    <default name="save_types_startup" value="true" />
+  </defaults>
+  <ce folder="dz_mod_ce">
+    <file name="CF_types.xml" type="types" />
+    <file name="Dabs_Framework_types.xml" type="types" />
+    <file name="Community_Online_Tools_types.xml" type="types" />
+    <file name="VPPAdminTools_types.xml" type="types" />
+    <file name="DayZ_Expansion_Bundle_types.xml" type="types" />
+    <file name="DayZ_Expansion_Licensed_types.xml" type="types" />
+    <file name="BaseBuildingPlus_types.xml" type="types" />
+    <file name="Code_Lock_types.xml" type="types" />
+    <file name="RaG_Core_types.xml" type="types" />
+    <file name="RaG_BaseItems_types.xml" type="types" />
+    <file name="RedFalcon_Flight_System_Heliz_types.xml" type="types" />
+    <file name="FREE_Advanced_Battle_Pass_v2_types.xml" type="types" />
+    <file name="NoxZ_Phone_types.xml" type="types" />
+    <file name="NVG_Scope_types.xml" type="types" />
+    <file name="RevScopes_types.xml" type="types" />
+    <file name="MegaFoodPack_types.xml" type="types" />
+    <file name="Modular_Vest_System_Bastions_Editon_types.xml" type="types" />
+    <file name="ReDos_Bags_types.xml" type="types" />
+    <file name="ArmA2_Trucks_types.xml" type="types" />
+    <file name="SprayZ_types.xml" type="types" />
+    <file name="COT_Bundle_Utility_types.xml" type="types" />
+    <file name="DeutschZ_only_core_types.xml" type="types" />
+    <file name="DeutschZ_SNAFU_MapLoot_types.xml" type="types" />
+    <file name="DeutschZ_SNAFU_EventLoot_types.xml" type="types" />
+    <file name="FoXyKOTH_types.xml" type="types" />
+    <file name="OFG_HUD_FoXyKOTH_types.xml" type="types" />
+    <file name="DeutschZ_KOTHTerminal_types.xml" type="types" />
+    <file name="DayZ_Expansion_Bundle_spawnabletypes.xml" type="spawnabletypes" />
+    <file name="DayZ_Expansion_Bundle_events.xml" type="events" />
+    <file name="RaG_BaseItems_spawnabletypes.xml" type="spawnabletypes" />
+    <file name="NoxZ_Phone_spawnabletypes.xml" type="spawnabletypes" />
+    <file name="ReDos_Bags_spawnabletypes.xml" type="spawnabletypes" />
+    <file name="ArmA2_Trucks_spawnabletypes.xml" type="spawnabletypes" />
+    <file name="SNAFU_Weapons_spawnabletypes.xml" type="spawnabletypes" />
+  </ce>
+</economycore>

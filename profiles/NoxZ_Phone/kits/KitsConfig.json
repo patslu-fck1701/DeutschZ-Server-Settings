@@ -1,0 +1,192 @@
+{
+    "Enabled":  1,
+    "DefaultDeliveryCrateClassname":  "NoxZ_DeliveryCrate",
+    "Kits":  [
+                 {
+                     "ID":  "starter",
+                     "DisplayName":  "Starter Kit",
+                     "Description":  "Basic items for a fresh survivor.",
+                     "IconPath":  "NoxZ_Phone\\gui\\textures\\kits\\chest_common.paa",
+                     "Enabled":  1,
+                     "CooldownHours":  8.0,
+                     "PurchaseMode":  "Free",
+                     "Price":  0,
+                     "CurrencyClassname":  "NoxZ_Euro1",
+                     "DeliveryCrateClassname":  "",
+                     "Rewards":  [
+                                     {
+                                         "Classname":  "BandageDressing",
+                                         "Count":  2,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "StoneKnife",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "WaterBottle",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     }
+                                 ]
+                 },
+                 {
+                     "ID":  "food",
+                     "DisplayName":  "Food Kit",
+                     "Description":  "Food and drink to keep moving.",
+                     "IconPath":  "NoxZ_Phone\\gui\\textures\\kits\\chest_common.paa",
+                     "Enabled":  1,
+                     "CooldownHours":  12.0,
+                     "PurchaseMode":  "Free",
+                     "Price":  0,
+                     "CurrencyClassname":  "NoxZ_Euro1",
+                     "DeliveryCrateClassname":  "",
+                     "Rewards":  [
+                                     {
+                                         "Classname":  "TacticalBaconCan",
+                                         "Count":  2,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "SodaCan_Cola",
+                                         "Count":  2,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "CanOpener",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     }
+                                 ]
+                 },
+                 {
+                     "ID":  "medical",
+                     "DisplayName":  "Medical Kit",
+                     "Description":  "Emergency medical supplies.",
+                     "IconPath":  "NoxZ_Phone\\gui\\textures\\kits\\chest_common.paa",
+                     "Enabled":  1,
+                     "CooldownHours":  18.0,
+                     "PurchaseMode":  "Free",
+                     "Price":  0,
+                     "CurrencyClassname":  "NoxZ_Euro1",
+                     "DeliveryCrateClassname":  "",
+                     "Rewards":  [
+                                     {
+                                         "Classname":  "BandageDressing",
+                                         "Count":  3,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "Epinephrine",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "Morphine",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     }
+                                 ]
+                 },
+                 {
+                     "ID":  "tools",
+                     "DisplayName":  "Tools Kit",
+                     "Description":  "Useful repair and survival tools.",
+                     "IconPath":  "NoxZ_Phone\\gui\\textures\\kits\\chest_common.paa",
+                     "Enabled":  1,
+                     "CooldownHours":  24.0,
+                     "PurchaseMode":  "Free",
+                     "Price":  0,
+                     "CurrencyClassname":  "NoxZ_Euro1",
+                     "DeliveryCrateClassname":  "",
+                     "Rewards":  [
+                                     {
+                                         "Classname":  "Screwdriver",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "Wrench",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "DuctTape",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     }
+                                 ]
+                 },
+                 {
+                     "ID":  "ammo",
+                     "DisplayName":  "Ammo Kit",
+                     "Description":  "Small ammo resupply example.",
+                     "IconPath":  "NoxZ_Phone\\gui\\textures\\kits\\chest_common.paa",
+                     "Enabled":  1,
+                     "CooldownHours":  36.0,
+                     "PurchaseMode":  "Paid",
+                     "Price":  5000,
+                     "CurrencyClassname":  "NoxZ_Euro1",
+                     "DeliveryCrateClassname":  "",
+                     "Rewards":  [
+                                     {
+                                         "Classname":  "Ammo_762x39",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "Ammo_556x45",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "Ammo_9x19",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     }
+                                 ]
+                 },
+                 {
+                     "ID":  "weapon",
+                     "DisplayName":  "Weapon Kit",
+                     "Description":  "A basic weapon reward example.",
+                     "IconPath":  "NoxZ_Phone\\gui\\textures\\kits\\chest_common.paa",
+                     "Enabled":  0,
+                     "CooldownHours":  72.0,
+                     "PurchaseMode":  "Paid",
+                     "Price":  50000,
+                     "CurrencyClassname":  "NoxZ_Euro1",
+                     "DeliveryCrateClassname":  "",
+                     "Rewards":  [
+                                     {
+                                         "Classname":  "AKM",
+                                         "Count":  1,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     },
+                                     {
+                                         "Classname":  "Mag_AKM_30Rnd",
+                                         "Count":  2,
+                                         "Quantity":  -1.0,
+                                         "Health":  1.0
+                                     }
+                                 ]
+                 }
+             ]
+}

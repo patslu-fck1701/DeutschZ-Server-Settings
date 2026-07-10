@@ -1,0 +1,185 @@
+{
+    "Version": 1,
+    "RepairStationRepairedHealth": 1,
+    "WeaponCleanerRepairedHealth": 0,
+    "SewingMachineRepairedHealth": 1,
+    "AmmoCleanerRepairedHealth": 0,
+    "TableSawMaxGainedWoodenPlanks": 10,
+    "DisableDamage": 0,
+    "AlwaysShowProxies": 0,
+    "EnableWeaponCleanerSound": 1,
+    "EnableTrashcanSound": 1,
+    "EnableCarliftNotifications": 1,
+    "CarliftRepairAllAttachments": 1,
+    "EnableCraftDecoPumpkin": 1,
+    "EnableCraftCoffeeCup": 1,
+    "EnableCraftCraftPlasticSheets": 1,
+    "EnableCraftCraftMetalSheets": 1,
+    "EnableCraftCraftVintageTV_NoLegs": 1,
+    "EnableDamageCarliftNotebook": 1,
+    "EnableClearTrashcanAfterRestart": 1,
+    "EnableCoffeeStaminaBoost": 1,
+    "CarliftNotebookDamageAmount": 10.0,
+    "EnableMineChristmasTree": 0,
+    "EnableXmasTreeGifts": 0,
+    "XmasTreeMinGiftsAmount": 4,
+    "XmasTreeMaxGiftsAmount": 7,
+    "XmasStockingsMinGiftsAmount": 4,
+    "XmasStockingsMaxGiftsAmount": 8,
+    "ChristmasDay": 24,
+    "ChristmasMonth": 12,
+    "XmasTreeGifts": [
+        "Honey",
+        "BakedBeansCan",
+        "ZagorkyChocolate",
+        "ZagorkyPeanuts",
+        "TacticalBaconCan",
+        "Marmalade"
+    ],
+    "XmasStockingsGifts": [
+        "Honey",
+        "BakedBeansCan",
+        "ZagorkyChocolate",
+        "ZagorkyPeanuts",
+        "TacticalBaconCan",
+        "Marmalade"
+    ],
+    "XmasCalendarsGifts": [
+        "Honey",
+        "BakedBeansCan",
+        "ZagorkyChocolate",
+        "ZagorkyPeanuts",
+        "TacticalBaconCan",
+        "Marmalade"
+    ],
+    "WorkbenchCrafting": [
+        {
+            "Item": "Flamingo",
+            "ENABLED": 1
+        },
+        {
+            "Item": "FishingBox",
+            "ENABLED": 1
+        },
+        {
+            "Item": "BeachBall",
+            "ENABLED": 1
+        },
+        {
+            "Item": "VolleyBall",
+            "ENABLED": 1
+        },
+        {
+            "Item": "AmmoCleaner",
+            "ENABLED": 1
+        },
+        {
+            "Item": "MetalAmmoBox",
+            "ENABLED": 1
+        },
+        {
+            "Item": "MetalAmmoBoxBlack",
+            "ENABLED": 1
+        },
+        {
+            "Item": "MetalAmmoBoxGreen",
+            "ENABLED": 1
+        },
+        {
+            "Item": "FirewoodHolder",
+            "ENABLED": 1
+        },
+        {
+            "Item": "BarrelFurnace",
+            "ENABLED": 1
+        },
+        {
+            "Item": "WateringCan",
+            "ENABLED": 1
+        },
+        {
+            "Item": "TrashCan",
+            "ENABLED": 1
+        },
+        {
+            "Item": "WallPicture",
+            "ENABLED": 1
+        },
+        {
+            "Item": "GrenadeCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "PistolAmmoCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "SmallGunCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "SmokeGrenadeCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "LargeRifleCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "LargeShotgunCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "RifleAmmoCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "ShotgunAmmoCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "WellsFargoCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "LargeSlideCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "MilitaryCrate",
+            "ENABLED": 1
+        },
+        {
+            "Item": "WaterBarrel",
+            "ENABLED": 1
+        },
+        {
+            "Item": "Plants",
+            "ENABLED": 1
+        },
+        {
+            "Item": "GrindStone",
+            "ENABLED": 1
+        },
+        {
+            "Item": "Carpet",
+            "ENABLED": 1
+        },
+        {
+            "Item": "DoorBell",
+            "ENABLED": 1
+        },
+        {
+            "Item": "CableReel",
+            "ENABLED": 1
+        },
+        {
+            "Item": "SpotLight",
+            "ENABLED": 1
+        },
+        {
+            "Item": "BatteryCharger",
+            "ENABLED": 1
+        }
+    ]
+}

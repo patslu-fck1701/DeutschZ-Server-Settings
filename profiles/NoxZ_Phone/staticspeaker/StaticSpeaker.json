@@ -1,0 +1,90 @@
+{
+    "ConfigVersion":  1,
+    "Enabled":  1,
+    "GlobalVolume":  35,
+    "RandomMode":  1,
+    "OnlyPlayWhenPlayersNearby":  1,
+    "PlayerDetectionRangeMeters":  100,
+    "DetectStaticSpeaker":  1,
+    "DetectionIntervalMinutes":  2,
+    "DuplicateDetectionRangeMeters":  5,
+    "Spawnpoints":  [
+                        {
+                            "Name":  "KOTH Kamensk",
+                            "Enabled":  1,
+                            "Position":  "7986.474609 339.076569 14652.505859",
+                            "Orientation":  "117.000000 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        },
+                        {
+                            "Name":  "KOTH VMC",
+                            "Enabled":  1,
+                            "Position":  "4571.382813 317.974121 8356.989258",
+                            "Orientation":  "-80.999992 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        },
+                        {
+                            "Name":  "KOTH Grozovny",
+                            "Enabled":  1,
+                            "Position":  "3776.509521 363.05011 14815.888672",
+                            "Orientation":  "0.000000 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        },
+                        {
+                            "Name":  "KOTH Lopatino",
+                            "Enabled":  1,
+                            "Position":  "2921.307129 270.25296 9674.989258",
+                            "Orientation":  "53.999996 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        },
+                        {
+                            "Name":  "KOTH Mishkyno",
+                            "Enabled":  1,
+                            "Position":  "1102.196533 182.940308 7215.189453",
+                            "Orientation":  "133.244720 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        },
+                        {
+                            "Name":  "KOTH NWAF",
+                            "Enabled":  1,
+                            "Position":  "4890.859375 339.133698 9432.962891",
+                            "Orientation":  "61.615467 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        },
+                        {
+                            "Name":  "KOTH Tri-Kresta",
+                            "Enabled":  1,
+                            "Position":  "316.451447 294.944 9358.62207",
+                            "Orientation":  "117.000000 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        },
+                        {
+                            "Name":  "KOTH YRAP",
+                            "Enabled":  1,
+                            "Position":  "1239.362305 173.440796 5864.491699",
+                            "Orientation":  "135.045273 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        },
+                        {
+                            "Name":  "KOTH Gorka Military",
+                            "Enabled":  1,
+                            "Position":  "9703.262695 299.153381 8882.391602",
+                            "Orientation":  "36.000004 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        },
+                        {
+                            "Name":  "KOTH Krasnostav Airfield",
+                            "Enabled":  1,
+                            "Position":  "12144.327148 140.065903 12645.984375",
+                            "Orientation":  "18.000002 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        },
+                        {
+                            "Name":  "KOTH Pustoshka Military",
+                            "Enabled":  1,
+                            "Position":  "3637.29541 333.873627 6930.422363",
+                            "Orientation":  "-135.000000 0.000000 0.000000",
+                            "VolumeOverride":  0
+                        }
+                    ]
+}

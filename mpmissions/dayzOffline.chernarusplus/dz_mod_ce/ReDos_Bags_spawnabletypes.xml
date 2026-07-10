@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spawnabletypes>
+  <type name="Redos_RifleBags_Black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_Green">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_Tan">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_Desert_Camo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_V_Black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_V_Green">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_V_Tan">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_V_Desert_Camo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_V_Winter_Camo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_V_Winter">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_Winter_Camo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="Redos_RifleBags_Winter">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.20" />
+			<item name="PlateCarrierPouches_Black" chance="0.20" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDos_6sh118_Flake_Camo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="SmershBag" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDos_6sh118_Khaki">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="SmershBag" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDos_6sh118_Black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="SmershBag" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDos_6sh118_Tan">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="SmershBag" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDos_6sh118_Sand">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="SmershBag" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDos_6sh118_Snowy1">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="SmershBag" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDos_6sh118_Snowy2">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="SmershBag" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDos_6sh118_Snowy3">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="SmershBag" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDoS_F2bergan_Black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.05" />
+			<item name="PlateCarrierHolster_Black" chance="0.05" />
+			<item name="PlateCarrierHolster_Green" chance="0.05" />
+			<item name="PlateCarrierHolster_Camo" chance="0.05" />
+			<item name="PlateCarrierHolster_Winter" chance="0.05" />
+			<item name="PlateCarrierPouches" chance="0.05" />
+			<item name="PlateCarrierPouches_Black" chance="0.05" />
+			<item name="PlateCarrierPouches_Green" chance="0.05" />
+			<item name="PlateCarrierPouches_Camo" chance="0.05" />
+			<item name="PlateCarrierPouches_Winter" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDoS_F2bergan_MC">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.05" />
+			<item name="PlateCarrierHolster_Black" chance="0.05" />
+			<item name="PlateCarrierHolster_Green" chance="0.05" />
+			<item name="PlateCarrierHolster_Camo" chance="0.05" />
+			<item name="PlateCarrierHolster_Winter" chance="0.05" />
+			<item name="PlateCarrierPouches" chance="0.05" />
+			<item name="PlateCarrierPouches_Black" chance="0.05" />
+			<item name="PlateCarrierPouches_Green" chance="0.05" />
+			<item name="PlateCarrierPouches_Camo" chance="0.05" />
+			<item name="PlateCarrierPouches_Winter" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDoS_F2bergan_CE">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.05" />
+			<item name="PlateCarrierHolster_Black" chance="0.05" />
+			<item name="PlateCarrierHolster_Green" chance="0.05" />
+			<item name="PlateCarrierHolster_Camo" chance="0.05" />
+			<item name="PlateCarrierHolster_Winter" chance="0.05" />
+			<item name="PlateCarrierPouches" chance="0.05" />
+			<item name="PlateCarrierPouches_Black" chance="0.05" />
+			<item name="PlateCarrierPouches_Green" chance="0.05" />
+			<item name="PlateCarrierPouches_Camo" chance="0.05" />
+			<item name="PlateCarrierPouches_Winter" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDoS_F2bergan_Snowy1">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.05" />
+			<item name="PlateCarrierHolster_Black" chance="0.05" />
+			<item name="PlateCarrierHolster_Green" chance="0.05" />
+			<item name="PlateCarrierHolster_Camo" chance="0.05" />
+			<item name="PlateCarrierHolster_Winter" chance="0.05" />
+			<item name="PlateCarrierPouches" chance="0.05" />
+			<item name="PlateCarrierPouches_Black" chance="0.05" />
+			<item name="PlateCarrierPouches_Green" chance="0.05" />
+			<item name="PlateCarrierPouches_Camo" chance="0.05" />
+			<item name="PlateCarrierPouches_Winter" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDoS_F2bergan_Snowy2">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.05" />
+			<item name="PlateCarrierHolster_Black" chance="0.05" />
+			<item name="PlateCarrierHolster_Green" chance="0.05" />
+			<item name="PlateCarrierHolster_Camo" chance="0.05" />
+			<item name="PlateCarrierHolster_Winter" chance="0.05" />
+			<item name="PlateCarrierPouches" chance="0.05" />
+			<item name="PlateCarrierPouches_Black" chance="0.05" />
+			<item name="PlateCarrierPouches_Green" chance="0.05" />
+			<item name="PlateCarrierPouches_Camo" chance="0.05" />
+			<item name="PlateCarrierPouches_Winter" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+  <type name="ReDoS_F2bergan_Snowy3">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" chance="0.33" />
+			<item name="Chemlight_Blue" chance="0.05" />
+			<item name="Chemlight_Green" chance="0.05" />
+			<item name="Chemlight_Red" chance="0.05" />
+			<item name="Chemlight_White" chance="0.05" />
+			<item name="Chemlight_yellow" chance="0.05" />
+			<item name="NylonKnifeSheath" chance="0.05" />
+			<item name="PlateCarrierHolster" chance="0.05" />
+			<item name="PlateCarrierHolster_Black" chance="0.05" />
+			<item name="PlateCarrierHolster_Green" chance="0.05" />
+			<item name="PlateCarrierHolster_Camo" chance="0.05" />
+			<item name="PlateCarrierHolster_Winter" chance="0.05" />
+			<item name="PlateCarrierPouches" chance="0.05" />
+			<item name="PlateCarrierPouches_Black" chance="0.05" />
+			<item name="PlateCarrierPouches_Green" chance="0.05" />
+			<item name="PlateCarrierPouches_Camo" chance="0.05" />
+			<item name="PlateCarrierPouches_Winter" chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+</spawnabletypes>

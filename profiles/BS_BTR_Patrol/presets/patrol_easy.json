@@ -1,0 +1,314 @@
+{
+    "Difficulty":  "easy",
+    "Settings":  {
+                     "Event":  {
+                                   "BTRClassName":  "BS_BTR_Patrol_Camo2",
+                                   "WreckClassName":  "BS_BTR_Wreck",
+                                   "MinPlayersToSpawn":  2,
+                                   "SpawnCheckInterval":  60,
+                                   "RespawnDelay":  1200,
+                                   "PatrolDuration":  3600,
+                                   "WreckLifetime":  900
+                               },
+                     "Health":  {
+                                    "MaxHealth":  1800,
+                                    "ArmorMultiplier":  0.9,
+                                    "BulletDamageMultiplier":  0.75,
+                                    "ExplosionRadius":  10,
+                                    "DeathExplosionAmmo":  "Explosion_40mm_Ammo"
+                                },
+                     "Movement":  {
+                                      "PatrolSpeed":  4,
+                                      "CombatSpeed":  3,
+                                      "MaxSpeed":  6,
+                                      "Acceleration":  2,
+                                      "Deceleration":  4,
+                                      "TerrainSampleDistance":  15.0,
+                                      "MaxSlopeAngle":  35.0,
+                                      "EnableObstacleAvoidance":  0,
+                                      "ObstacleCheckDistance":  20.0,
+                                      "WaypointReachDistance":  18,
+                                      "PlowThroughVegetation":  0,
+                                      "CrushEntities":  0,
+                                      "CrushMinSpeed":  3.5
+                                  },
+                     "Turret":  {
+                                    "YawSpeed":  60.0,
+                                    "PitchSpeed":  40.0,
+                                    "MaxYaw":  180.0,
+                                    "MaxPitch":  90.0,
+                                    "MinPitch":  -10.0,
+                                    "FireCooldown":  0.65,
+                                    "Accuracy":  0.25,
+                                    "MissAngle":  6,
+                                    "MaxRange":  220,
+                                    "AmmoClass":  "Bullet_762x39",
+                                    "DamageMultiplier":  0.8,
+                                    "BurstSize":  4,
+                                    "ReloadTime":  4.5,
+                                    "StopToShoot":  1,
+                                    "CannonExplosionAmmo":  "Explosion_40mm_Ammo",
+                                    "FellTreesRadius":  3
+                                },
+                     "Grenade":  {
+                                     "Enabled":  0,
+                                     "Cooldown":  8.0,
+                                     "Range":  150.0,
+                                     "MinRange":  30.0,
+                                     "Speed":  700,
+                                     "ExplosionAmmo":  "Explosion_40mm_Ammo",
+                                     "FellTreesRadius":  6.0
+                                 },
+                     "Combat":  {
+                                    "DetectionRadius":  160,
+                                    "EngageRadius":  140,
+                                    "DisengageRadius":  180,
+                                    "LostSightTimeout":  10,
+                                    "OrbitRadius":  35,
+                                    "OrbitSpeed":  2,
+                                    "AggroWhilePatrolling":  1,
+                                    "PatrolAggroRange":  90,
+                                    "PatrolScanInterval":  2,
+                                    "EnableSuppression":  0,
+                                    "SuppressionSpread":  4,
+                                    "SuppressionDuration":  2,
+                                    "ChasePlayers":  0,
+                                    "CloseRangeAutoLOS":  0.0,
+                                    "IgnoreGodmodePlayers":  1
+                                },
+                     "Markers":  {
+                                     "EnableMapMarker":  1,
+                                     "Enable3DMarker":  1,
+                                     "Enable2DMarker":  1,
+                                     "Name":  "Hostile BTR-82A",
+                                     "IconName":  "BTR BS",
+                                     "IconPath":  "BTR_82A/icon/iconbtr.paa"
+                                 },
+                     "Notifications":  {
+                                           "Enable":  1,
+                                           "Title":  "#STR_BS_BTR_notif_title",
+                                           "SpawnMsg":  "#STR_BS_BTR_spawn",
+                                           "DestroyedMsg":  "#STR_BS_BTR_destroyed",
+                                           "DespawnMsg":  "#STR_BS_BTR_despawn",
+                                           "Icon":  "BTR_82A/icon/iconbtr.paa",
+                                           "EnablePlayerKilled":  1,
+                                           "ShowVictimName":  1,
+                                           "PlayerKilledMsg":  "#STR_BS_BTR_player_killed",
+                                           "PlayerKilledNoNameMsg":  "#STR_BS_BTR_player_killed_anon",
+                                           "ShowKillerName":  1,
+                                           "DestroyedByMsg":  "#STR_BS_BTR_destroyed_by"
+                                       },
+                     "Effects":  {
+                                     "EnableWheelDust":  1
+                                 },
+                     "Loot":  {
+                                  "UseCrateLoot":  1,
+                                  "CrateBurningTimeMin":  20,
+                                  "CrateBurningTimeMax":  40,
+                                  "CrateSpawnRadiusMin":  5.0,
+                                  "CrateSpawnRadiusMax":  8.0,
+                                  "CratesMin":  2,
+                                  "CratesMax":  2,
+                                  "CrateClasses":  [
+                                                       "BS_Tank_Box1",
+                                                       "BS_Tank_Box2_Black"
+                                                   ],
+                                  "LootCategories":  {
+                                                         "Weapons":  {
+                                                                         "Min":  2,
+                                                                         "Max":  2,
+                                                                         "Items":  [
+                                                                                       {
+                                                                                           "LootClass":  "AKM",
+                                                                                           "LootAttachments":  [
+                                                                                                                   "Mag_AKM_30Rnd",
+                                                                                                                   "AK_WoodBttstck",
+                                                                                                                   "AK_WoodHndgrd"
+                                                                                                               ],
+                                                                                           "SpawnChance":  1.0
+                                                                                       },
+                                                                                       {
+                                                                                           "LootClass":  "SVD",
+                                                                                           "LootAttachments":  [
+                                                                                                                   "Mag_SVD_10Rnd",
+                                                                                                                   "PSO1Optic"
+                                                                                                               ],
+                                                                                           "SpawnChance":  0.4000000059604645
+                                                                                       }
+                                                                                   ]
+                                                                     },
+                                                         "Ammo":  {
+                                                                      "Min":  3,
+                                                                      "Max":  4,
+                                                                      "Items":  [
+                                                                                    {
+                                                                                        "LootClass":  "Ammo_762x39",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1.0
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "Mag_AKM_Drum75Rnd",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  0.5
+                                                                                    }
+                                                                                ]
+                                                                  },
+                                                         "Medical":  {
+                                                                         "Min":  3,
+                                                                         "Max":  4,
+                                                                         "Items":  [
+                                                                                       {
+                                                                                           "LootClass":  "BandageDressing",
+                                                                                           "LootAttachments":  [
+
+                                                                                                               ],
+                                                                                           "SpawnChance":  1.0
+                                                                                       },
+                                                                                       {
+                                                                                           "LootClass":  "Morphine",
+                                                                                           "LootAttachments":  [
+
+                                                                                                               ],
+                                                                                           "SpawnChance":  1.0
+                                                                                       },
+                                                                                       {
+                                                                                           "LootClass":  "SalineBagIV",
+                                                                                           "LootAttachments":  [
+
+                                                                                                               ],
+                                                                                           "SpawnChance":  0.699999988079071
+                                                                                       }
+                                                                                   ]
+                                                                     },
+                                                         "Gear":  {
+                                                                      "Min":  2,
+                                                                      "Max":  3,
+                                                                      "Items":  [
+                                                                                    {
+                                                                                        "LootClass":  "PlateCarrierVest",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1.0
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "NVGoggles",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  0.3499999940395355
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "Mich2001Helmet",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1.0
+                                                                                    }
+                                                                                ]
+                                                                  }
+                                                     },
+                                  "LootCrates":  [
+                                                     {
+                                                         "ClassName":  "BS_Tank_Box1",
+                                                         "LBPresetName":  "",
+                                                         "Presets":  [
+                                                                         "Weapons",
+                                                                         "Ammo"
+                                                                     ]
+                                                     },
+                                                     {
+                                                         "ClassName":  "BS_Tank_Box2_Black",
+                                                         "LBPresetName":  "",
+                                                         "Presets":  [
+                                                                         "Medical",
+                                                                         "Gear"
+                                                                     ]
+                                                     }
+                                                 ],
+                                  "DeathLoot":  [
+                                                    {
+                                                        "ClassName":  "AKM",
+                                                        "Quantity":  1,
+                                                        "SpawnChance":  0.800000011920929
+                                                    },
+                                                    {
+                                                        "ClassName":  "Mag_AKM_30Rnd",
+                                                        "Quantity":  3,
+                                                        "SpawnChance":  1.0
+                                                    },
+                                                    {
+                                                        "ClassName":  "Ammo_762x39",
+                                                        "Quantity":  2,
+                                                        "SpawnChance":  0.8999999761581421
+                                                    },
+                                                    {
+                                                        "ClassName":  "PlateCarrierVest",
+                                                        "Quantity":  1,
+                                                        "SpawnChance":  0.5
+                                                    },
+                                                    {
+                                                        "ClassName":  "NVGoggles",
+                                                        "Quantity":  1,
+                                                        "SpawnChance":  0.30000001192092898
+                                                    },
+                                                    {
+                                                        "ClassName":  "Canteen",
+                                                        "Quantity":  1,
+                                                        "SpawnChance":  0.699999988079071
+                                                    },
+                                                    {
+                                                        "ClassName":  "BandageDressing",
+                                                        "Quantity":  3,
+                                                        "SpawnChance":  0.800000011920929
+                                                    }
+                                                ]
+                              },
+                     "Defenders":  {
+                                       "EnableDefenders":  true,
+                                       "DespawnRadius":  800.0,
+                                       "DespawnCheckInterval":  60.0,
+                                       "Defenders":  [
+                                                         {
+                                                             "ClassName":  "eAI_SurvivorM_Mirek",
+                                                             "Count":  3,
+                                                             "AdditionalNight":  0,
+                                                             "SpawnRadius":  25,
+                                                             "IsExpansionBot":  true,
+                                                             "ExpansionFaction":  "Raiders",
+                                                             "ExpansionLoadout":  "BanditLoadout",
+                                                             "ExpansionUnlimitedAmmo":  false,
+                                                             "ExpansionCanBeLooted":  true
+                                                         }
+                                                     ]
+                                   }
+                 },
+    "PatrolRoutes":  [
+                         {
+                             "RouteName":  "NWAF Runway Loop",
+                             "Waypoints":  [
+                                               "4905.860352 338.039642 9430.402344",
+                                               "4815.000000 338.300000 9600.000000",
+                                               "4690.000000 338.600000 9800.000000",
+                                               "4560.000000 339.000000 10005.000000",
+                                               "4430.000000 339.600000 10210.000000",
+                                               "4300.000000 340.300000 10415.000000",
+                                               "4180.000000 341.200000 10615.000000",
+                                               "4098.600000 342.000000 10820.000000",
+                                               "4170.000000 342.000000 10870.000000",
+                                               "4270.000000 341.200000 10665.000000",
+                                               "4390.000000 340.300000 10465.000000",
+                                               "4520.000000 339.500000 10260.000000",
+                                               "4650.000000 338.900000 10055.000000",
+                                               "4780.000000 338.400000 9850.000000",
+                                               "4900.000000 338.100000 9650.000000",
+                                               "4950.000000 338.000000 9480.000000",
+                                               "4905.860352 338.039642 9430.402344"
+                                           ]
+                         }
+                     ]
+}

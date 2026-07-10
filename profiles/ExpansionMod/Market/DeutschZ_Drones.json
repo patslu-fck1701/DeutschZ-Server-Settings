@@ -1,0 +1,85 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ Drones",
+    "Icon":  "Drone",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  75,
+    "Items":  [
+                  {
+                      "ClassName":  "NoxZ_SimpleDrone",
+                      "MaxPriceThreshold":  85000,
+                      "MinPriceThreshold":  59499,
+                      "SellPricePercent":  1,
+                      "MaxStockThreshold":  20,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "NoxZ_Dron",
+                      "MaxPriceThreshold":  175000,
+                      "MinPriceThreshold":  122499,
+                      "SellPricePercent":  1,
+                      "MaxStockThreshold":  15,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "NoxZ_CargoDrone",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  244999,
+                      "SellPricePercent":  1,
+                      "MaxStockThreshold":  10,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "NoxZ_GunnerDrone",
+                      "MaxPriceThreshold":  650000,
+                      "MinPriceThreshold":  455000,
+                      "SellPricePercent":  1,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "NoxZ_BombDrone",
+                      "MaxPriceThreshold":  1200000,
+                      "MinPriceThreshold":  840000,
+                      "SellPricePercent":  1,
+                      "MaxStockThreshold":  3,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

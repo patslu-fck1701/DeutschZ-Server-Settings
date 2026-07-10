@@ -1,0 +1,98 @@
+{
+    "m_Version": 12,
+    "DisplayName": "DeutschZ Blackmarket - Vehicles",
+    "Icon": "Car",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 25.0,
+    "Items": [
+        {
+            "ClassName": "MBM_JLTV_Black",
+            "MaxPriceThreshold": 3000000,
+            "MinPriceThreshold": 2100000,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MBM_JLTV_Camo",
+            "MaxPriceThreshold": 3000000,
+            "MinPriceThreshold": 2100000,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MBM_JLTV_Camo2",
+            "MaxPriceThreshold": 3000000,
+            "MinPriceThreshold": 2100000,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MBM_JLTV_DigiCamoBlk",
+            "MaxPriceThreshold": 3000000,
+            "MinPriceThreshold": 2100000,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MBM_JLTV_DigiCamoPink",
+            "MaxPriceThreshold": 3000000,
+            "MinPriceThreshold": 2100000,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MBM_JLTV_Green",
+            "MaxPriceThreshold": 3000000,
+            "MinPriceThreshold": 2100000,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MBM_JLTV_Tan",
+            "MaxPriceThreshold": 3000000,
+            "MinPriceThreshold": 2100000,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MBM_JLTV_WinterCamo",
+            "MaxPriceThreshold": 3000000,
+            "MinPriceThreshold": 2100000,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

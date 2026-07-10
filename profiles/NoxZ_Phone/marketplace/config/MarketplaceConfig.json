@@ -1,0 +1,155 @@
+{
+    "ConfigVersion":  3,
+    "MaxListingsPerPlayer":  60,
+    "ListingExpirationHours":  48,
+    "TransactionFeePercent":  8,
+    "RequireMenuAccessItem":  1,
+    "AllowBuyingOwnListings":  0,
+    "MenuAccessItemClassname":  "NoxZ_Phone_Device_IPhone17",
+    "CurrencyDisplayName":  "Euro",
+    "Categories":  [
+                       "-----------------------",
+                       "Weapons",
+                       "Ammo",
+                       "Attachments",
+                       "Clothing and Armor",
+                       "Backpacks",
+                       "Tools",
+                       "Food and Water",
+                       "Medical",
+                       "Materials",
+                       "Vehicles",
+                       "Misc",
+                       "Helicopters",
+                       "Aircraft",
+                       "Blackmarket"
+                   ],
+    "ForbiddenSellClassnames":  [
+                                    "MBM_BMWAlpina_Wheel02_Destroyed",
+                                    "MBM_BMWAlpina_Wheel_Destroyed",
+                                    "MBM_MonteCarloSS_Wheel_Destroyed",
+                                    "NoxZ_DeliveryAirCrane",
+                                    "NoxZ_DeliveryCrate",
+                                    "NoxZ_DeliveryDrone",
+                                    "NoxZ_Dollar1",
+                                    "NoxZ_Dollar10",
+                                    "NoxZ_Dollar100",
+                                    "NoxZ_Dollar2",
+                                    "NoxZ_Dollar20",
+                                    "NoxZ_Dollar5",
+                                    "NoxZ_Dollar50",
+                                    "NoxZ_Dollar500",
+                                    "NoxZ_Euro1",
+                                    "NoxZ_Euro10",
+                                    "NoxZ_Euro100",
+                                    "NoxZ_Euro2",
+                                    "NoxZ_Euro20",
+                                    "NoxZ_Euro200",
+                                    "NoxZ_Euro5",
+                                    "NoxZ_Euro50",
+                                    "NoxZ_Euro500",
+                                    "NoxZ_Marketplace_Device",
+                                    "NoxZ_Phone_Device",
+                                    "NoxZ_Ruble1",
+                                    "NoxZ_Ruble10",
+                                    "NoxZ_Ruble100",
+                                    "NoxZ_Ruble1000",
+                                    "NoxZ_Ruble2",
+                                    "NoxZ_Ruble200",
+                                    "NoxZ_Ruble2000",
+                                    "NoxZ_Ruble5",
+                                    "NoxZ_Ruble50",
+                                    "NoxZ_Ruble500",
+                                    "NoxZ_Ruble5000",
+                                    "NoxZ_Phone_Device_IPhone17",
+                                    "NoxZ_Phone_Device_S25Ultra"
+                                ],
+    "PlayerMarketCurrencies":  [
+                                   {
+                                       "DisplayName":  "Euro",
+                                       "Classname":  "NoxZ_Euro1",
+                                       "PreviewClassname":  "",
+                                       "Value":  1
+                                   }
+                               ],
+    "CurrencyDenominations":  [
+                                  {
+                                      "DisplayName":  "Euro",
+                                      "Classname":  "NoxZ_Euro1",
+                                      "PreviewClassname":  "",
+                                      "Value":  1
+                                  },
+                                  {
+                                      "DisplayName":  "Euro",
+                                      "Classname":  "NoxZ_Euro2",
+                                      "PreviewClassname":  "",
+                                      "Value":  2
+                                  },
+                                  {
+                                      "DisplayName":  "Euro",
+                                      "Classname":  "NoxZ_Euro5",
+                                      "PreviewClassname":  "",
+                                      "Value":  5
+                                  },
+                                  {
+                                      "DisplayName":  "Euro",
+                                      "Classname":  "NoxZ_Euro10",
+                                      "PreviewClassname":  "",
+                                      "Value":  10
+                                  },
+                                  {
+                                      "DisplayName":  "Euro",
+                                      "Classname":  "NoxZ_Euro20",
+                                      "PreviewClassname":  "",
+                                      "Value":  20
+                                  },
+                                  {
+                                      "DisplayName":  "Euro",
+                                      "Classname":  "NoxZ_Euro50",
+                                      "PreviewClassname":  "",
+                                      "Value":  50
+                                  },
+                                  {
+                                      "DisplayName":  "Euro",
+                                      "Classname":  "NoxZ_Euro100",
+                                      "PreviewClassname":  "",
+                                      "Value":  100
+                                  },
+                                  {
+                                      "DisplayName":  "Euro",
+                                      "Classname":  "NoxZ_Euro200",
+                                      "PreviewClassname":  "",
+                                      "Value":  200
+                                  },
+                                  {
+                                      "DisplayName":  "Euro",
+                                      "Classname":  "NoxZ_Euro500",
+                                      "PreviewClassname":  "",
+                                      "Value":  500
+                                  }
+                              ],
+    "CategoryPriceLimits":  {
+
+                            },
+    "BitcoinExchange":  {
+                            "Enabled":  0,
+                            "BitcoinClassname":  "",
+                            "GoldClassname":  "",
+                            "SellRate":  1000000,
+                            "BuyRate":  1000000,
+                            "MaxPerTransaction":  10
+                        },
+    "Notifications":  {
+                          "Enabled":  1,
+                          "ColorHex":  "0xFFFFAA00",
+                          "DurationSeconds":  8
+                      },
+    "Logging":  {
+                    "Enabled":  1,
+                    "LogPublished":  1,
+                    "LogPurchased":  1
+                },
+    "AdminUIDs":  [
+
+                  ]
+}

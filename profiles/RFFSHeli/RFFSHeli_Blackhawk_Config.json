@@ -1,0 +1,19 @@
+{
+    "Heli_ConfigVersion": 7,
+    "Heli_FuelCapacity": 495.0,
+    "Heli_FuelConsumptionRate": 1.2499799728393555,
+    "Heli_TrainerMode": 1,
+    "Heli_HasHydraulics": 0,
+    "Heli_SimpleCollective": 0,
+    "Flight_MaximumAirspeed": 320.0,
+    "Flight_MaximumAltitude": 5400.0,
+    "Flight_MaximumClimbRate": 550.0,
+    "Flight_AerodynamicDrag": 110.0,
+    "Flight_BankTurnCoeff": 90.0,
+    "Flight_SpeedFactor": 100.0,
+    "Controls_AntiTorqueThrustRate": 84.0,
+    "Controls_CyclicThrustRate": 83.0,
+    "Controls_CollectiveThrustRate": 84.0,
+    "Controls_MaximumRotationalRate": 90.0,
+    "Controls_CyclicDampeningRate": 88.0
+}

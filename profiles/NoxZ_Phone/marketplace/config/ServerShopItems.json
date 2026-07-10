@@ -1,0 +1,2548 @@
+{
+    "ServerShopVehicles":  [
+
+                           ],
+    "ServerShopCategories":  [
+                                 {
+                                     "CategoryID":  "phone_general",
+                                     "DisplayName":  "Telefon und Technik",
+                                     "DisplayNameKey":  "",
+                                     "Enabled":  1,
+                                     "Items":  [
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Powerbank",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_PowerBank",
+                                                       "Category":  "phone_general",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  8000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Geldboerse",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_Wallet",
+                                                       "Category":  "phone_general",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Kreditkarte",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_CreditCard",
+                                                       "Category":  "phone_general",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "DeutschZ Lautsprecher",
+                                                       "Description":  "Abspielgeraet fuer die DeutschZ Musikbibliothek.",
+                                                       "Classname":  "NoxZ_Speaker",
+                                                       "Category":  "phone_general",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  15000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Sicherheitskamera-Kit",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_SecCamera_Kit",
+                                                       "Category":  "phone_general",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  25000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Telefon-Akku",
+                                                       "Description":  "Ersatzakku fuer das DeutschZ Phone.",
+                                                       "Classname":  "NoxZ_PhoneBattery",
+                                                       "Category":  "phone_general",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "CategoryID":  "phone_clothing",
+                                     "DisplayName":  "Kleidung",
+                                     "DisplayNameKey":  "",
+                                     "Enabled":  1,
+                                     "Items":  [
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Balaclava_Black",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Balaclava_Black",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Balaclava_OD",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Balaclava_OD",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Balaclava_Snow",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Balaclava_Snow",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Balaclava_Tan",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Balaclava_Tan",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Balaclava_Wraith",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Balaclava_Wraith",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_BoonieHat",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_BoonieHat",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_BoonieHat_Multicam",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_BoonieHat_Multicam",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_BoonieHat_Multicam_Black",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_BoonieHat_Multicam_Black",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_BoonieHat_Multicam_Tropic",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_BoonieHat_Multicam_Tropic",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_BoonieHat_Snow",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_BoonieHat_Snow",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Cap_Black",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Cap_Black",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Cap_ERDL",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Cap_ERDL",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Cap_Multicam",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Cap_Multicam",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Cap_Multicam_Black",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Cap_Multicam_Black",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Cap_Multicam_Tropic",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Cap_Multicam_Tropic",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Cap_OD",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Cap_OD",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Cap_Snow",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Cap_Snow",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_Cap_Tan",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_Cap_Tan",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_CombatPants_Black",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_CombatPants_Black",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_CombatPants_ERDL",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_CombatPants_ERDL",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_CombatPants_Multicam",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_CombatPants_Multicam",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_CombatPants_Multicam_Black",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_CombatPants_Multicam_Black",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_CombatPants_Multicam_Tropic",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_CombatPants_Multicam_Tropic",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_CombatPants_OD",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_CombatPants_OD",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_CombatPants_Snow",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_CombatPants_Snow",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_CombatPants_Tan",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_CombatPants_Tan",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_CombatShirt_Black",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_CombatShirt_Black",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MVS_CombatShirt_ERDL",
+                                                       "Description":  "",
+                                                       "Classname":  "MVS_CombatShirt_ERDL",
+                                                       "Category":  "phone_clothing",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  12000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "CategoryID":  "phone_survival",
+                                     "DisplayName":  "Survival",
+                                     "DisplayNameKey":  "",
+                                     "Enabled":  1,
+                                     "Items":  [
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Compass",
+                                                       "Description":  "",
+                                                       "Classname":  "Compass",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Canteen",
+                                                       "Description":  "",
+                                                       "Classname":  "Canteen",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "WaterBottle",
+                                                       "Description":  "",
+                                                       "Classname":  "WaterBottle",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Matchbox",
+                                                       "Description":  "",
+                                                       "Classname":  "Matchbox",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "HuntingKnife",
+                                                       "Description":  "",
+                                                       "Classname":  "HuntingKnife",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "FishingRod",
+                                                       "Description":  "",
+                                                       "Classname":  "FishingRod",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Rope",
+                                                       "Description":  "",
+                                                       "Classname":  "Rope",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Binoculars",
+                                                       "Description":  "",
+                                                       "Classname":  "Binoculars",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Flashlight",
+                                                       "Description":  "",
+                                                       "Classname":  "Flashlight",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Battery9V",
+                                                       "Description":  "",
+                                                       "Classname":  "Battery9V",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "PortableGasStove",
+                                                       "Description":  "",
+                                                       "Classname":  "PortableGasStove",
+                                                       "Category":  "phone_survival",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  2500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "CategoryID":  "phone_medical",
+                                     "DisplayName":  "Medizin",
+                                     "DisplayNameKey":  "",
+                                     "Enabled":  1,
+                                     "Items":  [
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "BandageDressing",
+                                                       "Description":  "",
+                                                       "Classname":  "BandageDressing",
+                                                       "Category":  "phone_medical",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1800,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "DisinfectantAlcohol",
+                                                       "Description":  "",
+                                                       "Classname":  "DisinfectantAlcohol",
+                                                       "Category":  "phone_medical",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1800,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "IodineTincture",
+                                                       "Description":  "",
+                                                       "Classname":  "IodineTincture",
+                                                       "Category":  "phone_medical",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1800,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "PainkillerTablets",
+                                                       "Description":  "",
+                                                       "Classname":  "PainkillerTablets",
+                                                       "Category":  "phone_medical",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1800,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "VitaminBottle",
+                                                       "Description":  "",
+                                                       "Classname":  "VitaminBottle",
+                                                       "Category":  "phone_medical",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1800,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "TetracyclineAntibiotics",
+                                                       "Description":  "",
+                                                       "Classname":  "TetracyclineAntibiotics",
+                                                       "Category":  "phone_medical",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1800,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "CharcoalTablets",
+                                                       "Description":  "",
+                                                       "Classname":  "CharcoalTablets",
+                                                       "Category":  "phone_medical",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1800,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "CategoryID":  "phone_tools",
+                                     "DisplayName":  "Werkzeuge",
+                                     "DisplayNameKey":  "",
+                                     "Enabled":  1,
+                                     "Items":  [
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Hatchet",
+                                                       "Description":  "",
+                                                       "Classname":  "Hatchet",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Hacksaw",
+                                                       "Description":  "",
+                                                       "Classname":  "Hacksaw",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Pliers",
+                                                       "Description":  "",
+                                                       "Classname":  "Pliers",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Screwdriver",
+                                                       "Description":  "",
+                                                       "Classname":  "Screwdriver",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Wrench",
+                                                       "Description":  "",
+                                                       "Classname":  "Wrench",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Shovel",
+                                                       "Description":  "",
+                                                       "Classname":  "Shovel",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Pickaxe",
+                                                       "Description":  "",
+                                                       "Classname":  "Pickaxe",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "ElectronicRepairKit",
+                                                       "Description":  "",
+                                                       "Classname":  "ElectronicRepairKit",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "SewingKit",
+                                                       "Description":  "",
+                                                       "Classname":  "SewingKit",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "LeatherSewingKit",
+                                                       "Description":  "",
+                                                       "Classname":  "LeatherSewingKit",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "WeaponCleaningKit",
+                                                       "Description":  "",
+                                                       "Classname":  "WeaponCleaningKit",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "DuctTape",
+                                                       "Description":  "",
+                                                       "Classname":  "DuctTape",
+                                                       "Category":  "phone_tools",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  3500,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "CategoryID":  "phone_food_drinks",
+                                     "DisplayName":  "Essen und Trinken",
+                                     "DisplayNameKey":  "",
+                                     "Enabled":  1,
+                                     "Items":  [
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_Starburst",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_Starburst",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_Smarties",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_Smarties",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_GummyBears",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_GummyBears",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_GummyWorms1",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_GummyWorms1",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_SourPatch",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_SourPatch",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_SourPatchW",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_SourPatchW",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_JollyRancher",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_JollyRancher",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_Swedish",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_Swedish",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_SkittlesB",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_SkittlesB",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_Nerds",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_Nerds",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_Twizzlers",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_Twizzlers",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_Doritos",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_Doritos",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_DoritosRanch",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_DoritosRanch",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_Cheetos",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_Cheetos",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_Lays",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_Lays",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_LaysBBQ",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_LaysBBQ",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_LaysSV",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_LaysSV",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_RootBeer",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_RootBeer",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  900,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_BasicBeer",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_BasicBeer",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  900,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_LiteBeer",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_LiteBeer",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  900,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_IPABeer",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_IPABeer",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  900,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_TropicalBeer",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_TropicalBeer",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  900,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_ZombieDrink",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_ZombieDrink",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  900,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_HumanDrink",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_HumanDrink",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  900,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_MilkyWay",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_MilkyWay",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  900,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_Water1",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_Water1",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  900,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "MFP_Water2",
+                                                       "Description":  "",
+                                                       "Classname":  "MFP_Water2",
+                                                       "Category":  "phone_food_drinks",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  900,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  100,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "CategoryID":  "phone_drone_shop",
+                                     "DisplayName":  "Drohnen",
+                                     "DisplayNameKey":  "",
+                                     "Enabled":  1,
+                                     "Items":  [
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_SimpleDrone",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_SimpleDrone",
+                                                       "Category":  "phone_drone_shop",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  85000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  20,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_Dron",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_Dron",
+                                                       "Category":  "phone_drone_shop",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  175000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  20,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_CargoDrone",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_CargoDrone",
+                                                       "Category":  "phone_drone_shop",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  350000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  10,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_GunnerDrone",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_GunnerDrone",
+                                                       "Category":  "phone_drone_shop",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  650000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  5,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_BombDrone",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_BombDrone",
+                                                       "Category":  "phone_drone_shop",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  1200000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  3,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "CategoryID":  "phone_drone_parts",
+                                     "DisplayName":  "Drohnen-Zubehoer",
+                                     "DisplayNameKey":  "",
+                                     "Enabled":  1,
+                                     "Items":  [
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_PowerBank",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_PowerBank",
+                                                       "Category":  "phone_drone_parts",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  6000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  60,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_GunnerDrone_Ammo",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_GunnerDrone_Ammo",
+                                                       "Category":  "phone_drone_parts",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  55000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  60,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_SecCamera_Kit",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_SecCamera_Kit",
+                                                       "Category":  "phone_drone_parts",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  20000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  60,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_Laptop",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_Laptop",
+                                                       "Category":  "phone_drone_parts",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  45000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  60,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "CategoryID":  "phone_special",
+                                     "DisplayName":  "Spezial",
+                                     "DisplayNameKey":  "",
+                                     "Enabled":  1,
+                                     "Items":  [
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_Phone_Device_IPhone17",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_Phone_Device_IPhone17",
+                                                       "Category":  "phone_special",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  35000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  20,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "NoxZ_Phone_Device_S25Ultra",
+                                                       "Description":  "",
+                                                       "Classname":  "NoxZ_Phone_Device_S25Ultra",
+                                                       "Category":  "phone_special",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  45000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  20,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   },
+                                                   {
+                                                       "id":  "",
+                                                       "DisplayName":  "Luftabwehr-Kit",
+                                                       "Description":  "Stationaere Abwehr gegen aktive Luftschlaege.",
+                                                       "Classname":  "NoxZ_AntiAirStrikeKit",
+                                                       "Category":  "phone_special",
+                                                       "PreviewIcon":  "",
+                                                       "PreviewImage":  "",
+                                                       "Price":  500000,
+                                                       "Available":  1,
+                                                       "Enabled":  1,
+                                                       "Stock":  5,
+                                                       "SpawnPoints":  [
+
+                                                                       ],
+                                                       "VehicleAttachments":  [
+
+                                                                              ],
+                                                       "CargoItems":  [
+
+                                                                      ],
+                                                       "SpawnWithFullFuel":  0
+                                                   }
+                                               ]
+                                 }
+                             ],
+    "Delivery":  {
+                     "Enabled":  1,
+                     "DropHeight":  180,
+                     "FallSpeed":  45,
+                     "DriftRadius":  4,
+                     "DeliveryDistance":  18,
+                     "RepairOnLanding":  1,
+                     "FillCoolantOnLanding":  1,
+                     "UpdatePathgraphOnLanding":  1,
+                     "DeliveryName":  "NoxZ Delivery",
+                     "UseDrone":  1,
+                     "DroneClassname":  "NoxZ_DeliveryDrone",
+                     "VehicleDeliveryAircraftClassname":  "NoxZ_DeliveryAirCrane",
+                     "DroneSpawnRadius":  450,
+                     "DroneSpawnHeight":  140,
+                     "DroneMoveSpeed":  10,
+                     "DroneHoverHeight":  16,
+                     "DroneArriveDistance":  3,
+                     "DroneExitHeight":  220,
+                     "HeliSpawnHeight":  180,
+                     "HeliMoveSpeed":  22,
+                     "HeliHoverHeight":  48,
+                     "HeliArriveDistance":  5,
+                     "HeliApproachDistance":  120,
+                     "HeliExitHeight":  280,
+                     "HeliExitDistance":  180,
+                     "HeliExitSpeed":  24,
+                     "HeliExitClimbSpeed":  8,
+                     "HeliVehicleDropHeight":  1,
+                     "HeliVehicleDescendSpeed":  4.1999998092651367,
+                     "HeliVehicleCarryGap":  0.05000000074505806,
+                     "HeliVehicleCarryForwardOffset":  6.5,
+                     "HeliVehicleCarryHeightRatio":  0.62000000476837158,
+                     "ItemDeliveryCrateClassname":  "NoxZ_DeliveryCrate",
+                     "DroneItemDropHeight":  0.18000000715255737,
+                     "DroneItemDescendSpeed":  2.5,
+                     "ItemDeliveryMarkerLifetime":  60,
+                     "ItemDeliveryCrateLifetime":  300
+                 },
+    "Currency":  {
+                     "DisplayName":  "Euro",
+                     "Classname":  "NoxZ_Euro1",
+                     "Value":  1,
+                     "Denominations":  [
+                                           {
+                                               "DisplayName":  "Euro",
+                                               "Classname":  "NoxZ_Euro1",
+                                               "PreviewClassname":  "",
+                                               "Value":  1
+                                           },
+                                           {
+                                               "DisplayName":  "Euro",
+                                               "Classname":  "NoxZ_Euro2",
+                                               "PreviewClassname":  "",
+                                               "Value":  2
+                                           },
+                                           {
+                                               "DisplayName":  "Euro",
+                                               "Classname":  "NoxZ_Euro5",
+                                               "PreviewClassname":  "",
+                                               "Value":  5
+                                           },
+                                           {
+                                               "DisplayName":  "Euro",
+                                               "Classname":  "NoxZ_Euro10",
+                                               "PreviewClassname":  "",
+                                               "Value":  10
+                                           },
+                                           {
+                                               "DisplayName":  "Euro",
+                                               "Classname":  "NoxZ_Euro20",
+                                               "PreviewClassname":  "",
+                                               "Value":  20
+                                           },
+                                           {
+                                               "DisplayName":  "Euro",
+                                               "Classname":  "NoxZ_Euro50",
+                                               "PreviewClassname":  "",
+                                               "Value":  50
+                                           },
+                                           {
+                                               "DisplayName":  "Euro",
+                                               "Classname":  "NoxZ_Euro100",
+                                               "PreviewClassname":  "",
+                                               "Value":  100
+                                           },
+                                           {
+                                               "DisplayName":  "Euro",
+                                               "Classname":  "NoxZ_Euro200",
+                                               "PreviewClassname":  "",
+                                               "Value":  200
+                                           },
+                                           {
+                                               "DisplayName":  "Euro",
+                                               "Classname":  "NoxZ_Euro500",
+                                               "PreviewClassname":  "",
+                                               "Value":  500
+                                           }
+                                       ]
+                 }
+}

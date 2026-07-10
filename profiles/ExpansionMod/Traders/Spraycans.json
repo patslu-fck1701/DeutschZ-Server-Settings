@@ -1,0 +1,29 @@
+{
+    "m_Version":  13,
+    "DisplayName":  "#STR_EXPANSION_MARKET_TRADER_SPRAYCANS",
+    "MinRequiredReputation":  0,
+    "MaxRequiredReputation":  2147483647,
+    "RequiredFaction":  "",
+    "RequiredCompletedQuestID":  -1,
+    "TraderIcon":  "Bottle",
+    "Currencies":  [
+                       "NoxZ_Euro1",
+                       "NoxZ_Euro2",
+                       "NoxZ_Euro5",
+                       "NoxZ_Euro10",
+                       "NoxZ_Euro20",
+                       "NoxZ_Euro50",
+                       "NoxZ_Euro100",
+                       "NoxZ_Euro200",
+                       "NoxZ_Euro500"
+                   ],
+    "DisplayCurrencyValue":  1,
+    "DisplayCurrencyName":  "Euro",
+    "UseCategoryOrder":  0,
+    "Categories":  [
+                       "Spraycans"
+                   ],
+    "Items":  {
+
+              }
+}

@@ -1,0 +1,114 @@
+{
+    "Stations": [
+        {
+            "Name": "Norte.Tri Kresta Military",
+            "Position": "313.124969 296.070190 9385.262695",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Norte.Tikhiy zaliv",
+            "Position": "1129.128418 6.894374 2399.658691",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Sul.Military base Pavlovo",
+            "Position": "2168.221680 93.377457 3401.658203",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Norte.Zelenogorsk",
+            "Position": "2692.003662 212.029037 5605.170410",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Sul.Pustoshka",
+            "Position": "2990.872559 343.259277 7470.109375",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Norte.Topolniki",
+            "Position": "3006.702637 211.191467 12653.611328",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Oeste.Vybor",
+            "Position": "3650.297363 312.293335 8978.541992",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Oeste.Zaprudnoye Military",
+            "Position": "4331.161133 178.100372 13074.596680",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Norte.Airfield Vybor",
+            "Position": "4412.434082 339.741913 10793.238281",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Sul.Airfield Vybor",
+            "Position": "4546.427246 339.858673 9682.958984",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Leste.Pogorevka",
+            "Position": "4728.965820 282.671478 6377.114258",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Nordeste.Tikhiy zaliv",
+            "Position": "5859.585938 10.097677 2189.234131",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Sudoeste.Grishino",
+            "Position": "5842.930176 278.822571 10106.305664",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Oeste.Chernogorsk Military",
+            "Position": "6888.770020 8.327378 3077.720703",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Leste.Severograd Military",
+            "Position": "7491.936523 122.247978 12648.329102",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Oeste.Elektrozavodsk",
+            "Position": "9498.710938 6.565218 2019.320923",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Sudoeste.Staroye",
+            "Position": "10132.365234 231.007965 5207.225586",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Sul.Gorka Military",
+            "Position": "10450.344727 224.330368 8864.497070",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Oeste.Druzhba",
+            "Position": "10730.249023 145.646011 10790.966797",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Nordeste.Berezino",
+            "Position": "13001.036133 7.047074 10073.951172",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Norte.Solnechny",
+            "Position": "13398.745117 5.378826 6605.787598",
+            "Fuel": 150.0
+        },
+        {
+            "Name": "Sul.Turovo Military",
+            "Position": "13555.927734 35.337292 13338.904297",
+            "Fuel": 150.0
+        }
+    ]
+}

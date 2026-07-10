@@ -1,0 +1,19 @@
+{
+    "StoreFee":  0,
+    "RetrieveFee":  0,
+    "MaxStoredVehicles":  8,
+    "StoreRange":  20.0,
+    "DroneSpawnHeight":  180.0,
+    "DroneHoverHeight":  8.0,
+    "DroneExitHeight":  95.0,
+    "DroneMoveSpeed":  18.0,
+    "HeliLiftSpeedMultiplier":  2.0,
+    "HeliRetrieveDescendSpeedMultiplier":  2.0,
+    "GarageVehicleCarryGap":  0.05000000074505806,
+    "GarageVehicleCarryForwardOffset":  6.150000095367432,
+    "GarageVehicleCarryHeightRatio":  0.36000001430511477,
+    "CurrencyClassname":  "NoxZ_Euro1",
+    "CurrencyDisplayName":  "Euro",
+    "DroneClassname":  "NoxZ_DeliveryDrone",
+    "VehicleDeliveryAircraftClassname":  "NoxZ_DeliveryAirCrane"
+}

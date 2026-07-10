@@ -1,0 +1,132 @@
+{
+    "EnableKOTHGate":  1,
+    "TerminalClassName":  "DZ_KOTHTerminal",
+    "HackDurationSeconds":  60,
+    "UseChopWoodAnimation":  1,
+    "DeleteTerminalAfterHack":  1,
+    "AllowOnlyOneHacker":  1,
+    "TerminalDistanceCheck":  3,
+    "PreStartTimeoutMinutes":  30,
+    "UseExpansionNotify":  1,
+    "UseVanillaMapMarker":  1,
+    "PreNotifyMessage":  "KOTH-SIGNAL ENTDECKT: Ein umkaempfter Bereich wurde lokalisiert. Aktiviert das Terminal, um die Zone scharfzuschalten.",
+    "HackStartedMessage":  "Terminal-Hack gestartet. Haltet die Position fuer 60 Sekunden.",
+    "HackCompletedMessage":  "KOTH AKTIV: Das Terminal wurde aktiviert. Die Flagge ist online. Haltet die Zone und sichert euch die Belohnung.",
+    "PreStartExpiredMessage":  "KOTH-Signal verloren. Terminal wurde nicht aktiviert.",
+    "StartFailedMessage":  "KOTH konnte nicht gestartet werden. Gate wurde zurueckgesetzt.",
+    "Zones":  [
+                  {
+                      "ZoneName":  "Kamensk",
+                      "FoXyKOTHZoneName":  "Kamensk",
+                      "FlagPosition":  "8000.134766 339.335907 14637.155273",
+                      "SupplyBoxPosition":  "8010.882813 340.453217 14646.147461",
+                      "TerminalPosition":  "7983.474609 339.076569 14649.505859",
+                      "TerminalOrientation":  "117.000000 0.000000 0.000000",
+                      "MarkerPosition":  "8000.134766 339.335907 14637.155273",
+                      "Radius":  250
+                  },
+                  {
+                      "ZoneName":  "VMC",
+                      "FoXyKOTHZoneName":  "VMC",
+                      "FlagPosition":  "4552.346680 317.997314 8350.974609",
+                      "SupplyBoxPosition":  "4538.410645 318.551971 8357.167969",
+                      "TerminalPosition":  "4568.382813 317.974121 8353.989258",
+                      "TerminalOrientation":  "-80.999992 0.000000 0.000000",
+                      "MarkerPosition":  "4552.346680 317.997314 8350.974609",
+                      "Radius":  250
+                  },
+                  {
+                      "ZoneName":  "Grozovny",
+                      "FoXyKOTHZoneName":  "Grozovny",
+                      "FlagPosition":  "3780.909912 361.331116 14801.656250",
+                      "SupplyBoxPosition":  "3773.509521 363.050110 14812.888672",
+                      "TerminalPosition":  "3773.509521 363.050110 14812.888672",
+                      "TerminalOrientation":  "0.000000 0.000000 0.000000",
+                      "MarkerPosition":  "3780.909912 361.331116 14801.656250",
+                      "Radius":  250
+                  },
+                  {
+                      "ZoneName":  "Lopatino",
+                      "FoXyKOTHZoneName":  "Lopatino",
+                      "FlagPosition":  "2934.925049 270.860352 9679.623047",
+                      "SupplyBoxPosition":  "2928.578613 271.864380 9694.041992",
+                      "TerminalPosition":  "2918.307129 270.252960 9671.989258",
+                      "TerminalOrientation":  "53.999996 0.000000 0.000000",
+                      "MarkerPosition":  "2934.925049 270.860352 9679.623047",
+                      "Radius":  250
+                  },
+                  {
+                      "ZoneName":  "Mishkyno",
+                      "FoXyKOTHZoneName":  "Mishkyno",
+                      "FlagPosition":  "1101.278931 182.950562 7196.391602",
+                      "SupplyBoxPosition":  "1106.174561 183.578232 7209.163574",
+                      "TerminalPosition":  "1099.196533 182.940308 7212.189453",
+                      "TerminalOrientation":  "133.244720 0.000000 0.000000",
+                      "MarkerPosition":  "1101.278931 182.950562 7196.391602",
+                      "Radius":  250
+                  },
+                  {
+                      "ZoneName":  "NWAF",
+                      "FoXyKOTHZoneName":  "NWAF",
+                      "FlagPosition":  "4905.860352 338.039642 9430.402344",
+                      "SupplyBoxPosition":  "4900.854492 339.111450 9438.969727",
+                      "TerminalPosition":  "4887.859375 339.133698 9429.962891",
+                      "TerminalOrientation":  "61.615467 0.000000 0.000000",
+                      "MarkerPosition":  "4905.860352 338.039642 9430.402344",
+                      "Radius":  250
+                  },
+                  {
+                      "ZoneName":  "Tri-Kresta",
+                      "FoXyKOTHZoneName":  "Tri-Kresta",
+                      "FlagPosition":  "315.089233 295.005219 9339.625977",
+                      "SupplyBoxPosition":  "320.616364 295.614624 9348.886719",
+                      "TerminalPosition":  "313.451447 294.944000 9355.622070",
+                      "TerminalOrientation":  "117.000000 0.000000 0.000000",
+                      "MarkerPosition":  "315.089233 295.005219 9339.625977",
+                      "Radius":  250
+                  },
+                  {
+                      "ZoneName":  "YRAP",
+                      "FoXyKOTHZoneName":  "YRAP",
+                      "FlagPosition":  "1246.114502 173.139984 5848.398926",
+                      "SupplyBoxPosition":  "1257.412476 174.316772 5843.731934",
+                      "TerminalPosition":  "1236.362305 173.440796 5861.491699",
+                      "TerminalOrientation":  "135.045273 0.000000 0.000000",
+                      "MarkerPosition":  "1246.114502 173.139984 5848.398926",
+                      "Radius":  250
+                  },
+                  {
+                      "ZoneName":  "Gorka Military",
+                      "FoXyKOTHZoneName":  "Gorka Military",
+                      "FlagPosition":  "9707.442383 299.003113 8890.658203",
+                      "SupplyBoxPosition":  "9707.442383 299.003113 8890.658203",
+                      "TerminalPosition":  "9700.262695 299.153381 8879.391602",
+                      "TerminalOrientation":  "36.000004 0.000000 0.000000",
+                      "MarkerPosition":  "9707.442383 299.003113 8890.658203",
+                      "Radius":  250
+                  },
+                  {
+                      "ZoneName":  "Krasnostav Airfield",
+                      "FoXyKOTHZoneName":  "Krasnostav Airfield",
+                      "FlagPosition":  "12138.583984 140.082520 12658.378906",
+                      "SupplyBoxPosition":  "12138.583984 140.082520 12658.378906",
+                      "TerminalPosition":  "12141.327148 140.065903 12642.984375",
+                      "TerminalOrientation":  "18.000002 0.000000 0.000000",
+                      "MarkerPosition":  "12138.583984 140.082520 12658.378906",
+                      "Radius":  250
+                  },
+                  {
+                      "ZoneName":  "Pustoshka Military",
+                      "FoXyKOTHZoneName":  "Pustoshka Military",
+                      "FlagPosition":  "3630.406494 333.893066 6921.706543",
+                      "SupplyBoxPosition":  "3630.406494 333.893066 6921.706543",
+                      "TerminalPosition":  "3634.295410 333.873627 6927.422363",
+                      "TerminalOrientation":  "-135.000000 0.000000 0.000000",
+                      "MarkerPosition":  "3630.406494 333.893066 6921.706543",
+                      "Radius":  250
+                  }
+              ],
+    "EnableCaptureWaves":  1,
+    "UpgradeRewardContainerClassName":  "DeutschZ_SeaChest",
+    "UseExpansion3DMarker":  1
+}

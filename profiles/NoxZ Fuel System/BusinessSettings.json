@@ -1,0 +1,20 @@
+{
+    "Version":  206,
+    "EnableBusinessMode":  1,
+    "RentHours":  24.0,
+    "RentPrice":  100000,
+    "MaxPrepaidPeriods":  7,
+    "RentCurrencyClassname":  "NoxZ_Euro1",
+    "RevenueMultiplier":  2.0,
+    "ServerTaxPercent":  5,
+    "MinPricePerLiter":  1,
+    "MaxPricePerLiter":  500,
+    "DefaultPricePerLiter":  10,
+    "ExpiryWarningHours":  2,
+    "HistoryLimit":  25,
+    "EnableNotifications":  1,
+    "UpgradeCapacityPrice":  250000,
+    "UpgradeRegenPrice":  250000,
+    "UpgradeIncomePrice":  500000,
+    "MaxUpgradeLevel":  5
+}

@@ -1,0 +1,47 @@
+{
+    "m_Version":  13,
+    "DisplayName":  "DeutschZ Blackmarket - Weapons",
+    "MinRequiredReputation":  0,
+    "MaxRequiredReputation":  2147483647,
+    "RequiredFaction":  "",
+    "RequiredCompletedQuestID":  -1,
+    "TraderIcon":  "Rifle",
+    "Currencies":  [
+                       "NoxZ_Euro1",
+                       "NoxZ_Euro2",
+                       "NoxZ_Euro5",
+                       "NoxZ_Euro10",
+                       "NoxZ_Euro20",
+                       "NoxZ_Euro50",
+                       "NoxZ_Euro100",
+                       "NoxZ_Euro200",
+                       "NoxZ_Euro500"
+                   ],
+    "DisplayCurrencyValue":  1,
+    "DisplayCurrencyName":  "Euro",
+    "UseCategoryOrder":  0,
+    "Categories":  [
+                       "DeutschZ_Event_Weapons",
+                       "DeutschZ_SNAFU_Rifles",
+                       "DeutschZ_SNAFU_Pistols",
+                       "DeutschZ_SNAFU_Shotguns",
+                       "DeutschZ_SNAFU_SMGs",
+                       "DeutschZ_SNAFU_Attachments",
+                       "DeutschZ_SNAFU_Magazines",
+                       "Assault_Rifles",
+                       "Sniper_Rifles",
+                       "Submachine_Guns",
+                       "Shotguns",
+                       "Pistols",
+                       "Magazines",
+                       "Ammo",
+                       "Muzzles",
+                       "Optics",
+                       "Buttstocks",
+                       "Handguards",
+                       "Tools"
+                   ],
+    "Items":  {
+
+              }
+}

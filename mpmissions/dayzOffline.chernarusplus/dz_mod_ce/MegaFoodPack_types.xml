@@ -1,0 +1,2418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<types>
+  <type name="MFP_Starburst">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Smarties">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_GummyBears">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_GummyWorms1">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_SourPatch">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_SourPatchW">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_JollyRancher">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Swedish">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_SkittlesB">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Nerds">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Twizzlers">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Doritos">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_DoritosRanch">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Cheetos">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Lays">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_LaysBBQ">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_LaysSV">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Funyuns">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Fritos">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Takis">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Jerky_Peppered">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_Jerky_Original">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_Jerky_Teri">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_Jerky_Jalapeno">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_Popcorn">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Catfood">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ZombieMeat">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+  </type>
+  <type name="MFP_HumanMeat">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+  </type>
+  <type name="MFP_MRE1">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_MRE2">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_MRE3">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_MRE4">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_MRE5">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_MRE6">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_MRE7">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_Pepsi">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_PepsiMax">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_BajaBlast">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_LiveWire">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_CodeRed">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ClassicCoke">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_CokeZero">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_LaCroix">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_RootBeer">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_NitroBrew">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_BasicBeer">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_LiteBeer">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_IPABeer">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_TropicalBeer">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ZombieDrink">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HumanDrink">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_PizzaRolls">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_MuddyBuddy">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HotPocket">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_BagelBites">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ImpossibleNuggets">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Hersheys">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Butterfinger">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Twix">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Snickers">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ReesesCups">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_MilkyWay">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Oreos">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_NatureValley">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Nutella">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_PopTarts">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_CrunchBerries">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Cheerios">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_FruityPebbles">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_CocoaPebbles">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ReesesPuffs">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_CinnamonLife">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HoneyBunches">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_CheezIt">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_WheatThins">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Uncrustable1">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Uncrustable2">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_NutterButter">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Gushers">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_RiceKrispies">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_TomatoSoup">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_TomatoSoup_Opened">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_SpaghettiO">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_SpaghettiO_Opened">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ChefBoyardee">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ChefBoyardee_Opened">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_EnchiladaSoup">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_EnchiladaSoup_Opened">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Manwich">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Manwich_Opened">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_BlackBeans">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_BlackBeans_Opened">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ChiliBeans">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ChiliBeans_Opened">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Water1">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Water2">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_MtnDew">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_BegginStrips">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_DogTreats">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_VapoRub">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_AppleJacks">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_CookieCrisp">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Faygo1">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Faygo2">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Pilsner">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_DrPepper">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_OrangeSoda">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_V8Juice">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Guinness">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_DuffBeer">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_ReesesPieces">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_CoffeeBeans">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Pasta">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_Base">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_Stickers">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_XMen">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_Royal">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_Carmine">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_Solar">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_Coral">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_Lavender">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_Slate">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_Midnight">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Unidentified">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_MonsterEnergy">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_BLueRibbonBeer">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HappyDadLemonLime">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HappyDadWatermelon">
+    <nominal>7</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HappyDadPineapple">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HappyDadWildCherry">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Symphony">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_MRGoodBar">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Mounds">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HersheysCookies">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Crunch">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Take5">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Krakel">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_5thAvenue">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_100Grand">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_AlmondJoy">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_BabyRuth">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Mars">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Musketeers">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_PayDay">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Picnic">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Whatchamacallit">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Skittles1">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_MandM4">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_MandM3">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_MandM2">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_MandM1">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_CheetosFlaminHot">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_DoritosOrganic">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Jerky_Beyond">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="MFP_PopTarts2">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HotPocket2">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_HFlask_Lime">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_Starry">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_BudLight">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="MFP_BuschLight">
+    <nominal>8</nominal>
+    <lifetime>14400</lifetime>
+    <restock>900</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Village" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+</types>

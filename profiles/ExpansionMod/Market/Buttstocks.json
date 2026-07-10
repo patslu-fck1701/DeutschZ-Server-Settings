@@ -1,0 +1,311 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_BUTTSTOCKS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "mp5k_stockbttstck",
+            "MaxPriceThreshold": 2150,
+            "MinPriceThreshold": 1290,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fal_oebttstck",
+            "MaxPriceThreshold": 2840,
+            "MinPriceThreshold": 1705,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fal_foldingbttstck",
+            "MaxPriceThreshold": 2840,
+            "MinPriceThreshold": 1705,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "saiga_bttstck",
+            "MaxPriceThreshold": 2130,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "aks74u_bttstck",
+            "MaxPriceThreshold": 9915,
+            "MinPriceThreshold": 5950,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ak74_woodbttstck",
+            "MaxPriceThreshold": 2130,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ak_plasticbttstck",
+            "MaxPriceThreshold": 2130,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ak_woodbttstck",
+            "MaxPriceThreshold": 2130,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ak_foldingbttstck",
+            "MaxPriceThreshold": 2130,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "m4_oebttstck",
+            "MaxPriceThreshold": 2130,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "m4_mpbttstck",
+            "MaxPriceThreshold": 2130,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "m4_cqbbttstck",
+            "MaxPriceThreshold": 2130,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "pp19_bttstck",
+            "MaxPriceThreshold": 2150,
+            "MinPriceThreshold": 1290,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ghillieatt_tan",
+            "MaxPriceThreshold": 4390,
+            "MinPriceThreshold": 2630,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ghillieatt_woodland",
+                "ghillieatt_mossy",
+                "ghillieatt_winter"
+            ]
+        },
+        {
+            "ClassName": "SA58_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_AK_AR_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_AK19_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_M4SS_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_MK47_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_MOE_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_PRSGen3_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_SADAR_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_SBA_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_SCQR_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_UBR_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_WSR3Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFUDSASA58_Stock",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 3,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

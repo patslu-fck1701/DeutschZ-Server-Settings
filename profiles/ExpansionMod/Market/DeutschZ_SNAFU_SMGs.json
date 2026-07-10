@@ -1,0 +1,265 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ SNAFU SMGs",
+    "Icon":  "Submachinegun",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  75,
+    "Items":  [
+                  {
+                      "ClassName":  "GCGN_MP7",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GCGN_Vityaz",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFU_Agram_GUN",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFU_MP9_GUN",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFU_MPX_GUN",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFU_PDW_45ACP",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFU_PDW_9mm",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFUKH9",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFUP90",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFUPPSh",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFUPPSKN",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFUSR3_Vikhr",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFUSten",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFUUzi",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFUVECTOR_45acp_GUN",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SNAFUVECTOR_9mm_GUN",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "SR3_Vikhr_Gun",
+                      "MaxPriceThreshold":  26000,
+                      "MinPriceThreshold":  18200,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  60,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

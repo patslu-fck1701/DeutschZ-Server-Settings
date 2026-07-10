@@ -1,0 +1,1180 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ MVS Clothing",
+    "Icon":  "Tshirt",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  75,
+    "Items":  [
+                  {
+                      "ClassName":  "MVS_Balaclava_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava_OD",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava_Snow",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava_Tan",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava_Wraith",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_BoonieHat",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_BoonieHat_Multicam",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_BoonieHat_Multicam_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_BoonieHat_Multicam_Tropic",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_BoonieHat_Snow",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_ERDL",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_Multicam",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_Multicam_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_Multicam_Tropic",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_OD",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_Snow",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_Tan",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatShirt_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatShirt_ERDL",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatShirt_Multicam",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatShirt_Multicam_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatShirt_Multicam_Tropic",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatShirt_OD",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatShirt_Snow",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatShirt_Tan",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CountryFlag_CapeVerde",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Facemask_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Facemask_OD",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Facemask_Snow",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Facemask_Tan",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_FlatCap",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_FlatCap_Multicam",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_FlatCap_Multicam_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_FlatCap_Multicam_Tropic",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_FlatCap_Snow",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaJacket",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaJacket_Multicam",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaJacket_Multicam_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaJacket_Multicam_Tropic",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaJacket_Snow",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaPants",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaPants_Multicam",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaPants_Multicam_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaPants_Multicam_Tropic",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaPants_Snow",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Pants_BDU",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Pants_BDU_Snow",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Shirt_BDU",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Shirt_BDU_Multicam",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Shirt_BDU_Multicam_Black",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Shirt_BDU_Multicam_Tropic",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Shirt_BDU_Snow",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava2_Digital",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava2_GRCamo",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava2_Pink",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava2_RT",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava2_UrbHex",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava2_UrbWhite",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava_Digital",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava_GRCamo",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava_Pink",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava_RT",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava_UrbHex",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Balaclava_UrbWhite",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_Digital",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_UrbHex",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_CombatPants_UrbWhite",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Facemask_Digital",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Facemask_GRCamo",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Facemask_Pink",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Facemask_RT",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Facemask_UrbHex",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Facemask_UrbWhite",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaJacket_Digital",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaJacket_UrbHex",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_GorkaJacket_UrbWhite",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MVS_Molle_Panel_GrCamo",
+                      "MaxPriceThreshold":  12000,
+                      "MinPriceThreshold":  8400,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  120,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

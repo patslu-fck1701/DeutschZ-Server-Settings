@@ -1,0 +1,2155 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ Food",
+    "Icon":  "Deliver",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  75,
+    "Items":  [
+                  {
+                      "ClassName":  "MFP_Starburst",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Smarties",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_GummyBears",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_GummyWorms1",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_SourPatch",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_SourPatchW",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_JollyRancher",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Swedish",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_SkittlesB",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Nerds",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Twizzlers",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Doritos",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_DoritosRanch",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Cheetos",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Lays",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_LaysBBQ",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_LaysSV",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Funyuns",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Fritos",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Takis",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Jerky_Peppered",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Jerky_Original",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Jerky_Teri",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Jerky_Jalapeno",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Popcorn",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Catfood",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ZombieMeat",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HumanMeat",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MRE1",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MRE2",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MRE3",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MRE4",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MRE5",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MRE6",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MRE7",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Pepsi",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_PepsiMax",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_BajaBlast",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_LiveWire",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_CodeRed",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ClassicCoke",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_CokeZero",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_LaCroix",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_NitroBrew",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_PizzaRolls",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MuddyBuddy",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HotPocket",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_BagelBites",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ImpossibleNuggets",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Hersheys",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Butterfinger",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Twix",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Snickers",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ReesesCups",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Oreos",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_NatureValley",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Nutella",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_PopTarts",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_CrunchBerries",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Cheerios",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_FruityPebbles",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_CocoaPebbles",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ReesesPuffs",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_CinnamonLife",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HoneyBunches",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_CheezIt",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_WheatThins",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Uncrustable1",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Uncrustable2",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_NutterButter",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Gushers",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_RiceKrispies",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_TomatoSoup",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_TomatoSoup_Opened",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_SpaghettiO",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_SpaghettiO_Opened",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ChefBoyardee",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ChefBoyardee_Opened",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_EnchiladaSoup",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_EnchiladaSoup_Opened",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Manwich",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Manwich_Opened",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_BlackBeans",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_BlackBeans_Opened",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ChiliBeans",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ChiliBeans_Opened",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MtnDew",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_BegginStrips",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_DogTreats",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_VapoRub",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_AppleJacks",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_CookieCrisp",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Faygo1",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Faygo2",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Pilsner",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_DrPepper",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Guinness",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ReesesPieces",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Pasta",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_Base",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_Stickers",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_XMen",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_Royal",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_Carmine",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_Solar",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_Coral",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_Lavender",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_Slate",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_Midnight",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Unidentified",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HappyDadLemonLime",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HappyDadPineapple",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HappyDadWildCherry",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Symphony",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MRGoodBar",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Mounds",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HersheysCookies",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Crunch",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Take5",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Krakel",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_5thAvenue",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_100Grand",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_AlmondJoy",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_BabyRuth",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Mars",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Musketeers",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_PayDay",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Picnic",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Whatchamacallit",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Skittles1",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MandM4",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MandM3",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MandM2",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MandM1",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_CheetosFlaminHot",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_DoritosOrganic",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Jerky_Beyond",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_PopTarts2",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HotPocket2",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HFlask_Lime",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Starry",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_BudLight",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_BuschLight",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

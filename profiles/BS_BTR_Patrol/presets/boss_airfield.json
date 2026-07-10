@@ -1,0 +1,632 @@
+{
+    "Difficulty":  "boss",
+    "Settings":  {
+                     "Event":  {
+                                   "BTRClassName":  "BS_BTR_Patrol_Camo2",
+                                   "WreckClassName":  "BS_BTR_Wreck",
+                                   "MinPlayersToSpawn":  1,
+                                   "SpawnCheckInterval":  60,
+                                   "RespawnDelay":  1200,
+                                   "PatrolDuration":  3600,
+                                   "WreckLifetime":  900
+                               },
+                     "Health":  {
+                                    "MaxHealth":  2500,
+                                    "ArmorMultiplier":  0.65,
+                                    "BulletDamageMultiplier":  0.35,
+                                    "ExplosionRadius":  10,
+                                    "DeathExplosionAmmo":  "Explosion_40mm_Ammo"
+                                },
+                     "Movement":  {
+                                      "PatrolSpeed":  4,
+                                      "CombatSpeed":  3,
+                                      "MaxSpeed":  6,
+                                      "Acceleration":  2,
+                                      "Deceleration":  4,
+                                      "TerrainSampleDistance":  15.0,
+                                      "MaxSlopeAngle":  35.0,
+                                      "EnableObstacleAvoidance":  0,
+                                      "ObstacleCheckDistance":  20.0,
+                                      "WaypointReachDistance":  18,
+                                      "PlowThroughVegetation":  0,
+                                      "CrushEntities":  0,
+                                      "CrushMinSpeed":  3.5
+                                  },
+                     "Turret":  {
+                                    "YawSpeed":  60.0,
+                                    "PitchSpeed":  40.0,
+                                    "MaxYaw":  180.0,
+                                    "MaxPitch":  90.0,
+                                    "MinPitch":  -10.0,
+                                    "FireCooldown":  0.65,
+                                    "Accuracy":  0.25,
+                                    "MissAngle":  6,
+                                    "MaxRange":  220,
+                                    "AmmoClass":  "Bullet_762x39",
+                                    "DamageMultiplier":  0.8,
+                                    "BurstSize":  4,
+                                    "ReloadTime":  4.5,
+                                    "StopToShoot":  1,
+                                    "CannonExplosionAmmo":  "Explosion_40mm_Ammo",
+                                    "FellTreesRadius":  3
+                                },
+                     "Grenade":  {
+                                     "Enabled":  0,
+                                     "Cooldown":  2.0,
+                                     "Range":  150.0,
+                                     "MinRange":  30.0,
+                                     "Speed":  700,
+                                     "ExplosionAmmo":  "Explosion_40mm_Ammo",
+                                     "FellTreesRadius":  6.0
+                                 },
+                     "Combat":  {
+                                    "DetectionRadius":  160,
+                                    "EngageRadius":  140,
+                                    "DisengageRadius":  180,
+                                    "LostSightTimeout":  10,
+                                    "OrbitRadius":  35,
+                                    "OrbitSpeed":  2,
+                                    "AggroWhilePatrolling":  1,
+                                    "PatrolAggroRange":  90,
+                                    "PatrolScanInterval":  2,
+                                    "EnableSuppression":  0,
+                                    "SuppressionSpread":  4,
+                                    "SuppressionDuration":  2,
+                                    "ChasePlayers":  0,
+                                    "CloseRangeAutoLOS":  0.0,
+                                    "IgnoreGodmodePlayers":  1
+                                },
+                     "Markers":  {
+                                     "EnableMapMarker":  1,
+                                     "Enable3DMarker":  1,
+                                     "Enable2DMarker":  1,
+                                     "Name":  "Hostile BTR-82A",
+                                     "IconName":  "BTR BS",
+                                     "IconPath":  "BTR_82A/icon/iconbtr.paa"
+                                 },
+                     "Notifications":  {
+                                           "Enable":  1,
+                                           "Title":  "#STR_BS_BTR_notif_title",
+                                           "SpawnMsg":  "#STR_BS_BTR_spawn",
+                                           "DestroyedMsg":  "#STR_BS_BTR_destroyed",
+                                           "DespawnMsg":  "#STR_BS_BTR_despawn",
+                                           "Icon":  "BTR_82A/icon/iconbtr.paa",
+                                           "EnablePlayerKilled":  1,
+                                           "ShowVictimName":  1,
+                                           "PlayerKilledMsg":  "#STR_BS_BTR_player_killed",
+                                           "PlayerKilledNoNameMsg":  "#STR_BS_BTR_player_killed_anon",
+                                           "ShowKillerName":  1,
+                                           "DestroyedByMsg":  "#STR_BS_BTR_destroyed_by"
+                                       },
+                     "Effects":  {
+                                     "EnableWheelDust":  1
+                                 },
+                     "Loot":  {
+                                  "UseCrateLoot":  1,
+                                  "CrateBurningTimeMin":  20,
+                                  "CrateBurningTimeMax":  40,
+                                  "CrateSpawnRadiusMin":  5.0,
+                                  "CrateSpawnRadiusMax":  8.0,
+                                  "CratesMin":  1,
+                                  "CratesMax":  2,
+                                  "CrateClasses":  [
+                                                       "BS_Tank_Box1",
+                                                       "BS_Tank_Box2_Black"
+                                                   ],
+                                  "LootCategories":  {
+                                                         "Weapons":  {
+                                                                         "Min":  1,
+                                                                         "Max":  2,
+                                                                         "Items":  [
+                                                                                       {
+                                                                                           "LootClass":  "AKM",
+                                                                                           "LootAttachments":  [
+                                                                                                                   "Mag_AKM_30Rnd",
+                                                                                                                   "AK_WoodBttstck",
+                                                                                                                   "AK_WoodHndgrd"
+                                                                                                               ],
+                                                                                           "SpawnChance":  1.0
+                                                                                       },
+                                                                                       {
+                                                                                           "LootClass":  "SVD",
+                                                                                           "LootAttachments":  [
+                                                                                                                   "Mag_SVD_10Rnd",
+                                                                                                                   "PSO1Optic"
+                                                                                                               ],
+                                                                                           "SpawnChance":  0.4000000059604645
+                                                                                       }
+                                                                                   ]
+                                                                     },
+                                                         "Ammo":  {
+                                                                      "Min":  2,
+                                                                      "Max":  4,
+                                                                      "Items":  [
+                                                                                    {
+                                                                                        "LootClass":  "Ammo_762x39",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1.0
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "Mag_AKM_Drum75Rnd",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  0.5
+                                                                                    }
+                                                                                ]
+                                                                  },
+                                                         "Medical":  {
+                                                                         "Min":  2,
+                                                                         "Max":  4,
+                                                                         "Items":  [
+                                                                                       {
+                                                                                           "LootClass":  "BandageDressing",
+                                                                                           "LootAttachments":  [
+
+                                                                                                               ],
+                                                                                           "SpawnChance":  1.0
+                                                                                       },
+                                                                                       {
+                                                                                           "LootClass":  "Morphine",
+                                                                                           "LootAttachments":  [
+
+                                                                                                               ],
+                                                                                           "SpawnChance":  1.0
+                                                                                       },
+                                                                                       {
+                                                                                           "LootClass":  "SalineBagIV",
+                                                                                           "LootAttachments":  [
+
+                                                                                                               ],
+                                                                                           "SpawnChance":  0.699999988079071
+                                                                                       }
+                                                                                   ]
+                                                                     },
+                                                         "Gear":  {
+                                                                      "Min":  1,
+                                                                      "Max":  2,
+                                                                      "Items":  [
+                                                                                    {
+                                                                                        "LootClass":  "PlateCarrierVest",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1.0
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "NVGoggles",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  0.3499999940395355
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "Mich2001Helmet",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1.0
+                                                                                    }
+                                                                                ]
+                                                                  }
+                                                     },
+                                  "LootCrates":  [
+                                                     {
+                                                         "ClassName":  "BS_Tank_Box1",
+                                                         "LBPresetName":  "",
+                                                         "Presets":  [
+                                                                         "Weapons",
+                                                                         "Ammo"
+                                                                     ]
+                                                     },
+                                                     {
+                                                         "ClassName":  "BS_Tank_Box2_Black",
+                                                         "LBPresetName":  "",
+                                                         "Presets":  [
+                                                                         "Medical",
+                                                                         "Gear"
+                                                                     ]
+                                                     }
+                                                 ],
+                                  "DeathLoot":  [
+                                                    {
+                                                        "ClassName":  "AKM",
+                                                        "Quantity":  1,
+                                                        "SpawnChance":  0.800000011920929
+                                                    },
+                                                    {
+                                                        "ClassName":  "Mag_AKM_30Rnd",
+                                                        "Quantity":  3,
+                                                        "SpawnChance":  1.0
+                                                    },
+                                                    {
+                                                        "ClassName":  "Ammo_762x39",
+                                                        "Quantity":  2,
+                                                        "SpawnChance":  0.8999999761581421
+                                                    },
+                                                    {
+                                                        "ClassName":  "PlateCarrierVest",
+                                                        "Quantity":  1,
+                                                        "SpawnChance":  0.5
+                                                    },
+                                                    {
+                                                        "ClassName":  "NVGoggles",
+                                                        "Quantity":  1,
+                                                        "SpawnChance":  0.30000001192092898
+                                                    },
+                                                    {
+                                                        "ClassName":  "Canteen",
+                                                        "Quantity":  1,
+                                                        "SpawnChance":  0.699999988079071
+                                                    },
+                                                    {
+                                                        "ClassName":  "BandageDressing",
+                                                        "Quantity":  3,
+                                                        "SpawnChance":  0.800000011920929
+                                                    }
+                                                ]
+                              },
+                     "Defenders":  {
+                                       "EnableDefenders":  0,
+                                       "DespawnRadius":  1200.0,
+                                       "DespawnCheckInterval":  60.0,
+                                       "Defenders":  [
+
+                                                     ]
+                                   }
+                 },
+    "PatrolRoutes":  [
+                         {
+                             "RouteName":  "DeutschZ_BS_Patrol_Tank_TisyRoute",
+                             "Waypoints":  [
+                                               [
+                                                   1433.786499,
+                                                   447.081635,
+                                                   13675.705078
+                                               ],
+                                               [
+                                                   1452.392822,
+                                                   446.539703,
+                                                   13682.182617
+                                               ],
+                                               [
+                                                   1490.623901,
+                                                   443.424011,
+                                                   13671.916992
+                                               ],
+                                               [
+                                                   1534.73999,
+                                                   440.940887,
+                                                   13647.722656
+                                               ],
+                                               [
+                                                   1565.77002,
+                                                   441.567902,
+                                                   13644.65918
+                                               ],
+                                               [
+                                                   1586.476563,
+                                                   439.395172,
+                                                   13609.524414
+                                               ],
+                                               [
+                                                   1605.328979,
+                                                   437.610199,
+                                                   13591.448242
+                                               ],
+                                               [
+                                                   1616.277466,
+                                                   437.575562,
+                                                   13582.835938
+                                               ],
+                                               [
+                                                   1627.953125,
+                                                   437.572327,
+                                                   13585.929688
+                                               ],
+                                               [
+                                                   1641.580566,
+                                                   437.525391,
+                                                   13592.487305
+                                               ],
+                                               [
+                                                   1650.498901,
+                                                   436.828308,
+                                                   13596.445313
+                                               ],
+                                               [
+                                                   1660.636475,
+                                                   435.854431,
+                                                   13599.800781
+                                               ],
+                                               [
+                                                   1669.80835,
+                                                   435.21756,
+                                                   13607.317383
+                                               ],
+                                               [
+                                                   1687.911255,
+                                                   433.667419,
+                                                   13616.819336
+                                               ],
+                                               [
+                                                   1746.938965,
+                                                   434.098145,
+                                                   13654.96875
+                                               ],
+                                               [
+                                                   1763.092651,
+                                                   434.713226,
+                                                   13669.686523
+                                               ],
+                                               [
+                                                   1780.641724,
+                                                   436.312439,
+                                                   13722.18457
+                                               ],
+                                               [
+                                                   1800.814209,
+                                                   436.207184,
+                                                   13791.546875
+                                               ],
+                                               [
+                                                   1802.602661,
+                                                   436.467621,
+                                                   13806.245117
+                                               ],
+                                               [
+                                                   1788.704224,
+                                                   439.252777,
+                                                   13835.652344
+                                               ],
+                                               [
+                                                   1767.68042,
+                                                   443.431702,
+                                                   13881.47168
+                                               ],
+                                               [
+                                                   1735.252197,
+                                                   447.659729,
+                                                   13940.958008
+                                               ],
+                                               [
+                                                   1718.99707,
+                                                   448.32428,
+                                                   13946.239258
+                                               ],
+                                               [
+                                                   1700.510986,
+                                                   448.641357,
+                                                   13942.141602
+                                               ],
+                                               [
+                                                   1693.030151,
+                                                   448.500244,
+                                                   13923.005859
+                                               ],
+                                               [
+                                                   1690.616089,
+                                                   447.996277,
+                                                   13912.205078
+                                               ],
+                                               [
+                                                   1708.55896,
+                                                   447.011475,
+                                                   13898.826172
+                                               ],
+                                               [
+                                                   1741.902344,
+                                                   444.679779,
+                                                   13875.143555
+                                               ],
+                                               [
+                                                   1772.380249,
+                                                   442.282806,
+                                                   13859.041992
+                                               ],
+                                               [
+                                                   1794.166626,
+                                                   437.962158,
+                                                   13823.450195
+                                               ],
+                                               [
+                                                   1806.234009,
+                                                   436.439484,
+                                                   13811.220703
+                                               ],
+                                               [
+                                                   1820.54248,
+                                                   435.604095,
+                                                   13812.330078
+                                               ],
+                                               [
+                                                   1852.921265,
+                                                   434.800446,
+                                                   13819.085938
+                                               ],
+                                               [
+                                                   1884.947998,
+                                                   434.913147,
+                                                   13820.18457
+                                               ],
+                                               [
+                                                   1987.070435,
+                                                   433.977112,
+                                                   13801.853516
+                                               ],
+                                               [
+                                                   2058.702148,
+                                                   423.697906,
+                                                   13795.8125
+                                               ],
+                                               [
+                                                   2115.305176,
+                                                   412.062225,
+                                                   13765.380859
+                                               ],
+                                               [
+                                                   2136.257813,
+                                                   406.722351,
+                                                   13746.03125
+                                               ],
+                                               [
+                                                   2140.298828,
+                                                   405.595917,
+                                                   13734.211914
+                                               ],
+                                               [
+                                                   2146.069336,
+                                                   404.190704,
+                                                   13729.049805
+                                               ],
+                                               [
+                                                   2155.825439,
+                                                   402.567017,
+                                                   13728.243164
+                                               ],
+                                               [
+                                                   2173.45752,
+                                                   397.835815,
+                                                   13706.951172
+                                               ],
+                                               [
+                                                   2201.036377,
+                                                   389.034454,
+                                                   13673.31543
+                                               ],
+                                               [
+                                                   2252.220459,
+                                                   372.636993,
+                                                   13644.887695
+                                               ],
+                                               [
+                                                   2272.989502,
+                                                   369.258545,
+                                                   13635.738281
+                                               ],
+                                               [
+                                                   2304.934326,
+                                                   363.476746,
+                                                   13654.24707
+                                               ],
+                                               [
+                                                   2333.658691,
+                                                   359.220581,
+                                                   13705.124023
+                                               ],
+                                               [
+                                                   2369.444336,
+                                                   353.078186,
+                                                   13798.119141
+                                               ],
+                                               [
+                                                   2374.025879,
+                                                   356.370514,
+                                                   13844.552734
+                                               ],
+                                               [
+                                                   2416.098389,
+                                                   349.910095,
+                                                   13917.876953
+                                               ],
+                                               [
+                                                   2411.778076,
+                                                   358.611694,
+                                                   13975.975586
+                                               ],
+                                               [
+                                                   2370.514893,
+                                                   371.021423,
+                                                   14086.862305
+                                               ],
+                                               [
+                                                   2349.952881,
+                                                   370.030029,
+                                                   14149.321289
+                                               ],
+                                               [
+                                                   2263.60791,
+                                                   383.132751,
+                                                   14190.518555
+                                               ],
+                                               [
+                                                   2199.941895,
+                                                   389.971954,
+                                                   14205.436523
+                                               ],
+                                               [
+                                                   2187.921143,
+                                                   391.6315,
+                                                   14196.072266
+                                               ],
+                                               [
+                                                   2186.372803,
+                                                   394.756805,
+                                                   14168.594727
+                                               ],
+                                               [
+                                                   2207.386719,
+                                                   400.239502,
+                                                   14078.25293
+                                               ],
+                                               [
+                                                   2193.221924,
+                                                   403.8414,
+                                                   14040.019531
+                                               ],
+                                               [
+                                                   2093.553955,
+                                                   414.10968,
+                                                   14005.446289
+                                               ],
+                                               [
+                                                   1982.621826,
+                                                   420.2883,
+                                                   14032.34375
+                                               ],
+                                               [
+                                                   1954.728027,
+                                                   421.728821,
+                                                   14047.234375
+                                               ],
+                                               [
+                                                   1927.620728,
+                                                   424.07135,
+                                                   14061.018555
+                                               ],
+                                               [
+                                                   1890.528931,
+                                                   427.212769,
+                                                   14084.438477
+                                               ],
+                                               [
+                                                   1847.877075,
+                                                   440.165527,
+                                                   14153.525391
+                                               ],
+                                               [
+                                                   1796.501709,
+                                                   450.45047,
+                                                   14252.952148
+                                               ],
+                                               [
+                                                   1790.099243,
+                                                   450.640594,
+                                                   14260.97168
+                                               ],
+                                               [
+                                                   1773.726807,
+                                                   452.1203,
+                                                   14305.025391
+                                               ],
+                                               [
+                                                   1748.92041,
+                                                   452.125488,
+                                                   14306.78418
+                                               ]
+                                           ]
+                         }
+                     ]
+}

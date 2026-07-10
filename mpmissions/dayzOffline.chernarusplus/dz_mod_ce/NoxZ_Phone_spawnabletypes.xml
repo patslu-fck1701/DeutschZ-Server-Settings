@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spawnabletypes>
+  <type name="NoxZ_Phone_Device">
+        <attachments chance="1.00">
+            <item name="NoxZ_PowerBank" chance="1.00" />
+        </attachments>
+    </type>
+  <type name="NoxZ_Phone_Device_IPhone17">
+        <attachments chance="1.00">
+            <item name="NoxZ_PowerBank" chance="1.00" />
+        </attachments>
+    </type>
+  <type name="NoxZ_Phone_Device_S25Ultra">
+        <attachments chance="1.00">
+            <item name="NoxZ_PowerBank" chance="1.00" />
+        </attachments>
+    </type>
+</spawnabletypes>

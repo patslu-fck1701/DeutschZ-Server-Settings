@@ -1,0 +1,265 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ Drinks",
+    "Icon":  "Water",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  75,
+    "Items":  [
+                  {
+                      "ClassName":  "MFP_RootBeer",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_BasicBeer",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_LiteBeer",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_IPABeer",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_TropicalBeer",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_ZombieDrink",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HumanDrink",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MilkyWay",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Water1",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_Water2",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_OrangeSoda",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_V8Juice",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_DuffBeer",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_CoffeeBeans",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_MonsterEnergy",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_BLueRibbonBeer",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MFP_HappyDadWatermelon",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  630,
+                      "SellPricePercent":  5,
+                      "MaxStockThreshold":  180,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

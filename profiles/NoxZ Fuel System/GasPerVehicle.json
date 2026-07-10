@@ -1,0 +1,16 @@
+{
+    "Vehicles": [
+        {
+            "Classname": "Sedan_02",
+            "ConsumptionMultiplier": 1.0
+        },
+        {
+            "Classname": "Sedan_02_Grey",
+            "ConsumptionMultiplier": 1.0
+        },
+        {
+            "Classname": "Sedan_02_Red",
+            "ConsumptionMultiplier": 1.0
+        }
+    ]
+}
