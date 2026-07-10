@@ -1,0 +1,35 @@
+name: Änderung anfordern
+description: Neue oder geänderte Servereinstellung planen
+title: "config: "
+labels: ["configuration"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Ziel
+      description: Welche Einstellung soll geändert werden und welches Ergebnis wird erwartet?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Umfang
+      description: Betroffene Systeme, Mods und Umgebungen.
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: Abnahmetest
+      description: Wie wird eindeutig geprüft, dass die Änderung funktioniert?
+    validations:
+      required: true
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Auswirkung
+      options:
+        - label: LiveServer betroffen
+        - label: Restart erforderlich
+        - label: Wipe möglicherweise erforderlich
+        - label: Mod-Ladereihenfolge betroffen

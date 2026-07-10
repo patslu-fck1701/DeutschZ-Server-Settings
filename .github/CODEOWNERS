@@ -1,0 +1,8 @@
+# Standard-Eigentümer für alle Repository-Inhalte
+* @patslu-fck1701
+
+# Kritische Regeln und Live-Einstellungen
+/.github/ @patslu-fck1701
+/settings/live/ @patslu-fck1701
+/SECURITY.md @patslu-fck1701
+/.gitignore @patslu-fck1701

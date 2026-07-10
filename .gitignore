@@ -1,0 +1,177 @@
+# ============================================================
+# DeutschZ Server Settings
+# Nur eigene, bereinigte Settings und Dokumentation versionieren
+# ============================================================
+
+# --- Geheimnisse und lokale Umgebungen ---
+.env
+.env.*
+!.env.example
+!*.env.example
+*.secret
+*.secrets
+secrets/
+credentials/
+private/
+*.pem
+*.pfx
+*.p12
+*.key
+*.biprivatekey
+steam_credentials*
+credentials*
+*token*
+*password*
+*webhook*
+
+# Lokale Varianten mit echten Werten
+*.local
+*.local.*
+*.private
+*.private.*
+settings/**/secrets.*
+settings/**/private.*
+settings/**/credentials.*
+
+# --- DayZ/DayZServer Programme und Vanilla-Dateien ---
+DayZServer_x64.exe
+DayZServer_BE.exe
+DayZDiag_x64.exe
+DayZ_x64.exe
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.bin
+*.ebo
+*.wrp
+
+# Gepackte Mods, Signaturen und Schlüssel
+*.pbo
+*.bisign
+*.bikey
+*.biprivatekey
+
+# Fremde Mods, Steam und Workshop
+steamapps/
+Steam/
+SteamCMD/
+steamcmd/
+Workshop/
+!Workshop/README.md
+@*/
+!@README.md
+
+# Vollständige Spiel-/Server-Verzeichnisse
+addons/
+dta/
+keys/
+battleye/
+BattlEye/
+bliss/
+missions/
+mpmissions/
+server_data/
+serverfiles/
+DayZServer/
+
+# --- Laufzeitdaten ---
+profiles/
+profile/
+config/Users/
+storage_*/
+players.db
+*.db
+*.sqlite
+*.sqlite3
+logs/
+log/
+crashlogs/
+crash_dumps/
+*.log
+*.rpt
+*.ADM
+*.mdmp
+*.bidmp
+*.dmp
+script_*.log
+console_*.log
+
+# --- Backups, Exporte und Archive ---
+backup/
+backups/
+archive/
+archives/
+exports/
+export/
+releases/
+release/
+build/
+dist/
+out/
+output/
+temp/
+tmp/
+cache/
+*.bak
+*.old
+*.orig
+*.tmp
+*.temp
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# --- Große Binär- und Medien-Dateien ---
+*.paa
+*.edds
+*.tga
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.p3d
+*.rvmat
+*.wav
+*.ogg
+*.mp3
+*.mp4
+*.avi
+*.mov
+
+# --- Betriebssystem und Editoren ---
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.code-workspace
+
+# --- Tools / Agenten / lokale Arbeitsordner ---
+CodexChanged/
+CodexOutput/
+agent_output/
+scratch/
+work/
+worktree/
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Ausnahme: versionierbare Vorlagen ---
+!templates/**/*.example
+!templates/**/*.example.*
+!settings/**/*.example
+!settings/**/*.example.*

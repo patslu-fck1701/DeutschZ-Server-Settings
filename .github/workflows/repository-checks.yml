@@ -1,0 +1,116 @@
+name: Repository Checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Verbotene Dateien prüfen
+        shell: bash
+        run: |
+          set -euo pipefail
+          forbidden_regex='\.(exe|dll|pbo|bisign|bikey|biprivatekey|ebo|wrp|p3d|paa|edds|rpt|adm|mdmp|bidmp|db|sqlite|sqlite3|zip|rar|7z)$'
+          matches="$(git ls-files | grep -Ei "$forbidden_regex" || true)"
+          if [ -n "$matches" ]; then
+            echo "Verbotene Dateien im Repository:"
+            echo "$matches"
+            exit 1
+          fi
+
+      - name: Verbotene Verzeichnisse prüfen
+        shell: bash
+        run: |
+          set -euo pipefail
+          matches="$(git ls-files | grep -Ei '(^|/)(steamapps|workshop|profiles|storage_[^/]*|mpmissions|addons|keys|battleye)/' || true)"
+          if [ -n "$matches" ]; then
+            echo "Verbotene Server-/Laufzeitverzeichnisse im Repository:"
+            echo "$matches"
+            exit 1
+          fi
+
+      - name: Dateigröße prüfen
+        shell: bash
+        run: |
+          set -euo pipefail
+          too_large=0
+          while IFS= read -r file; do
+            [ -f "$file" ] || continue
+            size=$(stat -c%s "$file")
+            if [ "$size" -gt 5242880 ]; then
+              echo "Datei größer als 5 MiB: $file ($size Bytes)"
+              too_large=1
+            fi
+          done < <(git ls-files)
+          exit "$too_large"
+
+      - name: JSON und XML validieren
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import subprocess
+          import sys
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          files = subprocess.check_output(["git", "ls-files"], text=True).splitlines()
+          failed = False
+          for name in files:
+              path = Path(name)
+              if path.suffix.lower() == ".json":
+                  try:
+                      json.loads(path.read_text(encoding="utf-8-sig"))
+                  except Exception as exc:
+                      print(f"Ungültiges JSON: {path}: {exc}")
+                      failed = True
+              elif path.suffix.lower() == ".xml":
+                  try:
+                      ET.parse(path)
+                  except Exception as exc:
+                      print(f"Ungültiges XML: {path}: {exc}")
+                      failed = True
+          sys.exit(1 if failed else 0)
+          PY
+
+      - name: Verdächtige Geheimnisse prüfen
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          pattern = re.compile(
+              r"(?i)(password|passwd|secret|token|webhook|api[_-]?key)"
+              r"\s*[:=]\s*[\"']?(?!<)([^\s\"']{8,})"
+          )
+          ignored = {
+              ".github/workflows/repository-checks.yml",
+          }
+          failed = False
+          files = subprocess.check_output(["git", "ls-files"], text=True).splitlines()
+          for name in files:
+              path = Path(name)
+              lower = name.lower()
+              if name in ignored or lower.endswith(".md") or ".example" in lower:
+                  continue
+              try:
+                  text = path.read_text(encoding="utf-8-sig")
+              except (UnicodeDecodeError, OSError):
+                  continue
+              for line_no, line in enumerate(text.splitlines(), 1):
+                  if pattern.search(line):
+                      print(f"Mögliches Geheimnis: {name}:{line_no}")
+                      failed = True
+          sys.exit(1 if failed else 0)
+          PY

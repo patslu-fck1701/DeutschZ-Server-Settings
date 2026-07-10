@@ -1,0 +1,42 @@
+name: Fehler melden
+description: Fehler in einer dokumentierten oder versionierten Servereinstellung melden
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Fehlerbild
+      description: Was passiert und was sollte stattdessen passieren?
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Betroffene Settings
+      description: Pfade und Dateinamen ohne geheime Werte angeben.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevante Logauszüge
+      description: Zugangsdaten, Spieler-IDs und private Daten entfernen.
+      render: shell
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Umgebung
+      options:
+        - Local
+        - DayZ Labs
+        - Live
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Sicherheitsprüfung
+      options:
+        - label: Ich habe Passwörter, Tokens und private Daten entfernt.
+          required: true
