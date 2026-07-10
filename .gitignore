@@ -260,6 +260,7 @@ profiles/NoxZ_Phone/data/
 profiles/NoxZ_Phone/garage/GarageData.json
 profiles/NoxZ_Phone/kits/KitsData.json
 profiles/NoxZ_Phone/marketplace/data/
+profiles/NoxZ_Phone/notes/
 
 # Letzte Sicherheitsbremse nach den Unignore-Regeln.
 *.bak*
