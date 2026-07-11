@@ -78,57 +78,5 @@
                            "Value":  500
                        }
                    ],
-    "ATMs":  [
-                 {
-                     "ID":  "atm_green_mountain_01",
-                     "DisplayName":  "Phone ATM Green Mountain 1",
-                     "Position":  [
-                                      3708.102051,
-                                      402.980347,
-                                      5959.185547
-                                  ],
-                     "Orientation":  [
-                                         162.440445,
-                                         0,
-                                         0
-                                     ],
-                     "WithdrawTax":  200,
-                     "DepositTax":  200,
-                     "Enabled":  1
-                 },
-                 {
-                     "ID":  "atm_green_mountain_02",
-                     "DisplayName":  "Phone ATM Green Mountain 2",
-                     "Position":  [
-                                      3706.087158,
-                                      402.322876,
-                                      6003.259766
-                                  ],
-                     "Orientation":  [
-                                         154.170258,
-                                         0,
-                                         0
-                                     ],
-                     "WithdrawTax":  200,
-                     "DepositTax":  200,
-                     "Enabled":  1
-                 },
-                 {
-                     "ID":  "atm_kamenka_blackmarket_01",
-                     "DisplayName":  "Phone ATM Kamenka Blackmarket",
-                     "Position":  [
-                                      1133.584473,
-                                      5.857156,
-                                      2418.12915
-                                  ],
-                     "Orientation":  [
-                                         -114.936584,
-                                         0.0,
-                                         0.0
-                                     ],
-                     "WithdrawTax":  200,
-                     "DepositTax":  200,
-                     "Enabled":  1
-                 }
-             ]
+    "ATMs":  []
 }

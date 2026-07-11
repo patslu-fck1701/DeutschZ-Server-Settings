@@ -9,7 +9,7 @@
   "ChestActionDurationSeconds": 60,
   "ZombieCount": 3,
   "CaptureRadius": 25,
-  "ZombieSpawnRadius": 45,
+  "ZombieSpawnRadius": 35,
   "MarkerName": "DeutschZ KotH",
   "ProgressLossWhenEmpty": false,
   "ProgressLossPerSecond": 0.25,
