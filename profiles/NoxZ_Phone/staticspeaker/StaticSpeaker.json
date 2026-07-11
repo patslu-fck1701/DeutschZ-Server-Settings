@@ -5,7 +5,7 @@
     "RandomMode":  1,
     "OnlyPlayWhenPlayersNearby":  1,
     "PlayerDetectionRangeMeters":  100,
-    "DetectStaticSpeaker":  1,
+    "DetectStaticSpeaker":  0,
     "DetectionIntervalMinutes":  2,
     "DuplicateDetectionRangeMeters":  5,
     "Spawnpoints":  [
