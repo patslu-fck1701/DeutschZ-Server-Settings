@@ -1,0 +1,32 @@
+{
+  "Enabled": 1,
+  "DebugMode": 0,
+  "UseExpansionNotify": 1,
+  "UseExpansionMarkers": 1,
+  "EventIntervalMinutes": 60,
+  "EventDurationMinutes": 45,
+  "CaptureDurationSeconds": 300,
+  "ChestActionDurationSeconds": 60,
+  "ZombieCount": 3,
+  "CaptureRadius": 25,
+  "ZombieSpawnRadius": 45,
+  "MarkerName": "DeutschZ KotH",
+  "ProgressLossWhenEmpty": false,
+  "ProgressLossPerSecond": 0.25,
+  "EnemyPlayersBlockCapture": true,
+  "Locations": [
+    {"Name":"Kamensk","Enabled":1,"Center":[8000.134766,339.335907,14637.155273],"FlagPosition":[8000.134766,339.335907,14637.155273],"FlagOrientation":[0,0,0],"ChestPosition":[7983.474609,339.076569,14649.505859],"ChestOrientation":[117,0,0]},
+    {"Name":"VMC","Enabled":1,"Center":[4552.346680,317.997314,8350.974609],"FlagPosition":[4552.346680,317.997314,8350.974609],"FlagOrientation":[0,0,0],"ChestPosition":[4568.382813,317.974121,8353.989258],"ChestOrientation":[-80.999992,0,0]},
+    {"Name":"Grozovny","Enabled":1,"Center":[3780.909912,361.331116,14801.656250],"FlagPosition":[3780.909912,361.331116,14801.656250],"FlagOrientation":[0,0,0],"ChestPosition":[3773.509521,363.050110,14812.888672],"ChestOrientation":[0,0,0]},
+    {"Name":"Lopatino","Enabled":1,"Center":[2934.925049,270.860352,9679.623047],"FlagPosition":[2934.925049,270.860352,9679.623047],"FlagOrientation":[0,0,0],"ChestPosition":[2918.307129,270.252960,9671.989258],"ChestOrientation":[53.999996,0,0]},
+    {"Name":"Mishkyno","Enabled":1,"Center":[1101.278931,182.950562,7196.391602],"FlagPosition":[1101.278931,182.950562,7196.391602],"FlagOrientation":[0,0,0],"ChestPosition":[1099.196533,182.940308,7212.189453],"ChestOrientation":[133.244720,0,0]},
+    {"Name":"NWAF","Enabled":1,"Center":[4905.860352,338.039642,9430.402344],"FlagPosition":[4905.860352,338.039642,9430.402344],"FlagOrientation":[0,0,0],"ChestPosition":[4887.859375,339.133698,9429.962891],"ChestOrientation":[61.615467,0,0]},
+    {"Name":"Tri-Kresta","Enabled":1,"Center":[315.089233,295.005219,9339.625977],"FlagPosition":[315.089233,295.005219,9339.625977],"FlagOrientation":[0,0,0],"ChestPosition":[313.451447,294.944000,9355.622070],"ChestOrientation":[117,0,0]},
+    {"Name":"YRAP","Enabled":1,"Center":[1246.114502,173.139984,5848.398926],"FlagPosition":[1246.114502,173.139984,5848.398926],"FlagOrientation":[0,0,0],"ChestPosition":[1236.362305,173.440796,5861.491699],"ChestOrientation":[135.045273,0,0]},
+    {"Name":"Gorka Military","Enabled":1,"Center":[9707.442383,299.003113,8890.658203],"FlagPosition":[9707.442383,299.003113,8890.658203],"FlagOrientation":[0,0,0],"ChestPosition":[9700.262695,299.153381,8879.391602],"ChestOrientation":[36.000004,0,0]},
+    {"Name":"Krasnostav Airfield","Enabled":1,"Center":[12138.583984,140.082520,12658.378906],"FlagPosition":[12138.583984,140.082520,12658.378906],"FlagOrientation":[0,0,0],"ChestPosition":[12141.327148,140.065903,12642.984375],"ChestOrientation":[18.000002,0,0]},
+    {"Name":"Pustoshka Military","Enabled":1,"Center":[3630.406494,333.893066,6921.706543],"FlagPosition":[3630.406494,333.893066,6921.706543],"FlagOrientation":[0,0,0],"ChestPosition":[3634.295410,333.873627,6927.422363],"ChestOrientation":[-135,0,0]}
+  ],
+  "ZombieTypes": [],
+  "RewardLoot": []
+}

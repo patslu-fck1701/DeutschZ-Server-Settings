@@ -201,6 +201,8 @@ profiles/*
 !profiles/BS_BTR_Patrol/**
 !profiles/CodeLock/
 !profiles/CodeLock/**
+!profiles/KotH/
+!profiles/KotH/KotHConfig.json
 !profiles/DeutschZ/
 !profiles/DeutschZ/**
 !profiles/ExpansionMod/

@@ -16,8 +16,6 @@ Hier wird ausschließlich die Reihenfolge dokumentiert. Moddateien gehören nich
 @RaG_Core
 @RaG_BaseItems
 @RedFalcon Flight System Heliz
-@FoXyKOTH
-@OFG_HUD_FoXyKOTH
 @NoxZ_Phone
 @NVG + Scope
 @RevScopes

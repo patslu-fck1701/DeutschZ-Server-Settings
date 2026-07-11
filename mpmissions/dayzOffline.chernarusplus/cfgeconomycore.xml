@@ -53,11 +53,9 @@
     <file name="SprayZ_types.xml" type="types" />
     <file name="COT_Bundle_Utility_types.xml" type="types" />
     <file name="DeutschZ_only_core_types.xml" type="types" />
+    <file name="DeutschZ_KotH_InfectedSiedge_types.xml" type="types" />
     <file name="DeutschZ_SNAFU_MapLoot_types.xml" type="types" />
     <file name="DeutschZ_SNAFU_EventLoot_types.xml" type="types" />
-    <file name="FoXyKOTH_types.xml" type="types" />
-    <file name="OFG_HUD_FoXyKOTH_types.xml" type="types" />
-    <file name="DeutschZ_KOTHTerminal_types.xml" type="types" />
     <file name="DayZ_Expansion_Bundle_spawnabletypes.xml" type="spawnabletypes" />
     <file name="DayZ_Expansion_Bundle_events.xml" type="events" />
     <file name="RaG_BaseItems_spawnabletypes.xml" type="spawnabletypes" />
