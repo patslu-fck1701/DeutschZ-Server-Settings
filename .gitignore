@@ -205,6 +205,8 @@ profiles/*
 !profiles/KotH/KotHConfig.json
 !profiles/DeutschZ/
 !profiles/DeutschZ/**
+!profiles/DZBBC/
+!profiles/DZBBC/**
 !profiles/ExpansionMod/
 !profiles/ExpansionMod/AI/
 !profiles/ExpansionMod/AI/**

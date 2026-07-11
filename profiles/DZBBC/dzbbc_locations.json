@@ -1,0 +1,1171 @@
+{
+    "CrashSites":  [
+                       {
+                           "Name":  "Airfield Convoy Test",
+                           "Position":  [
+                                            4520.0,
+                                            0.0,
+                                            10280.0
+                                        ],
+                           "BlackboxPosition":  [
+                                                    4528.0,
+                                                    0.0,
+                                                    10272.0
+                                                ],
+                           "ContainerPosition":  [
+                                                     4545.0,
+                                                     0.0,
+                                                     10292.0
+                                                 ],
+                           "Radius":  95.0,
+                           "WreckObjects":  [
+
+                                            ],
+                           "EffectObjects":  [
+
+                                             ],
+                           "SceneObjects":  [
+                                                {
+                                                    "ClassName":  "Wreck_Mi8_Crashed",
+                                                    "Offset":  [
+                                                                   0.0,
+                                                                   0.0,
+                                                                   0.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        315.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Decal_Big",
+                                                    "Offset":  [
+                                                                   0.0,
+                                                                   0.0,
+                                                                   0.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        315.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Ural_DE",
+                                                    "Offset":  [
+                                                                   -18.0,
+                                                                   0.0,
+                                                                   8.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        268.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Uaz_DE",
+                                                    "Offset":  [
+                                                                   -4.0,
+                                                                   0.0,
+                                                                   24.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        288.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_HMMWV_DE",
+                                                    "Offset":  [
+                                                                   20.0,
+                                                                   1.65,
+                                                                   15.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        55.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_T72_Chassis",
+                                                    "Offset":  [
+                                                                   31.0,
+                                                                   2.05,
+                                                                   -9.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        25.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Trailer_Flat",
+                                                    "Offset":  [
+                                                                   -28.0,
+                                                                   0.0,
+                                                                   -14.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        258.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Decal_Small1",
+                                                    "Offset":  [
+                                                                   10.0,
+                                                                   0.0,
+                                                                   -13.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Decal_Small2",
+                                                    "Offset":  [
+                                                                   -12.0,
+                                                                   0.0,
+                                                                   18.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_T72_Chassis",
+                                                    "Offset":  [
+                                                                   7.0,
+                                                                   2.05,
+                                                                   9.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        12.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_BMP1_DE",
+                                                    "Offset":  [
+                                                                   -10.0,
+                                                                   0.0,
+                                                                   -11.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        165.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   5.0,
+                                                                   0.0,
+                                                                   5.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   -9.0,
+                                                                   0.0,
+                                                                   -4.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   17.0,
+                                                                   0.0,
+                                                                   2.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "Roadflare",
+                                                    "Offset":  [
+                                                                   -6.0,
+                                                                   0.0,
+                                                                   16.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        80.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "Roadflare",
+                                                    "Offset":  [
+                                                                   14.0,
+                                                                   0.0,
+                                                                   -3.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        140.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_BRDM",
+                                                    "Offset":  [
+                                                                   -73.112305,
+                                                                   338.927277,
+                                                                   16.633789
+                                                               ],
+                                                    "Orientation":  [
+                                                                        36.443153,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  false,
+                                                    "Required":  false
+                                                }
+                                            ],
+                           "BlackboxOrientation":  [
+                                                       0,
+                                                       0,
+                                                       0
+                                                   ]
+                       },
+                       {
+                           "Name":  "VMC Convoy Test",
+                           "Position":  [
+                                            4490.0,
+                                            0.0,
+                                            8280.0
+                                        ],
+                           "BlackboxPosition":  [
+                                                    4500.0,
+                                                    0.0,
+                                                    8272.0
+                                                ],
+                           "ContainerPosition":  [
+                                                     4518.0,
+                                                     0.0,
+                                                     8292.0
+                                                 ],
+                           "Radius":  95.0,
+                           "WreckObjects":  [
+
+                                            ],
+                           "EffectObjects":  [
+
+                                             ],
+                           "SceneObjects":  [
+                                                {
+                                                    "ClassName":  "Wreck_UH1Y",
+                                                    "Offset":  [
+                                                                   0.0,
+                                                                   0.0,
+                                                                   0.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        42.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Decal_Big",
+                                                    "Offset":  [
+                                                                   0.0,
+                                                                   0.0,
+                                                                   0.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        42.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Ural",
+                                                    "Offset":  [
+                                                                   -20.0,
+                                                                   0.0,
+                                                                   -7.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        82.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "Land_Wreck_Uaz",
+                                                    "Offset":  [
+                                                                   -8.0,
+                                                                   0.0,
+                                                                   -20.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        118.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_HMMWV",
+                                                    "Offset":  [
+                                                                   18.0,
+                                                                   1.65,
+                                                                   -14.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        240.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Trailer_Flat",
+                                                    "Offset":  [
+                                                                   -30.0,
+                                                                   0.0,
+                                                                   8.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        74.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_BRDM",
+                                                    "Offset":  [
+                                                                   30.0,
+                                                                   1.15,
+                                                                   13.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        285.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Decal_Small1",
+                                                    "Offset":  [
+                                                                   12.0,
+                                                                   0.0,
+                                                                   5.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Decal_Small2",
+                                                    "Offset":  [
+                                                                   -14.0,
+                                                                   0.0,
+                                                                   15.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_T72_Chassis",
+                                                    "Offset":  [
+                                                                   8.0,
+                                                                   2.05,
+                                                                   10.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        25.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_BMP1",
+                                                    "Offset":  [
+                                                                   -12.0,
+                                                                   1.35,
+                                                                   9.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        170.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   6.0,
+                                                                   0.0,
+                                                                   4.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   -7.0,
+                                                                   0.0,
+                                                                   7.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   15.0,
+                                                                   0.0,
+                                                                   -6.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "Roadflare",
+                                                    "Offset":  [
+                                                                   -4.0,
+                                                                   0.0,
+                                                                   14.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        35.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "Roadflare",
+                                                    "Offset":  [
+                                                                   14.0,
+                                                                   0.0,
+                                                                   -2.0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        125.0,
+                                                                        0.0,
+                                                                        0.0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                }
+                                            ],
+                           "BlackboxOrientation":  [
+                                                       0,
+                                                       0,
+                                                       0
+                                                   ]
+                       },
+                       {
+                           "Name":  "Tri Kresta Convoy",
+                           "Position":  [
+                                            450.677673,
+                                            293.246582,
+                                            9431.185547
+                                        ],
+                           "BlackboxPosition":  [
+                                                    294.277313,
+                                                    295.107788,
+                                                    9316.286133
+                                                ],
+                           "BlackboxOrientation":  [
+                                                       -96.307762,
+                                                       0,
+                                                       0
+                                                   ],
+                           "ContainerPosition":  [
+                                                     468.677673,
+                                                     293.246582,
+                                                     9443.185547
+                                                 ],
+                           "Radius":  120,
+                           "WreckObjects":  [
+
+                                            ],
+                           "EffectObjects":  [
+
+                                             ],
+                           "SceneObjects":  [
+                                                {
+                                                    "ClassName":  "Land_Wreck_Uaz",
+                                                    "Offset":  [
+                                                                   -11.914398000000006,
+                                                                   -2.2226870000000076,
+                                                                   -10.932616999998572
+                                                               ],
+                                                    "Orientation":  [
+                                                                        -155.625824,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  false,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Ural",
+                                                    "Offset":  [
+                                                                   0,
+                                                                   0,
+                                                                   0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        152.133408,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  false,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_BMP2",
+                                                    "Offset":  [
+                                                                   23.214294999999993,
+                                                                   1.5318599999999947,
+                                                                   15.575195000001258
+                                                               ],
+                                                    "Orientation":  [
+                                                                        36.443157,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  false,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_HMMWV",
+                                                    "Offset":  [
+                                                                   13.041442999999958,
+                                                                   3.0274350000000254,
+                                                                   19.977539000001343
+                                                               ],
+                                                    "Orientation":  [
+                                                                        120.06588,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  false,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "Land_Wreck_V3S",
+                                                    "Offset":  [
+                                                                   -14.509796000000051,
+                                                                   1.1403200000000311,
+                                                                   20.290039000001343
+                                                               ],
+                                                    "Orientation":  [
+                                                                        36.443153,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  false,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_BMP1",
+                                                    "Offset":  [
+                                                                   -9.894012000000032,
+                                                                   6.7180180000000291,
+                                                                   58.787109000000783
+                                                               ],
+                                                    "Orientation":  [
+                                                                        36.443153,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  false,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_HMMWV",
+                                                    "Offset":  [
+                                                                   26.402953999999966,
+                                                                   1.5752259999999865,
+                                                                   27.905273000000307
+                                                               ],
+                                                    "Orientation":  [
+                                                                        36.443153,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  false,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "RFFSHeli_CH53e_wreck",
+                                                    "Offset":  [
+                                                                   -9.894012000000032,
+                                                                   6.7180180000000291,
+                                                                   58.787109000000783
+                                                               ],
+                                                    "Orientation":  [
+                                                                        36.443153,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  false,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   5,
+                                                                   0,
+                                                                   5
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   -8,
+                                                                   0,
+                                                                   -4
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "Roadflare",
+                                                    "Offset":  [
+                                                                   12,
+                                                                   0,
+                                                                   -6
+                                                               ],
+                                                    "Orientation":  [
+                                                                        120,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                }
+                                            ]
+                       },
+                       {
+                           "Name":  "Kamensk West Convoy",
+                           "Position":  [
+                                            8483.358398,
+                                            223.918228,
+                                            14197.457031
+                                        ],
+                           "BlackboxPosition":  [
+                                                    8491.358398,
+                                                    223.918228,
+                                                    14190.457031
+                                                ],
+                           "BlackboxOrientation":  [
+                                                       85.747742,
+                                                       0,
+                                                       0
+                                                   ],
+                           "ContainerPosition":  [
+                                                     8503.358398,
+                                                     223.918228,
+                                                     14209.457031
+                                                 ],
+                           "Radius":  120,
+                           "WreckObjects":  [
+
+                                            ],
+                           "EffectObjects":  [
+
+                                             ],
+                           "SceneObjects":  [
+                                                {
+                                                    "ClassName":  "Wreck_UH1Y",
+                                                    "Offset":  [
+                                                                   0,
+                                                                   0,
+                                                                   0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        85.747742,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_HMMWV",
+                                                    "Offset":  [
+                                                                   16,
+                                                                   1.65,
+                                                                   10
+                                                               ],
+                                                    "Orientation":  [
+                                                                        42,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "Land_Wreck_Uaz",
+                                                    "Offset":  [
+                                                                   -13,
+                                                                   0,
+                                                                   -9
+                                                               ],
+                                                    "Orientation":  [
+                                                                        128,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_BRDM",
+                                                    "Offset":  [
+                                                                   -22,
+                                                                   1.15,
+                                                                   15
+                                                               ],
+                                                    "Orientation":  [
+                                                                        205,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   5,
+                                                                   0,
+                                                                   5
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   -8,
+                                                                   0,
+                                                                   -4
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "Roadflare",
+                                                    "Offset":  [
+                                                                   12,
+                                                                   0,
+                                                                   -6
+                                                               ],
+                                                    "Orientation":  [
+                                                                        120,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                }
+                                            ]
+                       },
+                       {
+                           "Name":  "Kamensk East Convoy",
+                           "Position":  [
+                                            8403.467773,
+                                            232.038162,
+                                            14246.509766
+                                        ],
+                           "BlackboxPosition":  [
+                                                    8394.467773,
+                                                    232.038162,
+                                                    14254.509766
+                                                ],
+                           "BlackboxOrientation":  [
+                                                       -91.151955,
+                                                       0,
+                                                       0
+                                                   ],
+                           "ContainerPosition":  [
+                                                     8421.467773,
+                                                     232.038162,
+                                                     14233.509766
+                                                 ],
+                           "Radius":  120,
+                           "WreckObjects":  [
+
+                                            ],
+                           "EffectObjects":  [
+
+                                             ],
+                           "SceneObjects":  [
+                                                {
+                                                    "ClassName":  "Wreck_Mi8_Crashed",
+                                                    "Offset":  [
+                                                                   0,
+                                                                   0,
+                                                                   0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        -91.151955,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_Ural",
+                                                    "Offset":  [
+                                                                   -17,
+                                                                   0.8,
+                                                                   9
+                                                               ],
+                                                    "Orientation":  [
+                                                                        235,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_BMP2",
+                                                    "Offset":  [
+                                                                   19,
+                                                                   1.35,
+                                                                   -12
+                                                               ],
+                                                    "Orientation":  [
+                                                                        33,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "Land_Wreck_V3S",
+                                                    "Offset":  [
+                                                                   24,
+                                                                   0,
+                                                                   14
+                                                               ],
+                                                    "Orientation":  [
+                                                                        142,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   5,
+                                                                   0,
+                                                                   5
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   -8,
+                                                                   0,
+                                                                   -4
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "Roadflare",
+                                                    "Offset":  [
+                                                                   12,
+                                                                   0,
+                                                                   -6
+                                                               ],
+                                                    "Orientation":  [
+                                                                        120,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                }
+                                            ]
+                       },
+                       {
+                           "Name":  "Tri Kresta West Crash",
+                           "Position":  [
+                                            347.892303,
+                                            294.774872,
+                                            9359.527344
+                                        ],
+                           "BlackboxPosition":  [
+                                                    339.892303,
+                                                    294.774872,
+                                                    9352.527344
+                                                ],
+                           "BlackboxOrientation":  [
+                                                       -91.420685,
+                                                       0,
+                                                       0
+                                                   ],
+                           "ContainerPosition":  [
+                                                     364.892303,
+                                                     294.774872,
+                                                     9371.527344
+                                                 ],
+                           "Radius":  120,
+                           "WreckObjects":  [
+
+                                            ],
+                           "EffectObjects":  [
+
+                                             ],
+                           "SceneObjects":  [
+                                                {
+                                                    "ClassName":  "Wreck_UH1Y",
+                                                    "Offset":  [
+                                                                   0,
+                                                                   0,
+                                                                   0
+                                                               ],
+                                                    "Orientation":  [
+                                                                        -91.420685,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_HMMWV",
+                                                    "Offset":  [
+                                                                   15,
+                                                                   1.65,
+                                                                   11
+                                                               ],
+                                                    "Orientation":  [
+                                                                        46,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "Land_Wreck_Uaz",
+                                                    "Offset":  [
+                                                                   -14,
+                                                                   0,
+                                                                   -10
+                                                               ],
+                                                    "Orientation":  [
+                                                                        138,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  true
+                                                },
+                                                {
+                                                    "ClassName":  "StaticObj_Wreck_BMP1",
+                                                    "Offset":  [
+                                                                   20,
+                                                                   1.35,
+                                                                   -13
+                                                               ],
+                                                    "Orientation":  [
+                                                                        12,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   5,
+                                                                   0,
+                                                                   5
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "M18SmokeGrenade_White",
+                                                    "Offset":  [
+                                                                   -8,
+                                                                   0,
+                                                                   -4
+                                                               ],
+                                                    "Orientation":  [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                },
+                                                {
+                                                    "ClassName":  "Roadflare",
+                                                    "Offset":  [
+                                                                   12,
+                                                                   0,
+                                                                   -6
+                                                               ],
+                                                    "Orientation":  [
+                                                                        120,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                    "AlignToGround":  true,
+                                                    "Required":  false
+                                                }
+                                            ]
+                       }
+                   ]
+}

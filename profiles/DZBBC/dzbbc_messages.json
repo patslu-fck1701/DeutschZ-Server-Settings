@@ -1,0 +1,13 @@
+{
+    "EventAnnounce": "#STR_DZBBC_MSG_EVENT_ANNOUNCE",
+    "PlayerDetected": "#STR_DZBBC_MSG_PLAYER_DETECTED",
+    "CombatComplete": "#STR_DZBBC_MSG_COMBAT_COMPLETE",
+    "AudioFragment30": "#STR_DZBBC_MSG_AUDIO_30",
+    "GlobalWarning60": "#STR_DZBBC_MSG_GLOBAL_WARNING",
+    "RecoveryUnit90": "#STR_DZBBC_MSG_RECOVERY_90",
+    "DatacoreExtracted": "#STR_DZBBC_MSG_DATACORE_EXTRACTED",
+    "TerminalStarted": "#STR_DZBBC_MSG_TERMINAL_STARTED",
+    "RewardUnlocked": "#STR_DZBBC_MSG_REWARD_UNLOCKED",
+    "Completed": "#STR_DZBBC_MSG_COMPLETED",
+    "Failed": "#STR_DZBBC_MSG_FAILED"
+}

@@ -1,0 +1,30 @@
+{
+    "EventName": "#STR_DZBBC_EVENT_NAME",
+    "AutoStart": true,
+    "AutoStartDelaySeconds": 60,
+    "EventCooldownMinutes": 120,
+    "TickSeconds": 1.0,
+    "CombatRadius": 85.0,
+    "MarkerRadius": 420.0,
+    "HackDurationSeconds": 120.0,
+    "TerminalDecryptSeconds": 60.0,
+    "DataCoreLifetimeSeconds": 1800.0,
+    "CleanupDelaySeconds": 300.0,
+    "SpawnMinDistance": 20.0,
+    "SpawnMaxDistance": 55.0,
+    "PlayerInteractionDistance": 4.0,
+    "SectorSize": 1000.0,
+    "DebugCommandsEnabled": true,
+    "AllowAdminWhenListEmpty": false,
+    "TestModeEnabled": false,
+    "TestModeAutoSpawnOnStart": false,
+    "TestModeTeleportOnJoin": false,
+    "TestModeVisualTestOnJoin": false,
+    "TestModeTeleportRetryCount": 4,
+    "TestModeTeleportRetrySeconds": 4,
+    "TestModeAutoSpawnDelaySeconds": 20,
+    "AdminUIDs": [
+        "76561199819501556",
+        "KId676nm-HhEmsBOdgv02VHFwD-JMQS76IJ1bVe3kYI="
+    ]
+}
