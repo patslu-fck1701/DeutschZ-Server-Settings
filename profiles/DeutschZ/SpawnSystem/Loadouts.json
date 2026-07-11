@@ -1,0 +1,35 @@
+{
+    "Version": 1,
+    "DefaultLoadout": "survivor_basic",
+    "Loadouts": [
+        {
+            "Id": "survivor_basic",
+            "DisplayName": "Ueberlebender",
+            "Enabled": 1,
+            "Items": [
+                {
+                    "ClassName": "Rag",
+                    "Quantity": 4,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Apple",
+                    "Quantity": -1,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NoxZ_Phone_Device_IPhone17",
+                    "Quantity": -1,
+                    "Attachments": [
+                        "NoxZ_PhoneBattery"
+                    ]
+                },
+                {
+                    "ClassName": "DeutschZ_Regeln",
+                    "Quantity": -1,
+                    "Attachments": []
+                }
+            ]
+        }
+    ]
+}
