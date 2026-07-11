@@ -114,49 +114,299 @@
                                                        "BS_Tank_Box2_Black"
                                                    ],
                                   "LootCategories":  {
-                                                         "Weapons":  {
-                                                                         "Min":  2,
-                                                                         "Max":  2,
-                                                                         "Items":  [
-                                                                                       {
-                                                                                           "LootClass":  "AKM",
-                                                                                           "LootAttachments":  [
-                                                                                                                   "Mag_AKM_30Rnd",
-                                                                                                                   "AK_WoodBttstck",
-                                                                                                                   "AK_WoodHndgrd"
-                                                                                                               ],
-                                                                                           "SpawnChance":  1.0
-                                                                                       },
-                                                                                       {
-                                                                                           "LootClass":  "SVD",
-                                                                                           "LootAttachments":  [
-                                                                                                                   "Mag_SVD_10Rnd",
-                                                                                                                   "PSO1Optic"
-                                                                                                               ],
-                                                                                           "SpawnChance":  0.4000000059604645
-                                                                                       }
-                                                                                   ]
-                                                                     },
+                                                         "LowWeapons":  {
+                                                                            "Min":  2,
+                                                                            "Max":  2,
+                                                                            "Items":  [
+                                                                                          {
+                                                                                              "LootClass":  "SNAFU_Agram_GUN",
+                                                                                              "LootAttachments":  [
+
+                                                                                                                  ],
+                                                                                              "SpawnChance":  1
+                                                                                          },
+                                                                                          {
+                                                                                              "LootClass":  "SNAFU_Fort12_GUN",
+                                                                                              "LootAttachments":  [
+
+                                                                                                                  ],
+                                                                                              "SpawnChance":  1
+                                                                                          }
+                                                                                      ]
+                                                                        },
+                                                         "MidWeapons":  {
+                                                                            "Min":  2,
+                                                                            "Max":  2,
+                                                                            "Items":  [
+                                                                                          {
+                                                                                              "LootClass":  "SNAFU_AEK545_Gun",
+                                                                                              "LootAttachments":  [
+
+                                                                                                                  ],
+                                                                                              "SpawnChance":  1
+                                                                                          },
+                                                                                          {
+                                                                                              "LootClass":  "SNAFU_CZ805_Gun",
+                                                                                              "LootAttachments":  [
+
+                                                                                                                  ],
+                                                                                              "SpawnChance":  1
+                                                                                          },
+                                                                                          {
+                                                                                              "LootClass":  "SNAFU_M14",
+                                                                                              "LootAttachments":  [
+
+                                                                                                                  ],
+                                                                                              "SpawnChance":  1
+                                                                                          }
+                                                                                      ]
+                                                                        },
+                                                         "HighWeapons":  {
+                                                                             "Min":  1,
+                                                                             "Max":  1,
+                                                                             "Items":  [
+                                                                                           {
+                                                                                               "LootClass":  "SNAFU_AS50_GUN",
+                                                                                               "LootAttachments":  [
+
+                                                                                                                   ],
+                                                                                               "SpawnChance":  1
+                                                                                           },
+                                                                                           {
+                                                                                               "LootClass":  "SNAFU_AWM_Gun",
+                                                                                               "LootAttachments":  [
+
+                                                                                                                   ],
+                                                                                               "SpawnChance":  1
+                                                                                           }
+                                                                                       ]
+                                                                         },
+                                                         "Magazines":  {
+                                                                           "Min":  8,
+                                                                           "Max":  8,
+                                                                           "Items":  [
+                                                                                         {
+                                                                                             "LootClass":  "SNAFU_Agram_32rnd_Mag",
+                                                                                             "LootAttachments":  [
+
+                                                                                                                 ],
+                                                                                             "SpawnChance":  1
+                                                                                         },
+                                                                                         {
+                                                                                             "LootClass":  "SNAFU_Fort12_12rnd_Mag",
+                                                                                             "LootAttachments":  [
+
+                                                                                                                 ],
+                                                                                             "SpawnChance":  1
+                                                                                         },
+                                                                                         {
+                                                                                             "LootClass":  "SNAFU_RPK16_Black_Mag",
+                                                                                             "LootAttachments":  [
+
+                                                                                                                 ],
+                                                                                             "SpawnChance":  1
+                                                                                         },
+                                                                                         {
+                                                                                             "LootClass":  "Mag_STANAG_30Rnd",
+                                                                                             "LootAttachments":  [
+
+                                                                                                                 ],
+                                                                                             "SpawnChance":  1
+                                                                                         },
+                                                                                         {
+                                                                                             "LootClass":  "SNAFU_M14_Mag",
+                                                                                             "LootAttachments":  [
+
+                                                                                                                 ],
+                                                                                             "SpawnChance":  1
+                                                                                         },
+                                                                                         {
+                                                                                             "LootClass":  "SNAFU_AS50_Mag",
+                                                                                             "LootAttachments":  [
+
+                                                                                                                 ],
+                                                                                             "SpawnChance":  1
+                                                                                         },
+                                                                                         {
+                                                                                             "LootClass":  "SNAFU_AWM_Mag",
+                                                                                             "LootAttachments":  [
+
+                                                                                                                 ],
+                                                                                             "SpawnChance":  1
+                                                                                         },
+                                                                                         {
+                                                                                             "LootClass":  "SNAFU_RPK16_Green_Mag",
+                                                                                             "LootAttachments":  [
+
+                                                                                                                 ],
+                                                                                             "SpawnChance":  1
+                                                                                         }
+                                                                                     ]
+                                                                       },
+                                                         "Suppressors":  {
+                                                                             "Min":  2,
+                                                                             "Max":  2,
+                                                                             "Items":  [
+                                                                                           {
+                                                                                               "LootClass":  "SNAFU_Agram_Suppressor_Black",
+                                                                                               "LootAttachments":  [
+
+                                                                                                                   ],
+                                                                                               "SpawnChance":  1
+                                                                                           },
+                                                                                           {
+                                                                                               "LootClass":  "PistolSuppressor",
+                                                                                               "LootAttachments":  [
+
+                                                                                                                   ],
+                                                                                               "SpawnChance":  1
+                                                                                           },
+                                                                                           {
+                                                                                               "LootClass":  "SNAFU_Standardized_Suppressor_Black",
+                                                                                               "LootAttachments":  [
+
+                                                                                                                   ],
+                                                                                               "SpawnChance":  1
+                                                                                           },
+                                                                                           {
+                                                                                               "LootClass":  "SNAFU_50bmg_Suppressor_B",
+                                                                                               "LootAttachments":  [
+
+                                                                                                                   ],
+                                                                                               "SpawnChance":  1
+                                                                                           },
+                                                                                           {
+                                                                                               "LootClass":  "SNAFUKivaari_338_Supp",
+                                                                                               "LootAttachments":  [
+
+                                                                                                                   ],
+                                                                                               "SpawnChance":  1
+                                                                                           }
+                                                                                       ]
+                                                                         },
+                                                         "Optics":  {
+                                                                        "Min":  4,
+                                                                        "Max":  4,
+                                                                        "Items":  [
+                                                                                      {
+                                                                                          "LootClass":  "FNP45_MRDSOptic",
+                                                                                          "LootAttachments":  [
+
+                                                                                                              ],
+                                                                                          "SpawnChance":  1
+                                                                                      },
+                                                                                      {
+                                                                                          "LootClass":  "SNAFU_M14Optic",
+                                                                                          "LootAttachments":  [
+
+                                                                                                              ],
+                                                                                          "SpawnChance":  1
+                                                                                      },
+                                                                                      {
+                                                                                          "LootClass":  "SNAFU_Elcan",
+                                                                                          "LootAttachments":  [
+
+                                                                                                              ],
+                                                                                          "SpawnChance":  1
+                                                                                      },
+                                                                                      {
+                                                                                          "LootClass":  "SNAFU_EOTech_EXPS3",
+                                                                                          "LootAttachments":  [
+
+                                                                                                              ],
+                                                                                          "SpawnChance":  1
+                                                                                      },
+                                                                                      {
+                                                                                          "LootClass":  "SNAFU_Nightforce",
+                                                                                          "LootAttachments":  [
+
+                                                                                                              ],
+                                                                                          "SpawnChance":  1
+                                                                                      }
+                                                                                  ]
+                                                                    },
                                                          "Ammo":  {
-                                                                      "Min":  3,
-                                                                      "Max":  4,
+                                                                      "Min":  6,
+                                                                      "Max":  6,
                                                                       "Items":  [
                                                                                     {
-                                                                                        "LootClass":  "Ammo_762x39",
+                                                                                        "LootClass":  "Ammo_9x19",
                                                                                         "LootAttachments":  [
 
                                                                                                             ],
-                                                                                        "SpawnChance":  1.0
+                                                                                        "SpawnChance":  1
                                                                                     },
                                                                                     {
-                                                                                        "LootClass":  "Mag_AKM_Drum75Rnd",
+                                                                                        "LootClass":  "Ammo_45ACP",
                                                                                         "LootAttachments":  [
 
                                                                                                             ],
-                                                                                        "SpawnChance":  0.5
+                                                                                        "SpawnChance":  1
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "Ammo_545x39",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "Ammo_556x45",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "Ammo_308Win",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "GCGN_Ammo_50Cal",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1
+                                                                                    },
+                                                                                    {
+                                                                                        "LootClass":  "SNAFU_Ammo_338",
+                                                                                        "LootAttachments":  [
+
+                                                                                                            ],
+                                                                                        "SpawnChance":  1
                                                                                     }
                                                                                 ]
                                                                   },
+                                                         "Explosives":  {
+                                                                            "Min":  1,
+                                                                            "Max":  2,
+                                                                            "Items":  [
+                                                                                          {
+                                                                                              "LootClass":  "M67Grenade",
+                                                                                              "LootAttachments":  [
+
+                                                                                                                  ],
+                                                                                              "SpawnChance":  1
+                                                                                          },
+                                                                                          {
+                                                                                              "LootClass":  "RGD5Grenade",
+                                                                                              "LootAttachments":  [
+
+                                                                                                                  ],
+                                                                                              "SpawnChance":  1
+                                                                                          },
+                                                                                          {
+                                                                                              "LootClass":  "ClaymoreMine",
+                                                                                              "LootAttachments":  [
+
+                                                                                                                  ],
+                                                                                              "SpawnChance":  0.5
+                                                                                          }
+                                                                                      ]
+                                                                        },
                                                          "Medical":  {
                                                                          "Min":  3,
                                                                          "Max":  4,
@@ -166,21 +416,21 @@
                                                                                            "LootAttachments":  [
 
                                                                                                                ],
-                                                                                           "SpawnChance":  1.0
+                                                                                           "SpawnChance":  1
                                                                                        },
                                                                                        {
                                                                                            "LootClass":  "Morphine",
                                                                                            "LootAttachments":  [
 
                                                                                                                ],
-                                                                                           "SpawnChance":  1.0
+                                                                                           "SpawnChance":  0.8
                                                                                        },
                                                                                        {
                                                                                            "LootClass":  "SalineBagIV",
                                                                                            "LootAttachments":  [
 
                                                                                                                ],
-                                                                                           "SpawnChance":  0.699999988079071
+                                                                                           "SpawnChance":  0.6
                                                                                        }
                                                                                    ]
                                                                      },
@@ -189,25 +439,25 @@
                                                                       "Max":  3,
                                                                       "Items":  [
                                                                                     {
-                                                                                        "LootClass":  "PlateCarrierVest",
+                                                                                        "LootClass":  "WeaponCleaningKit",
                                                                                         "LootAttachments":  [
 
                                                                                                             ],
-                                                                                        "SpawnChance":  1.0
+                                                                                        "SpawnChance":  0.9
                                                                                     },
                                                                                     {
                                                                                         "LootClass":  "NVGoggles",
                                                                                         "LootAttachments":  [
 
                                                                                                             ],
-                                                                                        "SpawnChance":  0.3499999940395355
+                                                                                        "SpawnChance":  0.35
                                                                                     },
                                                                                     {
-                                                                                        "LootClass":  "Mich2001Helmet",
+                                                                                        "LootClass":  "Rangefinder",
                                                                                         "LootAttachments":  [
 
                                                                                                             ],
-                                                                                        "SpawnChance":  1.0
+                                                                                        "SpawnChance":  0.4
                                                                                     }
                                                                                 ]
                                                                   }
@@ -217,8 +467,14 @@
                                                          "ClassName":  "BS_Tank_Box1",
                                                          "LBPresetName":  "",
                                                          "Presets":  [
-                                                                         "Weapons",
-                                                                         "Ammo"
+                                                                         "LowWeapons",
+                                                                         "MidWeapons",
+                                                                         "HighWeapons",
+                                                                         "Magazines",
+                                                                         "Suppressors",
+                                                                         "Optics",
+                                                                         "Ammo",
+                                                                         "Explosives"
                                                                      ]
                                                      },
                                                      {
