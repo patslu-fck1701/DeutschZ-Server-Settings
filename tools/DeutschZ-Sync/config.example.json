@@ -1,5 +1,62 @@
 {
   "source_root": "E:/DeutschZ/DeutschZ-Server-Settings",
+  "source_paths": {
+    "profiles": "E:/DeutschZ/DeutschZ-Server-Settings/profiles",
+    "missions": "E:/DeutschZ/DeutschZ-Server-Settings/mpmissions",
+    "keys": "E:/DeutschZ/DeutschZ-Server-Settings/keys"
+  },
+  "branding": {
+    "logo_path": "C:/Users/patsl/Downloads/Logo_Dark.png"
+  },
+  "log_sources": [
+    {
+      "name": "Lokaler Server Logs",
+      "enabled": true,
+      "recursive": true,
+      "path": "C:/Program Files (x86)/Steam/steamapps/common/DayZServer/logs"
+    },
+    {
+      "name": "Lokale Profiles und Mod-Logs",
+      "enabled": true,
+      "recursive": true,
+      "path": "C:/Program Files (x86)/Steam/steamapps/common/DayZServer/profiles"
+    },
+    {
+      "name": "Live Logs",
+      "enabled": true,
+      "recursive": true,
+      "path": "//DESKTOP-UOSDK2L/Public/DayZServer/Neuer Ordner"
+    },
+    {
+      "name": "Live Profiles und Mod-Logs",
+      "enabled": true,
+      "recursive": true,
+      "path": "//DESKTOP-UOSDK2L/Public/DayZServer/profiles"
+    }
+  ],
+  "auto_cleanup_logs": true,
+  "log_retention_days": 5,
+  "auto_start_monitor": true,
+  "workshop": {
+    "enabled": true,
+    "source_dir": "C:/Program Files (x86)/Steam/steamapps/common/DayZ/!Workshop",
+    "poll_seconds": 60,
+    "debounce_seconds": 90,
+    "copy_keys_to_server": true,
+    "enabled_mods": []
+  },
+  "server_control": {
+    "local_start_file": "C:/Program Files (x86)/Steam/steamapps/common/DayZServer/DeutschZ_Start_local.bat",
+    "local_process_name": "DayZServer_x64.exe",
+    "restart_delay_seconds": 15,
+    "remote_mode": "Generische Webhooks",
+    "nitrado_service_id": "",
+    "nitrado_token": "",
+    "remote_start_url": "",
+    "remote_stop_url": "",
+    "remote_restart_url": "",
+    "remote_bearer_token": ""
+  },
   "poll_seconds": 5,
   "debounce_seconds": 4,
   "baseline_on_first_run": true,
@@ -30,25 +87,34 @@
     {
       "name": "Lokaler DayZServer",
       "type": "local",
+      "provider": "Windows / Lokal",
       "enabled": true,
-      "root": "C:/Program Files (x86)/Steam/steamapps/common/DayZServer"
+      "root": "C:/Program Files (x86)/Steam/steamapps/common/DayZServer",
+      "profiles_root": "C:/Program Files (x86)/Steam/steamapps/common/DayZServer/profiles",
+      "missions_root": "C:/Program Files (x86)/Steam/steamapps/common/DayZServer/mpmissions"
     },
     {
       "name": "Live-Freigabe",
       "type": "local",
+      "provider": "Auto",
       "enabled": true,
-      "root": "//DESKTOP-UOSDK2L/Public/DayZServer"
+      "root": "//DESKTOP-UOSDK2L/Public/DayZServer",
+      "profiles_root": "//DESKTOP-UOSDK2L/Public/DayZServer/profiles",
+      "missions_root": "//DESKTOP-UOSDK2L/Public/DayZServer/mpmissions"
     },
     {
       "name": "Live-FTP",
       "type": "ftp",
+      "provider": "Auto",
       "enabled": false,
       "host_env": "DEUTSCHZ_FTP_HOST",
       "port": 21,
       "username_env": "DEUTSCHZ_FTP_USER",
       "password_env": "DEUTSCHZ_FTP_PASSWORD",
       "tls": true,
-      "root": "/dayzstandalone"
+      "root": "/dayzstandalone",
+      "profiles_root": "/dayzstandalone/profiles",
+      "missions_root": "/dayzstandalone/mpmissions"
     }
   ]
 }
