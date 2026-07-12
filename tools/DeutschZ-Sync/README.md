@@ -19,6 +19,12 @@ Synchronisiert freigegebene Server-Settings aus
 `Start DeutschZ Sync.cmd` oeffnet die Oberflaeche. Danach `Monitor starten`
 waehlen. `Vollsync` ist eine bewusste manuelle Aktion mit Rueckfrage.
 
+Im Tab `Settings bearbeiten` stehen alle freigegebenen Dateien aus `profiles`,
+`mpmissions` und dem Server-Root zur Verfuegung. Die Liste kann durchsucht und
+nach Bereich gefiltert werden. `Speichern + Sync` validiert JSON/XML, legt ein
+Backup unter `%LOCALAPPDATA%\DeutschZ\SettingsSync\backups` an, schreibt UTF-8
+ohne BOM und verteilt die Aenderung anschliessend auf die aktiven Ziele.
+
 Kommandozeile:
 
 ```powershell
