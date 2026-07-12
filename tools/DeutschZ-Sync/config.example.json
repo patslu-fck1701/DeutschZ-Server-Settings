@@ -1,0 +1,54 @@
+{
+  "source_root": "E:/DeutschZ/DeutschZ-Server-Settings",
+  "poll_seconds": 5,
+  "debounce_seconds": 4,
+  "baseline_on_first_run": true,
+  "include": [
+    "profiles/**",
+    "mpmissions/**",
+    "keys/**",
+    "serverDZ.cfg",
+    "modlist.txt",
+    "servermodlist.txt",
+    "dayzsetting.xml"
+  ],
+  "exclude": [
+    ".git/**",
+    "tools/**",
+    "**/storage_*/**",
+    "**/logs/**",
+    "**/data/**",
+    "**/*.log",
+    "**/*.rpt",
+    "**/*.ADM",
+    "**/*.mdmp",
+    "**/*.bak",
+    "**/*.tmp",
+    "**/*_backup*/**"
+  ],
+  "targets": [
+    {
+      "name": "Lokaler DayZServer",
+      "type": "local",
+      "enabled": true,
+      "root": "C:/Program Files (x86)/Steam/steamapps/common/DayZServer"
+    },
+    {
+      "name": "Live-Freigabe",
+      "type": "local",
+      "enabled": true,
+      "root": "//DESKTOP-UOSDK2L/Public/DayZServer"
+    },
+    {
+      "name": "Live-FTP",
+      "type": "ftp",
+      "enabled": false,
+      "host_env": "DEUTSCHZ_FTP_HOST",
+      "port": 21,
+      "username_env": "DEUTSCHZ_FTP_USER",
+      "password_env": "DEUTSCHZ_FTP_PASSWORD",
+      "tls": true,
+      "root": "/dayzstandalone"
+    }
+  ]
+}
