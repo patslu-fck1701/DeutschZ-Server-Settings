@@ -1,0 +1,114 @@
+{
+    "Version": 1,
+    "EnableSpawnSystem": 1,
+    "EnableDeathScreenButtons": 1,
+    "DefaultSpawnMode": "SAFE_RANDOM",
+    "RespawnCooldownSeconds": 120,
+    "AllowKeepGear": 0,
+    "AllowLoadoutSelection": 1,
+    "BlockWaterSpawns": 1,
+    "BlockSteepTerrain": 1,
+    "MaxTerrainSlope": 35.0,
+    "MinDistanceToPlayers": 250.0,
+    "MinDistanceToTrader": 350.0,
+    "MinDistanceToEvents": 750.0,
+    "MinDistanceToSafeZones": 300.0,
+    "SpawnSearchRadius": 12.0,
+    "SpawnHeightOffset": 0.25,
+    "DebugLogs": 1,
+    "SpawnModes": {
+        "RANDOM": 1,
+        "COAST": 1,
+        "INLAND": 0,
+        "TRADER_NEAR": 0,
+        "SAFE_RANDOM": 1,
+        "ADMIN_TEST": 0,
+        "DISABLED_KEEP_GEAR": 0
+    },
+    "TraderPositions": [
+        [
+            3708.0,
+            402.0,
+            5976.0
+        ],
+        [
+            1143.0,
+            7.0,
+            2423.0
+        ],
+        [
+            4971.0,
+            11.0,
+            2436.0
+        ]
+    ],
+    "EventPositions": [
+        [
+            8000.0,
+            339.0,
+            14637.0
+        ],
+        [
+            4552.0,
+            318.0,
+            8351.0
+        ],
+        [
+            3781.0,
+            361.0,
+            14802.0
+        ],
+        [
+            2935.0,
+            271.0,
+            9680.0
+        ],
+        [
+            1101.0,
+            183.0,
+            7196.0
+        ],
+        [
+            4906.0,
+            338.0,
+            9430.0
+        ],
+        [
+            315.0,
+            295.0,
+            9340.0
+        ],
+        [
+            1246.0,
+            173.0,
+            5848.0
+        ],
+        [
+            9707.0,
+            299.0,
+            8891.0
+        ],
+        [
+            12139.0,
+            140.0,
+            12658.0
+        ],
+        [
+            3630.0,
+            334.0,
+            6922.0
+        ]
+    ],
+    "SafeZonePositions": [
+        [
+            3708.0,
+            402.0,
+            5976.0
+        ],
+        [
+            4971.0,
+            11.0,
+            2436.0
+        ]
+    ]
+}

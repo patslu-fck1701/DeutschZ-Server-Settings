@@ -476,20 +476,6 @@
     <usage name="Village" />
     <value name="Tier2" />
   </type>
-  <type name="NoxZ_Speaker">
-    <nominal>0</nominal>
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-    <category name="tools" />
-    <usage name="Town" />
-    <usage name="Village" />
-    <value name="Tier2" />
-  </type>
   <type name="NoxZ_Laptop">
     <nominal>0</nominal>
     <lifetime>3888000</lifetime>
@@ -632,20 +618,6 @@
     <value name="Tier2" />
   </type>
   <type name="NoxZ_AntiAirStrike_Static">
-    <nominal>0</nominal>
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0" />
-    <category name="tools" />
-    <usage name="Town" />
-    <usage name="Village" />
-    <value name="Tier2" />
-  </type>
-  <type name="NoxZ_Static_Speaker">
     <nominal>0</nominal>
     <lifetime>3888000</lifetime>
     <restock>1800</restock>

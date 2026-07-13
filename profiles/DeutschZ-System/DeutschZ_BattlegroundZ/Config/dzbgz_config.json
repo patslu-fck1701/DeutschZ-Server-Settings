@@ -1,0 +1,42 @@
+{
+    "Enabled": 1,
+    "AutoSpawnReader": 1,
+    "TickSeconds": 10.0,
+    "FirstSignalDelaySeconds": 45.0,
+    "SecondSignalDelaySeconds": 180.0,
+    "ThirdSignalDelaySeconds": 180.0,
+    "RiddleDelaySeconds": 240.0,
+    "ApproachRadius": 360.0,
+    "BattlegroundRadius": 135.0,
+    "ReaderUseDistance": 4.0,
+    "CleanupDelaySeconds": 1800.0,
+    "EventName": "DeutschZ BattlegroundZ",
+    "ReaderPosition": [
+        468.67767333984377,
+        293.24658203125,
+        9443.185546875
+    ],
+    "ReaderOrientation": [
+        294.2773132324219,
+        0.0,
+        0.0
+    ],
+    "RevealedPingPosition": [
+        8403.4677734375,
+        232.0381622314453,
+        14246.509765625
+    ],
+    "BattlegroundCenter": [
+        450.67767333984377,
+        293.24658203125,
+        9431.185546875
+    ],
+    "ReaderMarkerPosition": [
+        468.67767333984377,
+        293.24658203125,
+        9443.185546875
+    ],
+    "AdminUIDs": [],
+    "DebugCommandsEnabled": 1,
+    "AllowAdminWhenListEmpty": 1
+}

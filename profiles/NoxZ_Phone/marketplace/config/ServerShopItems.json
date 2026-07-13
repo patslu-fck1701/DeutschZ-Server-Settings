@@ -5,19 +5,19 @@
     "ServerShopCategories":  [
                                  {
                                      "CategoryID":  "phone_general",
-                                     "DisplayName":  "Telefon und Technik",
+                                     "DisplayName":  "Phone General",
                                      "DisplayNameKey":  "",
                                      "Enabled":  1,
                                      "Items":  [
                                                    {
                                                        "id":  "",
-                                                       "DisplayName":  "Powerbank",
+                                                       "DisplayName":  "NoxZ_PowerBank",
                                                        "Description":  "",
                                                        "Classname":  "NoxZ_PowerBank",
                                                        "Category":  "phone_general",
                                                        "PreviewIcon":  "",
                                                        "PreviewImage":  "",
-                                                       "Price":  8000,
+                                                       "Price":  6000,
                                                        "Available":  1,
                                                        "Enabled":  1,
                                                        "Stock":  100,
@@ -34,13 +34,13 @@
                                                    },
                                                    {
                                                        "id":  "",
-                                                       "DisplayName":  "Geldboerse",
+                                                       "DisplayName":  "NoxZ_Wallet",
                                                        "Description":  "",
                                                        "Classname":  "NoxZ_Wallet",
                                                        "Category":  "phone_general",
                                                        "PreviewIcon":  "",
                                                        "PreviewImage":  "",
-                                                       "Price":  2500,
+                                                       "Price":  6000,
                                                        "Available":  1,
                                                        "Enabled":  1,
                                                        "Stock":  100,
@@ -57,13 +57,13 @@
                                                    },
                                                    {
                                                        "id":  "",
-                                                       "DisplayName":  "Kreditkarte",
+                                                       "DisplayName":  "NoxZ_CreditCard",
                                                        "Description":  "",
                                                        "Classname":  "NoxZ_CreditCard",
                                                        "Category":  "phone_general",
                                                        "PreviewIcon":  "",
                                                        "PreviewImage":  "",
-                                                       "Price":  2500,
+                                                       "Price":  6000,
                                                        "Available":  1,
                                                        "Enabled":  1,
                                                        "Stock":  100,
@@ -80,59 +80,13 @@
                                                    },
                                                    {
                                                        "id":  "",
-                                                       "DisplayName":  "DeutschZ Lautsprecher",
-                                                       "Description":  "Abspielgeraet fuer die DeutschZ Musikbibliothek.",
-                                                       "Classname":  "NoxZ_Speaker",
-                                                       "Category":  "phone_general",
-                                                       "PreviewIcon":  "",
-                                                       "PreviewImage":  "",
-                                                       "Price":  15000,
-                                                       "Available":  1,
-                                                       "Enabled":  1,
-                                                       "Stock":  100,
-                                                       "SpawnPoints":  [
-
-                                                                       ],
-                                                       "VehicleAttachments":  [
-
-                                                                              ],
-                                                       "CargoItems":  [
-
-                                                                      ],
-                                                       "SpawnWithFullFuel":  0
-                                                   },
-                                                   {
-                                                       "id":  "",
-                                                       "DisplayName":  "Sicherheitskamera-Kit",
+                                                       "DisplayName":  "NoxZ_SecCamera_Kit",
                                                        "Description":  "",
                                                        "Classname":  "NoxZ_SecCamera_Kit",
                                                        "Category":  "phone_general",
                                                        "PreviewIcon":  "",
                                                        "PreviewImage":  "",
-                                                       "Price":  25000,
-                                                       "Available":  1,
-                                                       "Enabled":  1,
-                                                       "Stock":  100,
-                                                       "SpawnPoints":  [
-
-                                                                       ],
-                                                       "VehicleAttachments":  [
-
-                                                                              ],
-                                                       "CargoItems":  [
-
-                                                                      ],
-                                                       "SpawnWithFullFuel":  0
-                                                   },
-                                                   {
-                                                       "id":  "",
-                                                       "DisplayName":  "Telefon-Akku",
-                                                       "Description":  "Ersatzakku fuer das DeutschZ Phone.",
-                                                       "Classname":  "NoxZ_PhoneBattery",
-                                                       "Category":  "phone_general",
-                                                       "PreviewIcon":  "",
-                                                       "PreviewImage":  "",
-                                                       "Price":  3000,
+                                                       "Price":  6000,
                                                        "Available":  1,
                                                        "Enabled":  1,
                                                        "Stock":  100,
@@ -151,7 +105,7 @@
                                  },
                                  {
                                      "CategoryID":  "phone_clothing",
-                                     "DisplayName":  "Kleidung",
+                                     "DisplayName":  "Phone Clothing",
                                      "DisplayNameKey":  "",
                                      "Enabled":  1,
                                      "Items":  [
@@ -803,7 +757,7 @@
                                  },
                                  {
                                      "CategoryID":  "phone_survival",
-                                     "DisplayName":  "Survival",
+                                     "DisplayName":  "Phone Survival",
                                      "DisplayNameKey":  "",
                                      "Enabled":  1,
                                      "Items":  [
@@ -1064,7 +1018,7 @@
                                  },
                                  {
                                      "CategoryID":  "phone_medical",
-                                     "DisplayName":  "Medizin",
+                                     "DisplayName":  "Phone Medical",
                                      "DisplayNameKey":  "",
                                      "Enabled":  1,
                                      "Items":  [
@@ -1233,7 +1187,7 @@
                                  },
                                  {
                                      "CategoryID":  "phone_tools",
-                                     "DisplayName":  "Werkzeuge",
+                                     "DisplayName":  "Phone Tools",
                                      "DisplayNameKey":  "",
                                      "Enabled":  1,
                                      "Items":  [
@@ -1517,7 +1471,7 @@
                                  },
                                  {
                                      "CategoryID":  "phone_food_drinks",
-                                     "DisplayName":  "Essen und Trinken",
+                                     "DisplayName":  "Phone Food / Drinks",
                                      "DisplayNameKey":  "",
                                      "Enabled":  1,
                                      "Items":  [
@@ -2146,7 +2100,7 @@
                                  },
                                  {
                                      "CategoryID":  "phone_drone_shop",
-                                     "DisplayName":  "Drohnen",
+                                     "DisplayName":  "Phone Drone Shop",
                                      "DisplayNameKey":  "",
                                      "Enabled":  1,
                                      "Items":  [
@@ -2205,9 +2159,9 @@
                                                        "PreviewIcon":  "",
                                                        "PreviewImage":  "",
                                                        "Price":  350000,
-                                                       "Available":  1,
-                                                       "Enabled":  1,
-                                                       "Stock":  10,
+                                                       "Available":  0,
+                                                       "Enabled":  0,
+                                                       "Stock":  0,
                                                        "SpawnPoints":  [
 
                                                                        ],
@@ -2228,9 +2182,9 @@
                                                        "PreviewIcon":  "",
                                                        "PreviewImage":  "",
                                                        "Price":  650000,
-                                                       "Available":  1,
-                                                       "Enabled":  1,
-                                                       "Stock":  5,
+                                                       "Available":  0,
+                                                       "Enabled":  0,
+                                                       "Stock":  0,
                                                        "SpawnPoints":  [
 
                                                                        ],
@@ -2251,9 +2205,9 @@
                                                        "PreviewIcon":  "",
                                                        "PreviewImage":  "",
                                                        "Price":  1200000,
-                                                       "Available":  1,
-                                                       "Enabled":  1,
-                                                       "Stock":  3,
+                                                       "Available":  0,
+                                                       "Enabled":  0,
+                                                       "Stock":  0,
                                                        "SpawnPoints":  [
 
                                                                        ],
@@ -2269,7 +2223,7 @@
                                  },
                                  {
                                      "CategoryID":  "phone_drone_parts",
-                                     "DisplayName":  "Drohnen-Zubehoer",
+                                     "DisplayName":  "Phone Drone Parts",
                                      "DisplayNameKey":  "",
                                      "Enabled":  1,
                                      "Items":  [
@@ -2369,7 +2323,7 @@
                                  },
                                  {
                                      "CategoryID":  "phone_special",
-                                     "DisplayName":  "Spezial",
+                                     "DisplayName":  "Phone Special",
                                      "DisplayNameKey":  "",
                                      "Enabled":  1,
                                      "Items":  [
@@ -2408,29 +2362,6 @@
                                                        "Available":  1,
                                                        "Enabled":  1,
                                                        "Stock":  20,
-                                                       "SpawnPoints":  [
-
-                                                                       ],
-                                                       "VehicleAttachments":  [
-
-                                                                              ],
-                                                       "CargoItems":  [
-
-                                                                      ],
-                                                       "SpawnWithFullFuel":  0
-                                                   },
-                                                   {
-                                                       "id":  "",
-                                                       "DisplayName":  "Luftabwehr-Kit",
-                                                       "Description":  "Stationaere Abwehr gegen aktive Luftschlaege.",
-                                                       "Classname":  "NoxZ_AntiAirStrikeKit",
-                                                       "Category":  "phone_special",
-                                                       "PreviewIcon":  "",
-                                                       "PreviewImage":  "",
-                                                       "Price":  500000,
-                                                       "Available":  1,
-                                                       "Enabled":  1,
-                                                       "Stock":  5,
                                                        "SpawnPoints":  [
 
                                                                        ],

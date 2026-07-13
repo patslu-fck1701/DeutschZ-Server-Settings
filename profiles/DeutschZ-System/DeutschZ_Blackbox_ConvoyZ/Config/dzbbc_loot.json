@@ -1,0 +1,46 @@
+{
+    "RewardContainerLoot": [
+        {
+            "ClassName": "GasZonen_Leuchtfackel",
+            "Min": 1,
+            "Max": 1,
+            "Chance": 100.0
+        },
+        {
+            "ClassName": "DZBBC_SignalMatches",
+            "Min": 1,
+            "Max": 1,
+            "Chance": 75.0
+        },
+        {
+            "ClassName": "DZBBC_Coded9VBattery",
+            "Min": 1,
+            "Max": 1,
+            "Chance": 50.0
+        },
+        {
+            "ClassName": "M4A1",
+            "Min": 1,
+            "Max": 1,
+            "Chance": 25.0
+        },
+        {
+            "ClassName": "Ammo_556x45",
+            "Min": 2,
+            "Max": 6,
+            "Chance": 75.0
+        },
+        {
+            "ClassName": "PlateCarrierVest",
+            "Min": 1,
+            "Max": 1,
+            "Chance": 35.0
+        },
+        {
+            "ClassName": "NVGoggles",
+            "Min": 1,
+            "Max": 1,
+            "Chance": 25.0
+        }
+    ]
+}

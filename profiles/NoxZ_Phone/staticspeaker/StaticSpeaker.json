@@ -1,34 +1,12 @@
 {
-    "ConfigVersion":  1,
-    "Enabled":  1,
-    "GlobalVolume":  35,
-    "RandomMode":  1,
-    "OnlyPlayWhenPlayersNearby":  1,
-    "PlayerDetectionRangeMeters":  100,
-    "DetectStaticSpeaker":  0,
-    "DetectionIntervalMinutes":  2,
-    "DuplicateDetectionRangeMeters":  5,
-    "Spawnpoints":  [
-                        {
-                            "Name":  "Trader Green Mountain",
-                            "Enabled":  1,
-                            "Position":  "3706.500000 402.250000 5981.000000",
-                            "Orientation":  "0.000000 0.000000 0.000000",
-                            "VolumeOverride":  25
-                        },
-                        {
-                            "Name":  "Blackmarket Kamenka",
-                            "Enabled":  1,
-                            "Position":  "1143.500000 7.050000 2427.000000",
-                            "Orientation":  "66.000000 0.000000 0.000000",
-                            "VolumeOverride":  25
-                        },
-                        {
-                            "Name":  "Trader Balota Aircraft",
-                            "Enabled":  1,
-                            "Position":  "4973.000000 10.560000 2438.500000",
-                            "Orientation":  "138.000000 0.000000 0.000000",
-                            "VolumeOverride":  25
-                        }
-                    ]
+    "ConfigVersion": 1,
+    "Enabled": 0,
+    "GlobalVolume": 0.0,
+    "RandomMode": 0,
+    "OnlyPlayWhenPlayersNearby": 0,
+    "PlayerDetectionRangeMeters": 0.0,
+    "DetectStaticSpeaker": 0,
+    "DetectionIntervalMinutes": 2.0,
+    "DuplicateDetectionRangeMeters": 5.0,
+    "Spawnpoints": []
 }
