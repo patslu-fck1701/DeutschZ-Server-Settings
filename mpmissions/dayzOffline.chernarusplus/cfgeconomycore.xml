@@ -55,6 +55,7 @@
     <file name="DeutschZ_only_core_types.xml" type="types" />
     <file name="DeutschZ_KotH_InfectedSiedge_types.xml" type="types" />
     <file name="DeutschZ_Blackbox_ConvoyZ_types.xml" type="types" />
+    <file name="DeutschZ_CriminalZ_types.xml" type="types" />
     <file name="DeutschZ_SNAFU_MapLoot_types.xml" type="types" />
     <file name="DeutschZ_SNAFU_EventLoot_types.xml" type="types" />
     <file name="DayZ_Expansion_Bundle_spawnabletypes.xml" type="spawnabletypes" />

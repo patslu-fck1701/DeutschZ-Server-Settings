@@ -1,0 +1,114 @@
+{
+    "Version": 1,
+    "DebugMode": 1,
+    "General": {
+        "UseDeutschZProfileSystem": 1,
+        "EnableGlobalNotifications": 1,
+        "EnablePersonalNotifications": 1,
+        "EnableExpansionMarkers": 1,
+        "PreventParallelHackOnSameTarget": 1,
+        "PersistCooldowns": 1,
+        "AllowAdminWhenListEmpty": 0,
+        "AdminUIDs": []
+    },
+    "ATMModule": {
+        "Enabled": 1,
+        "HackTimeMinSeconds": 300,
+        "HackTimeMaxSeconds": 600,
+        "RequiredRadiusMeters": 15.0,
+        "EnableAlarm": 1,
+        "EnableGlobalNotification": 1,
+        "EnableMapMarker": 1,
+        "MarkerColor": "Red",
+        "MarkerBlinking": 1,
+        "RequiredTool": "RobTool_Crowbar",
+        "RequireToolInHands": 1,
+        "DamageToolOnSuccess": 1,
+        "ToolDamageOnSuccess": 10.0,
+        "DamageToolOnFail": 1,
+        "ToolDamageOnFail": 5.0,
+        "AutoCreateAtExpansionStores": 1,
+        "FallbackWriteStoresToConfig": 1,
+        "CooldownSeconds": 7200,
+        "EnableSiren": 1,
+        "PayoutCurrencyMode": "NoxZ_Euro",
+        "PayoutMinAmount": 45000,
+        "PayoutMaxAmount": 185000,
+        "AllowBitcoinReward": 0
+    },
+    "GarageModule": {
+        "Enabled": 1,
+        "HackTimeMinSeconds": 300,
+        "HackTimeMaxSeconds": 600,
+        "RequiredRadiusMeters": 15.0,
+        "EnableAlarm": 1,
+        "EnableGlobalNotification": 1,
+        "EnableMapMarker": 1,
+        "MarkerColor": "Red",
+        "MarkerBlinking": 1,
+        "RequiredTool": "HackingTool_Lockpick",
+        "RequireToolInHands": 1,
+        "DamageToolOnSuccess": 1,
+        "ToolDamageOnSuccess": 10.0,
+        "DamageToolOnFail": 1,
+        "ToolDamageOnFail": 5.0
+    },
+    "VehicleModule": {
+        "Enabled": 1,
+        "HackTimeMinSeconds": 300,
+        "HackTimeMaxSeconds": 600,
+        "RequiredRadiusMeters": 15.0,
+        "EnableAlarm": 1,
+        "EnableGlobalNotification": 1,
+        "EnableMapMarker": 1,
+        "MarkerColor": "Red",
+        "MarkerBlinking": 1,
+        "RequiredTool": "HackingTool_Lockpick",
+        "RequireToolInHands": 1,
+        "DamageToolOnSuccess": 1,
+        "ToolDamageOnSuccess": 10.0,
+        "DamageToolOnFail": 1,
+        "ToolDamageOnFail": 5.0,
+        "EnableHorn": 1,
+        "EnableHazardLights": 1
+    },
+    "NoxZEuroDenominations": [
+        {
+            "ClassName": "NoxZ_Euro500",
+            "Value": 500
+        },
+        {
+            "ClassName": "NoxZ_Euro200",
+            "Value": 200
+        },
+        {
+            "ClassName": "NoxZ_Euro100",
+            "Value": 100
+        },
+        {
+            "ClassName": "NoxZ_Euro50",
+            "Value": 50
+        },
+        {
+            "ClassName": "NoxZ_Euro20",
+            "Value": 20
+        },
+        {
+            "ClassName": "NoxZ_Euro10",
+            "Value": 10
+        },
+        {
+            "ClassName": "NoxZ_Euro5",
+            "Value": 5
+        },
+        {
+            "ClassName": "NoxZ_Euro2",
+            "Value": 2
+        },
+        {
+            "ClassName": "NoxZ_Euro1",
+            "Value": 1
+        }
+    ],
+    "ATMPositions": []
+}

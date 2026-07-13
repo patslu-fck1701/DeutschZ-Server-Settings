@@ -1,0 +1,109 @@
+{
+    "Enabled": 1,
+    "StoreTypes": [
+        "Land_City_Store",
+        "Land_City_Store_WithStairs"
+    ],
+    "Placements": [
+        {
+            "Type": "ExpansionATM_2",
+            "LocalPosition": [
+                -8.898675918579102,
+                -1.2053450345993043,
+                -3.4315989017486574
+            ],
+            "LocalOrientation": [
+                -90.03536224365235,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0
+        },
+        {
+            "Type": "DZCRZ_StoreInfoSign",
+            "LocalPosition": [
+                0.7259489893913269,
+                1.643460988998413,
+                10.425142288208008
+            ],
+            "LocalOrientation": [
+                -174.60269165039063,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0
+        }
+    ],
+    "StoreProfiles": [
+        {
+            "StoreType": "Land_City_Store",
+            "Placements": [
+                {
+                    "Type": "ExpansionATM_2",
+                    "LocalPosition": [
+                        -8.898675918579102,
+                        -1.2053450345993043,
+                        -3.4315989017486574
+                    ],
+                    "LocalOrientation": [
+                        -90.03536224365235,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": 1.0
+                },
+                {
+                    "Type": "DZCRZ_StoreInfoSign",
+                    "LocalPosition": [
+                        0.7259489893913269,
+                        1.643460988998413,
+                        10.425142288208008
+                    ],
+                    "LocalOrientation": [
+                        -174.60269165039063,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": 1.0
+                }
+            ]
+        },
+        {
+            "StoreType": "Land_City_Store_WithStairs",
+            "Placements": [
+                {
+                    "Type": "ExpansionATM_2",
+                    "LocalPosition": [
+                        -8.898675918579102,
+                        -1.2053450345993043,
+                        -3.4315989017486574
+                    ],
+                    "LocalOrientation": [
+                        -90.03536224365235,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": 1.0
+                },
+                {
+                    "Type": "DZCRZ_StoreInfoSign",
+                    "LocalPosition": [
+                        0.7259489893913269,
+                        1.643460988998413,
+                        10.425142288208008
+                    ],
+                    "LocalOrientation": [
+                        -174.60269165039063,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": 1.0
+                }
+            ]
+        }
+    ],
+    "DuplicateRadius": 0.75,
+    "SpawnDelayMilliseconds": 2000,
+    "EnableDebugLogging": 0,
+    "CustomSignClassname": "DZCRZ_StoreInfoSign"
+}
