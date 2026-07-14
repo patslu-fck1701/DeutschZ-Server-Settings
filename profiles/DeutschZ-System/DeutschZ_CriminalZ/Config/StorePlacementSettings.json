@@ -6,7 +6,7 @@
     ],
     "Placements": [
         {
-            "Type": "ExpansionATM_2",
+            "Type": "DZCRZ_ATM",
             "LocalPosition": [
                 -8.898675918579102,
                 -1.2053450345993043,
@@ -39,7 +39,7 @@
             "StoreType": "Land_City_Store",
             "Placements": [
                 {
-                    "Type": "ExpansionATM_2",
+                    "Type": "DZCRZ_ATM",
                     "LocalPosition": [
                         -8.898675918579102,
                         -1.2053450345993043,
@@ -72,7 +72,7 @@
             "StoreType": "Land_City_Store_WithStairs",
             "Placements": [
                 {
-                    "Type": "ExpansionATM_2",
+                    "Type": "DZCRZ_ATM",
                     "LocalPosition": [
                         -8.898675918579102,
                         -1.2053450345993043,
