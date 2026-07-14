@@ -7,6 +7,8 @@
   "EventDurationMinutes": 45,
   "CaptureDurationSeconds": 300,
   "ChestActionDurationSeconds": 60,
+  "RequireTerminalHackBeforeCapture": true,
+  "TerminalHackSeconds": 60,
   "ZombieCount": 3,
   "CaptureRadius": 25,
   "ZombieSpawnRadius": 15,
