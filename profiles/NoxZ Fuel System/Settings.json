@@ -1,76 +1,71 @@
 {
-    "Version":  206,
-    "ClientSyncCheckInterval":  1,
-    "DataSaveInterval":  5,
-    "ConfigReloadInterval":  30,
-    "RefillSelectionMaxRange":  6,
-    "StationRange":  50,
-    "PumpClassnames":  [
-                           "FuelStation"
-                       ],
-    "StationFuelCapacity":  150.0,
-    "MinutesPerLiter":  1.0,
-    "MaxRefuelTimeMinutes":  3.0,
-    "CarFuelConsumption":  1.0,
-    "BoatFuelConsumption":  1.0,
-    "AllowVehicleRefuel":  1,
-    "AllowBottleFill":  1,
-    "AllowMeasure":  1,
-    "EnablePricing":  1,
-    "LitersStep":  1,
-    "Currencies":  [
-                       {
-                           "DisplayName":  "Euro",
-                           "PricePerLiter":  20
-                       }
-                   ],
-    "Denominations":  [
-                          {
-                              "DisplayName":  "Euro",
-                              "Classname":  "NoxZ_Euro1",
-                              "Value":  1
-                          },
-                          {
-                              "DisplayName":  "Euro",
-                              "Classname":  "NoxZ_Euro2",
-                              "Value":  2
-                          },
-                          {
-                              "DisplayName":  "Euro",
-                              "Classname":  "NoxZ_Euro5",
-                              "Value":  5
-                          },
-                          {
-                              "DisplayName":  "Euro",
-                              "Classname":  "NoxZ_Euro10",
-                              "Value":  10
-                          },
-                          {
-                              "DisplayName":  "Euro",
-                              "Classname":  "NoxZ_Euro20",
-                              "Value":  20
-                          },
-                          {
-                              "DisplayName":  "Euro",
-                              "Classname":  "NoxZ_Euro50",
-                              "Value":  50
-                          },
-                          {
-                              "DisplayName":  "Euro",
-                              "Classname":  "NoxZ_Euro100",
-                              "Value":  100
-                          },
-                          {
-                              "DisplayName":  "Euro",
-                              "Classname":  "NoxZ_Euro200",
-                              "Value":  200
-                          },
-                          {
-                              "DisplayName":  "Euro",
-                              "Classname":  "NoxZ_Euro500",
-                              "Value":  500
-                          }
-                      ],
-    "LoggingLevel":  3,
-    "EnableFuelSystem":  1
+    "Version": 206,
+    "ClientSyncCheckInterval": 1,
+    "DataSaveInterval": 5,
+    "ConfigReloadInterval": 30,
+    "RefillSelectionMaxRange": 6,
+    "StationRange": 50,
+    "PumpClassnames": [
+        "FuelStation"
+    ],
+    "StationFuelCapacity": 150.0,
+    "MinutesPerLiter": 1.0,
+    "MaxRefuelTimeMinutes": 3.0,
+    "CarFuelConsumption": 1.0,
+    "BoatFuelConsumption": 1.0,
+    "AllowVehicleRefuel": 1,
+    "AllowBottleFill": 1,
+    "AllowMeasure": 1,
+    "EnablePricing": 1,
+    "LitersStep": 1,
+    "Currencies": [
+        {
+            "DisplayName": "Dollars",
+            "PricePerLiter": 10.0
+        }
+    ],
+    "Denominations": [
+        {
+            "DisplayName": "Dollars",
+            "Classname": "NoxZ_Dollar1",
+            "Value": 1
+        },
+        {
+            "DisplayName": "Dollars",
+            "Classname": "NoxZ_Dollar2",
+            "Value": 2
+        },
+        {
+            "DisplayName": "Dollars",
+            "Classname": "NoxZ_Dollar5",
+            "Value": 5
+        },
+        {
+            "DisplayName": "Dollars",
+            "Classname": "NoxZ_Dollar10",
+            "Value": 10
+        },
+        {
+            "DisplayName": "Dollars",
+            "Classname": "NoxZ_Dollar20",
+            "Value": 20
+        },
+        {
+            "DisplayName": "Dollars",
+            "Classname": "NoxZ_Dollar50",
+            "Value": 50
+        },
+        {
+            "DisplayName": "Dollars",
+            "Classname": "NoxZ_Dollar100",
+            "Value": 100
+        },
+        {
+            "DisplayName": "Dollars",
+            "Classname": "NoxZ_Dollar500",
+            "Value": 500
+        }
+    ],
+    "LoggingLevel": 3,
+    "EnableFuelSystem": 1
 }

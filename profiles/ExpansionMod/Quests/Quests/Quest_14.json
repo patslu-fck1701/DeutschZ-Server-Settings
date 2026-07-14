@@ -1,52 +1,51 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 5,
     "ID": 14,
-    "Type": 1,
-    "Title": "Welcome to Hell",
+    "Type": 4,
+    "Title": "[Dog Tag] Bully",
     "Descriptions": [
-        "PLACEHOLDER",
-        "PLACEHOLDER",
-        "PLACEHOLDER"
+        "If you kill a player with the Bully rank for me, I will give you something when you come back to me and give me their dog tag.",
+        "Obtain a dog tag from a player with the rank: Bully.",
+        "Turn in quest to get reward."
     ],
-    "ObjectiveText": "Visit the camp at the marked location.",
+    "ObjectiveText": "Obtain a Bully dog tag.",
+    "PreQuest": -1,
     "FollowUpQuest": -1,
-    "Repeatable": 0,
+    "IsAchivement": 0,
+    "Repeatable": 1,
     "IsDailyQuest": 0,
-    "IsWeeklyQuest": 0,
+    "IsWeeklyQuest": 1,
     "CancelQuestOnPlayerDeath": 0,
-    "Autocomplete": 1,
+    "Autocomplete": 0,
     "IsGroupQuest": 0,
+    "IsBanditQuest": 0,
+    "IsHeroQuest": 1,
     "ObjectSetFileName": "",
-    "QuestItems": [],
-    "Rewards": [],
-    "NeedToSelectReward": 0,
-    "RandomReward": 0,
-    "RandomRewardAmount": -1,
-    "RewardsForGroupOwnerOnly": 1,
-    "RewardBehavior": 0,
-    "QuestGiverIDs": [],
-    "QuestTurnInIDs": [
-        1
-    ],
-    "IsAchievement": 0,
+    "QuestClassName": "",
     "Objectives": [
         {
-            "ConfigVersion": 28,
-            "ID": 3,
-            "ObjectiveType": 3
+            "ConfigVersion": 9,
+            "ID": 8,
+            "ObjectiveType": 4,
+            "ObjectiveText": "",
+            "TimeLimit": -1
         }
     ],
-    "QuestColor": 0,
-    "ReputationReward": 0,
-    "ReputationRequirement": -1,
-    "PreQuestIDs": [],
-    "RequiredFaction": "",
-    "FactionReward": "",
-    "PlayerNeedQuestItems": 1,
-    "DeleteQuestItems": 1,
-    "SequentialObjectives": 1,
-    "FactionReputationRequirements": {},
-    "FactionReputationRewards": {},
-    "SuppressQuestLogOnCompetion": 0,
-    "Active": 1
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "ExpansionSilverNugget",
+            "Amount": 200,
+            "Attachments": []
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RewardsForGroupOwnerOnly": 1,
+    "HumanityReward": 0,
+    "QuestGiverIDs": [
+        4
+    ],
+    "QuestTurnInIDs": [
+        4
+    ]
 }

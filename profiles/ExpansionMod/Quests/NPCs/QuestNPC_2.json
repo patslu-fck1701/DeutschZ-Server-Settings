@@ -1,7 +1,8 @@
 {
-    "ConfigVersion": 6,
+    "ConfigVersion": 1,
     "ID": 2,
     "ClassName": "ExpansionQuestNPCAIElias",
+    "IsAI": 1,
     "Position": [
         3192.199951171875,
         296.7070007324219,
@@ -11,6 +12,12 @@
         145.0,
         0.0,
         0.0
+    ],
+    "QuestIDs": [
+        1,
+        2,
+        3,
+        22
     ],
     "NPCName": "Steve",
     "DefaultNPCText": "What do you want? I am busy...",
@@ -24,11 +31,5 @@
     "NPCEmoteID": 14,
     "NPCEmoteIsStatic": 1,
     "NPCLoadoutFile": "NBCLoadout",
-    "NPCInteractionEmoteID": 1,
-    "NPCQuestCancelEmoteID": 60,
-    "NPCQuestStartEmoteID": 58,
-    "NPCQuestCompleteEmoteID": 39,
-    "NPCFaction": "InvincibleObservers",
-    "NPCType": 2,
-    "Active": 1
+    "IsStatic": 0
 }

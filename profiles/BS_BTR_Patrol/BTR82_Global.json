@@ -1,17 +1,17 @@
 {
-    "MinEvents":  0,
-    "MaxEvents":  1,
-    "SpawnCheckInterval":  60,
-    "MinPlayersToSpawn":  2,
-    "RespawnDelay":  1200,
-    "Presets":  [
-                    {
-                        "Preset":  "patrol_normal",
-                        "Chance":  50
-                    },
-                    {
-                        "Preset":  "patrol_easy",
-                        "Chance":  50
-                    }
-                ]
+    "MinEvents": 0,
+    "MaxEvents": 1,
+    "SpawnCheckInterval": 60.0,
+    "MinPlayersToSpawn": 2,
+    "RespawnDelay": 1200.0,
+    "Presets": [
+        {
+            "Preset": "patrol_normal",
+            "Chance": 50.0
+        },
+        {
+            "Preset": "patrol_easy",
+            "Chance": 50.0
+        }
+    ]
 }

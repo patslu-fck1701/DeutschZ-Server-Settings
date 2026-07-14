@@ -1,12 +1,10 @@
 {
-    "ConfigVersion": 28,
+    "ConfigVersion": 9,
     "ID": 1,
     "ObjectiveType": 11,
-    "ObjectiveText": "Craft a improvised fishing rod:",
+    "ObjectiveText": "",
     "TimeLimit": -1,
-    "Active": 1,
     "ItemNames": [
         "ImprovisedFishingRod"
-    ],
-    "ExecutionAmount": 1
+    ]
 }

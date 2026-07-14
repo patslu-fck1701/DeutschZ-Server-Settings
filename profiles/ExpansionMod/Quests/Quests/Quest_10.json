@@ -1,64 +1,51 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 5,
     "ID": 10,
-    "Type": 1,
-    "Title": "[VIP] Test quest",
+    "Type": 4,
+    "Title": "[Dog Tag] Pathfinder",
     "Descriptions": [
-        "PLACEHOLDER",
-        "PLACEHOLDER",
-        "PLACEHOLDER"
+        "If you kill a player with the Pathfinder rank for me, I will give you something when you come back to me and give me their dog tag.",
+        "Obtain a dog tag from a player with the rank: Pathfinder.",
+        "Turn in quest to get reward."
     ],
-    "ObjectiveText": "PLACEHOLDER",
+    "ObjectiveText": "Obtain a Pathfinder dog tag.",
+    "PreQuest": -1,
     "FollowUpQuest": -1,
-    "Repeatable": 0,
+    "IsAchivement": 0,
+    "Repeatable": 1,
     "IsDailyQuest": 0,
-    "IsWeeklyQuest": 0,
+    "IsWeeklyQuest": 1,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 0,
+    "IsBanditQuest": 1,
+    "IsHeroQuest": 0,
     "ObjectSetFileName": "",
+    "QuestClassName": "",
+    "Objectives": [
+        {
+            "ConfigVersion": 9,
+            "ID": 4,
+            "ObjectiveType": 4,
+            "ObjectiveText": "",
+            "TimeLimit": -1
+        }
+    ],
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 100,
-            "Attachments": [],
-            "DamagePercent": 0,
-            "HealthPercent": 0,
-            "QuestID": -1,
-            "Chance": 1.0
+            "ClassName": "ExpansionSilverNugget",
+            "Amount": 200,
+            "Attachments": []
         }
     ],
     "NeedToSelectReward": 0,
-    "RandomReward": 0,
-    "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
-    "RewardBehavior": 0,
+    "HumanityReward": 0,
     "QuestGiverIDs": [
-        1
+        3
     ],
     "QuestTurnInIDs": [
-        2
-    ],
-    "IsAchievement": 0,
-    "Objectives": [
-        {
-            "ConfigVersion": 28,
-            "ID": 1,
-            "ObjectiveType": 9
-        }
-    ],
-    "QuestColor": -930200403,
-    "ReputationReward": 0,
-    "ReputationRequirement": -1,
-    "PreQuestIDs": [],
-    "RequiredFaction": "",
-    "FactionReward": "",
-    "PlayerNeedQuestItems": 1,
-    "DeleteQuestItems": 1,
-    "SequentialObjectives": 1,
-    "FactionReputationRequirements": {},
-    "FactionReputationRewards": {},
-    "SuppressQuestLogOnCompetion": 0,
-    "Active": 1
+        3
+    ]
 }

@@ -31,6 +31,8 @@
     <default name="save_types_startup" value="true" />
   </defaults>
   <ce folder="dz_mod_ce">
+    <file name="1C-128-milicon-types.xml" type="types" />
+    <file name="1C-128-milicon-events.xml" type="events" />
     <file name="CF_types.xml" type="types" />
     <file name="Dabs_Framework_types.xml" type="types" />
     <file name="Community_Online_Tools_types.xml" type="types" />

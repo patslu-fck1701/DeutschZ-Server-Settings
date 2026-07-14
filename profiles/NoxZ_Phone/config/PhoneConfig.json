@@ -275,7 +275,7 @@
                      "ID":  "casino",
                      "DisplayName":  "Casino",
                      "IconName":  "casino",
-                     "Enabled":  1,
+                     "Enabled":  0,
                      "Order":  90,
                      "EnableWhiteList":  0,
                      "SteamIDWhitelisted":  [
@@ -286,9 +286,9 @@
                      "ID":  "airstrike",
                      "DisplayName":  "Luftschlag",
                      "IconName":  "airstrike",
-                     "Enabled":  1,
+                     "Enabled":  0,
                      "Order":  91,
-                     "EnableWhiteList":  0,
+                     "EnableWhiteList":  1,
                      "SteamIDWhitelisted":  [
 
                                             ]
@@ -297,7 +297,7 @@
                      "ID":  "bounty",
                      "DisplayName":  "Kopfgeld",
                      "IconName":  "bounty",
-                     "Enabled":  1,
+                     "Enabled":  0,
                      "Order":  92,
                      "EnableWhiteList":  0,
                      "SteamIDWhitelisted":  [

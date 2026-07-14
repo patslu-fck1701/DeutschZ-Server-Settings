@@ -1,11 +1,11 @@
 {
     "ConfigVersion": 9,
-    "ID": 3,
+    "ID": 4,
     "ObjectiveType": 4,
-    "ObjectiveText": "Collect a Scout Dogtag",
+    "ObjectiveText": "Collect a Pathfinder Dogtag",
     "TimeLimit": -1,
     "Collection": {
         "Amount": 1,
-        "ClassName": "Dogtag_Scout"
+        "ClassName": "Dogtag_Pathfinder"
     }
 }

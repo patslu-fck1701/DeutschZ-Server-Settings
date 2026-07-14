@@ -1,19 +1,11 @@
 {
-    "ConfigVersion": 28,
+    "ConfigVersion": 9,
     "ID": 2,
     "ObjectiveType": 4,
-    "ObjectiveText": "Catch a mackerel",
+    "ObjectiveText": "Collect 5 apples",
     "TimeLimit": -1,
-    "Active": 1,
-    "Collections": [
-        {
-            "Amount": 1,
-            "ClassName": "Mackerel",
-            "QuantityPercent": -1,
-            "MinQuantityPercent": -1
-        }
-    ],
-    "ShowDistance": 1,
-    "AddItemsToNearbyMarketZone": 0,
-    "NeedAnyCollection": 0
+    "Collection": {
+        "Amount": 5,
+        "ClassName": "Apple"
+    }
 }

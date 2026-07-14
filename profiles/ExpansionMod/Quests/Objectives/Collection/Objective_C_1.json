@@ -1,19 +1,11 @@
 {
-    "ConfigVersion": 28,
+    "ConfigVersion": 9,
     "ID": 1,
     "ObjectiveType": 4,
-    "ObjectiveText": "Collect 5 apples",
+    "ObjectiveText": "Collect a Survivor Dogtag",
     "TimeLimit": -1,
-    "Active": 1,
-    "Collections": [
-        {
-            "Amount": 5,
-            "ClassName": "Apple",
-            "QuantityPercent": -1,
-            "MinQuantityPercent": -1
-        }
-    ],
-    "ShowDistance": 1,
-    "AddItemsToNearbyMarketZone": 0,
-    "NeedAnyCollection": 0
+    "Collection": {
+        "Amount": 1,
+        "ClassName": "Dogtag_Survivor"
+    }
 }

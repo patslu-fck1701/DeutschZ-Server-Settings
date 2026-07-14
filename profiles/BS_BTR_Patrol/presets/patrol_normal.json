@@ -1,883 +1,683 @@
 {
-    "Difficulty":  "normal",
-    "Settings":  {
-                     "Event":  {
-                                   "BTRClassName":  "BS_BTR_Patrol_Camo2",
-                                   "WreckClassName":  "BS_BTR_Wreck",
-                                   "MinPlayersToSpawn":  2,
-                                   "SpawnCheckInterval":  60,
-                                   "RespawnDelay":  1200,
-                                   "PatrolDuration":  3600,
-                                   "WreckLifetime":  900
-                               },
-                     "Health":  {
-                                    "MaxHealth":  2500,
-                                    "ArmorMultiplier":  0.75,
-                                    "BulletDamageMultiplier":  0.55,
-                                    "ExplosionRadius":  10,
-                                    "DeathExplosionAmmo":  "Explosion_40mm_Ammo"
-                                },
-                     "Movement":  {
-                                      "PatrolSpeed":  4,
-                                      "CombatSpeed":  3,
-                                      "MaxSpeed":  6,
-                                      "Acceleration":  2,
-                                      "Deceleration":  4,
-                                      "TerrainSampleDistance":  15.0,
-                                      "MaxSlopeAngle":  35.0,
-                                      "EnableObstacleAvoidance":  0,
-                                      "ObstacleCheckDistance":  20.0,
-                                      "WaypointReachDistance":  18,
-                                      "PlowThroughVegetation":  0,
-                                      "CrushEntities":  0,
-                                      "CrushMinSpeed":  3.5
-                                  },
-                     "Turret":  {
-                                    "YawSpeed":  60.0,
-                                    "PitchSpeed":  40.0,
-                                    "MaxYaw":  180.0,
-                                    "MaxPitch":  90.0,
-                                    "MinPitch":  -10.0,
-                                    "FireCooldown":  0.65,
-                                    "Accuracy":  0.25,
-                                    "MissAngle":  6,
-                                    "MaxRange":  220,
-                                    "AmmoClass":  "Bullet_762x39",
-                                    "DamageMultiplier":  0.8,
-                                    "BurstSize":  4,
-                                    "ReloadTime":  4.5,
-                                    "StopToShoot":  1,
-                                    "CannonExplosionAmmo":  "Explosion_40mm_Ammo",
-                                    "FellTreesRadius":  3
-                                },
-                     "Grenade":  {
-                                     "Enabled":  0,
-                                     "Cooldown":  4.0,
-                                     "Range":  150.0,
-                                     "MinRange":  30.0,
-                                     "Speed":  700,
-                                     "ExplosionAmmo":  "Explosion_40mm_Ammo",
-                                     "FellTreesRadius":  6.0
-                                 },
-                     "Combat":  {
-                                    "DetectionRadius":  160,
-                                    "EngageRadius":  140,
-                                    "DisengageRadius":  180,
-                                    "LostSightTimeout":  10,
-                                    "OrbitRadius":  35,
-                                    "OrbitSpeed":  2,
-                                    "AggroWhilePatrolling":  1,
-                                    "PatrolAggroRange":  90,
-                                    "PatrolScanInterval":  2,
-                                    "EnableSuppression":  0,
-                                    "SuppressionSpread":  4,
-                                    "SuppressionDuration":  2,
-                                    "ChasePlayers":  0,
-                                    "CloseRangeAutoLOS":  0.0,
-                                    "IgnoreGodmodePlayers":  1
-                                },
-                     "Markers":  {
-                                     "EnableMapMarker":  1,
-                                     "Enable3DMarker":  1,
-                                     "Enable2DMarker":  1,
-                                     "Name":  "Hostile BTR-82A",
-                                     "IconName":  "BTR BS",
-                                     "IconPath":  "BTR_82A/icon/iconbtr.paa"
-                                 },
-                     "Notifications":  {
-                                           "Enable":  1,
-                                           "Title":  "#STR_BS_BTR_notif_title",
-                                           "SpawnMsg":  "#STR_BS_BTR_spawn",
-                                           "DestroyedMsg":  "#STR_BS_BTR_destroyed",
-                                           "DespawnMsg":  "#STR_BS_BTR_despawn",
-                                           "Icon":  "BTR_82A/icon/iconbtr.paa",
-                                           "EnablePlayerKilled":  1,
-                                           "ShowVictimName":  1,
-                                           "PlayerKilledMsg":  "#STR_BS_BTR_player_killed",
-                                           "PlayerKilledNoNameMsg":  "#STR_BS_BTR_player_killed_anon",
-                                           "ShowKillerName":  1,
-                                           "DestroyedByMsg":  "#STR_BS_BTR_destroyed_by"
-                                       },
-                     "Effects":  {
-                                     "EnableWheelDust":  1
-                                 },
-                     "Loot":  {
-                                  "UseCrateLoot":  1,
-                                  "CrateBurningTimeMin":  20,
-                                  "CrateBurningTimeMax":  40,
-                                  "CrateSpawnRadiusMin":  5.0,
-                                  "CrateSpawnRadiusMax":  8.0,
-                                  "CratesMin":  2,
-                                  "CratesMax":  3,
-                                  "CrateClasses":  [
-                                                       "BS_Tank_Box1",
-                                                       "BS_Tank_Box2_Black"
-                                                   ],
-                                  "LootCategories":  {
-                                                         "LowWeapons":  {
-                                                                            "Min":  2,
-                                                                            "Max":  2,
-                                                                            "Items":  [
-                                                                                          {
-                                                                                              "LootClass":  "SNAFU_Agram_GUN",
-                                                                                              "LootAttachments":  [
-
-                                                                                                                  ],
-                                                                                              "SpawnChance":  1
-                                                                                          },
-                                                                                          {
-                                                                                              "LootClass":  "SNAFU_Fort12_GUN",
-                                                                                              "LootAttachments":  [
-
-                                                                                                                  ],
-                                                                                              "SpawnChance":  1
-                                                                                          }
-                                                                                      ]
-                                                                        },
-                                                         "MidWeapons":  {
-                                                                            "Min":  2,
-                                                                            "Max":  2,
-                                                                            "Items":  [
-                                                                                          {
-                                                                                              "LootClass":  "SNAFU_AEK545_Gun",
-                                                                                              "LootAttachments":  [
-
-                                                                                                                  ],
-                                                                                              "SpawnChance":  1
-                                                                                          },
-                                                                                          {
-                                                                                              "LootClass":  "SNAFU_CZ805_Gun",
-                                                                                              "LootAttachments":  [
-
-                                                                                                                  ],
-                                                                                              "SpawnChance":  1
-                                                                                          },
-                                                                                          {
-                                                                                              "LootClass":  "SNAFU_M14",
-                                                                                              "LootAttachments":  [
-
-                                                                                                                  ],
-                                                                                              "SpawnChance":  1
-                                                                                          }
-                                                                                      ]
-                                                                        },
-                                                         "HighWeapons":  {
-                                                                             "Min":  1,
-                                                                             "Max":  1,
-                                                                             "Items":  [
-                                                                                           {
-                                                                                               "LootClass":  "SNAFU_AS50_GUN",
-                                                                                               "LootAttachments":  [
-
-                                                                                                                   ],
-                                                                                               "SpawnChance":  1
-                                                                                           },
-                                                                                           {
-                                                                                               "LootClass":  "SNAFU_AWM_Gun",
-                                                                                               "LootAttachments":  [
-
-                                                                                                                   ],
-                                                                                               "SpawnChance":  1
-                                                                                           }
-                                                                                       ]
-                                                                         },
-                                                         "Magazines":  {
-                                                                           "Min":  8,
-                                                                           "Max":  8,
-                                                                           "Items":  [
-                                                                                         {
-                                                                                             "LootClass":  "SNAFU_Agram_32rnd_Mag",
-                                                                                             "LootAttachments":  [
-
-                                                                                                                 ],
-                                                                                             "SpawnChance":  1
-                                                                                         },
-                                                                                         {
-                                                                                             "LootClass":  "SNAFU_Fort12_12rnd_Mag",
-                                                                                             "LootAttachments":  [
-
-                                                                                                                 ],
-                                                                                             "SpawnChance":  1
-                                                                                         },
-                                                                                         {
-                                                                                             "LootClass":  "SNAFU_RPK16_Black_Mag",
-                                                                                             "LootAttachments":  [
-
-                                                                                                                 ],
-                                                                                             "SpawnChance":  1
-                                                                                         },
-                                                                                         {
-                                                                                             "LootClass":  "Mag_STANAG_30Rnd",
-                                                                                             "LootAttachments":  [
-
-                                                                                                                 ],
-                                                                                             "SpawnChance":  1
-                                                                                         },
-                                                                                         {
-                                                                                             "LootClass":  "SNAFU_M14_Mag",
-                                                                                             "LootAttachments":  [
-
-                                                                                                                 ],
-                                                                                             "SpawnChance":  1
-                                                                                         },
-                                                                                         {
-                                                                                             "LootClass":  "SNAFU_AS50_Mag",
-                                                                                             "LootAttachments":  [
-
-                                                                                                                 ],
-                                                                                             "SpawnChance":  1
-                                                                                         },
-                                                                                         {
-                                                                                             "LootClass":  "SNAFU_AWM_Mag",
-                                                                                             "LootAttachments":  [
-
-                                                                                                                 ],
-                                                                                             "SpawnChance":  1
-                                                                                         },
-                                                                                         {
-                                                                                             "LootClass":  "SNAFU_RPK16_Green_Mag",
-                                                                                             "LootAttachments":  [
-
-                                                                                                                 ],
-                                                                                             "SpawnChance":  1
-                                                                                         }
-                                                                                     ]
-                                                                       },
-                                                         "Suppressors":  {
-                                                                             "Min":  2,
-                                                                             "Max":  2,
-                                                                             "Items":  [
-                                                                                           {
-                                                                                               "LootClass":  "SNAFU_Agram_Suppressor_Black",
-                                                                                               "LootAttachments":  [
-
-                                                                                                                   ],
-                                                                                               "SpawnChance":  1
-                                                                                           },
-                                                                                           {
-                                                                                               "LootClass":  "PistolSuppressor",
-                                                                                               "LootAttachments":  [
-
-                                                                                                                   ],
-                                                                                               "SpawnChance":  1
-                                                                                           },
-                                                                                           {
-                                                                                               "LootClass":  "SNAFU_Standardized_Suppressor_Black",
-                                                                                               "LootAttachments":  [
-
-                                                                                                                   ],
-                                                                                               "SpawnChance":  1
-                                                                                           },
-                                                                                           {
-                                                                                               "LootClass":  "SNAFU_50bmg_Suppressor_B",
-                                                                                               "LootAttachments":  [
-
-                                                                                                                   ],
-                                                                                               "SpawnChance":  1
-                                                                                           },
-                                                                                           {
-                                                                                               "LootClass":  "SNAFUKivaari_338_Supp",
-                                                                                               "LootAttachments":  [
-
-                                                                                                                   ],
-                                                                                               "SpawnChance":  1
-                                                                                           }
-                                                                                       ]
-                                                                         },
-                                                         "Optics":  {
-                                                                        "Min":  4,
-                                                                        "Max":  4,
-                                                                        "Items":  [
-                                                                                      {
-                                                                                          "LootClass":  "FNP45_MRDSOptic",
-                                                                                          "LootAttachments":  [
-
-                                                                                                              ],
-                                                                                          "SpawnChance":  1
-                                                                                      },
-                                                                                      {
-                                                                                          "LootClass":  "SNAFU_M14Optic",
-                                                                                          "LootAttachments":  [
-
-                                                                                                              ],
-                                                                                          "SpawnChance":  1
-                                                                                      },
-                                                                                      {
-                                                                                          "LootClass":  "SNAFU_Elcan",
-                                                                                          "LootAttachments":  [
-
-                                                                                                              ],
-                                                                                          "SpawnChance":  1
-                                                                                      },
-                                                                                      {
-                                                                                          "LootClass":  "SNAFU_EOTech_EXPS3",
-                                                                                          "LootAttachments":  [
-
-                                                                                                              ],
-                                                                                          "SpawnChance":  1
-                                                                                      },
-                                                                                      {
-                                                                                          "LootClass":  "SNAFU_Nightforce",
-                                                                                          "LootAttachments":  [
-
-                                                                                                              ],
-                                                                                          "SpawnChance":  1
-                                                                                      }
-                                                                                  ]
-                                                                    },
-                                                         "Ammo":  {
-                                                                      "Min":  6,
-                                                                      "Max":  6,
-                                                                      "Items":  [
-                                                                                    {
-                                                                                        "LootClass":  "Ammo_9x19",
-                                                                                        "LootAttachments":  [
-
-                                                                                                            ],
-                                                                                        "SpawnChance":  1
-                                                                                    },
-                                                                                    {
-                                                                                        "LootClass":  "Ammo_45ACP",
-                                                                                        "LootAttachments":  [
-
-                                                                                                            ],
-                                                                                        "SpawnChance":  1
-                                                                                    },
-                                                                                    {
-                                                                                        "LootClass":  "Ammo_545x39",
-                                                                                        "LootAttachments":  [
-
-                                                                                                            ],
-                                                                                        "SpawnChance":  1
-                                                                                    },
-                                                                                    {
-                                                                                        "LootClass":  "Ammo_556x45",
-                                                                                        "LootAttachments":  [
-
-                                                                                                            ],
-                                                                                        "SpawnChance":  1
-                                                                                    },
-                                                                                    {
-                                                                                        "LootClass":  "Ammo_308Win",
-                                                                                        "LootAttachments":  [
-
-                                                                                                            ],
-                                                                                        "SpawnChance":  1
-                                                                                    },
-                                                                                    {
-                                                                                        "LootClass":  "GCGN_Ammo_50Cal",
-                                                                                        "LootAttachments":  [
-
-                                                                                                            ],
-                                                                                        "SpawnChance":  1
-                                                                                    },
-                                                                                    {
-                                                                                        "LootClass":  "SNAFU_Ammo_338",
-                                                                                        "LootAttachments":  [
-
-                                                                                                            ],
-                                                                                        "SpawnChance":  1
-                                                                                    }
-                                                                                ]
-                                                                  },
-                                                         "Explosives":  {
-                                                                            "Min":  1,
-                                                                            "Max":  2,
-                                                                            "Items":  [
-                                                                                          {
-                                                                                              "LootClass":  "M67Grenade",
-                                                                                              "LootAttachments":  [
-
-                                                                                                                  ],
-                                                                                              "SpawnChance":  1
-                                                                                          },
-                                                                                          {
-                                                                                              "LootClass":  "RGD5Grenade",
-                                                                                              "LootAttachments":  [
-
-                                                                                                                  ],
-                                                                                              "SpawnChance":  1
-                                                                                          },
-                                                                                          {
-                                                                                              "LootClass":  "ClaymoreMine",
-                                                                                              "LootAttachments":  [
-
-                                                                                                                  ],
-                                                                                              "SpawnChance":  0.5
-                                                                                          }
-                                                                                      ]
-                                                                        },
-                                                         "Medical":  {
-                                                                         "Min":  3,
-                                                                         "Max":  4,
-                                                                         "Items":  [
-                                                                                       {
-                                                                                           "LootClass":  "BandageDressing",
-                                                                                           "LootAttachments":  [
-
-                                                                                                               ],
-                                                                                           "SpawnChance":  1
-                                                                                       },
-                                                                                       {
-                                                                                           "LootClass":  "Morphine",
-                                                                                           "LootAttachments":  [
-
-                                                                                                               ],
-                                                                                           "SpawnChance":  0.8
-                                                                                       },
-                                                                                       {
-                                                                                           "LootClass":  "SalineBagIV",
-                                                                                           "LootAttachments":  [
-
-                                                                                                               ],
-                                                                                           "SpawnChance":  0.6
-                                                                                       }
-                                                                                   ]
-                                                                     },
-                                                         "Gear":  {
-                                                                      "Min":  2,
-                                                                      "Max":  3,
-                                                                      "Items":  [
-                                                                                    {
-                                                                                        "LootClass":  "WeaponCleaningKit",
-                                                                                        "LootAttachments":  [
-
-                                                                                                            ],
-                                                                                        "SpawnChance":  0.9
-                                                                                    },
-                                                                                    {
-                                                                                        "LootClass":  "NVGoggles",
-                                                                                        "LootAttachments":  [
-
-                                                                                                            ],
-                                                                                        "SpawnChance":  0.35
-                                                                                    },
-                                                                                    {
-                                                                                        "LootClass":  "Rangefinder",
-                                                                                        "LootAttachments":  [
-
-                                                                                                            ],
-                                                                                        "SpawnChance":  0.4
-                                                                                    }
-                                                                                ]
-                                                                  }
-                                                     },
-                                  "LootCrates":  [
-                                                     {
-                                                         "ClassName":  "BS_Tank_Box1",
-                                                         "LBPresetName":  "",
-                                                         "Presets":  [
-                                                                         "LowWeapons",
-                                                                         "MidWeapons",
-                                                                         "HighWeapons",
-                                                                         "Magazines",
-                                                                         "Suppressors",
-                                                                         "Optics",
-                                                                         "Ammo",
-                                                                         "Explosives"
-                                                                     ]
-                                                     },
-                                                     {
-                                                         "ClassName":  "BS_Tank_Box2_Black",
-                                                         "LBPresetName":  "",
-                                                         "Presets":  [
-                                                                         "Medical",
-                                                                         "Gear"
-                                                                     ]
-                                                     }
-                                                 ],
-                                  "DeathLoot":  [
-                                                    {
-                                                        "ClassName":  "SNAFU_AWM_Gun",
-                                                        "Quantity":  1,
-                                                        "SpawnChance":  0.3499999940395355
-                                                    },
-                                                    {
-                                                        "ClassName":  "SNAFU_AWM_Mag",
-                                                        "Quantity":  2,
-                                                        "SpawnChance":  0.800000011920929
-                                                    },
-                                                    {
-                                                        "ClassName":  "WeaponCleaningKit",
-                                                        "Quantity":  1,
-                                                        "SpawnChance":  0.6499999761581421
-                                                    },
-                                                    {
-                                                        "ClassName":  "BandageDressing",
-                                                        "Quantity":  2,
-                                                        "SpawnChance":  0.800000011920929
-                                                    }
-                                                ]
-                              },
-                     "Defenders":  {
-                                       "EnableDefenders":  true,
-                                       "DespawnRadius":  800.0,
-                                       "DespawnCheckInterval":  60.0,
-                                       "Defenders":  [
-                                                         {
-                                                             "ClassName":  "eAI_SurvivorM_Mirek",
-                                                             "Count":  3,
-                                                             "AdditionalNight":  0,
-                                                             "SpawnRadius":  28,
-                                                             "IsExpansionBot":  true,
-                                                             "ExpansionFaction":  "Raiders",
-                                                             "ExpansionLoadout":  "BanditLoadout",
-                                                             "ExpansionUnlimitedAmmo":  false,
-                                                             "ExpansionCanBeLooted":  true
-                                                         }
-                                                     ]
-                                   }
-                 },
-    "PatrolRoutes":  [
-                         {
-                             "RouteName":  "Tisy Only",
-                             "Waypoints":  [
-                                               [
-                                                   1433.786499,
-                                                   447.081635,
-                                                   13675.705078
-                                               ],
-                                               [
-                                                   1452.392822,
-                                                   446.539703,
-                                                   13682.182617
-                                               ],
-                                               [
-                                                   1490.623901,
-                                                   443.424011,
-                                                   13671.916992
-                                               ],
-                                               [
-                                                   1534.73999,
-                                                   440.940887,
-                                                   13647.722656
-                                               ],
-                                               [
-                                                   1565.77002,
-                                                   441.567902,
-                                                   13644.65918
-                                               ],
-                                               [
-                                                   1586.476563,
-                                                   439.395172,
-                                                   13609.524414
-                                               ],
-                                               [
-                                                   1605.328979,
-                                                   437.610199,
-                                                   13591.448242
-                                               ],
-                                               [
-                                                   1616.277466,
-                                                   437.575562,
-                                                   13582.835938
-                                               ],
-                                               [
-                                                   1627.953125,
-                                                   437.572327,
-                                                   13585.929688
-                                               ],
-                                               [
-                                                   1641.580566,
-                                                   437.525391,
-                                                   13592.487305
-                                               ],
-                                               [
-                                                   1650.498901,
-                                                   436.828308,
-                                                   13596.445313
-                                               ],
-                                               [
-                                                   1660.636475,
-                                                   435.854431,
-                                                   13599.800781
-                                               ],
-                                               [
-                                                   1669.80835,
-                                                   435.21756,
-                                                   13607.317383
-                                               ],
-                                               [
-                                                   1687.911255,
-                                                   433.667419,
-                                                   13616.819336
-                                               ],
-                                               [
-                                                   1746.938965,
-                                                   434.098145,
-                                                   13654.96875
-                                               ],
-                                               [
-                                                   1763.092651,
-                                                   434.713226,
-                                                   13669.686523
-                                               ],
-                                               [
-                                                   1780.641724,
-                                                   436.312439,
-                                                   13722.18457
-                                               ],
-                                               [
-                                                   1800.814209,
-                                                   436.207184,
-                                                   13791.546875
-                                               ],
-                                               [
-                                                   1802.602661,
-                                                   436.467621,
-                                                   13806.245117
-                                               ],
-                                               [
-                                                   1788.704224,
-                                                   439.252777,
-                                                   13835.652344
-                                               ],
-                                               [
-                                                   1767.68042,
-                                                   443.431702,
-                                                   13881.47168
-                                               ],
-                                               [
-                                                   1735.252197,
-                                                   447.659729,
-                                                   13940.958008
-                                               ],
-                                               [
-                                                   1718.99707,
-                                                   448.32428,
-                                                   13946.239258
-                                               ],
-                                               [
-                                                   1700.510986,
-                                                   448.641357,
-                                                   13942.141602
-                                               ],
-                                               [
-                                                   1693.030151,
-                                                   448.500244,
-                                                   13923.005859
-                                               ],
-                                               [
-                                                   1690.616089,
-                                                   447.996277,
-                                                   13912.205078
-                                               ],
-                                               [
-                                                   1708.55896,
-                                                   447.011475,
-                                                   13898.826172
-                                               ],
-                                               [
-                                                   1741.902344,
-                                                   444.679779,
-                                                   13875.143555
-                                               ],
-                                               [
-                                                   1772.380249,
-                                                   442.282806,
-                                                   13859.041992
-                                               ],
-                                               [
-                                                   1794.166626,
-                                                   437.962158,
-                                                   13823.450195
-                                               ],
-                                               [
-                                                   1806.234009,
-                                                   436.439484,
-                                                   13811.220703
-                                               ],
-                                               [
-                                                   1820.54248,
-                                                   435.604095,
-                                                   13812.330078
-                                               ],
-                                               [
-                                                   1852.921265,
-                                                   434.800446,
-                                                   13819.085938
-                                               ],
-                                               [
-                                                   1884.947998,
-                                                   434.913147,
-                                                   13820.18457
-                                               ],
-                                               [
-                                                   1987.070435,
-                                                   433.977112,
-                                                   13801.853516
-                                               ],
-                                               [
-                                                   2058.702148,
-                                                   423.697906,
-                                                   13795.8125
-                                               ],
-                                               [
-                                                   2115.305176,
-                                                   412.062225,
-                                                   13765.380859
-                                               ],
-                                               [
-                                                   2136.257813,
-                                                   406.722351,
-                                                   13746.03125
-                                               ],
-                                               [
-                                                   2140.298828,
-                                                   405.595917,
-                                                   13734.211914
-                                               ],
-                                               [
-                                                   2146.069336,
-                                                   404.190704,
-                                                   13729.049805
-                                               ],
-                                               [
-                                                   2155.825439,
-                                                   402.567017,
-                                                   13728.243164
-                                               ],
-                                               [
-                                                   2173.45752,
-                                                   397.835815,
-                                                   13706.951172
-                                               ],
-                                               [
-                                                   2201.036377,
-                                                   389.034454,
-                                                   13673.31543
-                                               ],
-                                               [
-                                                   2252.220459,
-                                                   372.636993,
-                                                   13644.887695
-                                               ],
-                                               [
-                                                   2272.989502,
-                                                   369.258545,
-                                                   13635.738281
-                                               ],
-                                               [
-                                                   2304.934326,
-                                                   363.476746,
-                                                   13654.24707
-                                               ],
-                                               [
-                                                   2333.658691,
-                                                   359.220581,
-                                                   13705.124023
-                                               ],
-                                               [
-                                                   2369.444336,
-                                                   353.078186,
-                                                   13798.119141
-                                               ],
-                                               [
-                                                   2374.025879,
-                                                   356.370514,
-                                                   13844.552734
-                                               ],
-                                               [
-                                                   2416.098389,
-                                                   349.910095,
-                                                   13917.876953
-                                               ],
-                                               [
-                                                   2411.778076,
-                                                   358.611694,
-                                                   13975.975586
-                                               ],
-                                               [
-                                                   2370.514893,
-                                                   371.021423,
-                                                   14086.862305
-                                               ],
-                                               [
-                                                   2349.952881,
-                                                   370.030029,
-                                                   14149.321289
-                                               ],
-                                               [
-                                                   2263.60791,
-                                                   383.132751,
-                                                   14190.518555
-                                               ],
-                                               [
-                                                   2199.941895,
-                                                   389.971954,
-                                                   14205.436523
-                                               ],
-                                               [
-                                                   2187.921143,
-                                                   391.6315,
-                                                   14196.072266
-                                               ],
-                                               [
-                                                   2186.372803,
-                                                   394.756805,
-                                                   14168.594727
-                                               ],
-                                               [
-                                                   2207.386719,
-                                                   400.239502,
-                                                   14078.25293
-                                               ],
-                                               [
-                                                   2193.221924,
-                                                   403.8414,
-                                                   14040.019531
-                                               ],
-                                               [
-                                                   2093.553955,
-                                                   414.10968,
-                                                   14005.446289
-                                               ],
-                                               [
-                                                   1982.621826,
-                                                   420.2883,
-                                                   14032.34375
-                                               ],
-                                               [
-                                                   1954.728027,
-                                                   421.728821,
-                                                   14047.234375
-                                               ],
-                                               [
-                                                   1927.620728,
-                                                   424.07135,
-                                                   14061.018555
-                                               ],
-                                               [
-                                                   1890.528931,
-                                                   427.212769,
-                                                   14084.438477
-                                               ],
-                                               [
-                                                   1847.877075,
-                                                   440.165527,
-                                                   14153.525391
-                                               ],
-                                               [
-                                                   1796.501709,
-                                                   450.45047,
-                                                   14252.952148
-                                               ],
-                                               [
-                                                   1790.099243,
-                                                   450.640594,
-                                                   14260.97168
-                                               ],
-                                               [
-                                                   1773.726807,
-                                                   452.1203,
-                                                   14305.025391
-                                               ],
-                                               [
-                                                   1748.92041,
-                                                   452.125488,
-                                                   14306.78418
-                                               ]
-                                           ]
-                         }
-                     ]
+    "Difficulty": "normal",
+    "Settings": {
+        "Event": {
+            "BTRClassName": "BS_BTR_Patrol_Camo2",
+            "WreckClassName": "BS_BTR_Wreck",
+            "MinPlayersToSpawn": 2,
+            "SpawnCheckInterval": 60.0,
+            "RespawnDelay": 1200.0,
+            "PatrolDuration": 3600.0,
+            "WreckLifetime": 900.0
+        },
+        "Health": {
+            "MaxHealth": 2500.0,
+            "ArmorMultiplier": 0.75,
+            "BulletDamageMultiplier": 0.550000011920929,
+            "ExplosionRadius": 10.0,
+            "DeathExplosionAmmo": "Explosion_40mm_Ammo"
+        },
+        "Movement": {
+            "PatrolSpeed": 4.0,
+            "CombatSpeed": 3.0,
+            "MaxSpeed": 6.0,
+            "Acceleration": 2.0,
+            "Deceleration": 4.0,
+            "TerrainSampleDistance": 15.0,
+            "MaxSlopeAngle": 35.0,
+            "EnableObstacleAvoidance": 0,
+            "ObstacleCheckDistance": 20.0,
+            "WaypointReachDistance": 18.0,
+            "PlowThroughVegetation": 0,
+            "CrushEntities": 0,
+            "CrushMinSpeed": 3.5
+        },
+        "Turret": {
+            "YawSpeed": 60.0,
+            "PitchSpeed": 40.0,
+            "MaxYaw": 180.0,
+            "MaxPitch": 90.0,
+            "MinPitch": -10.0,
+            "FireCooldown": 0.6499999761581421,
+            "Accuracy": 0.25,
+            "MissAngle": 6.0,
+            "MaxRange": 220.0,
+            "AmmoClass": "Bullet_762x39",
+            "DamageMultiplier": 0.800000011920929,
+            "BurstSize": 4,
+            "ReloadTime": 4.5,
+            "StopToShoot": 1,
+            "CannonExplosionAmmo": "Explosion_40mm_Ammo",
+            "FellTreesRadius": 3.0
+        },
+        "Grenade": {
+            "Enabled": 0,
+            "Cooldown": 4.0,
+            "Range": 150.0,
+            "MinRange": 30.0,
+            "Speed": 700,
+            "ExplosionAmmo": "Explosion_40mm_Ammo",
+            "FellTreesRadius": 6.0
+        },
+        "Combat": {
+            "DetectionRadius": 160.0,
+            "EngageRadius": 140.0,
+            "DisengageRadius": 180.0,
+            "LostSightTimeout": 10.0,
+            "OrbitRadius": 35.0,
+            "OrbitSpeed": 2.0,
+            "AggroWhilePatrolling": 1,
+            "PatrolAggroRange": 90.0,
+            "PatrolScanInterval": 2.0,
+            "EnableSuppression": 0,
+            "SuppressionSpread": 4.0,
+            "SuppressionDuration": 2.0,
+            "ChasePlayers": 0,
+            "CloseRangeAutoLOS": 0.0,
+            "IgnoreGodmodePlayers": 1
+        },
+        "Markers": {
+            "EnableMapMarker": 1,
+            "Enable3DMarker": 1,
+            "Enable2DMarker": 1,
+            "Name": "Hostile BTR-82A",
+            "IconName": "BTR BS",
+            "IconPath": "BTR_82A/icon/iconbtr.paa"
+        },
+        "Notifications": {
+            "Enable": 1,
+            "Title": "#STR_BS_BTR_notif_title",
+            "SpawnMsg": "#STR_BS_BTR_spawn",
+            "DestroyedMsg": "#STR_BS_BTR_destroyed",
+            "DespawnMsg": "#STR_BS_BTR_despawn",
+            "Icon": "BTR_82A/icon/iconbtr.paa",
+            "EnablePlayerKilled": 1,
+            "ShowVictimName": 1,
+            "PlayerKilledMsg": "#STR_BS_BTR_player_killed",
+            "PlayerKilledNoNameMsg": "#STR_BS_BTR_player_killed_anon",
+            "ShowKillerName": 1,
+            "DestroyedByMsg": "#STR_BS_BTR_destroyed_by"
+        },
+        "Effects": {
+            "EnableWheelDust": 1
+        },
+        "Loot": {
+            "UseCrateLoot": 1,
+            "CrateBurningTimeMin": 20,
+            "CrateBurningTimeMax": 40,
+            "CrateSpawnRadiusMin": 5.0,
+            "CrateSpawnRadiusMax": 8.0,
+            "CratesMin": 2,
+            "CratesMax": 3,
+            "CrateClasses": [
+                "BS_Tank_Box1",
+                "BS_Tank_Box2_Black"
+            ],
+            "LootCategories": {
+                "Weapons": {
+                    "Min": 2,
+                    "Max": 3,
+                    "Items": [
+                        {
+                            "LootClass": "GCGN_M82_Barret",
+                            "LootAttachments": [
+                                "GCGN_M82_Mag"
+                            ],
+                            "SpawnChance": 0.8500000238418579
+                        },
+                        {
+                            "LootClass": "GCGN_M110_Black",
+                            "LootAttachments": [
+                                "GCGN_M110_Mag"
+                            ],
+                            "SpawnChance": 0.8500000238418579
+                        },
+                        {
+                            "LootClass": "GCGN_M200",
+                            "LootAttachments": [
+                                "GCGN_M200_Mag"
+                            ],
+                            "SpawnChance": 0.8500000238418579
+                        },
+                        {
+                            "LootClass": "GCGN_M249",
+                            "LootAttachments": [
+                                "GCGN_M249_Mag"
+                            ],
+                            "SpawnChance": 0.8500000238418579
+                        },
+                        {
+                            "LootClass": "SNAFU_AS50_GUN",
+                            "LootAttachments": [
+                                "SNAFU_50bmg_Suppressor_B",
+                                "SNAFU_AS50_Mag"
+                            ],
+                            "SpawnChance": 0.8500000238418579
+                        },
+                        {
+                            "LootClass": "SNAFU_AWM_Gun",
+                            "LootAttachments": [
+                                "SNAFU_408_Suppressor_T",
+                                "SNAFU_AWM_Mag"
+                            ],
+                            "SpawnChance": 0.8500000238418579
+                        },
+                        {
+                            "LootClass": "SNAFU_FRF2",
+                            "LootAttachments": [
+                                "SNAFU_FRF2_Mag"
+                            ],
+                            "SpawnChance": 0.8500000238418579
+                        },
+                        {
+                            "LootClass": "SNAFU_M14",
+                            "LootAttachments": [
+                                "SNAFU_M14Optic",
+                                "SNAFU_M14_Mag"
+                            ],
+                            "SpawnChance": 0.8500000238418579
+                        }
+                    ]
+                },
+                "Ammo": {
+                    "Min": 4,
+                    "Max": 6,
+                    "Items": [
+                        {
+                            "LootClass": "GCGN_M82_Mag",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.800000011920929
+                        },
+                        {
+                            "LootClass": "GCGN_M110_Mag",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.800000011920929
+                        },
+                        {
+                            "LootClass": "GCGN_M200_Mag",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.800000011920929
+                        },
+                        {
+                            "LootClass": "SNAFU_AS50_Mag",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.800000011920929
+                        },
+                        {
+                            "LootClass": "SNAFU_AWM_Mag",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.800000011920929
+                        },
+                        {
+                            "LootClass": "SNAFU_M14_Mag",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.800000011920929
+                        },
+                        {
+                            "LootClass": "Snafu_pkp_250RND_Mag",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.800000011920929
+                        },
+                        {
+                            "LootClass": "SNAFU_SR25_Mag",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.800000011920929
+                        }
+                    ]
+                },
+                "Medical": {
+                    "Min": 3,
+                    "Max": 4,
+                    "Items": [
+                        {
+                            "LootClass": "BandageDressing",
+                            "LootAttachments": [],
+                            "SpawnChance": 1.0
+                        },
+                        {
+                            "LootClass": "Morphine",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.800000011920929
+                        },
+                        {
+                            "LootClass": "SalineBagIV",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.6000000238418579
+                        }
+                    ]
+                },
+                "Gear": {
+                    "Min": 2,
+                    "Max": 3,
+                    "Items": [
+                        {
+                            "LootClass": "WeaponCleaningKit",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.8999999761581421
+                        },
+                        {
+                            "LootClass": "NVGoggles",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.3499999940395355
+                        },
+                        {
+                            "LootClass": "Rangefinder",
+                            "LootAttachments": [],
+                            "SpawnChance": 0.4000000059604645
+                        }
+                    ]
+                }
+            },
+            "LootCrates": [
+                {
+                    "ClassName": "BS_Tank_Box1",
+                    "LBPresetName": "",
+                    "Presets": [
+                        "Weapons",
+                        "Ammo"
+                    ]
+                },
+                {
+                    "ClassName": "BS_Tank_Box2_Black",
+                    "LBPresetName": "",
+                    "Presets": [
+                        "Medical",
+                        "Gear"
+                    ]
+                }
+            ],
+            "DeathLoot": [
+                {
+                    "ClassName": "SNAFU_AWM_Gun",
+                    "Quantity": 1,
+                    "SpawnChance": 0.3499999940395355
+                },
+                {
+                    "ClassName": "SNAFU_AWM_Mag",
+                    "Quantity": 2,
+                    "SpawnChance": 0.800000011920929
+                },
+                {
+                    "ClassName": "WeaponCleaningKit",
+                    "Quantity": 1,
+                    "SpawnChance": 0.6499999761581421
+                },
+                {
+                    "ClassName": "BandageDressing",
+                    "Quantity": 2,
+                    "SpawnChance": 0.800000011920929
+                }
+            ]
+        },
+        "Defenders": {
+            "EnableDefenders": 1,
+            "DespawnRadius": 800.0,
+            "DespawnCheckInterval": 60.0,
+            "Defenders": [
+                {
+                    "ClassName": "eAI_SurvivorM_Mirek",
+                    "Count": 3,
+                    "AdditionalNight": 0,
+                    "SpawnRadius": 28.0,
+                    "IsExpansionBot": 1,
+                    "ExpansionFaction": "Raiders",
+                    "ExpansionLoadout": "BanditLoadout",
+                    "ExpansionUnlimitedAmmo": 0,
+                    "ExpansionCanBeLooted": 1
+                }
+            ]
+        }
+    },
+    "PatrolRoutes": [
+        {
+            "RouteName": "Tisy Only",
+            "Waypoints": [
+                [
+                    1433.7864990234376,
+                    447.0816345214844,
+                    13675.705078125
+                ],
+                [
+                    1452.392822265625,
+                    446.5397033691406,
+                    13682.1826171875
+                ],
+                [
+                    1490.6239013671876,
+                    443.42401123046877,
+                    13671.9169921875
+                ],
+                [
+                    1534.739990234375,
+                    440.9408874511719,
+                    13647.72265625
+                ],
+                [
+                    1565.77001953125,
+                    441.5679016113281,
+                    13644.6591796875
+                ],
+                [
+                    1586.4765625,
+                    439.3951721191406,
+                    13609.5244140625
+                ],
+                [
+                    1605.3289794921876,
+                    437.6101989746094,
+                    13591.4482421875
+                ],
+                [
+                    1616.2774658203126,
+                    437.5755615234375,
+                    13582.8359375
+                ],
+                [
+                    1627.953125,
+                    437.57232666015627,
+                    13585.9296875
+                ],
+                [
+                    1641.58056640625,
+                    437.525390625,
+                    13592.4873046875
+                ],
+                [
+                    1650.4989013671876,
+                    436.82830810546877,
+                    13596.4453125
+                ],
+                [
+                    1660.636474609375,
+                    435.85443115234377,
+                    13599.80078125
+                ],
+                [
+                    1669.808349609375,
+                    435.2175598144531,
+                    13607.3173828125
+                ],
+                [
+                    1687.9112548828126,
+                    433.66741943359377,
+                    13616.8193359375
+                ],
+                [
+                    1746.93896484375,
+                    434.09814453125,
+                    13654.96875
+                ],
+                [
+                    1763.0926513671876,
+                    434.7132263183594,
+                    13669.6865234375
+                ],
+                [
+                    1780.6417236328126,
+                    436.31243896484377,
+                    13722.1845703125
+                ],
+                [
+                    1800.814208984375,
+                    436.2071838378906,
+                    13791.546875
+                ],
+                [
+                    1802.6026611328126,
+                    436.4676208496094,
+                    13806.2451171875
+                ],
+                [
+                    1788.7042236328126,
+                    439.2527770996094,
+                    13835.65234375
+                ],
+                [
+                    1767.680419921875,
+                    443.43170166015627,
+                    13881.4716796875
+                ],
+                [
+                    1735.252197265625,
+                    447.65972900390627,
+                    13940.9580078125
+                ],
+                [
+                    1718.9970703125,
+                    448.32427978515627,
+                    13946.2392578125
+                ],
+                [
+                    1700.510986328125,
+                    448.641357421875,
+                    13942.1416015625
+                ],
+                [
+                    1693.0301513671876,
+                    448.500244140625,
+                    13923.005859375
+                ],
+                [
+                    1690.6160888671876,
+                    447.99627685546877,
+                    13912.205078125
+                ],
+                [
+                    1708.5589599609376,
+                    447.011474609375,
+                    13898.826171875
+                ],
+                [
+                    1741.90234375,
+                    444.6797790527344,
+                    13875.1435546875
+                ],
+                [
+                    1772.3802490234376,
+                    442.2828063964844,
+                    13859.0419921875
+                ],
+                [
+                    1794.1666259765626,
+                    437.962158203125,
+                    13823.4501953125
+                ],
+                [
+                    1806.2340087890626,
+                    436.4394836425781,
+                    13811.220703125
+                ],
+                [
+                    1820.54248046875,
+                    435.6040954589844,
+                    13812.330078125
+                ],
+                [
+                    1852.9212646484376,
+                    434.8004455566406,
+                    13819.0859375
+                ],
+                [
+                    1884.947998046875,
+                    434.91314697265627,
+                    13820.1845703125
+                ],
+                [
+                    1987.0704345703126,
+                    433.97711181640627,
+                    13801.853515625
+                ],
+                [
+                    2058.7021484375,
+                    423.6979064941406,
+                    13795.8125
+                ],
+                [
+                    2115.30517578125,
+                    412.0622253417969,
+                    13765.380859375
+                ],
+                [
+                    2136.2578125,
+                    406.72235107421877,
+                    13746.03125
+                ],
+                [
+                    2140.298828125,
+                    405.5959167480469,
+                    13734.2119140625
+                ],
+                [
+                    2146.0693359375,
+                    404.1907043457031,
+                    13729.0498046875
+                ],
+                [
+                    2155.825439453125,
+                    402.5670166015625,
+                    13728.2431640625
+                ],
+                [
+                    2173.45751953125,
+                    397.8358154296875,
+                    13706.951171875
+                ],
+                [
+                    2201.036376953125,
+                    389.0344543457031,
+                    13673.3154296875
+                ],
+                [
+                    2252.220458984375,
+                    372.6369934082031,
+                    13644.8876953125
+                ],
+                [
+                    2272.989501953125,
+                    369.258544921875,
+                    13635.73828125
+                ],
+                [
+                    2304.934326171875,
+                    363.47674560546877,
+                    13654.2470703125
+                ],
+                [
+                    2333.65869140625,
+                    359.2205810546875,
+                    13705.1240234375
+                ],
+                [
+                    2369.4443359375,
+                    353.07818603515627,
+                    13798.119140625
+                ],
+                [
+                    2374.02587890625,
+                    356.3705139160156,
+                    13844.552734375
+                ],
+                [
+                    2416.098388671875,
+                    349.91009521484377,
+                    13917.876953125
+                ],
+                [
+                    2411.778076171875,
+                    358.6116943359375,
+                    13975.9755859375
+                ],
+                [
+                    2370.514892578125,
+                    371.02142333984377,
+                    14086.8623046875
+                ],
+                [
+                    2349.952880859375,
+                    370.030029296875,
+                    14149.3212890625
+                ],
+                [
+                    2263.60791015625,
+                    383.13275146484377,
+                    14190.5185546875
+                ],
+                [
+                    2199.94189453125,
+                    389.9719543457031,
+                    14205.4365234375
+                ],
+                [
+                    2187.921142578125,
+                    391.6315002441406,
+                    14196.072265625
+                ],
+                [
+                    2186.372802734375,
+                    394.7568054199219,
+                    14168.5947265625
+                ],
+                [
+                    2207.38671875,
+                    400.239501953125,
+                    14078.2529296875
+                ],
+                [
+                    2193.221923828125,
+                    403.8414001464844,
+                    14040.01953125
+                ],
+                [
+                    2093.553955078125,
+                    414.10968017578127,
+                    14005.4462890625
+                ],
+                [
+                    1982.621826171875,
+                    420.2882995605469,
+                    14032.34375
+                ],
+                [
+                    1954.72802734375,
+                    421.72882080078127,
+                    14047.234375
+                ],
+                [
+                    1927.6207275390626,
+                    424.07135009765627,
+                    14061.0185546875
+                ],
+                [
+                    1890.5289306640626,
+                    427.2127685546875,
+                    14084.4384765625
+                ],
+                [
+                    1847.8770751953126,
+                    440.16552734375,
+                    14153.525390625
+                ],
+                [
+                    1796.501708984375,
+                    450.4504699707031,
+                    14252.9521484375
+                ],
+                [
+                    1790.0992431640626,
+                    450.6405944824219,
+                    14260.9716796875
+                ],
+                [
+                    1773.726806640625,
+                    452.12030029296877,
+                    14305.025390625
+                ],
+                [
+                    1748.92041015625,
+                    452.12548828125,
+                    14306.7841796875
+                ]
+            ]
+        }
+    ]
 }

@@ -1,10 +1,9 @@
 {
-    "ConfigVersion": 28,
+    "ConfigVersion": 9,
     "ID": 2,
     "ObjectiveType": 3,
     "ObjectiveText": "Get to the Village",
     "TimeLimit": -1,
-    "Active": 1,
     "Position": [
         2596.699951171875,
         306.1000061035156,
@@ -12,7 +11,5 @@
     ],
     "MaxDistance": 20.0,
     "MarkerName": "Get to the Village",
-    "ShowDistance": 1,
-    "TriggerOnEnter": 1,
-    "TriggerOnExit": 0
+    "ShowDistance": 1
 }
