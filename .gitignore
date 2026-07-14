@@ -297,3 +297,8 @@ mpmissions/**/areaflags.map
 profiles/NoxZ Fuel System/FuelBusinessPlayers.json
 profiles/NoxZ Fuel System/FuelBusinesses.json
 profiles/FoXyMods/
+
+# Nur der öffentliche DeutschZ-Release-Key wird versioniert.
+!keys/
+keys/*
+!keys/DeutschZ.bikey
