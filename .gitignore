@@ -195,6 +195,24 @@ mpmissions/**/_codex_backup*/
 
 !profiles/
 profiles/*
+!profiles/DeutschZ-System/
+# Im vereinheitlichten DeutschZ-Profil nur kuratierte Konfigurationen
+# versionieren. Runtime, Persistenz, Logs und dynamische Daten bleiben lokal.
+profiles/DeutschZ-System/**
+!profiles/DeutschZ-System/**/
+!profiles/DeutschZ-System/README.md
+!profiles/DeutschZ-System/**/Config/
+!profiles/DeutschZ-System/**/Config/**
+profiles/DeutschZ-System/**/Runtime/
+profiles/DeutschZ-System/**/Runtime/**
+profiles/DeutschZ-System/**/Persistence/
+profiles/DeutschZ-System/**/Persistence/**
+profiles/DeutschZ-System/LogZ/
+profiles/DeutschZ-System/LogZ/**
+profiles/DeutschZ-System/**/Data/
+profiles/DeutschZ-System/**/Data/**
+!profiles/DeutschZ-System/DeutschZ_Main_Settings/Data/
+!profiles/DeutschZ-System/DeutschZ_Main_Settings/Data/SpawnPoints_Chernarus.json
 !profiles/BaseBuildingPlus/
 !profiles/BaseBuildingPlus/**
 !profiles/BS_BTR_Patrol/
@@ -251,6 +269,9 @@ profiles/*
 !profiles/SprayZ/**
 
 profiles/**/data/
+# Einzige statische DeutschZ-Data-Datei, die absichtlich versioniert wird.
+!profiles/DeutschZ-System/DeutschZ_Main_Settings/Data/
+!profiles/DeutschZ-System/DeutschZ_Main_Settings/Data/SpawnPoints_Chernarus.json
 profiles/**/logs/
 profiles/**/Logs/
 profiles/**/_codex_backup*/
