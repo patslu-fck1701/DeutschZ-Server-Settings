@@ -6,7 +6,7 @@
     "RequireMenuAccessItem":  1,
     "AllowBuyingOwnListings":  0,
     "MenuAccessItemClassname":  "NoxZ_Phone_Device_IPhone17",
-    "CurrencyDisplayName":  "Euro",
+    "CurrencyDisplayName":  "D-MarkZ",
     "Categories":  [
                        "-----------------------",
                        "Weapons",
@@ -66,7 +66,7 @@
                                 ],
     "PlayerMarketCurrencies":  [
                                    {
-                                       "DisplayName":  "Euro",
+                                       "DisplayName":  "D-MarkZ",
                                        "Classname":  "NoxZ_Euro1",
                                        "PreviewClassname":  "",
                                        "Value":  1
@@ -74,55 +74,55 @@
                                ],
     "CurrencyDenominations":  [
                                   {
-                                      "DisplayName":  "Euro",
+                                      "DisplayName":  "D-MarkZ",
                                       "Classname":  "NoxZ_Euro1",
                                       "PreviewClassname":  "",
                                       "Value":  1
                                   },
                                   {
-                                      "DisplayName":  "Euro",
+                                      "DisplayName":  "D-MarkZ",
                                       "Classname":  "NoxZ_Euro2",
                                       "PreviewClassname":  "",
                                       "Value":  2
                                   },
                                   {
-                                      "DisplayName":  "Euro",
+                                      "DisplayName":  "D-MarkZ",
                                       "Classname":  "NoxZ_Euro5",
                                       "PreviewClassname":  "",
                                       "Value":  5
                                   },
                                   {
-                                      "DisplayName":  "Euro",
+                                      "DisplayName":  "D-MarkZ",
                                       "Classname":  "NoxZ_Euro10",
                                       "PreviewClassname":  "",
                                       "Value":  10
                                   },
                                   {
-                                      "DisplayName":  "Euro",
+                                      "DisplayName":  "D-MarkZ",
                                       "Classname":  "NoxZ_Euro20",
                                       "PreviewClassname":  "",
                                       "Value":  20
                                   },
                                   {
-                                      "DisplayName":  "Euro",
+                                      "DisplayName":  "D-MarkZ",
                                       "Classname":  "NoxZ_Euro50",
                                       "PreviewClassname":  "",
                                       "Value":  50
                                   },
                                   {
-                                      "DisplayName":  "Euro",
+                                      "DisplayName":  "D-MarkZ",
                                       "Classname":  "NoxZ_Euro100",
                                       "PreviewClassname":  "",
                                       "Value":  100
                                   },
                                   {
-                                      "DisplayName":  "Euro",
+                                      "DisplayName":  "D-MarkZ",
                                       "Classname":  "NoxZ_Euro200",
                                       "PreviewClassname":  "",
                                       "Value":  200
                                   },
                                   {
-                                      "DisplayName":  "Euro",
+                                      "DisplayName":  "D-MarkZ",
                                       "Classname":  "NoxZ_Euro500",
                                       "PreviewClassname":  "",
                                       "Value":  500

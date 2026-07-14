@@ -24,59 +24,111 @@
     "RobberyMaxReward":  250000,
     "Currencies":  [
                        {
-                           "DisplayName":  "Euros",
+                           "DisplayName":  "D-MarkZ",
                            "Classname":  "NoxZ_Euro1",
                            "PreviewClassname":  "NoxZ_Euro50",
                            "Value":  1
                        },
                        {
-                           "DisplayName":  "Euros",
+                           "DisplayName":  "D-MarkZ",
                            "Classname":  "NoxZ_Euro2",
                            "PreviewClassname":  "",
                            "Value":  2
                        },
                        {
-                           "DisplayName":  "Euros",
+                           "DisplayName":  "D-MarkZ",
                            "Classname":  "NoxZ_Euro5",
                            "PreviewClassname":  "",
                            "Value":  5
                        },
                        {
-                           "DisplayName":  "Euros",
+                           "DisplayName":  "D-MarkZ",
                            "Classname":  "NoxZ_Euro10",
                            "PreviewClassname":  "",
                            "Value":  10
                        },
                        {
-                           "DisplayName":  "Euros",
+                           "DisplayName":  "D-MarkZ",
                            "Classname":  "NoxZ_Euro20",
                            "PreviewClassname":  "",
                            "Value":  20
                        },
                        {
-                           "DisplayName":  "Euros",
+                           "DisplayName":  "D-MarkZ",
                            "Classname":  "NoxZ_Euro50",
                            "PreviewClassname":  "",
                            "Value":  50
                        },
                        {
-                           "DisplayName":  "Euros",
+                           "DisplayName":  "D-MarkZ",
                            "Classname":  "NoxZ_Euro100",
                            "PreviewClassname":  "",
                            "Value":  100
                        },
                        {
-                           "DisplayName":  "Euros",
+                           "DisplayName":  "D-MarkZ",
                            "Classname":  "NoxZ_Euro200",
                            "PreviewClassname":  "",
                            "Value":  200
                        },
                        {
-                           "DisplayName":  "Euros",
+                           "DisplayName":  "D-MarkZ",
                            "Classname":  "NoxZ_Euro500",
                            "PreviewClassname":  "",
                            "Value":  500
                        }
                    ],
-    "ATMs":  []
+    "ATMs":  [
+                 {
+                     "ID":  "atm_green_mountain_01",
+                     "DisplayName":  "Phone ATM Green Mountain 1",
+                     "Position":  [
+                                      3708.102051,
+                                      402.980347,
+                                      5959.185547
+                                  ],
+                     "Orientation":  [
+                                         162.440445,
+                                         0,
+                                         0
+                                     ],
+                     "WithdrawTax":  200,
+                     "DepositTax":  200,
+                     "Enabled":  1
+                 },
+                 {
+                     "ID":  "atm_green_mountain_02",
+                     "DisplayName":  "Phone ATM Green Mountain 2",
+                     "Position":  [
+                                      3706.087158,
+                                      402.322876,
+                                      6003.259766
+                                  ],
+                     "Orientation":  [
+                                         154.170258,
+                                         0,
+                                         0
+                                     ],
+                     "WithdrawTax":  200,
+                     "DepositTax":  200,
+                     "Enabled":  1
+                 },
+                 {
+                     "ID":  "atm_kamenka_blackmarket_01",
+                     "DisplayName":  "Phone ATM Kamenka Blackmarket",
+                     "Position":  [
+                                      1133.584473,
+                                      5.857156,
+                                      2418.12915
+                                  ],
+                     "Orientation":  [
+                                         -114.936584,
+                                         0.0,
+                                         0.0
+                                     ],
+                     "WithdrawTax":  200,
+                     "DepositTax":  200,
+                     "Enabled":  1
+                 }
+             ]
 }

@@ -1,6 +1,6 @@
 {
-    "StoreFee":  0,
-    "RetrieveFee":  0,
+    "StoreFee":  2500,
+    "RetrieveFee":  2500,
     "MaxStoredVehicles":  8,
     "StoreRange":  20.0,
     "DroneSpawnHeight":  180.0,
@@ -13,7 +13,7 @@
     "GarageVehicleCarryForwardOffset":  6.150000095367432,
     "GarageVehicleCarryHeightRatio":  0.36000001430511477,
     "CurrencyClassname":  "NoxZ_Euro1",
-    "CurrencyDisplayName":  "Euro",
+    "CurrencyDisplayName":  "D-MarkZ",
     "DroneClassname":  "NoxZ_DeliveryDrone",
     "VehicleDeliveryAircraftClassname":  "NoxZ_DeliveryAirCrane"
 }
