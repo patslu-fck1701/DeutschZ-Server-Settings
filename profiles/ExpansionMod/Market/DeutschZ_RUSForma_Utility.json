@@ -1,0 +1,1000 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ RUSForma - Utility",
+    "Icon":  "Car",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  60,
+    "Items":  [
+                  {
+                      "ClassName":  "F1_Pickup",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "F1_Pickup_green",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_33081",
+                      "MaxPriceThreshold":  165000,
+                      "MinPriceThreshold":  115500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "gaz_51",
+                      "MaxPriceThreshold":  175000,
+                      "MinPriceThreshold":  122500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Gaz_53RF_petrol_truck",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_66",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_66_kuzov",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ij_2715_RF",
+                      "MaxPriceThreshold":  170000,
+                      "MinPriceThreshold":  119000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ij_2715_RF_blue",
+                      "MaxPriceThreshold":  170000,
+                      "MinPriceThreshold":  119000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ij_2715_RF_green",
+                      "MaxPriceThreshold":  170000,
+                      "MinPriceThreshold":  119000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ij_2715_RF_red",
+                      "MaxPriceThreshold":  170000,
+                      "MinPriceThreshold":  119000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kamaz_4310RUS",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kamaz_4310RUS_blue",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kamaz_4310RUS_kung",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kamaz_4310RUS_kung_blue",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kamaz_4310RUS_kung_oon",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kamaz_4310RUS_kung_orange",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kamaz_4310RUS_orange",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "KAVZ685_RF",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "KAVZ685_RF_beige",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "KAVZ685_RF_green",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "KAVZ685_RF_red",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kraz_255B",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kraz_255B_blue",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kraz_255B_kung",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kraz_255B_kung_blue",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kraz_255B_kung_yellow",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "kraz_255B_yellow",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "KubanG1",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "KubanG1_green",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "LIAZ_677RF",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "PAZ_672",
+                      "MaxPriceThreshold":  170000,
+                      "MinPriceThreshold":  119000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "PAZ_672_orange",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "tractor_UMZ_RUS",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "tractor_UMZ_RUS_blue",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_27722_ambulancia",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_27722_ambulancia2",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_27722_blue",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_27722_brown",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_27722_red",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_27722_yellow",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_Ambulance",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3962",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3962_green",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3962_VAI",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_Patrot_Pikap",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_Patrot_Pikap_blue",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_Patrot_Pikap_green",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_Patrot_Pikap_red",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_Patrot_Pikap_white",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "URAL_375_1964",
+                      "MaxPriceThreshold":  205000,
+                      "MinPriceThreshold":  143500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_130",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_130_ac40",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_130_green",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_130_kung",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_130_kung_green",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_131",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_131_tent",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_157_kung_rus",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_157_kung_rus_gray",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_157_kung_rus_yellow",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_157_rus",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_157_rus_gray",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL_157_rus_yellow",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL133_double",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZIL133_double_green",
+                      "MaxPriceThreshold":  195000,
+                      "MinPriceThreshold":  136500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

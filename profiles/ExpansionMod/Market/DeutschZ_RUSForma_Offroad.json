@@ -1,0 +1,520 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ RUSForma - Offroad",
+    "Icon":  "Car",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  60,
+    "Items":  [
+                  {
+                      "ClassName":  "dodge_power_wagonrus",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "dodge_power_wagonrus_black",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "dodge_power_wagonrus_red",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "dodge_power_wagonrus_white",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "dodge_power_wagonrus_yellow",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_69_rus",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_69_rus_green",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_69_rus_yellow",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "LUAZ_969",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "LUAZ_969_blue",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "LUAZ_969_green",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "LUAZ_969_orang",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Niva2329",
+                      "MaxPriceThreshold":  170000,
+                      "MinPriceThreshold":  119000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "patriot_2760_RUS",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "patriot_2760_RUS_black",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "patriot_2760_RUS_black_white",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "patriot_2760_RUS_blue",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "patriot_2760_RUS_rainbow",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "patriot_2760_RUS_rust",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "patriot_2760_RUS_white",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163",
+                      "MaxPriceThreshold":  170000,
+                      "MinPriceThreshold":  119000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_black",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_blue",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_emergency_service",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_gamekeeper",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_green",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_Red",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_white",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3172",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3172_green",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_33094",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_33094_gray",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_33094_green",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_469_Hunter",
+                      "MaxPriceThreshold":  180000,
+                      "MinPriceThreshold":  126000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

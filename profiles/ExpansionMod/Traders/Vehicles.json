@@ -25,7 +25,10 @@
                        "Vehicle_Parts:3",
                        "Batteries:3",
                        "DZ_NewVehicles_GreenMountain",
-                       "DZ_NewVehicle_Parts:3"
+                       "DZ_NewVehicle_Parts:3",
+                       "DeutschZ_RUSForma_Civilian",
+                       "DeutschZ_RUSForma_Utility",
+                       "DeutschZ_RUSForma_Offroad"
                    ],
     "Items":  {
 

@@ -1,0 +1,460 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ RUSForma - Military",
+    "Icon":  "Car",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  60,
+    "Items":  [
+                  {
+                      "ClassName":  "artillery_tractor_camo",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "artillery_tractor_kung_camo",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "AZLK_2141RF_milicia",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "AZLK_2141RF_milicia_PG",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_33081_camo",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_66_camo",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_66_kuzov_camo",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_66_kuzov_zima_camo",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "GAZ_66_zima_camo",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "LIAZ_677RF_camo",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Niva2329_camo",
+                      "MaxPriceThreshold":  170000,
+                      "MinPriceThreshold":  119000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_31519_Police",
+                      "MaxPriceThreshold":  175000,
+                      "MinPriceThreshold":  122500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_31519_Police_MCHS",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_31519_Police_MCHS_rust",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_31519_Police_rust",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_MCHS",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_Police",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3163_VP",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3172_camo_Desert",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3172_camo_flora",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3172_camo_Winter",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3962_MCHS",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_3962_milicia",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_469_army",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_469_army_camo",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_469_army_yellow",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_469_milicia",
+                      "MaxPriceThreshold":  175000,
+                      "MinPriceThreshold":  122500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "UAZ_Patrot_Pikap_camo_green",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "vaz_2106_milicia",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "ZAZ_968_milicia",
+                      "MaxPriceThreshold":  250000,
+                      "MinPriceThreshold":  175000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

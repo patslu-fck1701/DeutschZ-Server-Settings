@@ -1,0 +1,265 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "DeutschZ RUSForma - Armored",
+    "Icon":  "Car",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  60,
+    "Items":  [
+                  {
+                      "ClassName":  "BRDM2_RF",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "BRDM2_RF_camo",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "BRDM2_RF_winter",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "BTR_80",
+                      "MaxPriceThreshold":  255000,
+                      "MinPriceThreshold":  178500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "BTR_80_camo",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "BTR_80_camo2",
+                      "MaxPriceThreshold":  255000,
+                      "MinPriceThreshold":  178500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "BTR_80_P",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "BTR_80_P_camo",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "BTR_80_P_camo2",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "BTR_80_P_rust",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "BTR_80_rust",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Gaz_233002_Tiger",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Gaz_233002_Tiger_camo",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MTLB_RF",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MTLB_RF_camo",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "MTLB_RF_camo2",
+                      "MaxPriceThreshold":  350000,
+                      "MinPriceThreshold":  245000,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "VBL",
+                      "MaxPriceThreshold":  235000,
+                      "MinPriceThreshold":  164500,
+                      "SellPricePercent":  3,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

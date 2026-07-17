@@ -1,0 +1,13 @@
+{
+    "VehicleClasses":  242,
+    "SourcePriced":  41,
+    "DefaultPriced":  201,
+    "Categories":  {
+                       "Civilian":  92,
+                       "Utility":  66,
+                       "Offroad":  34,
+                       "Military":  30,
+                       "Armored":  17,
+                       "Special":  3
+                   }
+}

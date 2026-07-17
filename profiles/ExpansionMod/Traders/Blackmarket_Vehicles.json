@@ -22,7 +22,10 @@
     "UseCategoryOrder":  0,
     "Categories":  [
                        "DZ_NewVehicles_Blackmarket",
-                       "Batteries:3"
+                       "Batteries:3",
+                       "DeutschZ_RUSForma_Military",
+                       "DeutschZ_RUSForma_Armored",
+                       "DeutschZ_RUSForma_Special"
                    ],
     "Items":  {
 
