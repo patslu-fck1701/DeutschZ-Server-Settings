@@ -12,6 +12,7 @@
     "dev": "tsx watch src/index.ts",
     "start": "node dist/index.js",
     "register": "tsx src/register-commands.ts",
+    "guild:reset": "node scripts/reset-guild.mjs",
     "migrate": "tsx src/migrate.ts",
     "preflight:whatsapp": "tsx src/preflight-whatsapp.ts",
     "test": "vitest run",

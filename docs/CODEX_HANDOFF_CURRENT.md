@@ -4,18 +4,18 @@ Aktualisiert: 18.07.2026
 
 ## Aktiver Stand
 
-Der bestehende DeutschZ Discord-Bot wurde um einen sicheren WebsitePublisher-Lead-Webhook und eine ausschließlich offizielle WhatsApp Business Cloud API-Anbindung erweitert. Live-WhatsApp ist weiterhin deaktiviert, weil die echten Meta-/Webhook-Werte lokal noch fehlen.
+Der DeutschZ Discord wurde mit ausdrücklicher Freigabe vollständig bereinigt und neu aufgebaut. Der Bot enthält außerdem den sicheren WebsitePublisher-Lead-Webhook und die ausschließlich offizielle WhatsApp Business Cloud API-Anbindung. Live-WhatsApp ist weiterhin deaktiviert, weil die echten Meta-/Webhook-Werte lokal noch fehlen.
 
 ## Source
 
 - Worktree: `E:\DeutschZ\DeutschZ-Worktrees\DiscordBot`
 - Projekt: `E:\DeutschZ\DeutschZ-Worktrees\DiscordBot\tools\DeutschZ-DiscordBot`
-- Branch: `codex/discord-community-bot-20260717`
+- Branch: `codex/discord-clean-rebuild-20260718`
 
 ## Letzter Ausgabeordner
 
 - Ziel: `E:\DeutschZ\DeutschZServer\DeutschZ-DiscordBot`
-- Synchronisierung: 18.07.2026 01:44:11 +02:00
+- Synchronisierung: 18.07.2026 02:57:33 +02:00
 - Env-Dateien, Datenbank, Logs, Backups und `node_modules` werden ausdrücklich nicht übertragen.
 
 ## Technischer Status
@@ -23,6 +23,10 @@ Der bestehende DeutschZ Discord-Bot wurde um einen sicheren WebsitePublisher-Lea
 - ESLint: PASS
 - Vitest: 6 Dateien / 31 Tests PASS
 - TypeScript-Build: PASS
+- Discord Live-Neuaufbau: PASS
+- Discord Live-Bestand: 11 Kategorien, 63 Kanäle, 32 eigene Rollen
+- Discord-Duplikate: 0 Kategorien, 0 Kanäle, 0 Rollen
+- Feste Live-Rollen: Inhaber / Projektleitung / Projektleitung / Ehrenmitglied + Supporter
 - Slash Commands: 57 eindeutige Guild-Commands registriert
 - Historische Command-Doppelungen entfernt: `/health`, `/mods-list`
 - Feste Personen: ausschließlich per Discord-User-ID autorisiert
@@ -34,6 +38,8 @@ Der bestehende DeutschZ Discord-Bot wurde um einen sicheren WebsitePublisher-Lea
 - WhatsApp-Owner-Befehle: ANNEHMEN, ABLEHNEN, START, ERLEDIGT, STATUS, OFFEN, OFFEN <SEITE>, SUCHE
 - Discord-/E-Mail-Spiegelung für Website-Leads: AUS
 - Echter WhatsApp-Versand: NICHT AUSGEFÜHRT
+- Website-WhatsApp-Kontakt: im gemeinsamen Footer aktiv
+- Website-Musikwechsel: BLOCKIERT bis zu einer angemeldeten WebsitePublisher-Dashboard-Sitzung; die API kann die elf lokalen MP3-Dateien mit insgesamt rund 57 MB nicht direkt vom lokalen Dateisystem übernehmen.
 
 ## Lokaler Preflight
 
@@ -53,6 +59,8 @@ Der bestehende DeutschZ Discord-Bot wurde um einen sicheren WebsitePublisher-Lea
 8. Erst nach erfolgreicher Prüfung `WEBSITE_LEAD_WEBHOOK_ENABLED=true`, danach kontrolliert `WHATSAPP_ENABLED=true` setzen.
 
 Details: `tools\DeutschZ-DiscordBot\docs\WEBSITE_WHATSAPP.md` und `tools\DeutschZ-DiscordBot\docs\TESTANLEITUNG.md`.
+
+Discord-Neuaufbau: `tools\DeutschZ-DiscordBot\docs\DISCORD_RESET_REPORT.md`.
 
 ## Übertragene Dateien
 

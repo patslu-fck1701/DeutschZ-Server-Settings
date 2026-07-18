@@ -78,10 +78,16 @@ export async function reconcileGuild(guild: Guild, db: Database): Promise<string
     }
   }
   const honoraryMember=await guild.members.fetch(appConfig.HONORARY_USER_ID).catch(()=>null);
-  const honoraryRole=guild.roles.cache.find(role=>role.name==='DeutschZ Ehrenmitglied');
-  if(honoraryMember&&honoraryRole&&!honoraryMember.roles.cache.has(honoraryRole.id)){
-    await honoraryMember.roles.add(honoraryRole,'DeutschZ Ehrenmitglied Ronny1996 (GHOST)').catch(()=>undefined);
-    changes.push(`Ehrenrolle zugewiesen: ${appConfig.HONORARY_USER_ID}`);
+  const honoraryRoles=['DeutschZ Ehrenmitglied','Supporter']
+    .map(roleName=>guild.roles.cache.find(role=>role.name===roleName))
+    .filter(role=>Boolean(role));
+  if(honoraryMember){
+    for(const role of honoraryRoles){
+      if(role&&!honoraryMember.roles.cache.has(role.id)){
+        await honoraryMember.roles.add(role,'Ronny1996 (GHOST): DeutschZ Ehrenmitglied mit vollen Supporter-Rechten').catch(()=>undefined);
+        changes.push(`${role.name} zugewiesen: ${appConfig.HONORARY_USER_ID}`);
+      }
+    }
   }
 
   let categoryPosition = 0;
@@ -94,15 +100,28 @@ export async function reconcileGuild(guild: Guild, db: Database): Promise<string
     await (category as CategoryChannel).setPosition(categoryPosition++).catch(() => undefined);
     let channelPosition = 0;
     for (const [name, type] of channels) {
-      const isTeam = ['TEAM INTERN','MODERATION','SERVERMANAGEMENT','MOD DEVELOPMENT'].includes(categoryName);
+      const protectedCategoryRoles: Record<string,string[]> = {
+        'TEAM INTERN': ['Inhaber','Projektleitung','Administrator','Moderator','Supporter','Event-Team','Content Creator','Entwickler','Mod-Tester','Bug-Hunter','Dokumentation','Release-Team'],
+        'MODERATION': ['Inhaber','Projektleitung','Administrator','Moderator','Supporter'],
+        'SERVERMANAGEMENT': ['Inhaber','Projektleitung','Administrator','Entwickler'],
+        'MOD DEVELOPMENT': ['Inhaber','Projektleitung','Administrator','Entwickler','Mod-Tester','Bug-Hunter','Dokumentation','Release-Team']
+      };
+      const isTeam = Object.hasOwn(protectedCategoryRoles,categoryName);
       const isTesterChannel = categoryName === 'DEUTSCHZ MODS' && name === '🧪・testversionen';
       const isReleaseChannel = categoryName === 'DEUTSCHZ MODS' && ['🚀・mod-releases','📜・mod-changelogs'].includes(name);
       const visibleRoleNames = isTeam
-        ? ['Inhaber','Projektleitung','Administrator','Entwickler','Mod-Tester','Bug-Hunter','Dokumentation','Release-Team']
+        ? (protectedCategoryRoles[categoryName] ?? [])
         : isTesterChannel ? ['Inhaber','Projektleitung','Administrator','Entwickler','Mod-Tester','Bug-Hunter','DeutschZ Ehrenmitglied'] : [];
       const visibleRoleIds = visibleRoleNames.map(roleName => guild.roles.cache.find(role => role.name === roleName)?.id).filter((id): id is string => Boolean(id));
       const releaseRoleIds = ['Inhaber','Projektleitung','Release-Team'].map(roleName => guild.roles.cache.find(role => role.name === roleName)?.id).filter((id): id is string => Boolean(id));
       let channel = guild.channels.cache.find(item => item.parentId === category!.id && normalize(item.name) === normalize(name));
+      if (!channel) {
+        channel = guild.channels.cache.find(item => !item.parentId && item.type === type && normalize(item.name) === normalize(name));
+        if (channel) {
+          await (channel as GuildChannel).setParent(category.id, { lockPermissions: false });
+          changes.push(`Geschützten Community-Kanal übernommen: ${categoryName}/${name}`);
+        }
+      }
       if (!channel) {
         channel = await guild.channels.create({
           name, type, parent: category.id,

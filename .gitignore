@@ -169,6 +169,7 @@ scratch/
 work/
 worktree/
 node_modules/
+tools/DeutschZ-DiscordBot/data/
 __pycache__/
 *.py[cod]
 .venv/
