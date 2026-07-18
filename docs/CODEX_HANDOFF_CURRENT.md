@@ -13,6 +13,7 @@ WebsitePublisher ist live aktualisiert: Community-/Schildwall-Seite, Teamdarstel
 - Worktree: `E:\DeutschZ\DeutschZ-Worktrees\DiscordBot`
 - Projekt: `E:\DeutschZ\DeutschZ-Worktrees\DiscordBot\tools\DeutschZ-DiscordBot`
 - Branch: `codex/discord-market-schildwall-20260718`
+- Commit: `ef92b81d9a6932123d48ab621aeb76a89bb85e4c`
 
 ## Ausgabe
 
