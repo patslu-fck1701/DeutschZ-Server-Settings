@@ -10,8 +10,11 @@ import { publishServerPanels, storedTextChannel } from './discord/panels.js';
 import { NotificationService } from './services/notifications.js';
 import { UploadApprovalService } from './services/upload-approval.js';
 import { WebhookRuntime } from './http/webhook-server.js';
+import { ExpansionMarketService } from './services/expansion-market.js';
+import { DiscordMusicService } from './services/discord-music.js';
+import { FtpUploadExecutor } from './services/ftp-upload.js';
 
-interface RuntimeState { stopping: boolean; timer?: NodeJS.Timeout; webhooks?: WebhookRuntime; }
+interface RuntimeState { stopping: boolean; timer?: NodeJS.Timeout; marketTimer?: NodeJS.Timeout; webhooks?: WebhookRuntime; music?: DiscordMusicService; }
 const runtimes = new WeakMap<Client, RuntimeState>();
 
 export async function createBot(): Promise<{client: Client; db: Database}> {
@@ -19,6 +22,9 @@ export async function createBot(): Promise<{client: Client; db: Database}> {
   const statusService = new DayZStatusService();
   const notifications = new NotificationService(db);
   const uploads = new UploadApprovalService(db);
+  const market = new ExpansionMarketService(db);
+  const music = new DiscordMusicService();
+  const ftpExecutor = new FtpUploadExecutor();
   const interruptedUploads = uploads.recoverInterrupted();
   if (interruptedUploads) logger.error({count:interruptedUploads}, 'Unterbrochene Uploads auf UNKNOWN gesetzt; Adminprüfung erforderlich');
   const intents = [GatewayIntentBits.Guilds, GatewayIntentBits.GuildModeration, GatewayIntentBits.GuildMessages];
@@ -28,17 +34,17 @@ export async function createBot(): Promise<{client: Client; db: Database}> {
     intents,
     partials: [Partials.GuildMember]
   });
-  const runtime: RuntimeState = { stopping: false };
+  const runtime: RuntimeState = { stopping: false, music };
   runtime.webhooks = new WebhookRuntime(db);
   runtime.webhooks.start();
   runtimes.set(client, runtime);
 
   client.on(Events.InteractionCreate, async interaction => {
     try {
-      if (interaction.isChatInputCommand()) await handleCommand(interaction, db, statusService, notifications, uploads);
-      else if (interaction.isButton()) await handleButton(interaction, db, uploads);
+      if (interaction.isChatInputCommand()) await handleCommand(interaction, db, statusService, notifications, uploads, market, music);
+      else if (interaction.isButton()) await handleButton(interaction, db, uploads, ftpExecutor);
       else if (interaction.isStringSelectMenu()) await handleSelect(interaction, db);
-      else if (interaction.isModalSubmit()) await handleModal(interaction, db, uploads);
+      else if (interaction.isModalSubmit()) await handleModal(interaction, db, uploads, ftpExecutor);
     } catch (error) {
       logger.error({ err: error, interaction: interaction.id }, 'Interaktion fehlgeschlagen');
       const message = error instanceof Error ? error.message : 'Unbekannter Fehler';
@@ -74,15 +80,48 @@ export async function createBot(): Promise<{client: Client; db: Database}> {
       if (mods) await import('./discord/panels.js').then(module => module.publishModList(mods, db)).catch(error => logger.warn({err:error}, 'Modlisten-Panel konnte nicht aktualisiert werden'));
       const events = storedTextChannel(guild, db, '🎉・event-ankündigungen');
       if (events) await import('./discord/panels.js').then(module => module.publishEventList(events, db)).catch(error => logger.warn({err:error}, 'Event-Panel konnte nicht aktualisiert werden'));
+      await sendDailyResponsibilityBrief(guild.id, db, ready).catch(error => logger.warn({err:error}, 'Tägliche Aufgabeninformation fehlgeschlagen'));
       await sendRestartReminder(guild.id, db, ready, notifications).catch(error => logger.warn({err:error}, 'Restart-Reminder fehlgeschlagen'));
     };
     const safeUpdate = () => void update().catch(error => logger.error({err:error}, 'Periodisches Update fehlgeschlagen'));
     safeUpdate();
     runtime.timer = setInterval(safeUpdate, appConfig.DAYZ_STATUS_INTERVAL_SECONDS * 1000);
     runtime.timer.unref();
+    const syncMarket = () => {
+      if (runtime.stopping || !appConfig.FEATURE_EXPANSION_MARKET) return;
+      try { market.sync(false); } catch (error) { logger.warn({err:error}, 'Expansion-Market-Sync fehlgeschlagen'); }
+    };
+    syncMarket();
+    runtime.marketTimer = setInterval(syncMarket, appConfig.DAYZ_MARKET_SYNC_SECONDS * 1000);
+    runtime.marketTimer.unref();
   });
 
   return { client, db };
+}
+
+async function sendDailyResponsibilityBrief(guildId: string, db: Database, client: Client): Promise<void> {
+  const now = DateTime.now().setZone(appConfig.TIMEZONE);
+  if (now.hour < appConfig.DAILY_BRIEF_HOUR) return;
+  const guild = client.guilds.cache.get(guildId);
+  if (!guild) return;
+  const dateKey = now.toFormat('yyyy-LL-dd');
+  if (db.getConfig(guild.id, `dailyResponsibilityBrief:${dateKey}`)) return;
+  const channel = storedTextChannel(guild, db, '📝・team-aufgaben');
+  if (!channel) return;
+  const message = await channel.send({
+    content: `<@${appConfig.HONORARY_USER_ID}> <@${appConfig.SECOND_HONORARY_USER_ID}>`,
+    embeds: [new EmbedBuilder()
+      .setColor(0x68a800)
+      .setTitle('📋 Wichtige Aufgaben und Entscheidungen')
+      .setDescription('Bitte prüft heute offene Supportfragen, Rückmeldungen aus Spieltests und sichtbare Fehler an Discord, Website oder Events. Haltet Beobachtungen nachvollziehbar fest und gebt kritische Punkte an Projektleitung oder Inhaber weiter.')
+      .addFields(
+        { name: 'Support', value: 'Offene Spielerfragen sichten und verständlich beantworten.' },
+        { name: 'Tests & Feedback', value: 'Nur tatsächlich beobachtetes Verhalten melden; Screenshots oder Logzeitpunkt ergänzen.' },
+        { name: 'Entscheidungen', value: 'Verbesserungsvorschläge einbringen. Kritische Upload-, Deployment-, Rollen- und Löschfreigaben bleiben bei den fest hinterlegten Verantwortlichen.' }
+      )
+      .setFooter({ text: `DeutschZ Tagesbrief · ${now.toFormat('dd.LL.yyyy')}` })]
+  });
+  db.setConfig(guild.id, `dailyResponsibilityBrief:${dateKey}`, message.id);
 }
 
 async function sendRestartReminder(guildId: string, db: Database, client: Client, notifications: NotificationService): Promise<void> {
@@ -103,6 +142,8 @@ export async function shutdown(client: Client, db: Database): Promise<void> {
   if (runtime) {
     runtime.stopping = true;
     if (runtime.timer) clearInterval(runtime.timer);
+    if (runtime.marketTimer) clearInterval(runtime.marketTimer);
+    runtime.music?.stopAll();
     await runtime.webhooks?.close();
   }
   client.destroy();

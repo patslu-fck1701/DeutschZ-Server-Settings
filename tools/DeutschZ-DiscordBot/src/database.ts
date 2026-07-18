@@ -99,6 +99,44 @@ const migrations = [
    CREATE INDEX IF NOT EXISTS idx_leads_status ON website_leads(status,received_at);
    CREATE INDEX IF NOT EXISTS idx_lead_queue_due ON website_lead_queue(status,next_attempt_at);
    CREATE INDEX IF NOT EXISTS idx_lead_audit_request ON website_lead_audit(external_request_id,created_at);`
+  ,`CREATE TABLE IF NOT EXISTS teams (
+      id INTEGER PRIMARY KEY AUTOINCREMENT, guild_id TEXT NOT NULL, team_key TEXT NOT NULL,
+      display_name TEXT NOT NULL, description TEXT, active INTEGER NOT NULL DEFAULT 1,
+      created_at TEXT NOT NULL, updated_at TEXT NOT NULL, UNIQUE(guild_id,team_key));
+    CREATE TABLE IF NOT EXISTS team_members (
+      team_id INTEGER NOT NULL, user_id TEXT NOT NULL, team_role TEXT NOT NULL,
+      permissions_json TEXT NOT NULL DEFAULT '{}', active INTEGER NOT NULL DEFAULT 1,
+      created_at TEXT NOT NULL, updated_at TEXT NOT NULL, PRIMARY KEY(team_id,user_id));
+    CREATE TABLE IF NOT EXISTS discord_resource_registry (
+      guild_id TEXT NOT NULL, resource_type TEXT NOT NULL, resource_key TEXT NOT NULL,
+      discord_id TEXT NOT NULL, metadata_json TEXT, updated_at TEXT NOT NULL,
+      PRIMARY KEY(guild_id,resource_type,resource_key));
+    CREATE TABLE IF NOT EXISTS market_import_runs (
+      id INTEGER PRIMARY KEY AUTOINCREMENT, source_root TEXT NOT NULL, source_hash TEXT NOT NULL,
+      status TEXT NOT NULL, category_count INTEGER NOT NULL DEFAULT 0, item_count INTEGER NOT NULL DEFAULT 0,
+      trader_count INTEGER NOT NULL DEFAULT 0, warning_count INTEGER NOT NULL DEFAULT 0,
+      error_count INTEGER NOT NULL DEFAULT 0, started_at TEXT NOT NULL, finished_at TEXT, message TEXT);
+    CREATE TABLE IF NOT EXISTS market_catalog_categories (
+      id INTEGER PRIMARY KEY AUTOINCREMENT, run_id INTEGER NOT NULL, category_key TEXT NOT NULL,
+      display_name TEXT NOT NULL, icon TEXT, color TEXT, source_path TEXT NOT NULL,
+      active INTEGER NOT NULL DEFAULT 0, UNIQUE(run_id,category_key));
+    CREATE TABLE IF NOT EXISTS market_catalog_items (
+      id INTEGER PRIMARY KEY AUTOINCREMENT, run_id INTEGER NOT NULL, category_key TEXT NOT NULL,
+      class_name TEXT NOT NULL, min_price REAL, max_price REAL, sell_price_percent REAL,
+      min_stock INTEGER, max_stock INTEGER, quantity_percent REAL, variants_json TEXT,
+      attachments_json TEXT, source_path TEXT NOT NULL, active INTEGER NOT NULL DEFAULT 0,
+      UNIQUE(run_id,category_key,class_name));
+    CREATE TABLE IF NOT EXISTS market_catalog_traders (
+      id INTEGER PRIMARY KEY AUTOINCREMENT, run_id INTEGER NOT NULL, trader_key TEXT NOT NULL,
+      display_name TEXT NOT NULL, currencies_json TEXT NOT NULL, source_path TEXT NOT NULL,
+      active INTEGER NOT NULL DEFAULT 0, UNIQUE(run_id,trader_key));
+    CREATE TABLE IF NOT EXISTS market_trader_categories (
+      trader_id INTEGER NOT NULL, category_key TEXT NOT NULL, display_order INTEGER NOT NULL,
+      PRIMARY KEY(trader_id,category_key));
+    CREATE INDEX IF NOT EXISTS idx_market_catalog_item_class ON market_catalog_items(active,class_name);
+    CREATE INDEX IF NOT EXISTS idx_market_catalog_category ON market_catalog_items(active,category_key);
+    CREATE INDEX IF NOT EXISTS idx_market_trader_category ON market_trader_categories(category_key);
+    CREATE INDEX IF NOT EXISTS idx_team_member_user ON team_members(user_id,active);`
 ];
 
 const defaultMods = [

@@ -1,7 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import { commandData } from '../src/discord/commands.js';
 
-const publicCommands = new Set(['bot-status','mods','restart-next','github-status','github-latest','github-links','suggest']);
+const publicCommands = new Set([
+  'bot-status','mods','restart-next','github-status','github-latest','github-links','suggest',
+  'markt','musik','team','unterstuetzen'
+]);
 
 describe('slash command security audit', () => {
   it('contains no duplicate command names', () => {

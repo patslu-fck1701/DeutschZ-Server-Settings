@@ -12,12 +12,17 @@ import { latestRepository, repositoryUrls } from '../services/github.js';
 import { nextRestart } from '../services/restart.js';
 import type { NotificationService } from '../services/notifications.js';
 import { isAuthorizedUploadActor, UploadApprovalService } from '../services/upload-approval.js';
+import type { FtpUploadExecutor } from '../services/ftp-upload.js';
+import type { ExpansionMarketService, MarketItemResult } from '../services/expansion-market.js';
+import type { DiscordMusicService } from '../services/discord-music.js';
 import { permissionReport, reconcileGuild } from './setup.js';
 import { publishEventList, publishModList, publishRoles, publishServerPanels, publishTickets, publishVerification, storedTextChannel } from './panels.js';
 
 const privateReply = { flags: MessageFlags.Ephemeral } as const;
 const nowIso = () => new Date().toISOString();
 const formatBytes = (bytes:number) => bytes < 1024*1024 ? `${(bytes/1024).toFixed(1)} KiB` : `${(bytes/1024/1024).toFixed(1)} MiB`;
+const formatPrice = (value:number|null) => value === null ? '–' : new Intl.NumberFormat('de-DE').format(value);
+const formatMarketItem = (item:MarketItemResult) => `**${item.className}** · ${item.categoryName}\nKauf: ${formatPrice(item.minPrice)}–${formatPrice(item.maxPrice)} · Verkauf: ${item.sellPricePercent ?? 0}%\nHändler: ${item.traders.join(', ') || 'keinem Händler zugeordnet'}`;
 
 function assertGuild(interaction: ChatInputCommandInteraction | ButtonInteraction | StringSelectMenuInteraction | ModalSubmitInteraction) {
   if (!interaction.guild) throw new Error('Dieser Vorgang ist nur auf dem DeutschZ-Discord verfügbar.');
@@ -38,7 +43,7 @@ const criticalCommands = new Set([
   'maintenance-start','maintenance-complete','notify-kothz','giveaway-result','mod-release','mod-changelog',
   'server-panel','verify-panel','roles-panel','ticket-panel','event-panel','mods-add','mods-remove','mods-edit',
   'mods-refresh','restart-test','permissions-check','event-create','event-list','event-edit','event-cancel',
-  'event-remind','upload','deploy','push-settings','push-mod','push-file'
+  'event-remind','upload','deploy','push-settings','push-mod','push-file','admin','supporter-vergeben'
 ]);
 
 function auditCommand(db: Database, interaction: ChatInputCommandInteraction, result: 'STARTED'|'SUCCESS'|'FAILED', detail?: string): void {
@@ -120,10 +125,101 @@ async function moderation(interaction: ChatInputCommandInteraction, db: Database
   return true;
 }
 
-async function handleCommandInner(interaction: ChatInputCommandInteraction, db: Database, statusService: DayZStatusService, notifications: NotificationService, uploads: UploadApprovalService): Promise<void> {
+async function handleCommandInner(interaction: ChatInputCommandInteraction, db: Database, statusService: DayZStatusService, notifications: NotificationService, uploads: UploadApprovalService, market: ExpansionMarketService, music: DiscordMusicService): Promise<void> {
   if (await moderation(interaction, db)) return;
   const guild = assertGuild(interaction);
   const command = interaction.commandName;
+
+  if (command === 'markt') {
+    const sub = interaction.options.getSubcommand();
+    if (sub === 'uebersicht') {
+      const status = market.status();
+      const categories = market.categories(12);
+      await interaction.reply({ embeds: [new EmbedBuilder().setColor(0x6da900).setTitle('🛒 DeutschZ Expansion Market').setDescription(categories.length ? categories.map(item => `**${item.displayName}** · ${item.itemCount} Artikel`).join('\n') : 'Der Markt wurde noch nicht importiert.').setFooter({ text: `Letzter Import: ${String(status?.finished_at ?? 'noch keiner')}` })] });
+    } else if (sub === 'kategorien') {
+      const rows = market.categories(50);
+      await interaction.reply({ content: rows.length ? rows.map(row => `**${row.displayName}** (${row.categoryKey}) · ${row.itemCount}`).join('\n').slice(0, 1950) : 'Keine Kategorien importiert.', ...privateReply });
+    } else if (sub === 'suche') {
+      const rows = market.search(interaction.options.getString('text', true), 10);
+      await interaction.reply({ content: rows.length ? rows.map(formatMarketItem).join('\n\n').slice(0, 1950) : 'Kein passender Artikel gefunden.', ...privateReply });
+    } else if (sub === 'artikel') {
+      const item = market.item(interaction.options.getString('klasse', true));
+      await interaction.reply({ content: item ? formatMarketItem(item) : 'Dieser ClassName wurde im aktiven Market-Katalog nicht gefunden.', ...privateReply });
+    } else if (sub === 'kategorie') {
+      const rows = market.category(interaction.options.getString('name', true), 20);
+      await interaction.reply({ content: rows.length ? rows.map(formatMarketItem).join('\n\n').slice(0, 1950) : 'Keine passende Kategorie gefunden.', ...privateReply });
+    } else {
+      const status = market.status();
+      await interaction.reply({ content: status ? `Letzter Import: ${String(status.finished_at ?? status.started_at)}\nKategorien: ${String(status.category_count ?? 0)} · Artikel: ${String(status.item_count ?? 0)} · Händler: ${String(status.trader_count ?? 0)}` : 'Noch kein erfolgreicher Market-Import.', ...privateReply });
+    }
+    return;
+  }
+
+  if (command === 'admin' && interaction.options.getSubcommandGroup() === 'markt') {
+    const sub = interaction.options.getSubcommand();
+    if (sub === 'sync') {
+      await interaction.deferReply(privateReply);
+      const result = market.sync(true);
+      await interaction.editReply(`Market-Sync abgeschlossen: ${result.categories} Kategorien · ${result.items} Artikel · ${result.traders} Händler · ${result.warnings.length} Warnungen.`);
+    } else if (sub === 'quelle') {
+      await interaction.reply({ content: `Aktive Nur-Lese-Quelle: \`${market.discoverSourceRoot()}\``, ...privateReply });
+    } else {
+      const status = market.status();
+      const content = status ? `Status: ${String(status.status)}\nStart: ${String(status.started_at)}\nEnde: ${String(status.finished_at ?? 'offen')}\nKategorien: ${String(status.category_count ?? 0)}\nArtikel: ${String(status.item_count ?? 0)}\nHändler: ${String(status.trader_count ?? 0)}\nMeldung: ${String(status.message ?? 'keine')}` : 'Kein Importlauf vorhanden.';
+      await interaction.reply({ content, ...privateReply });
+    }
+    return;
+  }
+
+  if (command === 'team') {
+    const sub = interaction.options.getSubcommand();
+    const description = sub === 'schildwall'
+      ? `🛡️ **SCHILDWALL**\n\n<@${appConfig.OWNER_USER_ID}> · Patrick Sluzalek · Inhaber und Projektleitung\n<@769953999163621397> · Halftan · Mitgründer und Hauptfreigeber\n<@526160792538710016> · DevilMagic · Administration\n\nBesonderer Dank an **Halftan** und **DevilMagic** für ihre Hilfe, Unterstützung und die gemeinsame Umsetzung der DeutschZ-Ideen.`
+      : `<@${appConfig.OWNER_USER_ID}> · Inhaber / Projektleitung\n<@769953999163621397> · Hauptfreigeber\n<@526160792538710016> · Administrator\n<@${appConfig.HONORARY_USER_ID}> · Spezial-Ehrenmitglied / Supporter\n<@${appConfig.SECOND_HONORARY_USER_ID}> · Spezial-Ehrenmitglied / Supporter`;
+    await interaction.reply({ embeds: [new EmbedBuilder().setColor(0x6da900).setTitle(sub === 'schildwall' ? 'DeutschZ Schildwall' : 'DeutschZ Team').setDescription(description)] });
+    return;
+  }
+
+  if (command === 'unterstuetzen') {
+    await interaction.reply({ embeds: [new EmbedBuilder().setColor(0x6da900).setTitle('❤️ DeutschZ unterstützen').setDescription(`Mit einer freiwilligen Spende hilfst du bei Serverkosten, Events, eigenen Mods, Grafiken, Sounds und Erweiterungen. Eine Unterstützung verschafft **keine unfairen spielerischen Vorteile**.\n\n🔗 [DeutschZ freiwillig unterstützen](${appConfig.DONATION_URL})`)] });
+    return;
+  }
+
+  if (command === 'musik') {
+    const sub = interaction.options.getSubcommand();
+    const member = await guild.members.fetch(interaction.user.id);
+    if (sub === 'liste') {
+      const tracks = music.list();
+      await interaction.reply({ content: tracks.length ? tracks.map((track, index) => `${index + 1}. ${track.replace(/\.mp3$/i, '')}`).join('\n').slice(0, 1950) : 'Keine Titel gefunden.', ...privateReply });
+    } else if (sub === 'play') {
+      const track = await music.play(member, interaction.options.getString('titel') ?? undefined);
+      await interaction.reply({ content: `▶️ ${track.replace(/\.mp3$/i, '')}` });
+    } else if (sub === 'pause') {
+      const paused = music.togglePause(guild.id);
+      await interaction.reply({ content: paused ? '⏸️ Wiedergabe pausiert.' : '▶️ Wiedergabe fortgesetzt.', ...privateReply });
+    } else if (sub === 'next') {
+      const track = await music.next(guild.id);
+      await interaction.reply({ content: `⏭️ ${track.replace(/\.mp3$/i, '')}` });
+    } else if (sub === 'mute') {
+      const muted = music.toggleMute(guild.id);
+      await interaction.reply({ content: muted ? '🔇 Musik stummgeschaltet.' : '🔊 Musik wieder hörbar.', ...privateReply });
+    } else {
+      music.stop(guild.id);
+      await interaction.reply({ content: '⏹️ Wiedergabe beendet.', ...privateReply });
+    }
+    return;
+  }
+
+  if (command === 'supporter-vergeben') {
+    const target = interaction.options.getUser('nutzer', true);
+    const role = guild.roles.cache.find(item => item.name === 'DeutschZ Unterstützer');
+    if (!role) throw new Error('Rolle DeutschZ Unterstützer fehlt.');
+    const member = await guild.members.fetch(target.id);
+    await member.roles.add(role, `Geprüft durch ${interaction.user.id}`);
+    db.run('INSERT INTO security_audit(guild_id,channel_id,actor_user_id,command_name,result,detail,created_at) VALUES(?,?,?,?,?,?,?)', [guild.id, interaction.channelId, interaction.user.id, 'supporter-vergeben', 'SUCCESS', `target=${target.id}; proof=${interaction.options.getString('nachweis', true).slice(0, 120)}`, nowIso()]);
+    await interaction.reply({ content: `${target} hat die freiwillige Unterstützerrolle erhalten. Sie enthält keine Gameplay- oder Adminvorteile.`, ...privateReply });
+    return;
+  }
 
   if (command === 'setup-deutschz') {
     const confirm = new ButtonBuilder().setCustomId('setup:confirm').setLabel('Einrichtung bestätigen').setStyle(ButtonStyle.Danger);
@@ -258,12 +354,12 @@ async function handleCommandInner(interaction: ChatInputCommandInteraction, db: 
   }
 }
 
-export async function handleCommand(interaction: ChatInputCommandInteraction, db: Database, statusService: DayZStatusService, notifications: NotificationService, uploads: UploadApprovalService): Promise<void> {
+export async function handleCommand(interaction: ChatInputCommandInteraction, db: Database, statusService: DayZStatusService, notifications: NotificationService, uploads: UploadApprovalService, market: ExpansionMarketService, music: DiscordMusicService): Promise<void> {
   const audited = criticalCommands.has(interaction.commandName) || ['warn','warnings','warn-remove','timeout','untimeout','kick','ban','unban','clear','slowmode','nickname-reset','modnote'].includes(interaction.commandName);
   if (audited) auditCommand(db, interaction, 'STARTED');
   try {
     await assertRuntimeCommandPermission(interaction);
-    await handleCommandInner(interaction, db, statusService, notifications, uploads);
+    await handleCommandInner(interaction, db, statusService, notifications, uploads, market, music);
     if (audited) auditCommand(db, interaction, 'SUCCESS');
   } catch (error) {
     if (audited) auditCommand(db, interaction, 'FAILED', error instanceof Error ? error.message : 'Unbekannter Fehler');
@@ -271,7 +367,20 @@ export async function handleCommand(interaction: ChatInputCommandInteraction, db
   }
 }
 
-export async function handleButton(interaction: ButtonInteraction, db: Database, uploads: UploadApprovalService): Promise<void> {
+export async function handleButton(interaction: ButtonInteraction, db: Database, uploads: UploadApprovalService, ftpExecutor: FtpUploadExecutor): Promise<void> {
+  if (interaction.customId === 'responsibility:ack:v2') {
+    const guildId = appConfig.DISCORD_GUILD_ID ?? 'dm';
+    const alreadyAcknowledged = db.getConfig(guildId, `responsibilityAck:v2:${interaction.user.id}`);
+    if (alreadyAcknowledged) {
+      await interaction.update({ content: `${interaction.message.content}\n\n✅ **Bereits bestätigt:** ${alreadyAcknowledged}`, components: [] });
+      return;
+    }
+    const acknowledgedAt = new Date().toISOString();
+    db.setConfig(guildId, `responsibilityAck:v2:${interaction.user.id}`, acknowledgedAt);
+    db.run('INSERT INTO security_audit(guild_id,channel_id,actor_user_id,command_name,result,detail,created_at) VALUES(?,?,?,?,?,?,?)', [appConfig.DISCORD_GUILD_ID ?? 'dm', interaction.channelId, interaction.user.id, 'responsibility-ack', 'SUCCESS', 'security-and-ftp-workflow-v2 acknowledged', nowIso()]);
+    await interaction.update({ content: `${interaction.message.content}\n\n✅ **Bestätigt:** Gelesen und verstanden am ${new Date(acknowledgedAt).toLocaleString('de-DE')}.`, components: [] });
+    return;
+  }
   const guild=assertGuild(interaction);
   if(interaction.customId.startsWith('upload:')){
     const [,action,requestId]=interaction.customId.split(':'); if(!requestId) throw new Error('Ungültige Upload-Anfrage.'); const request=uploads.get(requestId); if(!request) throw new Error('Upload-Anfrage nicht gefunden.');
@@ -279,7 +388,7 @@ export async function handleButton(interaction: ButtonInteraction, db: Database,
     if(action==='cancel'){uploads.cancel(requestId,interaction.user.id); await interaction.update({components:[],embeds:[EmbedBuilder.from(interaction.message.embeds[0]!).addFields({name:'Abschlussstatus',value:'CANCELLED'})]}); return;}
     const member=await guild.members.fetch(interaction.user.id); if(!isAuthorizedUploadActor(member,request.uploadType,request.targetPath)) throw new Error('Freigabeberechtigung fehlt oder wurde entzogen.');
     if(action==='reject'){uploads.reject(requestId,interaction.user.id); await interaction.update({components:[],embeds:[EmbedBuilder.from(interaction.message.embeds[0]!).addFields({name:'Abschlussstatus',value:'REJECTED'})]}); return;}
-    if(action==='approve'){const phrase=uploads.beginApproval(requestId,interaction.user.id); if(!phrase){await interaction.update({components:[],embeds:[EmbedBuilder.from(interaction.message.embeds[0]!).addFields({name:'Abschlussstatus',value:'APPROVED'})]});return;} const modal=new ModalBuilder().setCustomId(`upload:confirm:${requestId}`).setTitle('Kritischen Upload bestätigen'); modal.addComponents(new ActionRowBuilder<TextInputBuilder>().addComponents(new TextInputBuilder().setCustomId('confirmation').setLabel(phrase).setPlaceholder('Exakten Text aus der Feldbezeichnung eingeben').setStyle(TextInputStyle.Short).setRequired(true))); await interaction.showModal(modal); return;}
+    if(action==='approve'){const phrase=uploads.beginApproval(requestId,interaction.user.id); if(!phrase){await interaction.update({components:[],embeds:[EmbedBuilder.from(interaction.message.embeds[0]!).addFields({name:'Abschlussstatus',value:'UPLOADING'})]});await uploads.execute(requestId,ftpExecutor);await interaction.message.edit({components:[],embeds:[EmbedBuilder.from(interaction.message.embeds[0]!).addFields({name:'Transferstatus',value:'SUCCESS'})]});return;} const modal=new ModalBuilder().setCustomId(`upload:confirm:${requestId}`).setTitle('Kritischen Upload bestätigen'); modal.addComponents(new ActionRowBuilder<TextInputBuilder>().addComponents(new TextInputBuilder().setCustomId('confirmation').setLabel(phrase).setPlaceholder('Exakten Text aus der Feldbezeichnung eingeben').setStyle(TextInputStyle.Short).setRequired(true))); await interaction.showModal(modal); return;}
   } else if(interaction.customId==='setup:confirm'){
     assertApprover(interaction.user.id, guild.ownerId);
     const changes=await reconcileGuild(guild,db); await interaction.update({content:changes.length?`Setup abgeschlossen:\n${changes.join('\n')}`:'Setup war bereits vollständig und idempotent.',components:[]});
@@ -325,12 +434,15 @@ export async function handleSelect(interaction:StringSelectMenuInteraction,db:Da
   }
 }
 
-export async function handleModal(interaction:ModalSubmitInteraction,db:Database,uploads:UploadApprovalService):Promise<void>{
+export async function handleModal(interaction:ModalSubmitInteraction,db:Database,uploads:UploadApprovalService,ftpExecutor:FtpUploadExecutor):Promise<void>{
   const guild=assertGuild(interaction);
   if(interaction.customId.startsWith('upload:confirm:')){
     const requestId=interaction.customId.split(':')[2]!; const request=uploads.get(requestId); if(!request) throw new Error('Upload-Anfrage nicht gefunden.'); const member=await guild.members.fetch(interaction.user.id); if(!isAuthorizedUploadActor(member,request.uploadType,request.targetPath)) throw new Error('Freigabeberechtigung fehlt oder wurde entzogen.'); uploads.confirm(requestId,interaction.user.id,interaction.fields.getTextInputValue('confirmation'));
     const row=db.rows<{channel_id:string;message_id:string}>('SELECT channel_id,message_id FROM upload_requests WHERE request_id=?',[requestId])[0]; if(row){const channel=guild.channels.cache.get(row.channel_id);if(channel?.isTextBased()&&'messages' in channel){const message=await channel.messages.fetch(row.message_id).catch(()=>null);if(message)await message.edit({components:[],embeds:[EmbedBuilder.from(message.embeds[0]!).addFields({name:'Abschlussstatus',value:'APPROVED'})]});}}
-    await interaction.reply({content:`${requestId} wurde freigegeben. LIVE-FTP bleibt deaktiviert; es wurde keine Datei übertragen.`,...privateReply});
+    await interaction.deferReply(privateReply);
+    await uploads.execute(requestId,ftpExecutor);
+    if(row){const channel=guild.channels.cache.get(row.channel_id);if(channel?.isTextBased()&&'messages' in channel){const message=await channel.messages.fetch(row.message_id).catch(()=>null);if(message)await message.edit({components:[],embeds:[EmbedBuilder.from(message.embeds[0]!).addFields({name:'Transferstatus',value:'SUCCESS'})]});}}
+    await interaction.editReply(`${requestId} wurde freigegeben und atomar übertragen.`);
   } else if(interaction.customId.startsWith('ticket:submit:')){
     const type=interaction.customId.split(':')[2]!; const subject=interaction.fields.getTextInputValue('subject'); const details=interaction.fields.getTextInputValue('details');
     const category=guild.channels.cache.find(c=>c.type===ChannelType.GuildCategory&&c.name==='SUPPORT'); const teamRoles=['Inhaber','Projektleitung','Administrator','Moderator','Supporter'].map(n=>guild.roles.cache.find(r=>r.name===n)?.id).filter((x):x is string=>Boolean(x));

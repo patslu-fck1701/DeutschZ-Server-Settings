@@ -4,65 +4,51 @@ Aktualisiert: 18.07.2026
 
 ## Aktiver Stand
 
-Der DeutschZ Discord wurde mit ausdrücklicher Freigabe vollständig bereinigt und neu aufgebaut. Der Bot enthält außerdem den sicheren WebsitePublisher-Lead-Webhook und die ausschließlich offizielle WhatsApp Business Cloud API-Anbindung. Live-WhatsApp ist weiterhin deaktiviert, weil die echten Meta-/Webhook-Werte lokal noch fehlen.
+Der DeutschZ-Discord wurde bereinigt und vollständig neu aufgebaut. Alle Text- und Ankündigungskanäle enthalten eine angepinnte Startinformation. Der Bot ist mit genau einer Instanz als `DeutschZs-littleHelperZ#6665` verbunden. Patricks Sicherheits- und FTP-Verantwortungsbestätigung ist gespeichert; Halftan, DevilMagic, Ronny und Tschuby stehen noch auf ausstehend.
+
+WebsitePublisher ist live aktualisiert: Community-/Schildwall-Seite, Teamdarstellung, besonderer Dank an Halftan und DevilMagic, Ehrenmitglieder, Spendenlink, WhatsApp-Kontakt, Eventmotive, Infizierten-Assets und elf aktuelle Musiktitel. Startseite, Community, Media, Support, News, 19 Bildreferenzen und alle elf Audiodateien liefern HTTP 200.
 
 ## Source
 
 - Worktree: `E:\DeutschZ\DeutschZ-Worktrees\DiscordBot`
 - Projekt: `E:\DeutschZ\DeutschZ-Worktrees\DiscordBot\tools\DeutschZ-DiscordBot`
-- Branch: `codex/discord-clean-rebuild-20260718`
-- Commit des Discord-Neuaufbaus: `481310d`
+- Branch: `codex/discord-market-schildwall-20260718`
 
-## Letzter Ausgabeordner
+## Ausgabe
 
 - Ziel: `E:\DeutschZ\DeutschZServer\DeutschZ-DiscordBot`
-- Synchronisierung: 18.07.2026 02:57:33 +02:00
-- Env-Dateien, Datenbank, Logs, Backups und `node_modules` werden ausdrücklich nicht übertragen.
+- Source bleibt im Git-Repository.
+- Lokale `.env`, Datenbank, Logs, Backups, Tokens und `node_modules` werden nicht übertragen.
 
 ## Technischer Status
 
 - ESLint: PASS
 - Vitest: 6 Dateien / 31 Tests PASS
 - TypeScript-Build: PASS
-- Discord Live-Neuaufbau: PASS
-- Discord Live-Bestand: 11 Kategorien, 63 Kanäle, 32 eigene Rollen
+- Discord-Verbindung: PASS, eine Instanz
+- Slash-Commands: 63 Guild-Commands registriert
 - Discord-Duplikate: 0 Kategorien, 0 Kanäle, 0 Rollen
-- Feste Live-Rollen: Inhaber / Projektleitung / Projektleitung / Ehrenmitglied + Supporter
-- Slash Commands: 57 eindeutige Guild-Commands registriert
-- Historische Command-Doppelungen entfernt: `/health`, `/mods-list`
-- Feste Personen: ausschließlich per Discord-User-ID autorisiert
-- FTP: doppelte Aktivierungssperre; `UPLOAD_ENABLED=false` und `FTP_UPLOAD_ENABLED=false`
-- Website-HMAC, Timestamp, Replay, Idempotency, Schema, Rate- und Größenlimit: PASS
-- Dauerhafte Lead-Datenbank ohne künstliche Anzahlgrenze: PASS
-- Persistente Queue, Backoff, maximales Retry und UNKNOWN-Schutz bei unklarem Versand: PASS
-- WhatsApp Cloud API-Client: ausschließlich offizieller Graph-Endpunkt, Mocktests PASS
-- WhatsApp-Owner-Befehle: ANNEHMEN, ABLEHNEN, START, ERLEDIGT, STATUS, OFFEN, OFFEN <SEITE>, SUCHE
-- Discord-/E-Mail-Spiegelung für Website-Leads: AUS
-- Echter WhatsApp-Versand: NICHT AUSGEFÜHRT
-- Website-WhatsApp-Kontakt: im gemeinsamen Footer aktiv
-- Website-Musikwechsel: BLOCKIERT bis zu einer angemeldeten WebsitePublisher-Dashboard-Sitzung; die API kann die elf lokalen MP3-Dateien mit insgesamt rund 57 MB nicht direkt vom lokalen Dateisystem übernehmen.
+- Market-Sync: 92 Kategorien, 2609 Items, 24 Händler, 0 Warnungen, 0 Fehler
+- Market-ID-Fehler behoben: neue Imports verwenden die tatsächlich persistierte Import-ID
+- FTP-Konfiguration: vorhanden
+- FTP-Upload: aktiviert, aber nur nach Approval-Workflow, Allowlist, Hashprüfung und Audit
+- Vier-Augen-Prinzip: Standard; fck1701 besitzt den ausdrücklich freigegebenen Owner-Override
+- Website-HMAC, Replay-Schutz, persistente Lead-Queue und Mocktests: PASS
+- WhatsApp Cloud API-Client: implementiert, echter Versand deaktiviert
+- Website: live aktualisiert und per HTTP geprüft
 
-## Lokaler Preflight
+## Noch offene Aktivierungsblocker
 
-- Owner-Nummer: lokal gesetzt und nur maskiert ausgegeben
-- `WHATSAPP_ENABLED=false`
-- Blocker: `WHATSAPP_GRAPH_API_VERSION`, `WHATSAPP_ACCESS_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID`, `WHATSAPP_BUSINESS_ACCOUNT_ID`, `WHATSAPP_VERIFY_TOKEN`, `WHATSAPP_APP_SECRET`, `WEBSITE_LEAD_WEBHOOK_SECRET`, `PUBLIC_WEBHOOK_BASE_URL`
+Für echten WhatsApp-Business-Versand fehlen weiterhin die realen Meta-/Webhook-Werte. Bis dahin bleiben `WHATSAPP_ENABLED=false` und der externe Website-Lead-Webhook deaktiviert. Es wird kein inoffizieller WhatsApp-Web-Client verwendet.
 
 ## Installation und Test
 
-1. Abhängigkeiten mit `pnpm install --frozen-lockfile` installieren.
-2. Lokale Env über `DEUTSCHZ_ENV_FILE` setzen; nie in den Projektordner kopieren.
-3. `pnpm check` ausführen.
-4. `pnpm preflight:whatsapp` ausführen; Ausgabe darf nur maskierte Werte enthalten.
-5. Nach Bereitstellung aller Blocker einen HTTPS-Reverse-Proxy auf `127.0.0.1:8787` einrichten.
-6. Meta Verify-Challenge prüfen und genau eine Testnachricht senden.
-7. Einen signierten Testlead anlegen und `ANNEHMEN <REQUEST-ID>` von der Owner-Nummer prüfen.
-8. Erst nach erfolgreicher Prüfung `WEBSITE_LEAD_WEBHOOK_ENABLED=true`, danach kontrolliert `WHATSAPP_ENABLED=true` setzen.
+1. `pnpm install --frozen-lockfile`
+2. Lokale Env nur über `DEUTSCHZ_ENV_FILE` setzen.
+3. `pnpm check`
+4. Bot starten und im Log genau eine Zeile `DeutschZ Bot verbunden` für die aktive PID prüfen.
+5. Einen ausstehenden Verantwortungsbutton anklicken und die gespeicherte Bestätigung im Audit prüfen.
+6. FTP zunächst mit einer unkritischen Testdatei innerhalb der Allowlist und vollständigem Approval testen.
+7. WhatsApp erst nach vollständigem Meta-Preflight aktivieren.
 
-Details: `tools\DeutschZ-DiscordBot\docs\WEBSITE_WHATSAPP.md` und `tools\DeutschZ-DiscordBot\docs\TESTANLEITUNG.md`.
-
-Discord-Neuaufbau: `tools\DeutschZ-DiscordBot\docs\DISCORD_RESET_REPORT.md`.
-
-## Übertragene Dateien
-
-Die vollständige übertragene Dateiliste einschließlich SHA-256 steht im Ausgabeordner in `OUTPUT_MANIFEST_SHA256.txt`. Übertragen werden ausschließlich Source, gebauter `dist`-Stand, Tests, Dokumentation, Start-/Registrierungsskripte, Package-Metadaten und Containerdateien. Lokale `.env`, Datenbank, Logs, Backups und `node_modules` sind ausgeschlossen.
+Details stehen unter `tools\DeutschZ-DiscordBot\docs`.

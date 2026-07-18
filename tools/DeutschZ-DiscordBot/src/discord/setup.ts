@@ -1,5 +1,5 @@
 import {
-  CategoryChannel, ChannelType, Guild, GuildChannel, PermissionFlagsBits, PermissionsBitField, TextChannel
+  ActionRowBuilder, ButtonBuilder, ButtonStyle, CategoryChannel, ChannelType, ForumChannel, Guild, GuildChannel, PermissionFlagsBits, PermissionsBitField, TextChannel
 } from 'discord.js';
 import type { Database } from '../database.js';
 import { appConfig } from '../config.js';
@@ -15,7 +15,7 @@ const roleSpecs = [
   ['Testserver-Ping', '#95a5a6'], ['Content-Ping', '#e91e63'], ['KotHZ-Ping', '#8e44ad'],
   ['Entwickler', '#00a8ff'], ['Mod-Tester', '#9b59b6'], ['Bug-Hunter', '#e67e22'],
   ['Dokumentation', '#3498db'], ['Release-Team', '#16a085'], ['Media-Team', '#e91e63']
-  ,['DeutschZ Ehrenmitglied', '#d4af37']
+  ,['Spezial Ehrenmitglied', '#d4af37'], ['DeutschZ Unterstützer', '#68a800']
 ] as const;
 
 type SetupChannelType = ChannelType.GuildText | ChannelType.GuildVoice | ChannelType.GuildAnnouncement | ChannelType.GuildForum;
@@ -25,6 +25,7 @@ const categories: Record<string, Array<[string, SetupChannelType]>> = {
   'DEUTSCHZ MODS': [['🚀・mod-releases', ChannelType.GuildAnnouncement], ['📜・mod-changelogs', ChannelType.GuildText], ['🧪・testversionen', ChannelType.GuildText], ['🐛・mod-bugreports', ChannelType.GuildForum], ['💡・mod-vorschläge', ChannelType.GuildForum], ['📘・mod-dokumentation', ChannelType.GuildForum], ['🛠️・installation-hilfe', ChannelType.GuildForum], ['📦・workshop-links', ChannelType.GuildText]],
   COMMUNITY: [['💬・allgemein', ChannelType.GuildText], ['📸・screenshots-clips', ChannelType.GuildText], ['🤝・gruppen-suche', ChannelType.GuildText], ['🏕️・handel', ChannelType.GuildText], ['💡・server-vorschläge', ChannelType.GuildText], ['📊・abstimmungen', ChannelType.GuildText]],
   EVENTS: [['🎉・event-ankündigungen', ChannelType.GuildText], ['📅・event-kalender', ChannelType.GuildText], ['✅・event-anmeldung', ChannelType.GuildText], ['🏆・event-ergebnisse', ChannelType.GuildText], ['🎬・event-medien', ChannelType.GuildText]],
+  SCHILDWALL: [['🛡️・schildwall', ChannelType.GuildText], ['👥・team-vorstellung', ChannelType.GuildText], ['🛒・markt', ChannelType.GuildText], ['🎵・deutschz-musik', ChannelType.GuildText], ['❤️・unterstützen', ChannelType.GuildText]],
   SUPPORT: [['📌・support-informationen', ChannelType.GuildText], ['🎫・ticket-erstellen', ChannelType.GuildText]],
   VOICE: [['🔊・Lobby', ChannelType.GuildVoice], ['➕・Gruppe erstellen', ChannelType.GuildVoice], ['🎮・Gruppe 1', ChannelType.GuildVoice], ['🎮・Gruppe 2', ChannelType.GuildVoice], ['🎯・Event Voice', ChannelType.GuildVoice], ['💤・AFK', ChannelType.GuildVoice]],
   'TEAM INTERN': [['💬・team-chat', ChannelType.GuildText], ['📌・team-ankündigungen', ChannelType.GuildText], ['📝・team-aufgaben', ChannelType.GuildText], ['🎯・event-planung', ChannelType.GuildText], ['📣・content-planung', ChannelType.GuildText]],
@@ -52,12 +53,63 @@ Schützt euren Account mit 2FA, öffnet keine unbekannten Links/Dateien, gebt ni
 
 Ihr müsst keinen Code schreiben, keine Botdateien bearbeiten, keine Serverkonfiguration verstehen, nicht dauerhaft online sein und nicht jedes Ticket oder jede Moderationsentscheidung übernehmen. Ihr seid eine zusätzliche Sicherheits- und Freigabeinstanz.`;
 
+const responsibilityMessage = `🚨 **PFLICHTINFORMATION – BITTE VOLLSTÄNDIG LESEN**
+
+Diese Information betrifft Sicherheit und Stabilität des DeutschZ-Servers. Bitte bestätigt sie erst, wenn ihr den Ablauf verstanden habt.
+
+**Kritische Änderungen und FTP-Uploads**
+Ein Upload startet niemals direkt durch einen Slash-Command. Der Bot erstellt zuerst eine Request-ID, prüft Quelle, Ziel, Dateityp, Größe und SHA-256-Hash und zeigt eine Freigabeanfrage. Vor dem Transfer werden Berechtigung, Ablaufzeit, Hash und Ziel erneut geprüft. Kritische Uploads verlangen zusätzlich einen einmaligen Bestätigungssatz. Der Transfer verwendet temporäre Remotedateien, Größenprüfung, Backup und Rollback.
+
+Standardmäßig gilt das Vier-Augen-Prinzip. Nur der fest hinterlegte Inhaber fck1701 kann seinen eigenen Auftrag ausdrücklich selbst freigeben. Diese Ausnahme wird im Audit protokolliert. Passwörter, Tokens und private Schlüssel dürfen niemals übertragen, gepostet oder bestätigt werden.
+
+**Eure Verantwortung**
+Prüft Request-ID, Quelle, Ziel, Dateianzahl, Größe und Hash. Bestätigt nichts Unverständliches oder Unabgesprochenes. Meldet verdächtige Anfragen sofort. Spezial-Ehrenmitglieder und Supporter beobachten, testen und geben Feedback, besitzen aber keine FTP-, Lösch- oder Deploymentfreigabe.
+
+Bitte klickt erst nach vollständigem Lesen auf **GELESEN UND VERSTANDEN**. Nutzer-ID und Zeitpunkt werden als Sicherheitsnachweis gespeichert.`;
+
 const normalize = (value: string) => value.toLowerCase().replace(/[^a-z0-9äöüß]+/g, '');
+
+function channelPurpose(category: string, name: string): string {
+  if (name.includes('logs')) return 'Dieser geschützte Kanal dokumentiert ausschließlich echte, vom Bot oder Team ausgelöste Vorgänge. Keine erfundenen Einträge und keine Zugangsdaten.';
+  if (name.includes('markt')) return 'Hier findet ihr den read-only aus den aktuellen Expansion-Settings importierten DeutschZ-Markt. Nutzt `/markt`, um Kategorien, Artikel, Preisbereiche und Händlerzuordnungen zu prüfen.';
+  if (name.includes('musik')) return 'Hier geht es um die freigegebene DeutschZ-Musik. Mit `/musik liste` seht ihr die Titel; `/musik play` startet sie in eurem aktuellen Sprachkanal.';
+  if (name.includes('unterstützen')) return `Freiwillige Unterstützung hilft bei Serverkosten, Events, Mods, Grafik und Musik. Sie bringt keine Gameplay- oder Adminvorteile. ${appConfig.DONATION_URL}`;
+  if (name.includes('schildwall')) return 'Der DeutschZ-Schildwall stellt Projektleitung, Hauptverantwortliche und besondere Unterstützer transparent vor.';
+  if (name.includes('team-vorstellung')) return 'Offizielle Vorstellung des DeutschZ-Teams mit klaren Verantwortlichkeiten und besonderem Dank an Halftan und DevilMagic.';
+  return `Dieser Kanal gehört zum Bereich **${category}**. Hier werden ausschließlich passende Informationen, Fragen und Aktualisierungen zu **${name}** gesammelt.`;
+}
+
+async function ensurePinnedChannelInfo(channel: GuildChannel, category: string, name: string): Promise<boolean> {
+  const marker = `DEUTSCHZ KANALINFO · ${category} · ${name}`;
+  if (channel.type === ChannelType.GuildText || channel.type === ChannelType.GuildAnnouncement) {
+    const textChannel = channel as TextChannel;
+    const pinned = await textChannel.messages.fetchPinned().catch(() => null);
+    if (pinned?.some(message => message.content.includes(marker))) return false;
+    const message = await textChannel.send(`**${marker}**\n\n${channelPurpose(category, name)}\n\nBitte beachtet die angepinnten Informationen und haltet Beiträge beim Thema.`);
+    await message.pin('DeutschZ: Jeder Kanal erhält eine eindeutige angepinnte Zweckinformation.');
+    return true;
+  }
+  if (channel.type === ChannelType.GuildForum) {
+    const forumChannel = channel as ForumChannel;
+    const existing = await forumChannel.threads.fetchActive().catch(() => null);
+    if (existing?.threads.some(thread => thread.name === 'DeutschZ Kanalinfo')) return false;
+    const thread = await forumChannel.threads.create({ name: 'DeutschZ Kanalinfo', message: { content: `**${marker}**\n\n${channelPurpose(category, name)}\n\nErstellt neue Beiträge bitte mit verständlichem Titel und vollständigen Angaben.` }, reason: 'DeutschZ Forum-Grundinformation' });
+    const starter = await thread.fetchStarterMessage().catch(() => null);
+    await starter?.pin('DeutschZ Forum-Grundinformation').catch(() => undefined);
+    return true;
+  }
+  return false;
+}
 
 export async function reconcileGuild(guild: Guild, db: Database): Promise<string[]> {
   await guild.roles.fetch();
   await guild.channels.fetch();
   const changes: string[] = [];
+  const legacyHonorary = guild.roles.cache.find(item => item.name === 'DeutschZ Ehrenmitglied');
+  if (legacyHonorary && !guild.roles.cache.some(item => item.name === 'Spezial Ehrenmitglied')) {
+    await legacyHonorary.setName('Spezial Ehrenmitglied', 'DeutschZ eindeutige Ehrenrollenbezeichnung');
+    changes.push('Rolle migriert: DeutschZ Ehrenmitglied → Spezial Ehrenmitglied');
+  }
   for (const [name, color] of roleSpecs) {
     let role = guild.roles.cache.find(item => item.name === name);
     if (!role) {
@@ -67,25 +119,33 @@ export async function reconcileGuild(guild: Guild, db: Database): Promise<string
     db.setConfig(guild.id, `role:${name}`, role.id);
   }
 
-  const ownerRole = guild.roles.cache.find(role => role.name === 'Inhaber');
-  const projectRole = guild.roles.cache.find(role => role.name === 'Projektleitung');
+  const responsibilityRoles: Record<string,string[]> = {
+    [appConfig.OWNER_USER_ID]: ['Inhaber','Projektleitung','Administrator'],
+    '769953999163621397': ['Projektleitung','Administrator'],
+    '526160792538710016': ['Administrator']
+  };
   for (const userId of appConfig.approverUserIds) {
     const member = await guild.members.fetch(userId).catch(() => null);
-    const role = userId === appConfig.OWNER_USER_ID ? ownerRole : projectRole;
-    if (member && role && !member.roles.cache.has(role.id)) {
-      await member.roles.add(role, userId === appConfig.OWNER_USER_ID ? 'DeutschZ Inhaber' : 'DeutschZ Hauptfreigebender').catch(() => undefined);
-      changes.push(`${role.name} zugewiesen: ${userId}`);
+    if (!member) continue;
+    for (const roleName of responsibilityRoles[userId] ?? []) {
+      const role = guild.roles.cache.find(item => item.name === roleName);
+      if (role && !member.roles.cache.has(role.id)) {
+        await member.roles.add(role, `DeutschZ Verantwortung per Discord-User-ID ${userId}`).catch(() => undefined);
+        changes.push(`${role.name} zugewiesen: ${userId}`);
+      }
     }
   }
-  const honoraryMember=await guild.members.fetch(appConfig.HONORARY_USER_ID).catch(()=>null);
-  const honoraryRoles=['DeutschZ Ehrenmitglied','Supporter']
+  const honoraryRoles=['Spezial Ehrenmitglied','Supporter']
     .map(roleName=>guild.roles.cache.find(role=>role.name===roleName))
     .filter(role=>Boolean(role));
-  if(honoraryMember){
-    for(const role of honoraryRoles){
-      if(role&&!honoraryMember.roles.cache.has(role.id)){
-        await honoraryMember.roles.add(role,'Ronny1996 (GHOST): DeutschZ Ehrenmitglied mit vollen Supporter-Rechten').catch(()=>undefined);
-        changes.push(`${role.name} zugewiesen: ${appConfig.HONORARY_USER_ID}`);
+  for (const honoraryUserId of [appConfig.HONORARY_USER_ID, appConfig.SECOND_HONORARY_USER_ID]) {
+    const honoraryMember=await guild.members.fetch(honoraryUserId).catch(()=>null);
+    if(honoraryMember){
+      for(const role of honoraryRoles){
+        if(role&&!honoraryMember.roles.cache.has(role.id)){
+          await honoraryMember.roles.add(role,'DeutschZ Spezial-Ehrenmitglied mit vollen Supporter-Rechten, ohne kritische Freigaberechte').catch(()=>undefined);
+          changes.push(`${role.name} zugewiesen: ${honoraryUserId}`);
+        }
       }
     }
   }
@@ -111,7 +171,7 @@ export async function reconcileGuild(guild: Guild, db: Database): Promise<string
       const isReleaseChannel = categoryName === 'DEUTSCHZ MODS' && ['🚀・mod-releases','📜・mod-changelogs'].includes(name);
       const visibleRoleNames = isTeam
         ? (protectedCategoryRoles[categoryName] ?? [])
-        : isTesterChannel ? ['Inhaber','Projektleitung','Administrator','Entwickler','Mod-Tester','Bug-Hunter','DeutschZ Ehrenmitglied'] : [];
+        : isTesterChannel ? ['Inhaber','Projektleitung','Administrator','Entwickler','Mod-Tester','Bug-Hunter','Spezial Ehrenmitglied'] : [];
       const visibleRoleIds = visibleRoleNames.map(roleName => guild.roles.cache.find(role => role.name === roleName)?.id).filter((id): id is string => Boolean(id));
       const releaseRoleIds = ['Inhaber','Projektleitung','Release-Team'].map(roleName => guild.roles.cache.find(role => role.name === roleName)?.id).filter((id): id is string => Boolean(id));
       let channel = guild.channels.cache.find(item => item.parentId === category!.id && normalize(item.name) === normalize(name));
@@ -152,6 +212,7 @@ export async function reconcileGuild(guild: Guild, db: Database): Promise<string
         }
       }
       db.setConfig(guild.id, `channel:${name}`, channel.id);
+      if (await ensurePinnedChannelInfo(channel as GuildChannel, categoryName, name).catch(() => false)) changes.push(`Kanalinfo angepinnt: ${categoryName}/${name}`);
     }
   }
   for (const userId of appConfig.approverUserIds) {
@@ -164,11 +225,58 @@ export async function reconcileGuild(guild: Guild, db: Database): Promise<string
       changes.push(`Hauptfreigeber informiert: ${userId}`);
     } else changes.push(`DM an Hauptfreigeber nicht möglich: ${userId}`);
   }
-  if(honoraryMember&&!db.getConfig(guild.id,`honoraryNotice:v1:${appConfig.HONORARY_USER_ID}`)){
-    const sent=await honoraryMember.send(`**🏅 DeutschZ-Sondermeldung für Ronny1996 (GHOST)**\n\nGlückwunsch, Ronny – laut streng vertraulicher Mama-Quelle bist du etwas ganz Besonderes. Der DeutschZ-Bot hat das jetzt offiziell gemacht: Du bist **DeutschZ Ehrenmitglied**.\n\nDu bekommst Zugang zu Testversionen und ausgewählten Feedback-Bereichen. Das klingt wichtig, ist es auch. Kritische Freigaben, Löschungen, Deployments und der ganz große rote Knopf bleiben trotzdem bei Inhaber und Projektleitung.\n\nKurz gesagt: **Ruhm ja, roter Knopf nein.** Viel Spaß mit deiner neuen Ehrenrolle. 😎`).then(()=>true).catch(()=>false);
-    if(sent){db.setConfig(guild.id,`honoraryNotice:v1:${appConfig.HONORARY_USER_ID}`,new Date().toISOString());changes.push(`Ehrenmitglied informiert: ${appConfig.HONORARY_USER_ID}`);}else changes.push(`DM an Ehrenmitglied nicht möglich: ${appConfig.HONORARY_USER_ID}`);
+  const honoraryNotices: Record<string,string> = {
+    [appConfig.HONORARY_USER_ID]: '**🏅 DeutschZ Spezial-Ehrenmitglied & Supporter**\n\nRonny, du unterstützt DeutschZ künftig mit Spielerhilfe, Tests und ehrlichem Feedback. Du wirst regelmäßig in wichtige Aufgaben und Entscheidungen eingebunden. Kritische Upload-, Deployment-, Rollen- und Löschfreigaben bleiben bewusst bei Inhaber und Hauptfreigebern.',
+    [appConfig.SECOND_HONORARY_USER_ID]: '**🏅 DeutschZ Spezial-Ehrenmitglied & Supporter**\n\nTschuby, du unterstützt DeutschZ künftig mit Spielerhilfe, Tests und ehrlichem Feedback. Du wirst regelmäßig in wichtige Aufgaben und Entscheidungen eingebunden. Kritische Upload-, Deployment-, Rollen- und Löschfreigaben bleiben bewusst bei Inhaber und Hauptfreigebern.'
+  };
+  for (const [userId, notice] of Object.entries(honoraryNotices)) {
+    if (db.getConfig(guild.id, `honoraryNotice:v2:${userId}`)) continue;
+    const member = await guild.members.fetch(userId).catch(() => null);
+    if (!member) { changes.push(`Spezial-Ehrenmitglied nicht im Guild gefunden: ${userId}`); continue; }
+    const sent = await member.send(notice).then(() => true).catch(() => false);
+    if (sent) {
+      db.setConfig(guild.id, `honoraryNotice:v2:${userId}`, new Date().toISOString());
+      changes.push(`Spezial-Ehrenmitglied informiert: ${userId}`);
+    } else changes.push(`DM an Spezial-Ehrenmitglied nicht möglich: ${userId}`);
   }
-  db.setConfig(guild.id, 'setupVersion', '1');
+
+  const teamNow = new Date().toISOString();
+  db.run(`INSERT INTO teams(guild_id,team_key,display_name,description,active,created_at,updated_at)
+          VALUES(?,?,?,?,1,?,?) ON CONFLICT(guild_id,team_key) DO UPDATE SET
+          display_name=excluded.display_name,description=excluded.description,active=1,updated_at=excluded.updated_at`,
+    [guild.id, 'schildwall', 'DeutschZ Schildwall', 'Offizielle Verantwortliche, Hauptfreigeber und Spezial-Ehrenmitglieder.', teamNow, teamNow]);
+  const teamId = db.scalar<number>('SELECT id FROM teams WHERE guild_id=? AND team_key=?', [guild.id, 'schildwall']);
+  const teamMembers: Array<[string,string,Record<string,boolean>]> = [
+    [appConfig.OWNER_USER_ID, 'Inhaber / Projektleitung', { ownerOverride: true, ftpApproval: true, criticalApproval: true }],
+    ['769953999163621397', 'Mitgründer / Hauptfreigeber', { ftpApproval: true, criticalApproval: true }],
+    ['526160792538710016', 'Administration / Hauptfreigeber', { ftpApproval: true, criticalApproval: true }],
+    [appConfig.HONORARY_USER_ID, 'Spezial-Ehrenmitglied / Supporter', { support: true, testing: true, feedback: true }],
+    [appConfig.SECOND_HONORARY_USER_ID, 'Spezial-Ehrenmitglied / Supporter', { support: true, testing: true, feedback: true }]
+  ];
+  if (teamId !== undefined) {
+    for (const [userId, teamRole, permissions] of teamMembers) {
+      db.run(`INSERT INTO team_members(team_id,user_id,team_role,permissions_json,active,created_at,updated_at)
+              VALUES(?,?,?,?,1,?,?) ON CONFLICT(team_id,user_id) DO UPDATE SET
+              team_role=excluded.team_role,permissions_json=excluded.permissions_json,active=1,updated_at=excluded.updated_at`,
+        [teamId, userId, teamRole, JSON.stringify(permissions), teamNow, teamNow]);
+    }
+  }
+
+  const acknowledgementRow = new ActionRowBuilder<ButtonBuilder>().addComponents(
+    new ButtonBuilder().setCustomId('responsibility:ack:v2').setLabel('GELESEN UND VERSTANDEN').setStyle(ButtonStyle.Success)
+  );
+  const responsibleUsers = [...new Set([...appConfig.approverUserIds, appConfig.HONORARY_USER_ID, appConfig.SECOND_HONORARY_USER_ID])];
+  for (const userId of responsibleUsers) {
+    if (db.getConfig(guild.id, `responsibilityNotice:v2:${userId}`)) continue;
+    const member = await guild.members.fetch(userId).catch(() => null);
+    if (!member) { changes.push(`Pflichtinformation: Nutzer nicht im Guild gefunden: ${userId}`); continue; }
+    const sent = await member.send({ content: responsibilityMessage, components: [acknowledgementRow] }).then(() => true).catch(() => false);
+    if (sent) {
+      db.setConfig(guild.id, `responsibilityNotice:v2:${userId}`, new Date().toISOString());
+      changes.push(`Pflichtinformation mit Bestätigung gesendet: ${userId}`);
+    } else changes.push(`Pflichtinformation per DM nicht zustellbar: ${userId}`);
+  }
+  db.setConfig(guild.id, 'setupVersion', '2');
   return changes;
 }
 

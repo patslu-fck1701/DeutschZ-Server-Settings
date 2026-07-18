@@ -57,6 +57,8 @@ const schema = z.object({
   ,OWNER_USER_ID: z.string().default('680138829965164553')
   ,APPROVER_USER_IDS: z.string().default('680138829965164553,769953999163621397,526160792538710016')
   ,HONORARY_USER_ID: z.string().default('424575219219562503')
+  ,SECOND_HONORARY_USER_ID: z.string().default('497144154044891138')
+  ,DONATION_URL: z.string().url().default('https://c-area.host-unlimited.de/checkout/donation/029445a1-d36e-4fbc-86f8-5146c9739ee3')
   ,DISCORD_GUILD_MEMBERS_INTENT: z.enum(['true', 'false']).default('true').transform(v => v === 'true')
   ,DISCORD_MESSAGE_CONTENT_INTENT: z.enum(['true', 'false']).default('true').transform(v => v === 'true')
   ,FEATURE_DAYZ_ASSISTANT: z.enum(['true', 'false']).default('true').transform(v => v === 'true')
@@ -72,6 +74,10 @@ const schema = z.object({
   ,DAYZ_BRIDGE_URL: z.string().url().default('http://127.0.0.1:8765')
   ,DAYZ_BRIDGE_TOKEN: optionalString
   ,DAYZ_MARKET_SYNC_SECONDS: z.coerce.number().int().min(15).max(300).default(30)
+  ,DAYZ_MARKET_SOURCE_ROOTS: z.string().default('E:\\DeutschZ\\DeutschZServer\\profiles\\ExpansionMod;C:\\Program Files (x86)\\Steam\\steamapps\\common\\DayZServer\\profiles\\ExpansionMod;E:\\DeutschZ\\DeutschZ-Server-Settings\\profiles\\ExpansionMod')
+  ,DISCORD_MUSIC_DIRECTORY: z.string().default('C:\\Users\\patsl\\Music\\DeutschZ_Hits\\Restart_Menue_Tracks')
+  ,BRAND_ASSET_DIRECTORY: z.string().default('E:\\DeutschZ\\DeutschZServer\\DeutschZ-DiscordBot\\assets')
+  ,DAILY_BRIEF_HOUR: z.coerce.number().int().min(0).max(23).default(10)
   ,DAYZ_INDEX_MAX_FILE_MB: z.coerce.number().int().min(1).max(250).default(25)
   ,DISCORD_PLAYER_CATEGORY_ID: optionalString
   ,DISCORD_QUESTION_CHANNEL_ID: optionalString
@@ -165,6 +171,7 @@ export const appConfig = {
   allowedUploadSourceRoots: raw.ALLOWED_UPLOAD_SOURCE_ROOTS.split(';').map(value => value.trim()).filter(Boolean),
   allowedFtpTargetRoots: raw.ALLOWED_FTP_TARGET_ROOTS.split(';').map(value => value.trim()).filter(Boolean),
   dayzDataAllowedRoots: raw.DAYZ_DATA_ALLOWED_ROOTS.split(';').map(value => value.trim()).filter(Boolean),
+  dayzMarketSourceRoots: raw.DAYZ_MARKET_SOURCE_ROOTS.split(';').map(value => value.trim()).filter(Boolean),
   discordAdminRoleIds: parseCsv(raw.DISCORD_ADMIN_ROLE_IDS),
   websiteLeadAllowedForms: parseCsv(raw.WEBSITE_LEAD_ALLOWED_FORMS).map(value => value.toLowerCase()),
   discordReady: Boolean(raw.DISCORD_TOKEN && raw.DISCORD_CLIENT_ID && raw.DISCORD_GUILD_ID)

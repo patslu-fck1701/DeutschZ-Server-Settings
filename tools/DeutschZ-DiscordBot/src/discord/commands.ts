@@ -13,6 +13,33 @@ const uploadCommand = (name:string, description:string) => textOption(textOption
   .addStringOption(o=>o.setName('bereich').setDescription('Serverbereich').setRequired(true));
 
 export const commandBuilders = [
+  new SlashCommandBuilder().setName('markt').setDescription('Aktuelle Expansion-Market-Daten anzeigen')
+    .addSubcommand(o => o.setName('uebersicht').setDescription('Marktübersicht anzeigen'))
+    .addSubcommand(o => o.setName('suche').setDescription('Artikel oder Kategorie suchen').addStringOption(v => v.setName('text').setDescription('ClassName oder Kategorie').setRequired(true)))
+    .addSubcommand(o => o.setName('artikel').setDescription('Details zu einem Artikel anzeigen').addStringOption(v => v.setName('klasse').setDescription('Exakter ClassName').setRequired(true)))
+    .addSubcommand(o => o.setName('kategorie').setDescription('Artikel einer Kategorie anzeigen').addStringOption(v => v.setName('name').setDescription('Kategoriename').setRequired(true)))
+    .addSubcommand(o => o.setName('kategorien').setDescription('Verfügbare Kategorien anzeigen'))
+    .addSubcommand(o => o.setName('aktualisiert').setDescription('Zeitpunkt und Quelle des letzten Imports anzeigen')),
+  new SlashCommandBuilder().setName('admin').setDescription('DeutschZ-Administration').setDefaultMemberPermissions(admin)
+    .addSubcommandGroup(group => group.setName('markt').setDescription('Expansion-Market verwalten')
+      .addSubcommand(o => o.setName('sync').setDescription('Market-Dateien sofort neu einlesen'))
+      .addSubcommand(o => o.setName('status').setDescription('Market-Syncstatus anzeigen'))
+      .addSubcommand(o => o.setName('fehler').setDescription('Letzten Market-Importfehler anzeigen'))
+      .addSubcommand(o => o.setName('quelle').setDescription('Aktive schreibgeschützte Market-Quelle anzeigen'))),
+  new SlashCommandBuilder().setName('team').setDescription('DeutschZ-Team und Schildwall')
+    .addSubcommand(o => o.setName('schildwall').setDescription('Schildwall und Verantwortlichkeiten anzeigen'))
+    .addSubcommand(o => o.setName('mitglieder').setDescription('Offizielle Teammitglieder anzeigen')),
+  new SlashCommandBuilder().setName('unterstuetzen').setDescription('DeutschZ freiwillig unterstützen'),
+  new SlashCommandBuilder().setName('musik').setDescription('DeutschZ-Musik im Sprachkanal')
+    .addSubcommand(o => o.setName('liste').setDescription('Verfügbare Titel anzeigen'))
+    .addSubcommand(o => o.setName('play').setDescription('Musik im aktuellen Sprachkanal starten').addStringOption(v => v.setName('titel').setDescription('Optionaler Titelname').setRequired(false)))
+    .addSubcommand(o => o.setName('pause').setDescription('Wiedergabe pausieren oder fortsetzen'))
+    .addSubcommand(o => o.setName('next').setDescription('Nächsten zufälligen Titel spielen'))
+    .addSubcommand(o => o.setName('mute').setDescription('Bot stumm oder wieder hörbar schalten'))
+    .addSubcommand(o => o.setName('stop').setDescription('Wiedergabe beenden und Sprachkanal verlassen')),
+  new SlashCommandBuilder().setName('supporter-vergeben').setDescription('Unterstützerrolle nach manueller Prüfung vergeben').setDefaultMemberPermissions(admin)
+    .addUserOption(o => o.setName('nutzer').setDescription('Unterstützer').setRequired(true))
+    .addStringOption(o => o.setName('nachweis').setDescription('Interner kurzer Prüfnachweis').setRequired(true)),
   simpleAdmin('setup-deutschz', 'DeutschZ-Discordstruktur prüfen und kontrolliert einrichten'),
   simpleAdmin('setup-status', 'Stand der DeutschZ-Einrichtung anzeigen'),
   simpleAdmin('sync-all', 'Alle verwalteten DeutschZ-Panels und Live-Daten aktualisieren'),

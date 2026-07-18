@@ -1,4 +1,6 @@
 allowBuilds:
   esbuild: true
+  ffmpeg-static: true
 onlyBuiltDependencies:
   - esbuild
+  - ffmpeg-static
