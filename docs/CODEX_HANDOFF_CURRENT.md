@@ -11,6 +11,7 @@ Der DeutschZ Discord wurde mit ausdrücklicher Freigabe vollständig bereinigt u
 - Worktree: `E:\DeutschZ\DeutschZ-Worktrees\DiscordBot`
 - Projekt: `E:\DeutschZ\DeutschZ-Worktrees\DiscordBot\tools\DeutschZ-DiscordBot`
 - Branch: `codex/discord-clean-rebuild-20260718`
+- Commit des Discord-Neuaufbaus: `481310d`
 
 ## Letzter Ausgabeordner
 
