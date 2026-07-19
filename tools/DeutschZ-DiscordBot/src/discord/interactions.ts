@@ -385,6 +385,13 @@ export async function handleButton(interaction: ButtonInteraction, db: Database,
   if(interaction.customId.startsWith('upload:')){
     const [,action,requestId]=interaction.customId.split(':'); if(!requestId) throw new Error('Ungültige Upload-Anfrage.'); const request=uploads.get(requestId); if(!request) throw new Error('Upload-Anfrage nicht gefunden.');
     if(action==='details'){await interaction.reply({content:`**${request.requestId}**\nStatus: ${request.status}\nQuelle: \`${request.sourcePath}\`\nZiel: \`${request.targetPath}\`\nDateien: ${request.fileCount}\nGröße: ${formatBytes(request.fileSize)}\nSHA-256: \`${request.sha256}\`\nAblauf: ${request.expiresAt}`, ...privateReply}); return;}
+    if(request.status!=='PENDING'){
+      const embed=interaction.message.embeds[0]
+        ? EmbedBuilder.from(interaction.message.embeds[0]).setFooter({text:`Aktueller Status: ${request.status}`})
+        : new EmbedBuilder().setTitle(request.requestId).setDescription(`Aktueller Status: **${request.status}**`);
+      await interaction.update({components:[],embeds:[embed]});
+      return;
+    }
     if(action==='cancel'){uploads.cancel(requestId,interaction.user.id); await interaction.update({components:[],embeds:[EmbedBuilder.from(interaction.message.embeds[0]!).addFields({name:'Abschlussstatus',value:'CANCELLED'})]}); return;}
     const member=await guild.members.fetch(interaction.user.id); if(!isAuthorizedUploadActor(member,request.uploadType,request.targetPath)) throw new Error('Freigabeberechtigung fehlt oder wurde entzogen.');
     if(action==='reject'){uploads.reject(requestId,interaction.user.id); await interaction.update({components:[],embeds:[EmbedBuilder.from(interaction.message.embeds[0]!).addFields({name:'Abschlussstatus',value:'REJECTED'})]}); return;}
