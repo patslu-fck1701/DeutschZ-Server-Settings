@@ -14,10 +14,14 @@ Das Format orientiert sich an [Keep a Changelog], die Versionsnummern an Semanti
 - GitHub-Issue- und Pull-Request-Vorlagen
 - automatisierte Prüfung auf verbotene Dateitypen
 - Dokumentationsvorlagen für Deployment, Tests und Mod-Ladereihenfolge
+- bereinigte Expansion-`VehicleSettings.json` als gemeinsamer DeutschZ-Teststand
+- Fahrzeugschaden-Balance-Dokumentation mit Rollback- und Praxistestplan
+- Fahrzeug-/Helikopter-Prüfpunkte in der zentralen Testmatrix
 
 ### Geändert
 
 - README auf ein reines Server-Settings-Repository ausgerichtet
+- Fahrzeugschaden-Balance: Crew 0.80, Speed 1.10, Kollisionsschwelle 12 km/h, Desync-Schutz 4 s, Rough-Landing 4.2, beschädigter Motor 70 % Startchance
 
 ### Entfernt
 
