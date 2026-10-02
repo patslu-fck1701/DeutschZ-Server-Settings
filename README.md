@@ -163,3 +163,20 @@ v1.0.0-live-baseline
 Dieses Repository ist proprietär. Nutzung, Weitergabe und Veröffentlichung sind nur mit ausdrücklicher Erlaubnis des Rechteinhabers gestattet. Siehe [`LICENSE`](LICENSE).
 
 DayZ und zugehörige Marken gehören ihren jeweiligen Rechteinhabern. Dieses Projekt ist nicht offiziell mit Bohemia Interactive verbunden.
+
+## Live-Snapshot 02.10.2026 · 20:00
+
+Der Stand wurde aus **Server_Stand_02.10.2026_20_00_Uhr.zip** abgeglichen.
+
+- Live-`serverDZ.cfg` synchronisiert; echte Passwörter bleiben ausschließlich auf dem Host und stehen im Repo als `<SET_ON_HOST>`.
+- `modlist.txt`, `servermodlist.txt` und `automodupdate-modlist.txt` auf den angelieferten Live-Stand gebracht.
+- `automodupdate-steamlogindata.txt` bleibt nur als sichere Vorlage mit Platzhaltern erhalten.
+- Öffentlicher Signatur-/Verifikationskey: `keys/DeutschZ_CoreZ.bikey`.
+- Privater Signing-Key `.biprivatekey`: **niemals GitHub**, nur privates Backup.
+- Vollständiger Server-ZIP: 163.436.561 Bytes, SHA-256 `cb4f0368b1f3926ba93c5cb785eab8f5ccbeb43f458b47e43c294dc592af13dc`.
+- Öffentlicher `.bikey`: SHA-256 `97789c091ca47a8fccbc38253386748423e9af31b35cd39e19f6bb5156e2b11e`.
+- Privates Backup: https://drive.google.com/drive/folders/1tRdKCTIK7XHR2Vqjg9AiJfDv2xTtiYun
+- Private Signing-Keys: https://drive.google.com/drive/folders/1phKo7XodwV7hjS0uVSTHgs1X2H1TrRDK
+
+Der vollständige Live-Backupstand enthält Mission, Economy/CE, Expansion-/Mod-Settings, Profile und Laufzeitdaten. Nur die **bereinigten, versionierbaren Einstellungen** gehören ins öffentliche Git-Repository; Logs, Spieler-/Runtime-Daten und Geheimnisse bleiben im privaten Backup.
+
