@@ -1,1 +1,24 @@
-123456789,@examplemod1
+3805197050,@Schwanz
+3790145228,@deutschz_serverpack
+3636799682,@MWGSM_Trader
+2536888090,@RUSForma_vehicles
+3767913539,@Moving AI Convoy
+2155726353,@Mortys Weapons
+3593276829,@ArmA2 Trucks
+2931560672,@Forward Operator Gear
+2876583630,@RevScopes
+2825477708,@NVG + Scope
+2692979668,@RedFalcon Flight System Heliz
+2878980498,@RaG_BaseItems
+3556131153,@RaG_Core
+1827241477,@Breachingcharge
+1646187754,@Code Lock
+1710977250,@BaseBuildingPlus
+1828439124,@VPPAdminTools
+2572331007,@DayZ-Expansion-Bundle
+2116157322,@DayZ-Expansion-Licensed
+2545327648,@Dabs Framework
+1559212036,@CF
+2855748828,@Pizza Time Lite
+2090250299,@Anzio 20mm AMR Rifle
+3282237841,@NomNom Collectibles
