@@ -19,6 +19,7 @@ private/
 *.key
 *.biprivatekey
 steam_credentials*
+*steamlogin*
 credentials*
 *token*
 *password*
@@ -175,3 +176,10 @@ venv/
 !templates/**/*.example.*
 !settings/**/*.example
 !settings/**/*.example.*
+
+
+# Public DayZ verification key may be distributed.
+# Private signing keys remain forbidden.
+!keys/
+keys/*
+!keys/DeutschZ_CoreZ.bikey
