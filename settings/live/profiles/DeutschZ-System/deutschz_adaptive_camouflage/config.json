@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "minimumFactor": 0.65,
+  "maximumFactor": 1.2,
+  "woodlandClothingBonus": 0.12,
+  "wrongEnvironmentPenalty": 0.08,
+  "proneBonus": 0.1,
+  "crouchBonus": 0.05,
+  "movementPenalty": 0.1,
+  "darknessBonus": 0.08,
+  "cacheMilliseconds": 2000,
+  "attackBypassSeconds": 20,
+  "woodlandClothes": [
+    "GhillieSuit_Woodland",
+    "GhillieTop_Woodland",
+    "TTsKOJacket_Camo",
+    "TTSKOPants"
+  ],
+  "woodlandSurfaces": [
+    "grass",
+    "forest",
+    "wood"
+  ]
+}
