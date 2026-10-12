@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "runID": "operator-test-001",
+  "position": [
+    7480,
+    0,
+    7480
+  ],
+  "vehicleClass": "OffroadHatchback",
+  "guardClass": "eAI_SurvivorM_Boris",
+  "guardCount": 2,
+  "captureSeconds": 15,
+  "timeoutSeconds": 600,
+  "cleanupSeconds": 120,
+  "interactionRadius": 3,
+  "yieldToMajorEvents": true,
+  "rewards": [
+    "BandageDressing",
+    "AmmoBox_762x39_20Rnd"
+  ]
+}
