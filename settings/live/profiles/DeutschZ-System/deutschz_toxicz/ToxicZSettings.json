@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "Enabled": 1,
+  "RequiredChainItem": "ToxicZ_Signal_Marker",
+  "RiffyPosition": [
+    13725,
+    0,
+    14025
+  ],
+  "DecoderPosition": [
+    12014,
+    0,
+    12617
+  ],
+  "ObjectiveRadius": 18,
+  "RiffyRevealDistance": 2500,
+  "CombatActivationDistance": 450,
+  "FirstSquadCount": 4,
+  "SecondSquadCount": 6,
+  "RiffySquadCount": 10,
+  "CliffhangerDelaySeconds": 15,
+  "CooldownMinutes": 180,
+  "AIFaction": "Raiders",
+  "AILoadout": "BanditLoadout",
+  "RewardValueDMarkZ": 1000000,
+  "RewardCurrencyClass": "ExpansionBanknoteEuro",
+  "RewardCurrencyUnitValue": 100,
+  "Hospitals": [
+    {
+      "Name": "Elektrozavodsk Hospital",
+      "Position": [
+        10355,
+        0,
+        2265
+      ],
+      "Enabled": 1
+    },
+    {
+      "Name": "Berezino Hospital",
+      "Position": [
+        12010,
+        0,
+        9110
+      ],
+      "Enabled": 1
+    },
+    {
+      "Name": "Krasnostav Medical",
+      "Position": [
+        11220,
+        0,
+        12220
+      ],
+      "Enabled": 1
+    },
+    {
+      "Name": "Svetlojarsk Medical",
+      "Position": [
+        13800,
+        0,
+        13270
+      ],
+      "Enabled": 1
+    }
+  ],
+  "RewardLoot": [
+    {
+      "ClassName": "TTC_GEVAR43",
+      "Count": 1,
+      "Chance": 35
+    },
+    {
+      "ClassName": "TTC_GEVAR43_Magazine_10rnd",
+      "Count": 3,
+      "Chance": 80
+    },
+    {
+      "ClassName": "TTC_Ammo_338",
+      "Count": 2,
+      "Chance": 35
+    },
+    {
+      "ClassName": "SNAFU_HNightforce",
+      "Count": 1,
+      "Chance": 30
+    },
+    {
+      "ClassName": "SNAFU_AtlasBipod",
+      "Count": 1,
+      "Chance": 25
+    },
+    {
+      "ClassName": "TTC_Universal_Suppressor_TAVOR",
+      "Count": 1,
+      "Chance": 25
+    }
+  ]
+}
