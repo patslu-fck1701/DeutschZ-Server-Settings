@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "identificationRange": 35,
+  "minimumFacingDot": 0.3,
+  "reportDelaySeconds": 20,
+  "memorySeconds": 1800,
+  "maxMemories": 512,
+  "maxPending": 128,
+  "maxChecksPerSecond": 64,
+  "threatMultiplier": 1.15
+}
