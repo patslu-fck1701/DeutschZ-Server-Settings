@@ -1,0 +1,18 @@
+{
+  "Version": 2,
+  "MinMajorEventGapSeconds": 900,
+  "MaxMajorEventGapSeconds": 1800,
+  "RestartBlockSeconds": 1800,
+  "EventSafetyReserveSeconds": 120,
+  "ProviderCollectionSeconds": 30,
+  "KothPreferenceBonus": 5,
+  "WaitingBonusPerMinute": 2,
+  "StarvationBonusPerSkippedRound": 15,
+  "MaxSkippedRounds": 8,
+  "RestoreRetryIntervalSeconds": 10,
+  "RestoreTimeoutSeconds": 120,
+  "SchedulerWatchdogTimeoutSeconds": 300,
+  "PreventImmediateRepeat": 1,
+  "KothNoPlayerWaitSeconds": 900,
+  "DeferredLogIntervalSeconds": 300
+}

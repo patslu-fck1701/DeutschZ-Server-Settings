@@ -1,0 +1,39 @@
+{
+  "Enabled": 1,
+  "TerminalPosition": "7500 0 7500",
+  "TerminalOrientation": "0 0 0",
+  "DebugEnabled": 0,
+  "EventLootEnabled": 1,
+  "EventLoot": [
+    {
+      "ClassName": "M4A1",
+      "Chance": 1,
+      "MinimumCount": 1,
+      "MaximumCount": 1
+    },
+    {
+      "ClassName": "Mag_STANAG_30Rnd",
+      "Chance": 1,
+      "MinimumCount": 2,
+      "MaximumCount": 3
+    },
+    {
+      "ClassName": "AmmoBox_556x45_20Rnd",
+      "Chance": 1,
+      "MinimumCount": 2,
+      "MaximumCount": 4
+    },
+    {
+      "ClassName": "NVGoggles",
+      "Chance": 1,
+      "MinimumCount": 1,
+      "MaximumCount": 1
+    },
+    {
+      "ClassName": "LandMineTrap",
+      "Chance": 0.5,
+      "MinimumCount": 1,
+      "MaximumCount": 2
+    }
+  ]
+}

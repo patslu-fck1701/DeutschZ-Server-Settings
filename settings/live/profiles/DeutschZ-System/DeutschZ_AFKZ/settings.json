@@ -1,0 +1,9 @@
+{
+  "Version": 1,
+  "AfkSeconds": 300,
+  "GroundVehicleStopSpeed": 0.44999998807907104,
+  "HelicopterHorizontalStopSpeed": 0.3499999940395355,
+  "HelicopterLandingHeight": 0.800000011920929,
+  "HelicopterDescentSpeed": 0.800000011920929,
+  "SoundVolume": 0.800000011920929
+}

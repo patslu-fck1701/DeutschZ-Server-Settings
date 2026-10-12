@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Free": {
+    "Global": {
+      "Enabled": 1,
+      "UpdateIntervalSeconds": 0.10000000149011612,
+      "MusicDefaultVolume": 0.3499999940395355,
+      "MusicMaximumVolume": 0.699999988079071,
+      "F12HoldMilliseconds": 450
+    },
+    "Zones": []
+  },
+  "Pro": {
+    "Global": {
+      "Enabled": 1,
+      "UpdateIntervalSeconds": 0.10000000149011612,
+      "MusicDefaultVolume": 0.3499999940395355,
+      "MusicMaximumVolume": 0.699999988079071,
+      "F12HoldMilliseconds": 450
+    },
+    "Zones": []
+  }
+}

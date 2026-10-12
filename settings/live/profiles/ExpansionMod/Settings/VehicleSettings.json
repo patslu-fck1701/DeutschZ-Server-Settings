@@ -1,0 +1,128 @@
+{
+  "m_Version": 23,
+  "VehicleSync": 0,
+  "VehicleRequireKeyToStart": 1,
+  "VehicleRequireAllDoors": 1,
+  "VehicleLockedAllowInventoryAccess": 0,
+  "VehicleLockedAllowInventoryAccessWithoutDoors": 0,
+  "MasterKeyPairingMode": 2,
+  "MasterKeyUses": 2,
+  "CanPickLock": 1,
+  "PickLockTools": [
+    "Lockpick"
+  ],
+  "PickLockChancePercent": 55,
+  "PickLockTimeSeconds": 60,
+  "PickLockToolDamagePercent": 100,
+  "EnableWindAerodynamics": 0,
+  "EnableMainRotorDamage": 1,
+  "EnableTailRotorDamage": 1,
+  "Towing": 1,
+  "EnableHelicopterExplosions": 1,
+  "DisableVehicleDamage": 0,
+  "VehicleCrewDamageMultiplier": 0.8,
+  "VehicleSpeedDamageMultiplier": 1.1,
+  "VehicleRoadKillDamageMultiplier": 1,
+  "CollisionDamageIfEngineOff": 1,
+  "CollisionDamageMinSpeedKmh": 12,
+  "CanChangeLock": 0,
+  "ChangeLockTools": [
+    "Screwdriver"
+  ],
+  "ChangeLockTimeSeconds": 120,
+  "ChangeLockToolDamagePercent": 10,
+  "PlacePlayerOnGroundOnReconnectInVehicle": 2,
+  "RevvingOverMaxRPMRuinsEngineInstantly": 0,
+  "VehicleDropsRuinedDoors": 1,
+  "ExplodingVehicleDropsAttachments": 1,
+  "DesyncInvulnerabilityTimeoutSeconds": 4,
+  "PilotlessAutoHoverEngineStopDelaySeconds": 300,
+  "RoughLandingVerticalSpeedThreshold": 4.2,
+  "DamagedEngineStartupChancePercent": 70,
+  "FuelConsumptionPercent": 100,
+  "EnableVehicleCovers": 1,
+  "AllowCoveringDEVehicles": 0,
+  "CanCoverWithCargo": 1,
+  "UseVirtualStorageForCoverCargo": 0,
+  "VehicleAutoCoverTimeSeconds": 0,
+  "VehicleAutoCoverRequireCamonet": 0,
+  "EnableAutoCoveringDEVehicles": 0,
+  "CFToolsHeliCoverIconName": "helicopter",
+  "CFToolsBoatCoverIconName": "ship",
+  "CFToolsCarCoverIconName": "car",
+  "ShowVehicleOwners": 1,
+  "VehiclesConfig": [
+    {
+      "ClassName": "ExpansionBlackHawk",
+      "LockComplexity": 18
+    },
+    {
+      "ClassName": "ExpansionBus",
+      "LockComplexity": 7
+    },
+    {
+      "ClassName": "ExpansionChinook",
+      "LockComplexity": 22
+    },
+    {
+      "ClassName": "ExpansionGyrocopter",
+      "LockComplexity": 2
+    },
+    {
+      "ClassName": "ExpansionGyrocopterPlus",
+      "LockComplexity": 2.5
+    },
+    {
+      "ClassName": "ExpansionLHD",
+      "LockComplexity": 100
+    },
+    {
+      "ClassName": "ExpansionMerlin",
+      "LockComplexity": 15
+    },
+    {
+      "ClassName": "ExpansionMh6",
+      "LockComplexity": 10
+    },
+    {
+      "ClassName": "ExpansionTractor",
+      "LockComplexity": 2
+    },
+    {
+      "ClassName": "ExpansionUAZ",
+      "LockComplexity": 4
+    },
+    {
+      "ClassName": "ExpansionUAZCargoRoofless",
+      "LockComplexity": 4
+    },
+    {
+      "ClassName": "ExpansionUh1h",
+      "LockComplexity": 13
+    },
+    {
+      "ClassName": "ExpansionUtilityBoat",
+      "LockComplexity": 2
+    },
+    {
+      "ClassName": "ExpansionVodnik",
+      "LockComplexity": 12
+    },
+    {
+      "ClassName": "ExpansionZodiacBoat",
+      "LockComplexity": 1.5
+    },
+    {
+      "ClassName": "LandRover",
+      "LockComplexity": 5
+    },
+    {
+      "ClassName": "RFFSHeli_Apache",
+      "LockComplexity": 20
+    },
+    {
+      "ClassName": "RFFSHeli_UH1H_Combat",
+      "LockComplexity": 15
+    }
+  ]
+}

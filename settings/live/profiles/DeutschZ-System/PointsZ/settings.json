@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Enabled": true,
+  "TopGamesEnabled": true,
+  "PollIntervalSeconds": 600,
+  "VoteRewards": [
+    5,
+    10,
+    25
+  ],
+  "MonthlyBonuses": [
+    75,
+    50,
+    25
+  ],
+  "MaxSimultaneousPouchCargo": 200,
+  "InfectedRules": [
+    {
+      "Match": "Mummy",
+      "Value": 5
+    },
+    {
+      "Match": "Soldier",
+      "Value": 3
+    },
+    {
+      "Match": "usSoldier",
+      "Value": 3
+    },
+    {
+      "Match": "eastSoldier",
+      "Value": 3
+    },
+    {
+      "Match": "Patrol",
+      "Value": 3
+    },
+    {
+      "Match": "Policeman",
+      "Value": 2
+    },
+    {
+      "Match": "PoliceWoman",
+      "Value": 2
+    },
+    {
+      "Match": "Hunter",
+      "Value": 2
+    },
+    {
+      "Match": "Hiker",
+      "Value": 2
+    },
+    {
+      "Match": "Hermit",
+      "Value": 2
+    },
+    {
+      "Match": "Farmer",
+      "Value": 1
+    },
+    {
+      "Match": "MilkMaid",
+      "Value": 1
+    },
+    {
+      "Match": "Zmb",
+      "Value": 1
+    }
+  ]
+}

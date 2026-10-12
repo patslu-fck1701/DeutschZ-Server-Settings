@@ -1,0 +1,72 @@
+{
+  "WaveOne": {
+    "TriggerProgress": 0,
+    "InfectedCountMin": 5,
+    "InfectedCountMax": 5,
+    "HealthMultiplier": 1,
+    "DamageMultiplier": 1,
+    "ForcedHealth": 0,
+    "MovementSpeedMultiplier": 1,
+    "VisualEyes": "",
+    "DisableRunning": 0,
+    "Types": [
+      "ZmbM_HunterOld_Autumn"
+    ]
+  },
+  "WaveTwo": {
+    "TriggerProgress": 20,
+    "InfectedCountMin": 6,
+    "InfectedCountMax": 6,
+    "HealthMultiplier": 1,
+    "DamageMultiplier": 1.25,
+    "ForcedHealth": 0,
+    "MovementSpeedMultiplier": 1,
+    "VisualEyes": "",
+    "DisableRunning": 0,
+    "Types": [
+      "ZmbM_PolicemanSpecForce_Heavy"
+    ]
+  },
+  "WaveThree": {
+    "TriggerProgress": 40,
+    "InfectedCountMin": 7,
+    "InfectedCountMax": 7,
+    "HealthMultiplier": 1,
+    "DamageMultiplier": 1.5,
+    "ForcedHealth": 250,
+    "MovementSpeedMultiplier": 1,
+    "VisualEyes": "",
+    "DisableRunning": 1,
+    "Types": [
+      "DZKOTH_Infected_600"
+    ]
+  },
+  "WaveFour": {
+    "TriggerProgress": 60,
+    "InfectedCountMin": 8,
+    "InfectedCountMax": 8,
+    "HealthMultiplier": 1,
+    "DamageMultiplier": 1.75,
+    "ForcedHealth": 500,
+    "MovementSpeedMultiplier": 1,
+    "VisualEyes": "",
+    "DisableRunning": 1,
+    "Types": [
+      "DZKOTH_Infected_800"
+    ]
+  },
+  "WaveFive": {
+    "TriggerProgress": 80,
+    "InfectedCountMin": 9,
+    "InfectedCountMax": 9,
+    "HealthMultiplier": 1,
+    "DamageMultiplier": 2,
+    "ForcedHealth": 1000,
+    "MovementSpeedMultiplier": 1,
+    "VisualEyes": "Red",
+    "DisableRunning": 1,
+    "Types": [
+      "DZKOTH_Infected_1000"
+    ]
+  }
+}
