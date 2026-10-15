@@ -1,0 +1,15 @@
+﻿Brawlers
+Civilian
+East
+Guards
+InvincibleGuards
+InvincibleObservers
+InvincibleYeetBrigade
+Mercenaries
+Observers
+Passive
+Raiders
+RANDOM
+Shamans
+West
+YeetBrigade

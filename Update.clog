@@ -1,0 +1,788 @@
+﻿Version 0.8.4.9
+[Updated]
+Expansion				-	Updated to latest expansion update
+
+Version 0.8.4.8
+[Updated]
+Expansion				-	Updated to latest expansion update
+
+Version 0.8.4.7
+[Updated]
+Expasnion				-	Updated to latest expansion version
+Rag 					-	Updated basebuilding
+[Added]
+Rag						-	Added Core Config manager
+[Fixed]
+Expansion Loadout/Lootdrop	-	Fixed openeing folder
+
+Version 0.8.4.6
+[Updated]
+Expansion				-	Updated to match latest Expansion update.
+[Fixed]
+Spelling mistakes in various forms.
+
+Version 0.8.4.6
+[Updated]
+Expansion				-	Updated to match latest Expansion update.
+
+Version 0.8.4.5
+[Updated]
+expansion				-   Updated to match latest expansion update
+Loadout/lootdrops		-	Added Lootdrop config to loadout manager. now called exp loadout/lootdrops
+Market					-	Removed sperate add from string, string can now be added through the add from type button
+							will check for whitspace and/or empty entries
+Debug/Core				-	Debug file renamed, if coresettings.json doesn not exist it will be created
+
+Version 0.8.4.4
+[Updated]
+expansion				-	Updated to match latest exopansion update
+
+Version 0.8.4.3
+[Updated]
+expansion				-	Updated to match latest exopansion update
+
+Version 0.8.4.2
+[Updated]
+TerjeMod				-	Fixed Exiting form when some files are not present
+Expansion P2P			-	Added option to have empty Loadout on p2p npc
+
+Version 0.8.4.1
+[Updated]
+TerjeMod				-	Some Tweaks to scriptable areas.
+Econoomy				-	Ignore log file when creating project from ftp/sftp
+							fixed resaving connection details.
+
+Version 0.8.4.0
+[Updated]
+Project					-	Added option to create project for exisitng server(exmaple hook nto live server files on dedicated machine.)
+Dynamoc Weather Plugin	-	Update to latest version.
+TerjeMod				-	Added support for All Components.
+Expansion				-	Update for latest Expansion Update.
+
+
+Version 0.8.3.9
+[Updatd]
+Expansion Loot			-	updated  quant Percent to a float.
+Expasnion Airdrops		-	Updated to expansion config 8
+Economy Spawnabletypes	-	Updated to handle nested classes introduced in dayz 1.28
+Economy Random Presets	-	Updated to handle Additon files loaded from economy core intoduced in dayz 1.28
+Economy EffectArea		-	Updated to Latest config version from dayz 1.28
+Economy Player Spawn	-	Added allow in water to gen_params in player spawns added in dayz 1.28
+
+Version 0.8.3.8
+[Fixed]
+Economy Manager			-	Updated CFGGameplay to latest 1.23 config
+						-	Updated areatriggers to allow for null values as of 1.28
+
+Version 0.8.3.7
+[Fixed]
+Economy Manager			-	Added CFGUnderground trigger tab
+ftp/sftp				-	Added option to save logon details.
+
+Version 0.8.3.6
+[Fixed]
+Expansion AI			-	Fixed updating of new ai patrol settings.
+
+
+Version 0.8.3.5
+[Updated]
+Expansion				-	Updated Territory and AI to match current Expansion versions
+
+Version 0.8.3.4
+[Fixed]
+Expansion Quests		-	Fixed writing quests player to bin file.
+
+Version 0.8.3.3
+[Added]
+CFGGameplay				-	Added missing Added missing disableColdAreaBuildingCheck to basebuilding hologramData.
+Expansion Vehicles		-	Added missing fuelconsumptionpercent
+Expansion Debug			-	Removed EnableProneDeathHandItemDropFix
+MPG Spawner				-	Update to latest mod version.
+Rag BaseBuilding		-	Updated to latest mod version and added the missing options.
+Expasnion Quests		-	Fixed creating backup of player data files
+                        -	Target objective min distance fixed to show correct value.
+						-	Redmoved redundant textbox from quest form.
+Timed Crate Manager		-	Added Times Crate Manager.
+
+Version 0.8.3.2
+[Fixed]
+Expansion Base Building	-	Updated Version Number.
+Expansion Missions		-	Added mission DropZoneHeight,DropZoneSpeed,AirdropPlaneClassname to airdrop missions,
+							Updated version number
+Expansion General		-	Added missing UseHudcolors bool.
+CFGGameplay				-	Added Vehichle Damage Boat decay.
+Economy Map Group Pos	-	Added Multiple highlight of selected point on the map,
+							removed the right click to remove and added button at the button.
+
+Version 0.8.3.1
+[Removed]
+debin DZE File - removed as dayz editor no longer supports json file verson of dze
+any dze export - removed as per the above reason
+[added]
+Project>MapAddons - Map Sizez text file will now be updated when you install an addon
+					You can also manaully update the map sizes from the same page by isng the update map sizes button
+[Updated]
+Import/Export		-	Any Import Export has been updated to now inlude Map, ObjectSpawner type files, DZe will only be for import.
+Expansion Airdrops	-	DropZoneHeight,DropZoneSpeed,AirdropPlaneClassname and DropZoneProximityDistance added to match current config.
+Coord Num boxes		-	All Numboxes that have a x,y,z, coord has been updated to handle the bigger maps, max size is set to 50000.
+Economy Territories	-	Updated Territories manager to now work from the cfgenviroment.xml rather than just whats in the env folder.
+						you can now add a new file through the editor and it will update the cfgenviroment.xml with the correct details.
+						manaulay editing of x y and z coords added 
+						use y checkbox added.
+Airdrop Upgraded	-	Updated to match mod version 1.25.03.10
+
+Version 0.8.3.0
+[Fixed]
+Economy Editor	-	A value has been normalised to between 0 and 360 when importing from dze for event spanws and event groups
+					Fixed A value of eventspawns not actually updated the value.
+AirDropUpgraded	-	Updated config so that the manager can be loaded, it is still missing some stuff but dont have time to sort it out ATM
+[ADDED]
+Dynamic Weather Plugin - Added dynamic weather plugin manager, 
+
+Version 0.8.2.9
+[Updated]
+DZE Import - Updated dze reading to match latest version
+[Added]
+Kill Reward - Added kill reward manager, Everything is done by right clicking ot double clicking on teh tree nodes.
+
+Version 0.8.2.8
+[Fixed]
+Economy Manager -	Fixed the cfgWeather.xml to match the correct names as the default ones were wrong.
+MPG Spawner		-	Added in a triggerposition and spawn position check to commas and double spaces.will fix and save configs	
+[Uopdated]
+Economy Manager - Updated weather to latest 1.26 config.
+All	- Speed up calculation of Hight value when double clicking on any map.
+[Added]
+Expansion Map Markers PVE-PVP - added support for latest version.
+Search for Loot - Added Search for loot manager, Everything is done through right clicks on the treeview....
+
+
+Version 0.8.2.7
+[Added]
+DayzEEditor - Added Characted check for projects.json so that it will fix the fullprojectpath and profile path,
+              if it finds a path split character at the end of the line it wil lremove it and save the project file.
+
+Version 0.8.2.6
+[Fixed]
+DayZeEditor - PlayerDB Manager - small fix to allow displaying db.
+
+Version 0.8.2.5
+[Added]
+DayZeEditor - added a check at startup for .exe location, it will stop if the path is founf to be on the desktop.
+              Been having issues with path names when exe is run from desktop folder,
+			- Added check for Map.png for current project, if not located the editor will not load the project.
+			- Started Player DB Manager, Can read players and Certain values for now, no editing available atm.
+[Fixed]
+Economy Manager - Events - Group name was not saving changes
+Economt Manager - Event Groups - Was all kinds of messed up, should be more straight forward now.
+Expansion Market - Updated Cartegories to be able to read from nested folders.
+                  - Removed the forcing of UpperCase for filename, hopefully this wont mess things up.
+Expansion Hardline - FIxed payer data not reading the player data file correctly.
+
+Version 0.8.2.4
+[Update]
+Economy - updated cfgweather , cfggameplay, cfgplayerspawnpoints and cfgeffectarea to match 1.26
+[Added]
+Sakhal - Added map size to list and added Mpa and XYZ to map addons
+
+Version 0.8.2.3
+[Update]
+Expansion P2P - undate config to version 8.
+Expansion - reorder alot of the controls so they are in tab order.
+Expansion Loadouts - Added Expand/collapse buttons which work off of the currently selected treeview node.
+			       - Added Multiselect to edit the chance, quantity sections of loadout items,
+				   - Added selection through keybord rather than just mouse click
+Projects - Added file progress to console when creating a project from sftp/ftp.
+Traderplus - Fixed an error when converting to Expansion market.
+CJLootchest - moved chest list from harcoded to external text file.
+
+Version 0.8.2.2
+[Updated]
+Expasnion P2P Market - Added DisallowUnpersisted bool to p2pmarketsettings.
+expansion Market - Added SZVehicleParkingFineUseKey and DisallowUnpersisted bools to marketsettings
+
+Version 0.8.2.1
+[Update]
+Expansion configs updated to match their latest release.
+Expansion Market - made add varient window bigger to accomodate longer files names.
+
+Version 0.8.2.0
+[Fixed]
+Economy manager - Fixed Spawnabletypes attchemnts/cargo not showing.
+
+Version 0.8.1.9
+[Fixed]
+Economy manager - User defs when adding was checking for current type, would crash if one not selected.
+
+Version 0.8.1.8
+[Fixed]
+Expansion Quests - Unable to add/remove Waypoints to Ai Patrol and Ai Camp Objectives
+Expansion Map - Fixed player position from bool to int with trhee options.
+Economy Types - Added User definitions to Usage.
+Economy Manager - User def Manager, Can now create user definitions for usage and values.
+
+Version 0.8.1.7
+[Added]
+BP Workbench Manager
+WorkBench Redux Manager
+
+Version 0.8.1.6
+Forgot to add in the DLLs for the image convertor
+
+Version 0.8.1.5
+[Fixed]
+Expansion Quests - missed chance option from quest rewards.
+Economy - Ficed damage not appearing on items in the spawnabletypes.
+[Added]
+Image Convertor - added an image convertor to allow quick display of p11 files and Edds files, both can be saved as dds file for editing in gimp/Phtotshop
+
+
+
+Version 0.8.1.4
+[Updated]
+Expansion Party - Added Display Party Tag Bool.
+Expansion Notifications - Add Kill Feed AI bool.
+Expansion Territories - Added Only invite group member bool
+Expansion General Settings - Added Enable AI Grave Cross bool.
+Expansion Safe Zone - Added Disable Player Collision Bool;
+Expansion AI - Added Can be triggered by Ai to Ai Patrols, Object Patrols, AI Camp Objective and Ai Patrol Objective
+MPG Spawner - Added Show Visualisation bool.
+
+
+Version 0.8.1.3
+[Fixed]
+Economy Manager - fixed negative values for cfgeffectarea.xml
+
+Version 0.8.1.2
+[Updated]
+Expansion AI & Quest Objectives - Updated AI Patrol unlimited reload to checkboxes, should be easier for users to understand.
+Map Sizes - Added Alteria Size. Added Bitterroot size.
+
+Version 0.8.1.1
+forgot to update version number in editor so got update loop.
+
+Version 0.8.1.0
+[Updated]
+Expansion Chat - Missed EnableExpansionChat Addition.
+Expansion Territories - Missed InviteCooldown Addition.
+Expansion AI - Updated Unlimited Reload depending on target type (e.g.can allow unlimited reload against Zs, but not players/AI).
+
+Version 0.8.0.9
+[Fixed]
+ExpansionAI - Added missing Behaviours to drop down lists
+ExpansionAI - Added missing variables when creating a new object partol, this was resulting in certain ones being null.
+
+Version 0.8.0.8
+[Fixed]
+Economy Manager - unticking the quant min specified checkbox did not remove the quant min from the types.
+Rag BaseBuilding - Updated/removed Various setting i missed on last update.
+Spawner Babuka - Some changes were not being saved.
+Expansion AI - Noticed small error in AI APtrol Noise Numbox, was updating wrtong value.
+[Added]
+Main form - Added ability to import from Dze to the gameplay ObjectSpawner(Import only), this will automaticlayy save the file and update the cfggameplay json with the correct entry.
+[Update]
+Expansion Chat - add Blacklist Words List
+Expansion Party - Add Invite Cooldown
+Expasnion AI - Add Persist to both patrols and object patrols
+Expansion Hardline - Add ItemRarityParentSearch 
+ExpansionQuests - Updating AiQuestPatrols to match AI Patrols
+
+
+Version 0.8.0.7
+[Fixed]
+CJ LootChest - fixed tool time allowed to go to -1
+All Maps - should be a lot smoother and have no teraing when zooming or moving the map.
+Trader Plus - fixed a few values in the garage tab not updating when loading the file.
+Expansion Settings - Fixed being unable to switc hbetween safe zone types if one or more was empty.
+[Updated]
+Rag Base Building - updated missing options.
+Economy Manager - Removed some rarity levels as i thougth there was too much, changed to match Expansion Hardline levels as to keep parity across the editor.
+				- tried to update the distribute nominals from rarity to include more variation, but this leads toa higher count than specified, so take this into consideration.
+[Added]
+CJ Lootchests - Add map visualisation for chest spawn points
+Expansion AI - Added ability to select the point from the map by clicking on the point.
+			   Added Ability to move the current point on the map by double clicking on the map.
+Expansion Hardline - added the ability to create rarity lists from the editors inbuilt rarity manager.(this will create the full list from scratch)
+			   
+
+Version 0.8.0.6
+[Added]
+Economy Manager	-	Added an option to update types files from external file with a right clic k on the type file, 
+					This allows to import a full file where only the missing types will be added to the current types file
+PVezmoD Manager	-	Customizable zombies and darkhorde.
+[Fixed]
+Utopia Airdrop	-	fixed path from utopaiairdrop to utopia_airdrop.
+Expansion MArket-	Fixed wrongly changing underscore and spze when creating a new market category
+
+[Updated]
+Expansion Quests-	updated Quests NPC Page to only show the relevant options depending on the type of npc you choose.
+
+
+Version 0.8.0.5
+[Added]
+Economy Manager	-	Added a Rarity feature which assigns a rarity based of each items nominal count.
+					This allows for a blanket refresh of total nominals and each items nominal if assigned a rarity will be recalculted.
+Expansion Market-	Trader NPC up and down buttons added to allow sorting of order for npc attchments
+					can quickly create market items using types with nominals > 0
+					also can quickly create price based on totals nominals and rarity.
+[Fixed]
+fixed issue with creating projects upon first launch
+
+
+
+Version 0.8.0.4
+[Fixed]
+Updated Exansion AI settings, geneal settings and Personel Storage to latest expansion update.
+Fixed issue with MPG Spawner saving when yuo have the bcreate backups enabled.
+Fixed Create backups check box not populating when loading a project.
+
+Version 0.8.0.3
+[Fixed]
+Updated Dze import/export to match the latest version
+[Added]
+Projects - Map addon tab added to project which allows you to download the map addon and extract it from within the editor.
+
+Version 0.8.0.2
+[Fixed]
+Expansion AI- Import from Dze/Map was not importing correctly.
+
+Version 0.8.0.1
+[Fixed]
+Expansion Ai Patrol, Chance was getting set to -1 when adding new patrol cause error
+[Added]
+MPG Spawner Object spawner section with import from DZE.
+
+Version 0.8.0.0
+[Fixed] 
+Expansion Territories - Authenicate Codelock checkbox was producing an error when checked.
+Expansion Market - Trader - DisplayCurrency name was not picking up changes.
+Expansion Market - Spawn Positions - Missing train spawns added.
+Expansion Missions - Missing Config version
+Expansion Base Building - Codelock attchmode was wrong order
+Expansion AI - Fixed waypoints not saving new values.
+[Added]
+MPG Spawner Manager
+Dolphins Dynamic AI Manager added to the expansion AI Manager, will be visable if you have the files installed
+Expansion AI - Missing options added plus a general tidy up.
+Spawner Babuka - Fields will now be hidden when no location is selected.
+[Removed]
+removed some internal code releated drive mapping, decinded to not go down that road.
+
+
+Version 0.7.9.9
+[Fixed]
+Expansion Damage config buttons fixed, no code was added but all functional now.
+Expansion Map setting map Zoom was referenciong the wriong scale when zooming giving wrong coords when not at outermodt zoom.
+p2p settings were all set to read only.
+[added]
+added waypoints for p2p trader, import/exports to/from dze
+Added map visualisation fo AI Patrols in the expansion AI Manager.
+
+
+Version 0.7.9.8
+[Updated]
+Update dze import to match latest version
+[Added]
+added various new maps sizes
+added save state of console
+added scroll bar to expansion quest description textboxes
+
+Version 0.7.9.7
+[Added]
+more deatil to the Console when loading expansion quests.
+added more checking when loading quests that should eithe rnotify you of an issue or fix it.
+Added a reload all quests data to the toolbar under the tools button,
+Added missing quest boards to quest npc names list
+add ability to change filename for quests, npc and objectives
+
+Version 0.7.9.6
+[Added]
+Spawner Bubaku Manager added.
+Expansion AI Patrols added function to add individual waypoints.
+[Updated]
+Main form will now save size, location and window state on close.
+Added sort mechanic to MExpansion market items, A-Z, Z-A, MIn Price - Max Price and Max Price - Min Price.
+[Fixed]
+Parameter check box in types editor when switching off didnt trigger the function to save.
+[Removed]
+Removed setup roject with mapped drive as this was not complete, left in by mistake.
+
+Version 0.7.9.5
+[Fixed]
+Fixed Quest Objectives active not showing correct value.
+Fixed Quest Objectives not updating the config version.
+[Added]
+Added Dogtag to expansion loadout slot.
+
+Version 0.7.9.4
+Attempting to fix issue with spaces in path when doing update. this will only reslove during the next update.
+
+Version 0.7.9.3
+[Updated]
+Update player spawn filr for latest 1.24 update, should auto update your file
+[ADDED]
+Added Utopia Airdrops Manager
+Added Airdrop Upgraded Manager
+
+Version 0.7.9.2
+[Fixed]
+Trader plus removing NPC did not update the IDS from the ID LIst so ended up with a miss match upon restarting.
+[ADDED]
+Added RAG BAse Building COnifg Manager
+
+Version 0.7.9.1
+[Updated]
+DR Jones Trader - Updated to match latest release.
+Expansion - Updated to match latest release.
+
+Version 0.7.9.0
+[Fixed]
+KOTH - Zone lootsets now correct as string array.
+AI Patrol - Fixed general damagerecieved multiplier not updating.
+
+Version 0.7.8.9
+[Added]
+Added KOth Manager
+
+Version 0.7.8.8
+[Update]
+Updated all Expansion managers to latest expansion update.
+
+Version 0.7.8.7
+[Update]
+Expansion configs up to date.
+Updated project names to inculde the mission name automatically.
+[Fixed]
+Few bugs fixed behind the scenes.
+[added]
+project edit added to change project name,map size etc, use carefully......
+
+Version 0.7.8.6
+[Updated]
+Updated dr jones trader to expansion convertion.
+some other small bits and bobs, spelling etc.....
+
+Version 0.7.8.5
+[Fix]
+various fixes and spelling corrections
+[Updated]
+Updated expansion setting to latest configs, NOT. i found a few settings i nmissed out, please use the save ALL button the first time you load expansion settings to catch all changes
+
+Version 0.7.8.4
+[Fix]
+small fix for auto update of the cfggameplay file.
+
+Version 0.7.8.3
+[Updated]
+cfggameplay json updated to 1.22
+playerspawns updated to match dayz v.1.23
+[Added]
+added playerspawngear to economy manager
+[fixed]
+fixed various bugs reported
+
+Version 0.7.8.2
+[Updated]
+Updated to match latest expansion update.
+
+Version 0.7.8.1
+[Fixed]
+Various Issues reported.
+[Updated]
+Hardline player data
+
+Version 0.7.8.0
+[fixed]
+woopsy on my part missed config files to allow the editor to run....
+
+Version 0.7.7.9
+[Update]
+All Expansion Configs to match latest Expandion release
+updated territory map to allow click on desired circle with left mouse to select that zone.
+[Added]
+Added init.c text editor to the economy manager
+[fixed]
+fixed and issue when starting the editor without an active project
+various other bits and bobs i cant remember......
+
+Version 0.7.7.8
+[Update]
+all in editor maps now use the mouse wheel for zoom and holdright click and drag to move
+[added]
+added pretty colours to console when loading
+added warning message box if any economy core errors are detected duruing startup
+
+Version 0.7.7.7
+[Fixed] 
+Various bugs that had been reported
+[Added]
+Expansion P2P Market config manager
+Expansion Personal Storage Config manager
+[Updated]
+Updated all expansion settings to latest expansion release.
+
+Version 0.7.7.6
+[Fixed]
+Wrong values assigned to numeric boxes in territories
+
+Version 0.7.7.5
+[Added]
+Territories to economy manager
+mapgrouporoto to economy manager
+specific airdrop containers to expansion missions, page has been split into data and map. 
+[fixed]
+various small fixes reported by user.
+
+Version 0.7.7.4
+[Added]
+CFGIgnorelist to economy manager
+added total number of nominals to types summary when running a query
+[Fixed]
+Expansion treasure hunt object wrong classname for LootItemsAmount.
+expasnion objectives, various numboxes could increment as set at 0.05, this is now 1.
+Economy manager, split tab bar over two lines.
+[Changed]
+economy manager- eventspawns and groups, when importing an event group to the event spawn using a dze file yuo can now import multiple dze files at once. 
+it will use the dze file name as teh group name. only difference is that it will not ask you to enter a group name anymore.
+
+Version 0.7.7.3
+[Updated]
+expansion Settings/Market updated to lates expansion release.
+
+
+Version 0.7.7.2
+[Fixed]
+Expansion Loadouts, Added Eyes to slot type.
+Trader Plus added Copy seelcted to prices tab.
+expansion Quests, added better debuging to identify quests which have issues.
+
+Version 0.7.7.1
+[Fixed]
+Economy, fixed ramdon preset not adding new attchemnt.
+Expansion AI, fixed position of chance label.
+
+Version 0.7.7.0
+[Fixed]
+fixed missing name class on expansion AI Event patrols. this was causing always save but not actualy saving.
+
+Version 0.7.6.9
+[Updated]
+Update to match latest expansion release.
+Expansion Hardline, Added missing lossondeath value.
+Various bits and bobs fixed.
+
+Version 0.7.6.8
+[Updated]
+Expansion Quests: Updated quest rewards to match latest expansion configs.
+Expansion Settings: Airdrops updated to version 4.
+Expansion HArdline updated to config version 8.
+
+Version 0.7.6.7
+[FIXED]
+Expansion Mission Airdrop container was using wronng list when writing to file.
+
+Version 0.7.6.6
+[FIXES/CHANGES]
+Various background fixes.
+[ADDED]
+Added SFTP to the projects tab to allows to connect to servers using SFTP
+
+Version 0.7.6.5
+[Added]
+Expasnion AI added correct config version
+
+Version 0.7.6.4
+[Added]
+Expasnion AI Patrol Name, if no name is there it will we given a name and auto saved when loading into the ai manager.
+
+Version 0.7.6.3
+[Added]
+Expansion Airdrops added string option to add to infected list, this is needed to add AI.
+[Fixed]
+Expansion Airdrops item count added negative range
+expansion AI Object Patrol realignet text for choice.
+
+Version 0.7.6.2
+[Fixed]
+expansion Quest AI Patrol remove allowed weapons was removing aicap allowed weapons in error. 
+
+Version 0.7.6.1
+[Fixed]
+Removed Quest IDS from Expansion NPC Class
+Added GUI for Quest reward Health Percent
+Updated Expansion Market trader to included manuall addition of attchment items/categories
+Expasion Quest Ai Patrol X and z were both updating the Y value.
+
+Version 0.7.6.0
+[updated]
+Set Expansion debug setting Serverupdatelimit max to 1000.
+
+Version 0.7.5.9
+[Fixed]
+Expansion Airdrops thinking it needed to save even though config version was not changed.
+
+Version 0.7.5.8
+[Updated]
+Updated missed debug expansion settings
+
+Version 0.7.5.7
+[fixed]
+Fixed tier duplication when editing multiple items at once.
+[Updated]
+Updated Expansion settings/Quest for the latest update.
+
+Version 0.7.5.5
+[Fixed]
+Missed some stuff in the CFGGameplay.json 120
+
+Version 0.7.5.4
+[Updated]
+CFGGameplay updated to 1.20
+Added Sholder to Expansion Loadouts Attachment List.
+Added External Faction list to Quest Factions seelction boxes
+
+Version 0.7.5.3
+[Fixed]
+Expansion Market NPC Position now go above 20000 x 20000
+TraderPlus NPC Position now go above 20000 x 20000
+Added Auto create QuestPlayerData FOlder if does not exist
+Added auto create hardline Playerdata folder if it doesn not exist
+Hardline settings fixed when creating new json file, previously was not creating a item rarity list and crashing editor
+[Added]
+Factions Txt list in TraderNPC folder to set up the faction names incase you run a mod which can add more factions
+Exopansion quests will now allow you to enter a quest ID rather than assigning automatically
+Added check for market item colour if not the correct length of characters.
+[Updated]
+Updated Expansion settings to latest version
+Updated Trader Plus to latest versions
+
+Version 0.7.5.2
+[Updated]
+Updated configs for latest expansion update
+[Added]
+Added a config checker for quest, suestnpc and objective configs
+Add the two new cash registers for cj loot crate v 1.0.6
+
+Version 0.7.5.1
+[Updated]
+updated expansion Raid Settigns to include new SafeRaidUseSchedule setting
+
+Version 0.7.5.0
+[Updated]
+All expansion settings, market and quests updated to latest version
+Various errors fixed withing expansion configs
+Quests re enabled after updating to the latest configs.
+
+Version 0.7.4.9
+[Updated]
+Vehicles and garage updated to latest expansion release.
+Disabled Quest management until i have enough time to rework it.
+
+Version 0.7.4.8
+[Fixed]
+ExpansionAI and Loadout button showing when no project is loaded.
+Fixed Expansion Social Media Settings, This shows in Various Setting tab.
+[Added]
+Added Dze to .map file which also included delections, will convert either binned or unbinned dze files.
+[Chaged]
+some visual changes in expansion settings, selected tab will highlight lighter text 
+
+Version 0.7.4.7
+[Updated]
+CFGGameplay updated to 119, this should update the json to match 119
+updated all expansion settings to the most recent config versions.
+[fixed]
+quest ai min/max accuracy changed to max one with increments of 0.05
+quest ai has been changed to add from text rather than types to allow you type in the the correct AINPC's
+
+Version 0.7.4.6
+[Fixed]
+Fixed Accuracy max limit in AI Opbject patrols, was set to 0, now set to 1.
+
+Version 0.7.4.5
+[Fixed]
+Updated CJ Loot chest to 1.6, added in item rarity for none defined/table items
+
+Version 0.7.4.4
+[Fixed]
+Fixed Backup not saving correct and causing a crash with traders
+Fixed Player Factions list showing old faction names
+Removed Color entry in general settings.json of expansion, no idea why it was added??
+[Added]
+Added if 0 make 1 when doing the mass nom/min changes
+Added new AI Option from latest expansion update
+[Changed]
+Expansion Loadout have own section now as not tied to AI
+
+
+Version 0.7.4.3
+[Changed] 
+Updated Expansion Map config and CompassBadgeColour
+[Fixed]
+MysteryBox add/remove buttons were assigned to the wrong section
+
+
+Version 0.7.4
+[Fixed]
+Hardline remove from list was actually adding it rather than removing. Now fixed.
+[Changed]
+Updated Expansion Settings/Market/AI/Quest after latest expansion Update
+[Added]
+Mysery Box Config
+
+Version 0.7.3
+[Fixed]
+Fixed treeview multiselect
+
+Version 0.7.2
+[Added]
+Added new expansion settings for Logs, General, AI, Market and Quests.
+Added Hardline to Expansion settings
+[Fixed]
+Max mission time was doing a double convert to seconds, changed to only do it once.
+Updated all expansion settings to latest version
+
+Version 0.7.0/0.7.1
+Two versions as i forgot to push the changes to github so dont know exactlywhat was changed. but the following was done between the two versions.
+[Fixed]
+Hopefully fixed the updater and change log, this should work from now on, hopefully.......
+Trader plus objects were not showing Orientaion or updating orientaion
+Fixed bug in Missions where it would convert the missions time to milleseconds twice.
+Fixed bug where it would remove the assigned NPC to quests when adding a new NPC
+[Updated/Changed]
+Updated Objective config version
+Updated all Expansion settings/traders/quests etc.. to be in line with latest Expansion Update
+Changed CJ Loot crate import from map to import from unbinned dze
+Updated DZE Import to support both binned and unbinned versions
+[Added]
+Added new expansion DamageSystemSettings
+Added new Crafting Objective to teh quest manager
+Added BBP Config
+Added Abandoned vehicle remover config
+Added breaching charge config
+[Removed]
+Removed King of the HIll Config.
+
+Version 0.6.9
+[FIXED]
+Fixed Loadouts in the AI Manager as it still wasnt working 100%, this should now fixed completely
+Fixed Expansion Quests to work without the AI Objectives
+Fixed Expansion Settings to Create missing folders if not in profile and mpmissions directories
+fixed CJ Loot Chest tool tab when the descriptions was not not being saved correctly.
+[ADDED]
+Added import/export to dze for roaming traders, quest NPC waypoints
+
+Version 0.6.8
+[FIXED]
+Fixed expansion Loadouts creating new attchments, was always saving it to the root ailoadout.
+Fixed AI Patrol option saving to the wrong parameters
+Fixed an issue where when adding a npc to a quest it wasnt checking if hat quest allready existed in the npc objective list. thus sometime showing multiple of the same quest
+[ADDED]
+change log added to show upon first start after update.
+
+Version 0.6.7
+[FIXED]
+Fixed a few wrong entry update in the quest page, repeatable and isdailyquest were updating is achievment,
+added formation to ai patrol in quests
+[ADDED]
+First test of auto updater

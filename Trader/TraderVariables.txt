@@ -1,0 +1,8 @@
+<BuySellTimer> 0.3
+<VehicleCleanupTimer> 15.0
+<SafezoneTimeout> 30.0
+<SafezoneRemoveAnimals> yes
+<SafezoneRemoveInfected> yes
+<TradingDistance> 2.4
+
+<FileEnd> // This has to be on the End of this File and is very importand!
